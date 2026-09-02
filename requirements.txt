@@ -1,0 +1,2 @@
+# Dependencies for downloading the ready-made dataset and running retrieval.
+huggingface_hub>=0.30

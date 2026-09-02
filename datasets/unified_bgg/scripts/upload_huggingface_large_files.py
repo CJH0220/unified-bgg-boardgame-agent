@@ -15,6 +15,7 @@ DATASETS = UNIFIED.parent
 RESEARCH = DATASETS.parent
 DEFAULT_REPO = "ChenJinHua/BGG_datasets_Agent"
 MANIFEST = RESEARCH / "huggingface_upload_manifest.json"
+DATASET_CARD = RESEARCH / "HUGGINGFACE_DATA_GUIDE.md"
 
 
 def collect_files() -> list[tuple[Path, str, str]]:
@@ -98,6 +99,15 @@ def main() -> None:
 
     api = HfApi()
     existing = set(api.list_repo_files(args.repo_id, repo_type="dataset")) if args.skip_existing else set()
+    for local, remote in ((DATASET_CARD, "README.md"), (MANIFEST, MANIFEST.name)):
+        print(f"uploading metadata: {remote}", flush=True)
+        api.upload_file(
+            path_or_fileobj=str(local),
+            path_in_repo=remote,
+            repo_id=args.repo_id,
+            repo_type="dataset",
+            commit_message=f"Update {remote}",
+        )
     for local, remote, _category in rows:
         if remote in existing:
             print(f"skip existing: {remote}")

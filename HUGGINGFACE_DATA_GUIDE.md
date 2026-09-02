@@ -1,3 +1,23 @@
+---
+pretty_name: BGG Datasets for Boardgame Agent
+language:
+- zh
+- en
+task_categories:
+- question-answering
+- text-retrieval
+- text-generation
+tags:
+- boardgame
+- boardgamegeek
+- rag
+- taxonomy
+- recommendation
+license: other
+size_categories:
+- 1M<n<10M
+---
+
 # Hugging Face 大文件数据说明与下载指南
 
 本项目的 GitHub 仓库只提交代码、文档、清单、报告和小型样本。原始数据、完整 RAG 语料、SQLite 索引以及大型中间表存放在 Hugging Face Dataset 仓库：
@@ -99,17 +119,14 @@ snapshot_download(
 
 ## 7. 下载后接入本项目
 
-把下载目录中的文件放回 `datasets/` 对应位置后，可直接运行：
+推荐直接下载现成 SQLite 索引到项目默认目录：
 
 ```powershell
-Set-Location D:\OpenViking\research\datasets\unified_bgg
-python scripts\evaluate_rag_quality.py
-python scripts\build_rag_index.py
-python scripts\build_vector_index.py
-python scripts\query_unified_index.py "Brass Birmingham" --engine hybrid --limit 5
+python datasets\unified_bgg\scripts\download_public_data.py --kind query
+python datasets\unified_bgg\scripts\query_unified_index.py "Brass Birmingham" --engine hybrid --limit 5
 ```
 
-如果下载的是现成 SQLite 索引，可跳过构建步骤，并使用 `--fts-index` 或 `--vector-index` 指向下载后的文件。
+如果只下载了单个索引，可将文件放在 `datasets/unified_bgg/final/`，或在底层查询命令中显式传入 `--fts-index` / `--vector-index`。普通使用者无需重新构建数据集。
 
 ## 8. 版本与校验
 

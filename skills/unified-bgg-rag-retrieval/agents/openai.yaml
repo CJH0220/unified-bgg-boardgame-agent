@@ -1,0 +1,7 @@
+interface:
+  display_name: "Unified BGG RAG Retrieval"
+  short_description: "Query and report from the local unified BoardGameGeek RAG index."
+  default_prompt: "Use $unified-bgg-rag-retrieval to query a board game from the local unified_bgg RAG index and summarize overview, mechanisms, rules, or reviews."
+
+policy:
+  allow_implicit_invocation: true

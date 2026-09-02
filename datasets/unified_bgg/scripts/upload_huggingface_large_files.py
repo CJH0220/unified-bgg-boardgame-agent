@@ -7,7 +7,7 @@ import json
 from datetime import datetime, timezone
 from pathlib import Path
 
-from huggingface_hub import HfApi
+from huggingface_hub import CommitOperationAdd, HfApi
 
 HERE = Path(__file__).resolve()
 UNIFIED = HERE.parents[1]
@@ -99,28 +99,30 @@ def main() -> None:
 
     api = HfApi()
     existing = set(api.list_repo_files(args.repo_id, repo_type="dataset")) if args.skip_existing else set()
+
+    # Build one commit so large uploads do not exhaust the Hub commit rate limit.
+    operations: list[CommitOperationAdd] = []
     for local, remote in ((DATASET_CARD, "README.md"), (MANIFEST, MANIFEST.name)):
-        print(f"uploading metadata: {remote}", flush=True)
-        api.upload_file(
-            path_or_fileobj=str(local),
-            path_in_repo=remote,
-            repo_id=args.repo_id,
-            repo_type="dataset",
-            commit_message=f"Update {remote}",
-        )
+        operations.append(CommitOperationAdd(path_in_repo=remote, path_or_fileobj=str(local)))
+        print(f"queued metadata: {remote}", flush=True)
     for local, remote, _category in rows:
         if remote in existing:
             print(f"skip existing: {remote}")
             continue
-        print(f"uploading: {remote} ({local.stat().st_size} bytes)", flush=True)
-        api.upload_file(
-            path_or_fileobj=str(local),
-            path_in_repo=remote,
-            repo_id=args.repo_id,
-            repo_type="dataset",
-            commit_message=f"Upload {remote}",
-        )
-        print(f"uploaded: {remote}", flush=True)
+        operations.append(CommitOperationAdd(path_in_repo=remote, path_or_fileobj=str(local)))
+        print(f"queued: {remote} ({local.stat().st_size} bytes)", flush=True)
+
+    if not operations:
+        print("Nothing to upload.")
+        return
+    print(f"Uploading one batch with {len(operations)} files...", flush=True)
+    api.create_commit(
+        repo_id=args.repo_id,
+        repo_type="dataset",
+        operations=operations,
+        commit_message="Sync unified BGG dataset and metadata",
+    )
+    print("Batch upload complete.", flush=True)
 
 
 if __name__ == "__main__":

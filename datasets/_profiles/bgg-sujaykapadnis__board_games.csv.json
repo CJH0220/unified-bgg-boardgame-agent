@@ -1,0 +1,867 @@
+{
+ "file": "board_games.csv",
+ "path": "bgg-sujaykapadnis/raw/board_games.csv",
+ "bytes": 16561534,
+ "encoding": "utf-8-sig",
+ "delimiter": ",",
+ "n_columns": 22,
+ "rows_scanned": 10532,
+ "scan_truncated": false,
+ "ragged_rows": 0,
+ "scan_seconds": 0.5,
+ "columns": [
+  {
+   "name": "game_id",
+   "dtype": "int",
+   "kind_counts": {
+    "int": 10531,
+    "bool01": 1
+   },
+   "rows": 10532,
+   "nulls": 0,
+   "null_pct": 0.0,
+   "distinct": 10532,
+   "max_str_len": 6,
+   "samples": [
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6"
+   ],
+   "min": 1.0,
+   "max": 216725.0,
+   "mean": 62059.2031,
+   "numeric_pct": 100.0
+  },
+  {
+   "name": "description",
+   "dtype": "str",
+   "kind_counts": {
+    "str": 10532
+   },
+   "rows": 10532,
+   "nulls": 0,
+   "null_pct": 0.0,
+   "distinct": 10528,
+   "max_str_len": 11476,
+   "samples": [
+    "Die Macher is a game about seven sequential political races in different regions of Germany. Players are in charge of na",
+    "Dragonmaster is a trick-taking card game based on an older game called Coup d'etat. Each player is given a supply of pla",
+    "Part of the Knizia tile-laying trilogy, Samurai is set in medieval Japan. Players compete to gain the favor of three fac",
+    "When you see the triangular box and the luxurious, large blocks, you can tell this game was designed to be beautiful as ",
+    "In Acquire, each player strategically invests in businesses, trying to retain a majority of stock.  As the businesses gr",
+    "In the ancient lands along the Mediterranean, players attempt to satisfy their unique victory conditions via trade, war "
+   ]
+  },
+  {
+   "name": "image",
+   "dtype": "str",
+   "kind_counts": {
+    "str": 10531,
+    "null": 1
+   },
+   "rows": 10532,
+   "nulls": 1,
+   "null_pct": 0.009,
+   "distinct": 10527,
+   "max_str_len": 44,
+   "samples": [
+    "//cf.geekdo-images.com/images/pic159509.jpg",
+    "//cf.geekdo-images.com/images/pic184174.jpg",
+    "//cf.geekdo-images.com/images/pic3211873.jpg",
+    "//cf.geekdo-images.com/images/pic285299.jpg",
+    "//cf.geekdo-images.com/images/pic342163.jpg",
+    "//cf.geekdo-images.com/images/pic28424.jpg"
+   ]
+  },
+  {
+   "name": "max_players",
+   "dtype": "int",
+   "kind_counts": {
+    "int": 10324,
+    "bool01": 208
+   },
+   "rows": 10532,
+   "nulls": 0,
+   "null_pct": 0.0,
+   "distinct": 48,
+   "max_str_len": 3,
+   "samples": [
+    "5",
+    "4",
+    "6",
+    "2",
+    "7",
+    "8"
+   ],
+   "min": 0.0,
+   "max": 999.0,
+   "mean": 5.6573,
+   "numeric_pct": 100.0,
+   "top_values": [
+    {
+     "v": "4",
+     "n": 3096
+    },
+    {
+     "v": "2",
+     "n": 2133
+    },
+    {
+     "v": "6",
+     "n": 2046
+    },
+    {
+     "v": "5",
+     "n": 1593
+    },
+    {
+     "v": "8",
+     "n": 608
+    },
+    {
+     "v": "10",
+     "n": 184
+    },
+    {
+     "v": "7",
+     "n": 181
+    },
+    {
+     "v": "3",
+     "n": 139
+    },
+    {
+     "v": "1",
+     "n": 129
+    },
+    {
+     "v": "12",
+     "n": 92
+    },
+    {
+     "v": "0",
+     "n": 79
+    },
+    {
+     "v": "99",
+     "n": 52
+    }
+   ]
+  },
+  {
+   "name": "max_playtime",
+   "dtype": "int",
+   "kind_counts": {
+    "int": 10169,
+    "bool01": 363
+   },
+   "rows": 10532,
+   "nulls": 0,
+   "null_pct": 0.0,
+   "distinct": 83,
+   "max_str_len": 5,
+   "samples": [
+    "240",
+    "30",
+    "60",
+    "90",
+    "20",
+    "120"
+   ],
+   "min": 0.0,
+   "max": 60000.0,
+   "mean": 91.3414,
+   "numeric_pct": 100.0,
+   "top_values": [
+    {
+     "v": "30",
+     "n": 1898
+    },
+    {
+     "v": "60",
+     "n": 1608
+    },
+    {
+     "v": "45",
+     "n": 1164
+    },
+    {
+     "v": "20",
+     "n": 972
+    },
+    {
+     "v": "120",
+     "n": 879
+    },
+    {
+     "v": "90",
+     "n": 864
+    },
+    {
+     "v": "15",
+     "n": 540
+    },
+    {
+     "v": "180",
+     "n": 443
+    },
+    {
+     "v": "10",
+     "n": 373
+    },
+    {
+     "v": "0",
+     "n": 350
+    },
+    {
+     "v": "240",
+     "n": 326
+    },
+    {
+     "v": "360",
+     "n": 217
+    }
+   ]
+  },
+  {
+   "name": "min_age",
+   "dtype": "int",
+   "kind_counts": {
+    "int": 9944,
+    "bool01": 588
+   },
+   "rows": 10532,
+   "nulls": 0,
+   "null_pct": 0.0,
+   "distinct": 22,
+   "max_str_len": 2,
+   "samples": [
+    "14",
+    "12",
+    "10",
+    "8",
+    "13",
+    "9"
+   ],
+   "min": 0.0,
+   "max": 42.0,
+   "mean": 9.715,
+   "numeric_pct": 100.0,
+   "top_values": [
+    {
+     "v": "12",
+     "n": 2819
+    },
+    {
+     "v": "10",
+     "n": 2196
+    },
+    {
+     "v": "8",
+     "n": 2062
+    },
+    {
+     "v": "13",
+     "n": 657
+    },
+    {
+     "v": "14",
+     "n": 620
+    },
+    {
+     "v": "0",
+     "n": 588
+    },
+    {
+     "v": "6",
+     "n": 391
+    },
+    {
+     "v": "7",
+     "n": 351
+    },
+    {
+     "v": "9",
+     "n": 210
+    },
+    {
+     "v": "5",
+     "n": 188
+    },
+    {
+     "v": "4",
+     "n": 101
+    },
+    {
+     "v": "15",
+     "n": 81
+    }
+   ]
+  },
+  {
+   "name": "min_players",
+   "dtype": "int",
+   "kind_counts": {
+    "int": 9221,
+    "bool01": 1311
+   },
+   "rows": 10532,
+   "nulls": 0,
+   "null_pct": 0.0,
+   "distinct": 10,
+   "max_str_len": 1,
+   "samples": [
+    "3",
+    "2",
+    "1",
+    "4",
+    "0",
+    "8"
+   ],
+   "min": 0.0,
+   "max": 9.0,
+   "mean": 2.0705,
+   "numeric_pct": 100.0,
+   "top_values": [
+    {
+     "v": "2",
+     "n": 7531
+    },
+    {
+     "v": "3",
+     "n": 1405
+    },
+    {
+     "v": "1",
+     "n": 1280
+    },
+    {
+     "v": "4",
+     "n": 230
+    },
+    {
+     "v": "0",
+     "n": 31
+    },
+    {
+     "v": "5",
+     "n": 30
+    },
+    {
+     "v": "8",
+     "n": 10
+    },
+    {
+     "v": "6",
+     "n": 9
+    },
+    {
+     "v": "7",
+     "n": 4
+    },
+    {
+     "v": "9",
+     "n": 2
+    }
+   ]
+  },
+  {
+   "name": "min_playtime",
+   "dtype": "int",
+   "kind_counts": {
+    "int": 10214,
+    "bool01": 318
+   },
+   "rows": 10532,
+   "nulls": 0,
+   "null_pct": 0.0,
+   "distinct": 74,
+   "max_str_len": 5,
+   "samples": [
+    "240",
+    "30",
+    "60",
+    "90",
+    "20",
+    "120"
+   ],
+   "min": 0.0,
+   "max": 60000.0,
+   "mean": 80.8827,
+   "numeric_pct": 100.0,
+   "top_values": [
+    {
+     "v": "30",
+     "n": 2051
+    },
+    {
+     "v": "60",
+     "n": 1584
+    },
+    {
+     "v": "45",
+     "n": 1211
+    },
+    {
+     "v": "20",
+     "n": 1078
+    },
+    {
+     "v": "90",
+     "n": 768
+    },
+    {
+     "v": "120",
+     "n": 751
+    },
+    {
+     "v": "15",
+     "n": 648
+    },
+    {
+     "v": "10",
+     "n": 466
+    },
+    {
+     "v": "180",
+     "n": 404
+    },
+    {
+     "v": "0",
+     "n": 300
+    },
+    {
+     "v": "240",
+     "n": 283
+    },
+    {
+     "v": "360",
+     "n": 212
+    }
+   ]
+  },
+  {
+   "name": "name",
+   "dtype": "str",
+   "kind_counts": {
+    "str": 10498,
+    "int": 33,
+    "null": 1
+   },
+   "rows": 10532,
+   "nulls": 1,
+   "null_pct": 0.009,
+   "distinct": 10356,
+   "max_str_len": 84,
+   "samples": [
+    "Die Macher",
+    "Dragonmaster",
+    "Samurai",
+    "Tal der Könige",
+    "Acquire",
+    "Mare Mediterraneum"
+   ],
+   "min": 7.0,
+   "max": 3012.0,
+   "mean": 1476.1212,
+   "numeric_pct": 0.31
+  },
+  {
+   "name": "playing_time",
+   "dtype": "int",
+   "kind_counts": {
+    "int": 10169,
+    "bool01": 363
+   },
+   "rows": 10532,
+   "nulls": 0,
+   "null_pct": 0.0,
+   "distinct": 83,
+   "max_str_len": 5,
+   "samples": [
+    "240",
+    "30",
+    "60",
+    "90",
+    "20",
+    "120"
+   ],
+   "min": 0.0,
+   "max": 60000.0,
+   "mean": 91.3414,
+   "numeric_pct": 100.0,
+   "top_values": [
+    {
+     "v": "30",
+     "n": 1898
+    },
+    {
+     "v": "60",
+     "n": 1608
+    },
+    {
+     "v": "45",
+     "n": 1164
+    },
+    {
+     "v": "20",
+     "n": 972
+    },
+    {
+     "v": "120",
+     "n": 879
+    },
+    {
+     "v": "90",
+     "n": 864
+    },
+    {
+     "v": "15",
+     "n": 540
+    },
+    {
+     "v": "180",
+     "n": 443
+    },
+    {
+     "v": "10",
+     "n": 373
+    },
+    {
+     "v": "0",
+     "n": 350
+    },
+    {
+     "v": "240",
+     "n": 326
+    },
+    {
+     "v": "360",
+     "n": 217
+    }
+   ]
+  },
+  {
+   "name": "thumbnail",
+   "dtype": "str",
+   "kind_counts": {
+    "str": 10531,
+    "null": 1
+   },
+   "rows": 10532,
+   "nulls": 1,
+   "null_pct": 0.009,
+   "distinct": 10527,
+   "max_str_len": 46,
+   "samples": [
+    "//cf.geekdo-images.com/images/pic159509_t.jpg",
+    "//cf.geekdo-images.com/images/pic184174_t.jpg",
+    "//cf.geekdo-images.com/images/pic3211873_t.jpg",
+    "//cf.geekdo-images.com/images/pic285299_t.jpg",
+    "//cf.geekdo-images.com/images/pic342163_t.jpg",
+    "//cf.geekdo-images.com/images/pic28424_t.jpg"
+   ]
+  },
+  {
+   "name": "year_published",
+   "dtype": "int",
+   "kind_counts": {
+    "int": 10532
+   },
+   "rows": 10532,
+   "nulls": 0,
+   "null_pct": 0.0,
+   "distinct": 67,
+   "max_str_len": 4,
+   "samples": [
+    "1986",
+    "1981",
+    "1998",
+    "1992",
+    "1964",
+    "1989"
+   ],
+   "min": 1950.0,
+   "max": 2016.0,
+   "mean": 2003.0708,
+   "numeric_pct": 100.0,
+   "top_values": [
+    {
+     "v": "2015",
+     "n": 733
+    },
+    {
+     "v": "2014",
+     "n": 632
+    },
+    {
+     "v": "2016",
+     "n": 608
+    },
+    {
+     "v": "2013",
+     "n": 583
+    },
+    {
+     "v": "2012",
+     "n": 574
+    },
+    {
+     "v": "2010",
+     "n": 502
+    },
+    {
+     "v": "2011",
+     "n": 497
+    },
+    {
+     "v": "2009",
+     "n": 466
+    },
+    {
+     "v": "2008",
+     "n": 421
+    },
+    {
+     "v": "2007",
+     "n": 398
+    },
+    {
+     "v": "2005",
+     "n": 397
+    },
+    {
+     "v": "2006",
+     "n": 380
+    }
+   ]
+  },
+  {
+   "name": "artist",
+   "dtype": "str",
+   "kind_counts": {
+    "str": 7759,
+    "null": 2773
+   },
+   "rows": 10532,
+   "nulls": 2773,
+   "null_pct": 26.329,
+   "distinct": 4641,
+   "max_str_len": 6860,
+   "samples": [
+    "Marcus Gschwendtner",
+    "Bob Pepper",
+    "Franz Vohwinkel",
+    "Scott Okumura,Peter Whitley",
+    "Jean du Poël",
+    "S. Mattusek"
+   ]
+  },
+  {
+   "name": "category",
+   "dtype": "str",
+   "kind_counts": {
+    "str": 10438,
+    "null": 94
+   },
+   "rows": 10532,
+   "nulls": 94,
+   "null_pct": 0.893,
+   "distinct": 3860,
+   "max_str_len": 173,
+   "samples": [
+    "Economic,Negotiation,Political",
+    "Card Game,Fantasy",
+    "Abstract Strategy,Medieval",
+    "Ancient",
+    "Economic",
+    "Civilization,Nautical"
+   ]
+  },
+  {
+   "name": "compilation",
+   "dtype": "str",
+   "kind_counts": {
+    "null": 10122,
+    "str": 410
+   },
+   "rows": 10532,
+   "nulls": 10122,
+   "null_pct": 96.107,
+   "distinct": 336,
+   "max_str_len": 734,
+   "samples": [
+    "CATAN 3D Collector's Edition,Catan: Big Box,Catan: Big Box,The Settlers of Catan: 15th Anniversary Wood Edition",
+    "Mamma Mia! con Ingredientes dobles",
+    "El Grande Big Box,El Grande Decennial Edition",
+    "Mü & Lots More",
+    "Risk & Castle Risk,Spaß am Erfolg: Karriere, Das Millionenspiel, Risiko",
+    "Playing With Pyramids"
+   ]
+  },
+  {
+   "name": "designer",
+   "dtype": "str",
+   "kind_counts": {
+    "str": 10406,
+    "null": 126
+   },
+   "rows": 10532,
+   "nulls": 126,
+   "null_pct": 1.196,
+   "distinct": 4678,
+   "max_str_len": 184,
+   "samples": [
+    "Karl-Heinz Schmiel",
+    "G. W. \"Jerry\" D'Arcey",
+    "Reiner Knizia",
+    "Christian Beierer",
+    "Sid Sackson",
+    "Jean du Poël"
+   ]
+  },
+  {
+   "name": "expansion",
+   "dtype": "str",
+   "kind_counts": {
+    "null": 7780,
+    "str": 2750,
+    "int": 1,
+    "float": 1
+   },
+   "rows": 10532,
+   "nulls": 7780,
+   "null_pct": 73.87,
+   "distinct": 2634,
+   "max_str_len": 11325,
+   "samples": [
+    "Elfengold,Elfenland: Back to the Roads,Elfenland: Der Elfen-Zauberer,Stadt Land Spielt Limitierte Sonderdrucke 2013",
+    "Auf der schwäb'schen Eisenbohn,Bohn Camillo,Bohnanza Erweiterungs-Set,Bohnanza Erweiterungs-Set (Revised Edition),Bohnan",
+    "20 Jahre Darmstadt Spielt,Brettspiel Adventskalender 2015,Catakatoa,Catan Austria / Wien meets Catan,Catan Geographies: ",
+    "Cosmic Encounter: Expansion Set #1,Cosmic Encounter: Expansion Set #2,Cosmic Encounter: Expansion Set #3,Cosmic Encounte",
+    "RoboRally: Armed and Dangerous,RoboRally: Crash and Burn,RoboRally: Grand Prix,RoboRally: King of the Hill,RoboRally: Ra",
+    "Full Metal Planete: Plateau Modulaire"
+   ],
+   "min": 55.0,
+   "max": 101.1,
+   "mean": 78.05,
+   "numeric_pct": 0.07
+  },
+  {
+   "name": "family",
+   "dtype": "str",
+   "kind_counts": {
+    "str": 7724,
+    "null": 2808
+   },
+   "rows": 10532,
+   "nulls": 2808,
+   "null_pct": 26.662,
+   "distinct": 3918,
+   "max_str_len": 1779,
+   "samples": [
+    "Country: Germany,Valley Games Classic Line",
+    "Animals: Dragons",
+    "Asian Theme,Country: Japan,Knizia tile-laying trilogy,Samurai",
+    "Country: Egypt,Promotional Board Games",
+    "3M Bookshelf Series",
+    "Cities: Marseille"
+   ]
+  },
+  {
+   "name": "mechanic",
+   "dtype": "str",
+   "kind_counts": {
+    "str": 9582,
+    "null": 950
+   },
+   "rows": 10532,
+   "nulls": 950,
+   "null_pct": 9.02,
+   "distinct": 3209,
+   "max_str_len": 314,
+   "samples": [
+    "Area Control / Area Influence,Auction/Bidding,Dice Rolling,Hand Management,Simultaneous Action Selection",
+    "Trick-taking",
+    "Area Control / Area Influence,Hand Management,Set Collection,Tile Placement",
+    "Action Point Allowance System,Area Control / Area Influence,Auction/Bidding,Set Collection",
+    "Hand Management,Stock Holding,Tile Placement",
+    "Dice Rolling"
+   ]
+  },
+  {
+   "name": "publisher",
+   "dtype": "str",
+   "kind_counts": {
+    "str": 10529,
+    "null": 3
+   },
+   "rows": 10532,
+   "nulls": 3,
+   "null_pct": 0.028,
+   "distinct": 5512,
+   "max_str_len": 2396,
+   "samples": [
+    "Hans im Glück Verlags-GmbH,Moskito Spiele,Valley Games, Inc.",
+    "E.S. Lowe,Milton Bradley",
+    "999 Games,ABACUSSPIELE,Astrel Games,Ceilikan Jogos,Descartes Editeur,Edge Entertainment,Fantasy Flight Games,Galakta,Han",
+    "KOSMOS",
+    "3M,Avalon Hill,Avalon Hill (Hasbro),Dujardin,Grow Jogos e Brinquedos,PS-Games,Schmidt France,Schmidt International,Schmi",
+    "Historien Spiele Galerie (Historien Spielegalerie)"
+   ]
+  },
+  {
+   "name": "average_rating",
+   "dtype": "float",
+   "kind_counts": {
+    "float": 10530,
+    "int": 2
+   },
+   "rows": 10532,
+   "nulls": 0,
+   "null_pct": 0.0,
+   "distinct": 10274,
+   "max_str_len": 18,
+   "samples": [
+    "7.66508",
+    "6.60815",
+    "7.44119",
+    "6.60675",
+    "7.3583",
+    "6.52534"
+   ],
+   "min": 1.38421,
+   "max": 9.00392,
+   "mean": 6.3709,
+   "numeric_pct": 100.0
+  },
+  {
+   "name": "users_rated",
+   "dtype": "int",
+   "kind_counts": {
+    "int": 10532
+   },
+   "rows": 10532,
+   "nulls": 0,
+   "null_pct": 0.0,
+   "distinct": 2233,
+   "max_str_len": 5,
+   "samples": [
+    "4498",
+    "478",
+    "12019",
+    "314",
+    "15195",
+    "73"
+   ],
+   "min": 50.0,
+   "max": 67655.0,
+   "mean": 870.0815,
+   "numeric_pct": 100.0
+  }
+ ],
+ "dataset": "bgg-sujaykapadnis"
+}

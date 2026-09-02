@@ -1,0 +1,92 @@
+[
+  {
+    "rank": 1,
+    "bgg_id": 225694,
+    "title": "Decrypto",
+    "bayes_average": 7.54333,
+    "average_rating": 7.76655,
+    "users_rated": 24253,
+    "file": "001_225694_decrypto.md"
+  },
+  {
+    "rank": 2,
+    "bgg_id": 240980,
+    "title": "Blood on the Clocktower",
+    "bayes_average": 7.51268,
+    "average_rating": 8.35286,
+    "users_rated": 7047,
+    "file": "002_240980_blood-on-the-clocktower.md"
+  },
+  {
+    "rank": 3,
+    "bgg_id": 178900,
+    "title": "Codenames",
+    "bayes_average": 7.4407,
+    "average_rating": 7.53602,
+    "users_rated": 96053,
+    "file": "003_178900_codenames.md"
+  },
+  {
+    "rank": 4,
+    "bgg_id": 254640,
+    "title": "Just One",
+    "bayes_average": 7.43551,
+    "average_rating": 7.59904,
+    "users_rated": 30249,
+    "file": "004_254640_just-one.md"
+  },
+  {
+    "rank": 5,
+    "bgg_id": 171131,
+    "title": "Captain Sonar",
+    "bayes_average": 7.29972,
+    "average_rating": 7.51157,
+    "users_rated": 22201,
+    "file": "005_171131_captain-sonar.md"
+  },
+  {
+    "rank": 6,
+    "bgg_id": 128882,
+    "title": "The Resistance: Avalon",
+    "bayes_average": 7.31999,
+    "average_rating": 7.50679,
+    "users_rated": 34606,
+    "file": "006_128882_the-resistance-avalon.md"
+  },
+  {
+    "rank": 7,
+    "bgg_id": 156546,
+    "title": "Monikers",
+    "bayes_average": 7.19359,
+    "average_rating": 7.78125,
+    "users_rated": 6728,
+    "file": "007_156546_monikers.md"
+  },
+  {
+    "rank": 8,
+    "bgg_id": 260605,
+    "title": "Camel Up (Second Edition)",
+    "bayes_average": 7.24777,
+    "average_rating": 7.56843,
+    "users_rated": 14560,
+    "file": "008_260605_camel-up-second-edition.md"
+  },
+  {
+    "rank": 9,
+    "bgg_id": 329839,
+    "title": "So Clover!",
+    "bayes_average": 7.18519,
+    "average_rating": 7.58833,
+    "users_rated": 9330,
+    "file": "009_329839_so-clover.md"
+  },
+  {
+    "rank": 10,
+    "bgg_id": 156129,
+    "title": "Deception: Murder in Hong Kong",
+    "bayes_average": 7.23685,
+    "average_rating": 7.43677,
+    "users_rated": 23509,
+    "file": "010_156129_deception-murder-in-hong-kong.md"
+  }
+]

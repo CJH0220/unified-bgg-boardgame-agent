@@ -1,0 +1,46 @@
+{
+ "file": "bgg-threnjen/raw/themes.csv",
+ "rows": 21925,
+ "key_column": "BGGId",
+ "key_column_index": 0,
+ "total_columns": 218,
+ "label_columns": 217,
+ "labels_per_row": {
+  "min": 0,
+  "max": 12,
+  "mean": 1.477,
+  "median": 1,
+  "zero_label_rows": 4410
+ },
+ "non_binary_values_distinct": 0,
+ "non_binary_values_sample": {},
+ "top_labels": [
+  {
+   "label": "Fantasy",
+   "n": 2702,
+   "pct": 12.32
+  },
+  {
+   "label": "Science Fiction",
+   "n": 1675,
+   "pct": 7.64
+  },
+  {
+   "label": "Fighting",
+   "n": 1668,
+   "pct": 7.61
+  },
+  {
+   "label": "Economic",
+   "n": 1519,
+   "pct": 6.93
+  },
+  {
+   "label": "Animals",
+   "n": 1367,
+   "pct": 6.23
+  }
+ ],
+ "singleton_labels": 0,
+ "empty_labels": 0
+}

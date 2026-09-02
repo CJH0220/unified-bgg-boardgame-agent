@@ -1,0 +1,345 @@
+{
+  "generated_at": "2026-08-26T09:27:21",
+  "files": [
+    "samples/rag/game_overview.jsonl",
+    "samples/rag/mechanic_profile.jsonl",
+    "samples/rag/review_digest.jsonl"
+  ],
+  "parsed_docs": 128320,
+  "top_k": 5,
+  "passed": 6,
+  "total": 6,
+  "pass_rate": 1.0,
+  "results": [
+    {
+      "query": "Brass Birmingham economic network route building",
+      "doc_type_filter": "game_overview",
+      "expected_doc_substrings": [
+        "bgg:224517"
+      ],
+      "passed": true,
+      "top_results": [
+        {
+          "score": 68.6603,
+          "doc_id": "game:bgg:224517:overview:rag-v0.1",
+          "doc_type": "game_overview",
+          "title": "Brass: Birmingham",
+          "game_id": "bgg:224517",
+          "source_file": "samples/rag/game_overview.jsonl",
+          "text_preview": "Brass: Birmingham (2018) is a boardgame. It supports 2-4 players, 60-120 minutes, ages 14+. Selected overall stats (2025-02, bgg-reviews-jvanelteren): average rating 8.59; Bayesian rating 8.41; 49,988 users rated; overall rank 1; complexity"
+        },
+        {
+          "score": 54.4641,
+          "doc_id": "game:bgg:34525:overview:rag-v0.1",
+          "doc_type": "game_overview",
+          "title": "Network",
+          "game_id": "bgg:34525",
+          "source_file": "samples/rag/game_overview.jsonl",
+          "text_preview": "Network (2003) is a boardgame. It supports 2-4 players, 80 minutes. Selected overall stats (2017-06, bgg-gabrio): average rating 0.00. Canonical mechanics: Dice Rolling. Categories: Abstract Strategy, Print & Play. Description: An abstract "
+        },
+        {
+          "score": 54.4641,
+          "doc_id": "game:bgg:54835:overview:rag-v0.1",
+          "doc_type": "game_overview",
+          "title": "Route Z",
+          "game_id": "bgg:54835",
+          "source_file": "samples/rag/game_overview.jsonl",
+          "text_preview": "Route Z (2009) is a boardgame. It supports 1-6 players, 120 minutes. Selected overall stats (2017-06, bgg-gabrio): average rating 6.64; 7 users rated. Canonical mechanics: Action Points, Cooperative Game. Categories: Fighting, Horror, Zombi"
+        },
+        {
+          "score": 54.4641,
+          "doc_id": "game:bgg:35465:overview:rag-v0.1",
+          "doc_type": "game_overview",
+          "title": "Network",
+          "game_id": "bgg:35465",
+          "source_file": "samples/rag/game_overview.jsonl",
+          "text_preview": "Network (1969) is a boardgame. It supports 2-2 players, 10 minutes. Selected overall stats (2017-06, bgg-gabrio): average rating 5.00; 7 users rated. Categories: Abstract Strategy. Families: Combinatorial, Connection Games, Gamut of Games. "
+        },
+        {
+          "score": 52.4142,
+          "doc_id": "game:bgg:72225:overview:rag-v0.1",
+          "doc_type": "game_overview",
+          "title": "CO₂",
+          "game_id": "bgg:72225",
+          "source_file": "samples/rag/game_overview.jsonl",
+          "text_preview": "CO₂ (2012) is a boardgame. It supports 1-5 players, 120 minutes, ages 12+. Selected overall stats (2025-02, bgg-reviews-jvanelteren): average rating 7.10; Bayesian rating 6.52; 3,950 users rated; overall rank 1211; complexity 3.87/5. Canoni"
+        }
+      ]
+    },
+    {
+      "query": "dice rolling mechanic variable player powers",
+      "doc_type_filter": "mechanic_profile",
+      "expected_doc_substrings": [
+        "mechanic:dice-rolling"
+      ],
+      "passed": true,
+      "top_results": [
+        {
+          "score": 70.8065,
+          "doc_id": "mechanic:variable-player-powers:profile:rag-v0.1",
+          "doc_type": "mechanic_profile",
+          "title": "Variable Player Powers",
+          "game_id": null,
+          "source_file": "samples/rag/mechanic_profile.jsonl",
+          "text_preview": "Variable Player Powers is a canonical BGG mechanic in unified_bgg. It appears on 9,048 games after excluding taxonomy rows marked for review. Representative games include Pandemic Legacy: Season 1, Ark Nova, Gloomhaven, Twilight Imperium: F"
+        },
+        {
+          "score": 67.9282,
+          "doc_id": "mechanic:dice-rolling:profile:rag-v0.1",
+          "doc_type": "mechanic_profile",
+          "title": "Dice Rolling",
+          "game_id": null,
+          "source_file": "samples/rag/mechanic_profile.jsonl",
+          "text_preview": "Dice Rolling is a canonical BGG mechanic in unified_bgg. It appears on 24,581 games after excluding taxonomy rows marked for review. Representative games include Twilight Imperium: Fourth Edition, War of the Ring: Second Edition, Star Wars:"
+        },
+        {
+          "score": 16.2925,
+          "doc_id": "mechanic:re-rolling-and-locking:profile:rag-v0.1",
+          "doc_type": "mechanic_profile",
+          "title": "Re-rolling and Locking",
+          "game_id": null,
+          "source_file": "samples/rag/mechanic_profile.jsonl",
+          "text_preview": "Re-rolling and Locking is a canonical BGG mechanic in unified_bgg. It appears on 163 games after excluding taxonomy rows marked for review. Representative games include That's Pretty Clever!, Under Falling Skies, Tiny Epic Galaxies, Twice a"
+        },
+        {
+          "score": 15.8783,
+          "doc_id": "mechanic:variable-phase-order:profile:rag-v0.1",
+          "doc_type": "mechanic_profile",
+          "title": "Variable Phase Order",
+          "game_id": null,
+          "source_file": "samples/rag/mechanic_profile.jsonl",
+          "text_preview": "Variable Phase Order is a canonical BGG mechanic in unified_bgg. It appears on 1,176 games after excluding taxonomy rows marked for review. Representative games include Twilight Imperium: Fourth Edition, Gaia Project, The Castles of Burgund"
+        },
+        {
+          "score": 15.8783,
+          "doc_id": "mechanic:variable-set-up:profile:rag-v0.1",
+          "doc_type": "mechanic_profile",
+          "title": "Variable Set-up",
+          "game_id": null,
+          "source_file": "samples/rag/mechanic_profile.jsonl",
+          "text_preview": "Variable Set-up is a canonical BGG mechanic in unified_bgg. It appears on 868 games after excluding taxonomy rows marked for review. Representative games include Brass: Birmingham, Ark Nova, Twilight Imperium: Fourth Edition, Terraforming M"
+        }
+      ]
+    },
+    {
+      "query": "Carcassonne player review tile laying comments",
+      "doc_type_filter": "review_digest",
+      "expected_doc_substrings": [
+        "reviews:bgg:822"
+      ],
+      "passed": true,
+      "top_results": [
+        {
+          "score": 66.2925,
+          "doc_id": "reviews:bgg:822:digest:rag-v0.1",
+          "doc_type": "review_digest",
+          "title": "Carcassonne",
+          "game_id": "bgg:822",
+          "source_file": "samples/rag/review_digest.jsonl",
+          "text_preview": "BGG user review digest for Carcassonne. Scanned 131,205 rating rows and 18,588 non-empty comments from bgg-reviews-jvanelteren. Average rating in the scanned rating rows is 7.41; comment coverage is 14.17%. Positive snippets: 10/10: Only pl"
+        },
+        {
+          "score": 66.1962,
+          "doc_id": "reviews:bgg:230751:digest:rag-v0.1",
+          "doc_type": "review_digest",
+          "title": "Carcassonne für 2",
+          "game_id": "bgg:230751",
+          "source_file": "samples/rag/review_digest.jsonl",
+          "text_preview": "BGG user review digest for Carcassonne für 2. Scanned 218 rating rows and 28 non-empty comments from bgg-reviews-jvanelteren. Average rating in the scanned rating rows is 7.09; comment coverage is 12.84%. Positive snippets: 8.5/10: Love thi"
+        },
+        {
+          "score": 59.0,
+          "doc_id": "reviews:bgg:219232:digest:rag-v0.1",
+          "doc_type": "review_digest",
+          "title": "Ilôs",
+          "game_id": "bgg:219232",
+          "source_file": "samples/rag/review_digest.jsonl",
+          "text_preview": "BGG user review digest for Ilôs. Scanned 797 rating rows and 84 non-empty comments from bgg-reviews-jvanelteren. Average rating in the scanned rating rows is 6.70; comment coverage is 10.54%. Positive snippets: 10/10: Very much underrated g"
+        },
+        {
+          "score": 58.4495,
+          "doc_id": "reviews:bgg:250458:digest:rag-v0.1",
+          "doc_type": "review_digest",
+          "title": "Gùgōng",
+          "game_id": "bgg:250458",
+          "source_file": "samples/rag/review_digest.jsonl",
+          "text_preview": "BGG user review digest for Gùgōng. Scanned 9,175 rating rows and 1,117 non-empty comments from bgg-reviews-jvanelteren. Average rating in the scanned rating rows is 7.43; comment coverage is 12.17%. Positive snippets: 10/10: Combination of "
+        },
+        {
+          "score": 58.0,
+          "doc_id": "reviews:bgg:72225:digest:rag-v0.1",
+          "doc_type": "review_digest",
+          "title": "CO₂",
+          "game_id": "bgg:72225",
+          "source_file": "samples/rag/review_digest.jsonl",
+          "text_preview": "BGG user review digest for CO₂. Scanned 3,951 rating rows and 706 non-empty comments from bgg-reviews-jvanelteren. Average rating in the scanned rating rows is 7.09; comment coverage is 17.87%. Positive snippets: 10/10: Me parece un desprop"
+        }
+      ]
+    },
+    {
+      "query": "Catan trading negotiation user comments",
+      "doc_type_filter": "review_digest",
+      "expected_doc_substrings": [
+        "bgg:13"
+      ],
+      "passed": true,
+      "top_results": [
+        {
+          "score": 58.8783,
+          "doc_id": "reviews:bgg:13:digest:rag-v0.1",
+          "doc_type": "review_digest",
+          "title": "CATAN",
+          "game_id": "bgg:13",
+          "source_file": "samples/rag/review_digest.jsonl",
+          "text_preview": "BGG user review digest for CATAN. Scanned 131,303 rating rows and 18,513 non-empty comments from bgg-reviews-jvanelteren. Average rating in the scanned rating rows is 7.14; comment coverage is 14.10%. Positive snippets: 10/10: The history o"
+        },
+        {
+          "score": 52.0,
+          "doc_id": "reviews:bgg:12:digest:rag-v0.1",
+          "doc_type": "review_digest",
+          "title": "Ra",
+          "game_id": "bgg:12",
+          "source_file": "samples/rag/review_digest.jsonl",
+          "text_preview": "BGG user review digest for Ra. Scanned 27,821 rating rows and 5,397 non-empty comments from bgg-reviews-jvanelteren. Average rating in the scanned rating rows is 7.66; comment coverage is 19.40%. Positive snippets: 10/10: Excellent auction "
+        },
+        {
+          "score": 52.0,
+          "doc_id": "reviews:bgg:188:digest:rag-v0.1",
+          "doc_type": "review_digest",
+          "title": "Go",
+          "game_id": "bgg:188",
+          "source_file": "samples/rag/review_digest.jsonl",
+          "text_preview": "BGG user review digest for Go. Scanned 17,639 rating rows and 3,283 non-empty comments from bgg-reviews-jvanelteren. Average rating in the scanned rating rows is 7.65; comment coverage is 18.61%. Positive snippets: 10/10: Kicks Chess's butt"
+        },
+        {
+          "score": 52.0,
+          "doc_id": "reviews:bgg:250458:digest:rag-v0.1",
+          "doc_type": "review_digest",
+          "title": "Gùgōng",
+          "game_id": "bgg:250458",
+          "source_file": "samples/rag/review_digest.jsonl",
+          "text_preview": "BGG user review digest for Gùgōng. Scanned 9,175 rating rows and 1,117 non-empty comments from bgg-reviews-jvanelteren. Average rating in the scanned rating rows is 7.43; comment coverage is 12.17%. Positive snippets: 10/10: Combination of "
+        },
+        {
+          "score": 52.0,
+          "doc_id": "reviews:bgg:72225:digest:rag-v0.1",
+          "doc_type": "review_digest",
+          "title": "CO₂",
+          "game_id": "bgg:72225",
+          "source_file": "samples/rag/review_digest.jsonl",
+          "text_preview": "BGG user review digest for CO₂. Scanned 3,951 rating rows and 706 non-empty comments from bgg-reviews-jvanelteren. Average rating in the scanned rating rows is 7.09; comment coverage is 17.87%. Positive snippets: 10/10: Me parece un desprop"
+        }
+      ]
+    },
+    {
+      "query": "Gloomhaven cooperative campaign fantasy",
+      "doc_type_filter": "game_overview",
+      "expected_doc_substrings": [
+        "bgg:174430"
+      ],
+      "passed": true,
+      "top_results": [
+        {
+          "score": 61.6104,
+          "doc_id": "game:bgg:174430:overview:rag-v0.1",
+          "doc_type": "game_overview",
+          "title": "Gloomhaven",
+          "game_id": "bgg:174430",
+          "source_file": "samples/rag/game_overview.jsonl",
+          "text_preview": "Gloomhaven (2017) is a boardgame. It supports 1-4 players, 60-120 minutes, ages 14+. Selected overall stats (2025-02, bgg-reviews-jvanelteren): average rating 8.57; Bayesian rating 8.34; 64,028 users rated; overall rank 4; complexity 3.91/5"
+        },
+        {
+          "score": 54.4641,
+          "doc_id": "game:bgg:3422:overview:rag-v0.1",
+          "doc_type": "game_overview",
+          "title": "Fantasy",
+          "game_id": "bgg:3422",
+          "source_file": "samples/rag/game_overview.jsonl",
+          "text_preview": "Fantasy (2001) is a boardgame. It supports 2-4 players, 20 minutes, ages 8+. Selected overall stats (2025-02, bgg-reviews-jvanelteren): average rating 5.02; Bayesian rating 5.37; 641 users rated; overall rank 27692; complexity 1.15/5. Canon"
+        },
+        {
+          "score": 54.4641,
+          "doc_id": "game:bgg:3501:overview:rag-v0.1",
+          "doc_type": "game_overview",
+          "title": "Fantasy",
+          "game_id": "bgg:3501",
+          "source_file": "samples/rag/game_overview.jsonl",
+          "text_preview": "Fantasy (1990) is a boardgame. It supports 3-6 players, 60 minutes. Selected overall stats (2025-02, bgg-reviews-jvanelteren): average rating 5.27; Bayesian rating 5.49; 37 users rated; overall rank 24646; complexity 2.00/5. Canonical mecha"
+        },
+        {
+          "score": 54.4641,
+          "doc_id": "game:bgg:5267:overview:rag-v0.1",
+          "doc_type": "game_overview",
+          "title": "Campaign",
+          "game_id": "bgg:5267",
+          "source_file": "samples/rag/game_overview.jsonl",
+          "text_preview": "Campaign (1966) is a boardgame. It supports 2-8 players, 60 minutes. Selected overall stats (2017-06, bgg-gabrio): average rating 4.50; 2 users rated. Canonical mechanics: Dice Rolling, Line Drawing. Categories: Educational, Political. Fami"
+        },
+        {
+          "score": 54.4641,
+          "doc_id": "game:bgg:37407:overview:rag-v0.1",
+          "doc_type": "game_overview",
+          "title": "Campaign",
+          "game_id": "bgg:37407",
+          "source_file": "samples/rag/game_overview.jsonl",
+          "text_preview": "Campaign (2007) is a boardgame. It supports 2-2 players, 10 minutes. Selected overall stats (2017-06, bgg-gabrio): average rating 5.50; 1 users rated; complexity 2.00/5. Categories: Abstract Strategy, Print & Play. Families: Chess Games. De"
+        }
+      ]
+    },
+    {
+      "query": "deck bag pool building card market mechanic",
+      "doc_type_filter": "mechanic_profile",
+      "expected_doc_substrings": [
+        "mechanic:deck,-bag,-and-pool-building"
+      ],
+      "passed": true,
+      "top_results": [
+        {
+          "score": 73.2706,
+          "doc_id": "mechanic:deck,-bag,-and-pool-building:profile:rag-v0.1",
+          "doc_type": "mechanic_profile",
+          "title": "Deck, Bag, and Pool Building",
+          "game_id": null,
+          "source_file": "samples/rag/mechanic_profile.jsonl",
+          "text_preview": "Deck, Bag, and Pool Building is a canonical BGG mechanic in unified_bgg. It appears on 2,571 games after excluding taxonomy rows marked for review. Representative games include Gloomhaven, Dune: Imperium, War of the Ring: Second Edition, Do"
+        },
+        {
+          "score": 61.8783,
+          "doc_id": "mechanic:market:profile:rag-v0.1",
+          "doc_type": "mechanic_profile",
+          "title": "Market",
+          "game_id": null,
+          "source_file": "samples/rag/mechanic_profile.jsonl",
+          "text_preview": "Market is a canonical BGG mechanic in unified_bgg. It appears on 238 games after excluding taxonomy rows marked for review. Representative games include Brass: Birmingham, 7 Wonders Duel, Brass: Lancashire, Lost Ruins of Arnak, Food Chain M"
+        },
+        {
+          "score": 16.7002,
+          "doc_id": "mechanic:deck-construction:profile:rag-v0.1",
+          "doc_type": "mechanic_profile",
+          "title": "Deck Construction",
+          "game_id": null,
+          "source_file": "samples/rag/mechanic_profile.jsonl",
+          "text_preview": "Deck Construction is a canonical BGG mechanic in unified_bgg. It appears on 193 games after excluding taxonomy rows marked for review. Representative games include Gloomhaven, Gloomhaven: Jaws of the Lion, Frosthaven, Arkham Horror: The Car"
+        },
+        {
+          "score": 15.8783,
+          "doc_id": "mechanic:move-through-deck:profile:rag-v0.1",
+          "doc_type": "mechanic_profile",
+          "title": "Move Through Deck",
+          "game_id": null,
+          "source_file": "samples/rag/mechanic_profile.jsonl",
+          "text_preview": "Move Through Deck is a canonical BGG mechanic in unified_bgg. It appears on 120 games after excluding taxonomy rows marked for review. Representative games include Lost Ruins of Arnak, T.I.M.E Stories, Lost Cities, Imperium: Classics, Ghost"
+        },
+        {
+          "score": 15.4641,
+          "doc_id": "mechanic:card-drafting:profile:rag-v0.1",
+          "doc_type": "mechanic_profile",
+          "title": "Card Drafting",
+          "game_id": null,
+          "source_file": "samples/rag/mechanic_profile.jsonl",
+          "text_preview": "Card Drafting is a canonical BGG mechanic in unified_bgg. It appears on 6,960 games after excluding taxonomy rows marked for review. Representative games include Ark Nova, Dune: Imperium, Terraforming Mars, Spirit Island, Through the Ages: "
+        }
+      ]
+    }
+  ]
+}

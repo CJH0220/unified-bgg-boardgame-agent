@@ -1,0 +1,24 @@
+# Local raw downloads are large and have source-specific redistribution limits.
+datasets/*/raw/
+
+# Rebuildable local indexes and downloaded rulebook cache.
+datasets/unified_bgg/final/*.sqlite
+datasets/unified_bgg/raw_index/rulebook_cache/
+
+# Full RAG corpora exceed normal GitHub blob limits; previews remain tracked.
+datasets/unified_bgg/samples/rag/game_overview.jsonl
+datasets/unified_bgg/samples/rag/review_digest.jsonl
+
+# Large rebuildable intermediate tables; compact mappings and summaries remain tracked.
+datasets/unified_bgg/intermediate/games.csv
+datasets/unified_bgg/intermediate/game_taxonomy.csv
+datasets/unified_bgg/intermediate/game_taxonomy_canonical.csv
+
+# Local runtime/cache artifacts.
+__pycache__/
+*.pyc
+.pytest_cache/
+.venv/
+venv/
+*.tmp
+*.part

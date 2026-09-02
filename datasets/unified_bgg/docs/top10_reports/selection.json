@@ -1,0 +1,92 @@
+[
+  {
+    "rank": 1,
+    "bgg_id": 224517,
+    "title": "Brass: Birmingham",
+    "bayes_average": 8.40871,
+    "average_rating": 8.58506,
+    "users_rated": 49988,
+    "file": "001_224517_brass-birmingham.md"
+  },
+  {
+    "rank": 2,
+    "bgg_id": 161936,
+    "title": "Pandemic Legacy: Season 1",
+    "bayes_average": 8.37151,
+    "average_rating": 8.52051,
+    "users_rated": 54900,
+    "file": "002_161936_pandemic-legacy-season-1.md"
+  },
+  {
+    "rank": 3,
+    "bgg_id": 342942,
+    "title": "Ark Nova",
+    "bayes_average": 8.34169,
+    "average_rating": 8.53445,
+    "users_rated": 49425,
+    "file": "003_342942_ark-nova.md"
+  },
+  {
+    "rank": 4,
+    "bgg_id": 174430,
+    "title": "Gloomhaven",
+    "bayes_average": 8.33542,
+    "average_rating": 8.57287,
+    "users_rated": 64028,
+    "file": "004_174430_gloomhaven.md"
+  },
+  {
+    "rank": 5,
+    "bgg_id": 233078,
+    "title": "Twilight Imperium: Fourth Edition",
+    "bayes_average": 8.23305,
+    "average_rating": 8.58467,
+    "users_rated": 25302,
+    "file": "005_233078_twilight-imperium-fourth-edition.md"
+  },
+  {
+    "rank": 6,
+    "bgg_id": 316554,
+    "title": "Dune: Imperium",
+    "bayes_average": 8.22695,
+    "average_rating": 8.42702,
+    "users_rated": 50217,
+    "file": "006_316554_dune-imperium.md"
+  },
+  {
+    "rank": 7,
+    "bgg_id": 167791,
+    "title": "Terraforming Mars",
+    "bayes_average": 8.2045,
+    "average_rating": 8.35266,
+    "users_rated": 103923,
+    "file": "007_167791_terraforming-mars.md"
+  },
+  {
+    "rank": 8,
+    "bgg_id": 115746,
+    "title": "War of the Ring: Second Edition",
+    "bayes_average": 8.19246,
+    "average_rating": 8.54719,
+    "users_rated": 22640,
+    "file": "008_115746_war-of-the-ring-second-edition.md"
+  },
+  {
+    "rank": 9,
+    "bgg_id": 187645,
+    "title": "Star Wars: Rebellion",
+    "bayes_average": 8.16976,
+    "average_rating": 8.41821,
+    "users_rated": 33792,
+    "file": "009_187645_star-wars-rebellion.md"
+  },
+  {
+    "rank": 10,
+    "bgg_id": 162886,
+    "title": "Spirit Island",
+    "bayes_average": 8.1449,
+    "average_rating": 8.34228,
+    "users_rated": 55427,
+    "file": "010_162886_spirit-island.md"
+  }
+]

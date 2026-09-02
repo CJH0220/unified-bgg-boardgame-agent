@@ -1,0 +1,340 @@
+{
+ "file": "subcategories.csv",
+ "path": "bgg-threnjen/raw/subcategories.csv",
+ "bytes": 597465,
+ "encoding": "utf-8-sig",
+ "delimiter": ",",
+ "n_columns": 11,
+ "rows_scanned": 21925,
+ "scan_truncated": false,
+ "ragged_rows": 0,
+ "scan_seconds": 0.2,
+ "columns": [
+  {
+   "name": "BGGId",
+   "dtype": "int",
+   "kind_counts": {
+    "int": 21924,
+    "bool01": 1
+   },
+   "rows": 21925,
+   "nulls": 0,
+   "null_pct": 0.0,
+   "distinct": 21925,
+   "max_str_len": 6,
+   "samples": [
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6"
+   ],
+   "min": 1.0,
+   "max": 349161.0,
+   "mean": 117652.6632,
+   "numeric_pct": 100.0
+  },
+  {
+   "name": "Exploration",
+   "dtype": "bool01",
+   "kind_counts": {
+    "bool01": 21925
+   },
+   "rows": 21925,
+   "nulls": 0,
+   "null_pct": 0.0,
+   "distinct": 2,
+   "max_str_len": 1,
+   "samples": [
+    "0",
+    "1"
+   ],
+   "min": 0.0,
+   "max": 1.0,
+   "mean": 0.0409,
+   "numeric_pct": 100.0,
+   "top_values": [
+    {
+     "v": "0",
+     "n": 21028
+    },
+    {
+     "v": "1",
+     "n": 897
+    }
+   ]
+  },
+  {
+   "name": "Miniatures",
+   "dtype": "bool01",
+   "kind_counts": {
+    "bool01": 21925
+   },
+   "rows": 21925,
+   "nulls": 0,
+   "null_pct": 0.0,
+   "distinct": 2,
+   "max_str_len": 1,
+   "samples": [
+    "0",
+    "1"
+   ],
+   "min": 0.0,
+   "max": 1.0,
+   "mean": 0.0497,
+   "numeric_pct": 100.0,
+   "top_values": [
+    {
+     "v": "0",
+     "n": 20836
+    },
+    {
+     "v": "1",
+     "n": 1089
+    }
+   ]
+  },
+  {
+   "name": "Territory Building",
+   "dtype": "bool01",
+   "kind_counts": {
+    "bool01": 21925
+   },
+   "rows": 21925,
+   "nulls": 0,
+   "null_pct": 0.0,
+   "distinct": 2,
+   "max_str_len": 1,
+   "samples": [
+    "0",
+    "1"
+   ],
+   "min": 0.0,
+   "max": 1.0,
+   "mean": 0.0234,
+   "numeric_pct": 100.0,
+   "top_values": [
+    {
+     "v": "0",
+     "n": 21411
+    },
+    {
+     "v": "1",
+     "n": 514
+    }
+   ]
+  },
+  {
+   "name": "Card Game",
+   "dtype": "bool01",
+   "kind_counts": {
+    "bool01": 21925
+   },
+   "rows": 21925,
+   "nulls": 0,
+   "null_pct": 0.0,
+   "distinct": 2,
+   "max_str_len": 1,
+   "samples": [
+    "0",
+    "1"
+   ],
+   "min": 0.0,
+   "max": 1.0,
+   "mean": 0.2956,
+   "numeric_pct": 100.0,
+   "top_values": [
+    {
+     "v": "0",
+     "n": 15445
+    },
+    {
+     "v": "1",
+     "n": 6480
+    }
+   ]
+  },
+  {
+   "name": "Educational",
+   "dtype": "bool01",
+   "kind_counts": {
+    "bool01": 21925
+   },
+   "rows": 21925,
+   "nulls": 0,
+   "null_pct": 0.0,
+   "distinct": 2,
+   "max_str_len": 1,
+   "samples": [
+    "0",
+    "1"
+   ],
+   "min": 0.0,
+   "max": 1.0,
+   "mean": 0.0229,
+   "numeric_pct": 100.0,
+   "top_values": [
+    {
+     "v": "0",
+     "n": 21423
+    },
+    {
+     "v": "1",
+     "n": 502
+    }
+   ]
+  },
+  {
+   "name": "Puzzle",
+   "dtype": "bool01",
+   "kind_counts": {
+    "bool01": 21925
+   },
+   "rows": 21925,
+   "nulls": 0,
+   "null_pct": 0.0,
+   "distinct": 2,
+   "max_str_len": 1,
+   "samples": [
+    "0",
+    "1"
+   ],
+   "min": 0.0,
+   "max": 1.0,
+   "mean": 0.0308,
+   "numeric_pct": 100.0,
+   "top_values": [
+    {
+     "v": "0",
+     "n": 21249
+    },
+    {
+     "v": "1",
+     "n": 676
+    }
+   ]
+  },
+  {
+   "name": "Collectible Components",
+   "dtype": "bool01",
+   "kind_counts": {
+    "bool01": 21925
+   },
+   "rows": 21925,
+   "nulls": 0,
+   "null_pct": 0.0,
+   "distinct": 2,
+   "max_str_len": 1,
+   "samples": [
+    "0",
+    "1"
+   ],
+   "min": 0.0,
+   "max": 1.0,
+   "mean": 0.0164,
+   "numeric_pct": 100.0,
+   "top_values": [
+    {
+     "v": "0",
+     "n": 21566
+    },
+    {
+     "v": "1",
+     "n": 359
+    }
+   ]
+  },
+  {
+   "name": "Word Game",
+   "dtype": "bool01",
+   "kind_counts": {
+    "bool01": 21925
+   },
+   "rows": 21925,
+   "nulls": 0,
+   "null_pct": 0.0,
+   "distinct": 2,
+   "max_str_len": 1,
+   "samples": [
+    "0",
+    "1"
+   ],
+   "min": 0.0,
+   "max": 1.0,
+   "mean": 0.0221,
+   "numeric_pct": 100.0,
+   "top_values": [
+    {
+     "v": "0",
+     "n": 21441
+    },
+    {
+     "v": "1",
+     "n": 484
+    }
+   ]
+  },
+  {
+   "name": "Print & Play",
+   "dtype": "bool01",
+   "kind_counts": {
+    "bool01": 21925
+   },
+   "rows": 21925,
+   "nulls": 0,
+   "null_pct": 0.0,
+   "distinct": 2,
+   "max_str_len": 1,
+   "samples": [
+    "0",
+    "1"
+   ],
+   "min": 0.0,
+   "max": 1.0,
+   "mean": 0.0275,
+   "numeric_pct": 100.0,
+   "top_values": [
+    {
+     "v": "0",
+     "n": 21321
+    },
+    {
+     "v": "1",
+     "n": 604
+    }
+   ]
+  },
+  {
+   "name": "Electronic",
+   "dtype": "bool01",
+   "kind_counts": {
+    "bool01": 21925
+   },
+   "rows": 21925,
+   "nulls": 0,
+   "null_pct": 0.0,
+   "distinct": 2,
+   "max_str_len": 1,
+   "samples": [
+    "0",
+    "1"
+   ],
+   "min": 0.0,
+   "max": 1.0,
+   "mean": 0.0094,
+   "numeric_pct": 100.0,
+   "top_values": [
+    {
+     "v": "0",
+     "n": 21720
+    },
+    {
+     "v": "1",
+     "n": 205
+    }
+   ]
+  }
+ ],
+ "dataset": "bgg-threnjen"
+}

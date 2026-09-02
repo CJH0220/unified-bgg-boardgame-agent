@@ -1,0 +1,1840 @@
+{
+ "file": "games.csv",
+ "path": "bgg-threnjen/raw/games.csv",
+ "bytes": 22141390,
+ "encoding": "utf-8-sig",
+ "delimiter": ",",
+ "n_columns": 48,
+ "rows_scanned": 21925,
+ "scan_truncated": false,
+ "ragged_rows": 0,
+ "scan_seconds": 1.2,
+ "columns": [
+  {
+   "name": "BGGId",
+   "dtype": "int",
+   "kind_counts": {
+    "int": 21924,
+    "bool01": 1
+   },
+   "rows": 21925,
+   "nulls": 0,
+   "null_pct": 0.0,
+   "distinct": 21925,
+   "max_str_len": 6,
+   "samples": [
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6"
+   ],
+   "min": 1.0,
+   "max": 349161.0,
+   "mean": 117652.6632,
+   "numeric_pct": 100.0
+  },
+  {
+   "name": "Name",
+   "dtype": "str",
+   "kind_counts": {
+    "str": 21885,
+    "int": 38,
+    "null": 2
+   },
+   "rows": 21925,
+   "nulls": 2,
+   "null_pct": 0.009,
+   "distinct": 21520,
+   "max_str_len": 107,
+   "samples": [
+    "Die Macher",
+    "Dragonmaster",
+    "Samurai",
+    "Tal der Könige",
+    "Acquire",
+    "Mare Mediterraneum"
+   ],
+   "min": 7.0,
+   "max": 5211.0,
+   "mean": 1502.0789,
+   "numeric_pct": 0.17
+  },
+  {
+   "name": "Description",
+   "dtype": "str",
+   "kind_counts": {
+    "str": 21924,
+    "null": 1
+   },
+   "rows": 21925,
+   "nulls": 1,
+   "null_pct": 0.005,
+   "distinct": 21903,
+   "max_str_len": 8958,
+   "samples": [
+    "die macher game seven sequential political race different region germany player charge national political party manage l",
+    "dragonmaster tricktaking card game base old game call coup dtat player give supply plastic gem represent point player de",
+    "samurai set medieval japan player compete gain favor faction samurai peasant priest represent helmet rice paddy buddha f",
+    "triangular box luxurious large block tal der koumlnige german quotvalley kingsquot tell game design beautiful functional",
+    "acquire player strategically invest business try retain majority stock   business grow tile placement start merge give m",
+    "ancient land mediterranean player attempt satisfy unique victory condition trade war construction   lavishly produce gam"
+   ]
+  },
+  {
+   "name": "YearPublished",
+   "dtype": "int",
+   "kind_counts": {
+    "int": 21732,
+    "bool01": 193
+   },
+   "rows": 21925,
+   "nulls": 0,
+   "null_pct": 0.0,
+   "distinct": 188,
+   "max_str_len": 5,
+   "samples": [
+    "1986",
+    "1981",
+    "1998",
+    "1992",
+    "1964",
+    "1989"
+   ],
+   "min": -3500.0,
+   "max": 2021.0,
+   "mean": 1985.4949,
+   "numeric_pct": 100.0,
+   "top_values": [
+    {
+     "v": "2017",
+     "n": 1356
+    },
+    {
+     "v": "2018",
+     "n": 1351
+    },
+    {
+     "v": "2016",
+     "n": 1321
+    },
+    {
+     "v": "2019",
+     "n": 1302
+    },
+    {
+     "v": "2015",
+     "n": 1185
+    },
+    {
+     "v": "2014",
+     "n": 1032
+    },
+    {
+     "v": "2020",
+     "n": 927
+    },
+    {
+     "v": "2013",
+     "n": 875
+    },
+    {
+     "v": "2012",
+     "n": 843
+    },
+    {
+     "v": "2011",
+     "n": 746
+    },
+    {
+     "v": "2010",
+     "n": 710
+    },
+    {
+     "v": "2021",
+     "n": 660
+    }
+   ]
+  },
+  {
+   "name": "GameWeight",
+   "dtype": "float",
+   "kind_counts": {
+    "float": 21925
+   },
+   "rows": 21925,
+   "nulls": 0,
+   "null_pct": 0.0,
+   "distinct": 3921,
+   "max_str_len": 6,
+   "samples": [
+    "4.3206",
+    "1.963",
+    "2.4859",
+    "2.6667",
+    "2.5031",
+    "3.0"
+   ],
+   "min": 0.0,
+   "max": 5.0,
+   "mean": 1.9821,
+   "numeric_pct": 100.0
+  },
+  {
+   "name": "AvgRating",
+   "dtype": "float",
+   "kind_counts": {
+    "float": 21925
+   },
+   "rows": 21925,
+   "nulls": 0,
+   "null_pct": 0.0,
+   "distinct": 20489,
+   "max_str_len": 7,
+   "samples": [
+    "7.61428",
+    "6.64537",
+    "7.45601",
+    "6.60006",
+    "7.33861",
+    "6.5537"
+   ],
+   "min": 1.04133,
+   "max": 9.91429,
+   "mean": 6.4249,
+   "numeric_pct": 100.0
+  },
+  {
+   "name": "BayesAvgRating",
+   "dtype": "float",
+   "kind_counts": {
+    "float": 21925
+   },
+   "rows": 21925,
+   "nulls": 0,
+   "null_pct": 0.0,
+   "distinct": 15950,
+   "max_str_len": 7,
+   "samples": [
+    "7.10363",
+    "5.78447",
+    "7.23994",
+    "5.67954",
+    "7.14189",
+    "5.54614"
+   ],
+   "min": 3.57481,
+   "max": 8.51488,
+   "mean": 5.6857,
+   "numeric_pct": 100.0
+  },
+  {
+   "name": "StdDev",
+   "dtype": "float",
+   "kind_counts": {
+    "float": 21925
+   },
+   "rows": 21925,
+   "nulls": 0,
+   "null_pct": 0.0,
+   "distinct": 19527,
+   "max_str_len": 8,
+   "samples": [
+    "1.57979",
+    "1.4544",
+    "1.18227",
+    "1.23129",
+    "1.33583",
+    "1.6535"
+   ],
+   "min": 0.196023,
+   "max": 4.27728,
+   "mean": 1.5164,
+   "numeric_pct": 100.0
+  },
+  {
+   "name": "MinPlayers",
+   "dtype": "int",
+   "kind_counts": {
+    "int": 18157,
+    "bool01": 3768
+   },
+   "rows": 21925,
+   "nulls": 0,
+   "null_pct": 0.0,
+   "distinct": 11,
+   "max_str_len": 2,
+   "samples": [
+    "3",
+    "2",
+    "1",
+    "4",
+    "8",
+    "0"
+   ],
+   "min": 0.0,
+   "max": 10.0,
+   "mean": 2.0073,
+   "numeric_pct": 100.0,
+   "top_values": [
+    {
+     "v": "2",
+     "n": 15039
+    },
+    {
+     "v": "1",
+     "n": 3718
+    },
+    {
+     "v": "3",
+     "n": 2496
+    },
+    {
+     "v": "4",
+     "n": 504
+    },
+    {
+     "v": "5",
+     "n": 59
+    },
+    {
+     "v": "0",
+     "n": 50
+    },
+    {
+     "v": "6",
+     "n": 24
+    },
+    {
+     "v": "8",
+     "n": 17
+    },
+    {
+     "v": "7",
+     "n": 14
+    },
+    {
+     "v": "10",
+     "n": 2
+    },
+    {
+     "v": "9",
+     "n": 2
+    }
+   ]
+  },
+  {
+   "name": "MaxPlayers",
+   "dtype": "int",
+   "kind_counts": {
+    "int": 21387,
+    "bool01": 538
+   },
+   "rows": 21925,
+   "nulls": 0,
+   "null_pct": 0.0,
+   "distinct": 54,
+   "max_str_len": 3,
+   "samples": [
+    "5",
+    "4",
+    "6",
+    "2",
+    "7",
+    "8"
+   ],
+   "min": 0.0,
+   "max": 999.0,
+   "mean": 5.7079,
+   "numeric_pct": 100.0,
+   "top_values": [
+    {
+     "v": "4",
+     "n": 6868
+    },
+    {
+     "v": "2",
+     "n": 4352
+    },
+    {
+     "v": "6",
+     "n": 4021
+    },
+    {
+     "v": "5",
+     "n": 3044
+    },
+    {
+     "v": "8",
+     "n": 1243
+    },
+    {
+     "v": "10",
+     "n": 416
+    },
+    {
+     "v": "1",
+     "n": 365
+    },
+    {
+     "v": "7",
+     "n": 330
+    },
+    {
+     "v": "3",
+     "n": 287
+    },
+    {
+     "v": "12",
+     "n": 252
+    },
+    {
+     "v": "0",
+     "n": 173
+    },
+    {
+     "v": "99",
+     "n": 154
+    }
+   ]
+  },
+  {
+   "name": "ComAgeRec",
+   "dtype": "float",
+   "kind_counts": {
+    "float": 16395,
+    "null": 5530
+   },
+   "rows": 21925,
+   "nulls": 5530,
+   "null_pct": 25.222,
+   "distinct": 1366,
+   "max_str_len": 18,
+   "samples": [
+    "14.366666666666667",
+    "9.307692307692308",
+    "13.0",
+    "11.41025641025641",
+    "8.142857142857142",
+    "11.777777777777779"
+   ],
+   "min": 2.0,
+   "max": 21.0,
+   "mean": 10.0044,
+   "numeric_pct": 100.0
+  },
+  {
+   "name": "LanguageEase",
+   "dtype": "float",
+   "kind_counts": {
+    "float": 16034,
+    "null": 5891
+   },
+   "rows": 21925,
+   "nulls": 5891,
+   "null_pct": 26.869,
+   "distinct": 3794,
+   "max_str_len": 18,
+   "samples": [
+    "1.3958333333333333",
+    "27.0",
+    "1.0",
+    "256.0",
+    "21.152941176470588",
+    "262.0"
+   ],
+   "min": 1.0,
+   "max": 1757.0,
+   "mean": 216.4618,
+   "numeric_pct": 100.0
+  },
+  {
+   "name": "BestPlayers",
+   "dtype": "int",
+   "kind_counts": {
+    "bool01": 20027,
+    "int": 1898
+   },
+   "rows": 21925,
+   "nulls": 0,
+   "null_pct": 0.0,
+   "distinct": 14,
+   "max_str_len": 2,
+   "samples": [
+    "5",
+    "0",
+    "3",
+    "4",
+    "6",
+    "2"
+   ],
+   "min": 0.0,
+   "max": 15.0,
+   "mean": 0.3115,
+   "numeric_pct": 100.0,
+   "top_values": [
+    {
+     "v": "0",
+     "n": 19944
+    },
+    {
+     "v": "4",
+     "n": 780
+    },
+    {
+     "v": "2",
+     "n": 450
+    },
+    {
+     "v": "3",
+     "n": 400
+    },
+    {
+     "v": "5",
+     "n": 151
+    },
+    {
+     "v": "6",
+     "n": 86
+    },
+    {
+     "v": "1",
+     "n": 83
+    },
+    {
+     "v": "7",
+     "n": 15
+    },
+    {
+     "v": "8",
+     "n": 11
+    },
+    {
+     "v": "13",
+     "n": 1
+    },
+    {
+     "v": "12",
+     "n": 1
+    },
+    {
+     "v": "15",
+     "n": 1
+    }
+   ]
+  },
+  {
+   "name": "GoodPlayers",
+   "dtype": "str",
+   "kind_counts": {
+    "str": 21925
+   },
+   "rows": 21925,
+   "nulls": 0,
+   "null_pct": 0.0,
+   "distinct": 78,
+   "max_str_len": 126,
+   "samples": [
+    "['4', '5']",
+    "[]",
+    "['2', '3', '4']",
+    "['3', '4', '5']",
+    "['3', '4', '5', '6']",
+    "['3', '4']"
+   ],
+   "top_values": [
+    {
+     "v": "[]",
+     "n": 19946
+    },
+    {
+     "v": "['2', '3', '4']",
+     "n": 600
+    },
+    {
+     "v": "['3', '4', '5']",
+     "n": 185
+    },
+    {
+     "v": "['2']",
+     "n": 158
+    },
+    {
+     "v": "['1', '2', '3', '4']",
+     "n": 140
+    },
+    {
+     "v": "['3', '4']",
+     "n": 133
+    },
+    {
+     "v": "['2', '3', '4', '5']",
+     "n": 113
+    },
+    {
+     "v": "['3', '4', '5', '6']",
+     "n": 79
+    },
+    {
+     "v": "['2', '3']",
+     "n": 67
+    },
+    {
+     "v": "['1', '2']",
+     "n": 65
+    },
+    {
+     "v": "['1', '2', '3']",
+     "n": 58
+    },
+    {
+     "v": "['4', '5', '6']",
+     "n": 55
+    }
+   ]
+  },
+  {
+   "name": "NumOwned",
+   "dtype": "int",
+   "kind_counts": {
+    "int": 21924,
+    "bool01": 1
+   },
+   "rows": 21925,
+   "nulls": 0,
+   "null_pct": 0.0,
+   "distinct": 4262,
+   "max_str_len": 6,
+   "samples": [
+    "7498",
+    "1285",
+    "15578",
+    "638",
+    "23735",
+    "128"
+   ],
+   "min": 0.0,
+   "max": 166497.0,
+   "mean": 1467.8482,
+   "numeric_pct": 100.0
+  },
+  {
+   "name": "NumWant",
+   "dtype": "int",
+   "kind_counts": {
+    "int": 18111,
+    "bool01": 3814
+   },
+   "rows": 21925,
+   "nulls": 0,
+   "null_pct": 0.0,
+   "distinct": 699,
+   "max_str_len": 4,
+   "samples": [
+    "501",
+    "72",
+    "799",
+    "54",
+    "548",
+    "34"
+   ],
+   "min": 0.0,
+   "max": 2031.0,
+   "mean": 41.6909,
+   "numeric_pct": 100.0
+  },
+  {
+   "name": "NumWish",
+   "dtype": "int",
+   "kind_counts": {
+    "int": 21592,
+    "bool01": 333
+   },
+   "rows": 21925,
+   "nulls": 0,
+   "null_pct": 0.0,
+   "distinct": 1798,
+   "max_str_len": 5,
+   "samples": [
+    "2039",
+    "191",
+    "3450",
+    "123",
+    "2671",
+    "54"
+   ],
+   "min": 0.0,
+   "max": 19182.0,
+   "mean": 228.457,
+   "numeric_pct": 100.0
+  },
+  {
+   "name": "NumWeightVotes",
+   "dtype": "int",
+   "kind_counts": {
+    "int": 20192,
+    "bool01": 1733
+   },
+   "rows": 21925,
+   "nulls": 0,
+   "null_pct": 0.0,
+   "distinct": 775,
+   "max_str_len": 4,
+   "samples": [
+    "761",
+    "54",
+    "1451",
+    "30",
+    "1606",
+    "7"
+   ],
+   "min": 0.0,
+   "max": 7673.0,
+   "mean": 49.4801,
+   "numeric_pct": 100.0
+  },
+  {
+   "name": "MfgPlaytime",
+   "dtype": "int",
+   "kind_counts": {
+    "int": 21119,
+    "bool01": 806
+   },
+   "rows": 21925,
+   "nulls": 0,
+   "null_pct": 0.0,
+   "distinct": 121,
+   "max_str_len": 5,
+   "samples": [
+    "240",
+    "30",
+    "60",
+    "90",
+    "20",
+    "120"
+   ],
+   "min": 0.0,
+   "max": 60000.0,
+   "mean": 90.5135,
+   "numeric_pct": 100.0,
+   "top_values": [
+    {
+     "v": "30",
+     "n": 3861
+    },
+    {
+     "v": "60",
+     "n": 3211
+    },
+    {
+     "v": "45",
+     "n": 2228
+    },
+    {
+     "v": "20",
+     "n": 2146
+    },
+    {
+     "v": "120",
+     "n": 1728
+    },
+    {
+     "v": "90",
+     "n": 1719
+    },
+    {
+     "v": "15",
+     "n": 1296
+    },
+    {
+     "v": "180",
+     "n": 846
+    },
+    {
+     "v": "10",
+     "n": 799
+    },
+    {
+     "v": "0",
+     "n": 780
+    },
+    {
+     "v": "40",
+     "n": 582
+    },
+    {
+     "v": "240",
+     "n": 565
+    }
+   ]
+  },
+  {
+   "name": "ComMinPlaytime",
+   "dtype": "int",
+   "kind_counts": {
+    "int": 21218,
+    "bool01": 707
+   },
+   "rows": 21925,
+   "nulls": 0,
+   "null_pct": 0.0,
+   "distinct": 90,
+   "max_str_len": 5,
+   "samples": [
+    "240",
+    "30",
+    "60",
+    "90",
+    "20",
+    "120"
+   ],
+   "min": 0.0,
+   "max": 60000.0,
+   "mean": 63.6786,
+   "numeric_pct": 100.0,
+   "top_values": [
+    {
+     "v": "30",
+     "n": 4496
+    },
+    {
+     "v": "60",
+     "n": 3024
+    },
+    {
+     "v": "20",
+     "n": 2670
+    },
+    {
+     "v": "45",
+     "n": 2206
+    },
+    {
+     "v": "15",
+     "n": 1902
+    },
+    {
+     "v": "120",
+     "n": 1325
+    },
+    {
+     "v": "10",
+     "n": 1270
+    },
+    {
+     "v": "90",
+     "n": 1204
+    },
+    {
+     "v": "180",
+     "n": 683
+    },
+    {
+     "v": "0",
+     "n": 652
+    },
+    {
+     "v": "240",
+     "n": 413
+    },
+    {
+     "v": "40",
+     "n": 382
+    }
+   ]
+  },
+  {
+   "name": "ComMaxPlaytime",
+   "dtype": "int",
+   "kind_counts": {
+    "int": 21119,
+    "bool01": 806
+   },
+   "rows": 21925,
+   "nulls": 0,
+   "null_pct": 0.0,
+   "distinct": 121,
+   "max_str_len": 5,
+   "samples": [
+    "240",
+    "30",
+    "60",
+    "90",
+    "20",
+    "120"
+   ],
+   "min": 0.0,
+   "max": 60000.0,
+   "mean": 90.5135,
+   "numeric_pct": 100.0,
+   "top_values": [
+    {
+     "v": "30",
+     "n": 3861
+    },
+    {
+     "v": "60",
+     "n": 3211
+    },
+    {
+     "v": "45",
+     "n": 2228
+    },
+    {
+     "v": "20",
+     "n": 2146
+    },
+    {
+     "v": "120",
+     "n": 1728
+    },
+    {
+     "v": "90",
+     "n": 1719
+    },
+    {
+     "v": "15",
+     "n": 1296
+    },
+    {
+     "v": "180",
+     "n": 846
+    },
+    {
+     "v": "10",
+     "n": 799
+    },
+    {
+     "v": "0",
+     "n": 780
+    },
+    {
+     "v": "40",
+     "n": 582
+    },
+    {
+     "v": "240",
+     "n": 565
+    }
+   ]
+  },
+  {
+   "name": "MfgAgeRec",
+   "dtype": "int",
+   "kind_counts": {
+    "int": 20599,
+    "bool01": 1326
+   },
+   "rows": 21925,
+   "nulls": 0,
+   "null_pct": 0.0,
+   "distinct": 21,
+   "max_str_len": 2,
+   "samples": [
+    "14",
+    "12",
+    "10",
+    "8",
+    "13",
+    "9"
+   ],
+   "min": 0.0,
+   "max": 25.0,
+   "mean": 9.6134,
+   "numeric_pct": 100.0,
+   "top_values": [
+    {
+     "v": "12",
+     "n": 4952
+    },
+    {
+     "v": "8",
+     "n": 4426
+    },
+    {
+     "v": "10",
+     "n": 4173
+    },
+    {
+     "v": "14",
+     "n": 2016
+    },
+    {
+     "v": "0",
+     "n": 1325
+    },
+    {
+     "v": "13",
+     "n": 1214
+    },
+    {
+     "v": "6",
+     "n": 974
+    },
+    {
+     "v": "7",
+     "n": 876
+    },
+    {
+     "v": "5",
+     "n": 480
+    },
+    {
+     "v": "9",
+     "n": 351
+    },
+    {
+     "v": "4",
+     "n": 295
+    },
+    {
+     "v": "16",
+     "n": 193
+    }
+   ]
+  },
+  {
+   "name": "NumUserRatings",
+   "dtype": "int",
+   "kind_counts": {
+    "int": 21925
+   },
+   "rows": 21925,
+   "nulls": 0,
+   "null_pct": 0.0,
+   "distinct": 3130,
+   "max_str_len": 6,
+   "samples": [
+    "5354",
+    "562",
+    "15146",
+    "340",
+    "18655",
+    "81"
+   ],
+   "min": 30.0,
+   "max": 108101.0,
+   "mean": 861.6683,
+   "numeric_pct": 100.0
+  },
+  {
+   "name": "NumComments",
+   "dtype": "bool01",
+   "kind_counts": {
+    "bool01": 21925
+   },
+   "rows": 21925,
+   "nulls": 0,
+   "null_pct": 0.0,
+   "distinct": 1,
+   "max_str_len": 1,
+   "samples": [
+    "0"
+   ],
+   "min": 0.0,
+   "max": 0.0,
+   "mean": 0.0,
+   "numeric_pct": 100.0,
+   "top_values": [
+    {
+     "v": "0",
+     "n": 21925
+    }
+   ]
+  },
+  {
+   "name": "NumAlternates",
+   "dtype": "int",
+   "kind_counts": {
+    "bool01": 16840,
+    "int": 5085
+   },
+   "rows": 21925,
+   "nulls": 0,
+   "null_pct": 0.0,
+   "distinct": 81,
+   "max_str_len": 3,
+   "samples": [
+    "2",
+    "0",
+    "6",
+    "5",
+    "1",
+    "20"
+   ],
+   "min": 0.0,
+   "max": 850.0,
+   "mean": 1.6038,
+   "numeric_pct": 100.0,
+   "top_values": [
+    {
+     "v": "0",
+     "n": 12967
+    },
+    {
+     "v": "1",
+     "n": 3873
+    },
+    {
+     "v": "2",
+     "n": 1608
+    },
+    {
+     "v": "3",
+     "n": 935
+    },
+    {
+     "v": "4",
+     "n": 605
+    },
+    {
+     "v": "5",
+     "n": 448
+    },
+    {
+     "v": "6",
+     "n": 379
+    },
+    {
+     "v": "7",
+     "n": 247
+    },
+    {
+     "v": "8",
+     "n": 166
+    },
+    {
+     "v": "9",
+     "n": 133
+    },
+    {
+     "v": "10",
+     "n": 92
+    },
+    {
+     "v": "11",
+     "n": 82
+    }
+   ]
+  },
+  {
+   "name": "NumExpansions",
+   "dtype": "int",
+   "kind_counts": {
+    "bool01": 18761,
+    "int": 3164
+   },
+   "rows": 21925,
+   "nulls": 0,
+   "null_pct": 0.0,
+   "distinct": 99,
+   "max_str_len": 3,
+   "samples": [
+    "0",
+    "2",
+    "6",
+    "27",
+    "88",
+    "11"
+   ],
+   "min": 0.0,
+   "max": 525.0,
+   "mean": 1.3801,
+   "numeric_pct": 100.0,
+   "top_values": [
+    {
+     "v": "0",
+     "n": 16337
+    },
+    {
+     "v": "1",
+     "n": 2424
+    },
+    {
+     "v": "2",
+     "n": 981
+    },
+    {
+     "v": "3",
+     "n": 494
+    },
+    {
+     "v": "4",
+     "n": 357
+    },
+    {
+     "v": "5",
+     "n": 224
+    },
+    {
+     "v": "6",
+     "n": 183
+    },
+    {
+     "v": "7",
+     "n": 131
+    },
+    {
+     "v": "8",
+     "n": 91
+    },
+    {
+     "v": "9",
+     "n": 75
+    },
+    {
+     "v": "10",
+     "n": 51
+    },
+    {
+     "v": "14",
+     "n": 50
+    }
+   ]
+  },
+  {
+   "name": "NumImplementations",
+   "dtype": "int",
+   "kind_counts": {
+    "bool01": 20884,
+    "int": 1041
+   },
+   "rows": 21925,
+   "nulls": 0,
+   "null_pct": 0.0,
+   "distinct": 23,
+   "max_str_len": 2,
+   "samples": [
+    "0",
+    "2",
+    "1",
+    "3",
+    "11",
+    "29"
+   ],
+   "min": 0.0,
+   "max": 38.0,
+   "mean": 0.3087,
+   "numeric_pct": 100.0,
+   "top_values": [
+    {
+     "v": "0",
+     "n": 17052
+    },
+    {
+     "v": "1",
+     "n": 3832
+    },
+    {
+     "v": "2",
+     "n": 691
+    },
+    {
+     "v": "3",
+     "n": 197
+    },
+    {
+     "v": "4",
+     "n": 70
+    },
+    {
+     "v": "5",
+     "n": 33
+    },
+    {
+     "v": "6",
+     "n": 18
+    },
+    {
+     "v": "7",
+     "n": 10
+    },
+    {
+     "v": "11",
+     "n": 3
+    },
+    {
+     "v": "15",
+     "n": 3
+    },
+    {
+     "v": "9",
+     "n": 2
+    },
+    {
+     "v": "10",
+     "n": 2
+    }
+   ]
+  },
+  {
+   "name": "IsReimplementation",
+   "dtype": "bool01",
+   "kind_counts": {
+    "bool01": 21925
+   },
+   "rows": 21925,
+   "nulls": 0,
+   "null_pct": 0.0,
+   "distinct": 2,
+   "max_str_len": 1,
+   "samples": [
+    "0",
+    "1"
+   ],
+   "min": 0.0,
+   "max": 1.0,
+   "mean": 0.1168,
+   "numeric_pct": 100.0,
+   "top_values": [
+    {
+     "v": "0",
+     "n": 19365
+    },
+    {
+     "v": "1",
+     "n": 2560
+    }
+   ]
+  },
+  {
+   "name": "Family",
+   "dtype": "str",
+   "kind_counts": {
+    "null": 15262,
+    "str": 6663
+   },
+   "rows": 21925,
+   "nulls": 15262,
+   "null_pct": 69.61,
+   "distinct": 1456,
+   "max_str_len": 63,
+   "samples": [
+    "Classic Line (Valley Games)",
+    "Euro Classics (Reiner Knizia)",
+    "3M Bookshelf",
+    "El Grand",
+    "Elfenroads",
+    "Bean Games (Lookout)"
+   ]
+  },
+  {
+   "name": "Kickstarted",
+   "dtype": "bool01",
+   "kind_counts": {
+    "bool01": 21925
+   },
+   "rows": 21925,
+   "nulls": 0,
+   "null_pct": 0.0,
+   "distinct": 2,
+   "max_str_len": 1,
+   "samples": [
+    "0",
+    "1"
+   ],
+   "min": 0.0,
+   "max": 1.0,
+   "mean": 0.1533,
+   "numeric_pct": 100.0,
+   "top_values": [
+    {
+     "v": "0",
+     "n": 18563
+    },
+    {
+     "v": "1",
+     "n": 3362
+    }
+   ]
+  },
+  {
+   "name": "ImagePath",
+   "dtype": "str",
+   "kind_counts": {
+    "str": 21908,
+    "null": 17
+   },
+   "rows": 21925,
+   "nulls": 17,
+   "null_pct": 0.078,
+   "distinct": 21904,
+   "max_str_len": 134,
+   "samples": [
+    "https://cf.geekdo-images.com/rpwCZAjYLD940NWwP3SRoA__original/img/yR0aoBVKNrAmmCuBeSzQnMflLYg=/0x0/filters:format(jpeg)/",
+    "https://cf.geekdo-images.com/oQYhaJx5Lg3KcGis2reuWQ__original/img/owag4VgJDPyPt2ciYB9Hc5l4GnQ=/0x0/filters:format(jpeg)/",
+    "https://cf.geekdo-images.com/o9-sNXmFS_TLAb7ZlZ4dRA__original/img/TPKZgpNxB_C73RNbhKyP6UR76X0=/0x0/filters:format(jpeg)/",
+    "https://cf.geekdo-images.com/nYiYhUlatT2DpyXaJqXK3w__original/img/2NNluROL0K_q4H8yMxIyoiHXnxc=/0x0/filters:format(jpeg)/",
+    "https://cf.geekdo-images.com/3C--kJRhi6kTPHsr9dNaWw__original/img/WeRigNSL9w0EP12b2EJfpHoh4M0=/0x0/filters:format(jpeg)/",
+    "https://cf.geekdo-images.com/277POF80AUz2ZE9XSApyDg__original/img/hQCIS_adSN2LfBgUCsEpJ6CsPVQ=/0x0/filters:format(jpeg)/"
+   ]
+  },
+  {
+   "name": "Rank:boardgame",
+   "dtype": "int",
+   "kind_counts": {
+    "int": 21924,
+    "bool01": 1
+   },
+   "rows": 21925,
+   "nulls": 0,
+   "null_pct": 0.0,
+   "distinct": 21579,
+   "max_str_len": 5,
+   "samples": [
+    "316",
+    "3993",
+    "224",
+    "5345",
+    "290",
+    "10766"
+   ],
+   "min": 1.0,
+   "max": 21926.0,
+   "mean": 11019.5141,
+   "numeric_pct": 100.0
+  },
+  {
+   "name": "Rank:strategygames",
+   "dtype": "int",
+   "kind_counts": {
+    "int": 21924,
+    "bool01": 1
+   },
+   "rows": 21925,
+   "nulls": 0,
+   "null_pct": 0.0,
+   "distinct": 2320,
+   "max_str_len": 5,
+   "samples": [
+    "180",
+    "1577",
+    "166",
+    "21926",
+    "220",
+    "1297"
+   ],
+   "min": 1.0,
+   "max": 21926.0,
+   "mean": 19729.827,
+   "numeric_pct": 100.0
+  },
+  {
+   "name": "Rank:abstracts",
+   "dtype": "int",
+   "kind_counts": {
+    "int": 21924,
+    "bool01": 1
+   },
+   "rows": 21925,
+   "nulls": 0,
+   "null_pct": 0.0,
+   "distinct": 1116,
+   "max_str_len": 5,
+   "samples": [
+    "21926",
+    "137",
+    "400",
+    "44",
+    "994",
+    "612"
+   ],
+   "min": 1.0,
+   "max": 21926.0,
+   "mean": 20839.3472,
+   "numeric_pct": 100.0
+  },
+  {
+   "name": "Rank:familygames",
+   "dtype": "int",
+   "kind_counts": {
+    "int": 21924,
+    "bool01": 1
+   },
+   "rows": 21925,
+   "nulls": 0,
+   "null_pct": 0.0,
+   "distinct": 2317,
+   "max_str_len": 5,
+   "samples": [
+    "21926",
+    "308",
+    "116",
+    "129",
+    "552",
+    "914"
+   ],
+   "min": 1.0,
+   "max": 21926.0,
+   "mean": 19732.27,
+   "numeric_pct": 100.0
+  },
+  {
+   "name": "Rank:thematic",
+   "dtype": "int",
+   "kind_counts": {
+    "int": 21924,
+    "bool01": 1
+   },
+   "rows": 21925,
+   "nulls": 0,
+   "null_pct": 0.0,
+   "distinct": 1225,
+   "max_str_len": 5,
+   "samples": [
+    "21926",
+    "308",
+    "157",
+    "278",
+    "584",
+    "645"
+   ],
+   "min": 1.0,
+   "max": 21926.0,
+   "mean": 20736.1858,
+   "numeric_pct": 100.0
+  },
+  {
+   "name": "Rank:cgs",
+   "dtype": "int",
+   "kind_counts": {
+    "int": 21924,
+    "bool01": 1
+   },
+   "rows": 21925,
+   "nulls": 0,
+   "null_pct": 0.0,
+   "distinct": 304,
+   "max_str_len": 5,
+   "samples": [
+    "21926",
+    "122",
+    "207",
+    "20",
+    "202",
+    "141"
+   ],
+   "min": 1.0,
+   "max": 21926.0,
+   "mean": 21625.0868,
+   "numeric_pct": 100.0
+  },
+  {
+   "name": "Rank:wargames",
+   "dtype": "int",
+   "kind_counts": {
+    "int": 21924,
+    "bool01": 1
+   },
+   "rows": 21925,
+   "nulls": 0,
+   "null_pct": 0.0,
+   "distinct": 3531,
+   "max_str_len": 5,
+   "samples": [
+    "21926",
+    "451",
+    "2336",
+    "3457",
+    "1192",
+    "3015"
+   ],
+   "min": 1.0,
+   "max": 21926.0,
+   "mean": 18680.1857,
+   "numeric_pct": 100.0
+  },
+  {
+   "name": "Rank:partygames",
+   "dtype": "int",
+   "kind_counts": {
+    "int": 21924,
+    "bool01": 1
+   },
+   "rows": 21925,
+   "nulls": 0,
+   "null_pct": 0.0,
+   "distinct": 641,
+   "max_str_len": 5,
+   "samples": [
+    "21926",
+    "50",
+    "502",
+    "578",
+    "356",
+    "416"
+   ],
+   "min": 1.0,
+   "max": 21926.0,
+   "mean": 21295.3522,
+   "numeric_pct": 100.0
+  },
+  {
+   "name": "Rank:childrensgames",
+   "dtype": "int",
+   "kind_counts": {
+    "int": 21924,
+    "bool01": 1
+   },
+   "rows": 21925,
+   "nulls": 0,
+   "null_pct": 0.0,
+   "distinct": 882,
+   "max_str_len": 5,
+   "samples": [
+    "21926",
+    "68",
+    "19",
+    "211",
+    "75",
+    "146"
+   ],
+   "min": 1.0,
+   "max": 21926.0,
+   "mean": 21062.6803,
+   "numeric_pct": 100.0
+  },
+  {
+   "name": "Cat:Thematic",
+   "dtype": "bool01",
+   "kind_counts": {
+    "bool01": 21925
+   },
+   "rows": 21925,
+   "nulls": 0,
+   "null_pct": 0.0,
+   "distinct": 2,
+   "max_str_len": 1,
+   "samples": [
+    "0",
+    "1"
+   ],
+   "min": 0.0,
+   "max": 1.0,
+   "mean": 0.0558,
+   "numeric_pct": 100.0,
+   "top_values": [
+    {
+     "v": "0",
+     "n": 20701
+    },
+    {
+     "v": "1",
+     "n": 1224
+    }
+   ]
+  },
+  {
+   "name": "Cat:Strategy",
+   "dtype": "bool01",
+   "kind_counts": {
+    "bool01": 21925
+   },
+   "rows": 21925,
+   "nulls": 0,
+   "null_pct": 0.0,
+   "distinct": 2,
+   "max_str_len": 1,
+   "samples": [
+    "1",
+    "0"
+   ],
+   "min": 0.0,
+   "max": 1.0,
+   "mean": 0.1058,
+   "numeric_pct": 100.0,
+   "top_values": [
+    {
+     "v": "0",
+     "n": 19606
+    },
+    {
+     "v": "1",
+     "n": 2319
+    }
+   ]
+  },
+  {
+   "name": "Cat:War",
+   "dtype": "bool01",
+   "kind_counts": {
+    "bool01": 21925
+   },
+   "rows": 21925,
+   "nulls": 0,
+   "null_pct": 0.0,
+   "distinct": 2,
+   "max_str_len": 1,
+   "samples": [
+    "0",
+    "1"
+   ],
+   "min": 0.0,
+   "max": 1.0,
+   "mean": 0.161,
+   "numeric_pct": 100.0,
+   "top_values": [
+    {
+     "v": "0",
+     "n": 18395
+    },
+    {
+     "v": "1",
+     "n": 3530
+    }
+   ]
+  },
+  {
+   "name": "Cat:Family",
+   "dtype": "bool01",
+   "kind_counts": {
+    "bool01": 21925
+   },
+   "rows": 21925,
+   "nulls": 0,
+   "null_pct": 0.0,
+   "distinct": 2,
+   "max_str_len": 1,
+   "samples": [
+    "0",
+    "1"
+   ],
+   "min": 0.0,
+   "max": 1.0,
+   "mean": 0.1056,
+   "numeric_pct": 100.0,
+   "top_values": [
+    {
+     "v": "0",
+     "n": 19609
+    },
+    {
+     "v": "1",
+     "n": 2316
+    }
+   ]
+  },
+  {
+   "name": "Cat:CGS",
+   "dtype": "bool01",
+   "kind_counts": {
+    "bool01": 21925
+   },
+   "rows": 21925,
+   "nulls": 0,
+   "null_pct": 0.0,
+   "distinct": 2,
+   "max_str_len": 1,
+   "samples": [
+    "0",
+    "1"
+   ],
+   "min": 0.0,
+   "max": 1.0,
+   "mean": 0.0138,
+   "numeric_pct": 100.0,
+   "top_values": [
+    {
+     "v": "0",
+     "n": 21622
+    },
+    {
+     "v": "1",
+     "n": 303
+    }
+   ]
+  },
+  {
+   "name": "Cat:Abstract",
+   "dtype": "bool01",
+   "kind_counts": {
+    "bool01": 21925
+   },
+   "rows": 21925,
+   "nulls": 0,
+   "null_pct": 0.0,
+   "distinct": 2,
+   "max_str_len": 1,
+   "samples": [
+    "0",
+    "1"
+   ],
+   "min": 0.0,
+   "max": 1.0,
+   "mean": 0.0509,
+   "numeric_pct": 100.0,
+   "top_values": [
+    {
+     "v": "0",
+     "n": 20810
+    },
+    {
+     "v": "1",
+     "n": 1115
+    }
+   ]
+  },
+  {
+   "name": "Cat:Party",
+   "dtype": "bool01",
+   "kind_counts": {
+    "bool01": 21925
+   },
+   "rows": 21925,
+   "nulls": 0,
+   "null_pct": 0.0,
+   "distinct": 2,
+   "max_str_len": 1,
+   "samples": [
+    "0",
+    "1"
+   ],
+   "min": 0.0,
+   "max": 1.0,
+   "mean": 0.0292,
+   "numeric_pct": 100.0,
+   "top_values": [
+    {
+     "v": "0",
+     "n": 21285
+    },
+    {
+     "v": "1",
+     "n": 640
+    }
+   ]
+  },
+  {
+   "name": "Cat:Childrens",
+   "dtype": "bool01",
+   "kind_counts": {
+    "bool01": 21925
+   },
+   "rows": 21925,
+   "nulls": 0,
+   "null_pct": 0.0,
+   "distinct": 2,
+   "max_str_len": 1,
+   "samples": [
+    "0",
+    "1"
+   ],
+   "min": 0.0,
+   "max": 1.0,
+   "mean": 0.0402,
+   "numeric_pct": 100.0,
+   "top_values": [
+    {
+     "v": "0",
+     "n": 21044
+    },
+    {
+     "v": "1",
+     "n": 881
+    }
+   ]
+  }
+ ],
+ "dataset": "bgg-threnjen"
+}

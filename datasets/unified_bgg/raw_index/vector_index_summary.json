@@ -1,0 +1,34 @@
+{
+  "generated_at": "2026-08-26T14:53:31",
+  "index_path": "final/rag_vector_index.sqlite",
+  "index_bytes": 536813568,
+  "schema_version": "sqlite-tfidf-sparse-v0.1",
+  "source_files": [
+    "samples/rag/game_overview.jsonl",
+    "samples/rag/mechanic_profile.jsonl",
+    "samples/rag/review_digest.jsonl",
+    "samples/rag/rulebook_text.jsonl"
+  ],
+  "parsed_docs": 128420,
+  "indexed_docs": 128420,
+  "doc_types": {
+    "game_overview": 100274,
+    "mechanic_profile": 195,
+    "review_digest": 27851,
+    "rulebook_text": 100
+  },
+  "rows_by_file": {
+    "samples/rag/game_overview.jsonl": 100274,
+    "samples/rag/mechanic_profile.jsonl": 195,
+    "samples/rag/review_digest.jsonl": 27851,
+    "samples/rag/rulebook_text.jsonl": 100
+  },
+  "vocab_seen": 232116,
+  "selected_vocab": 106396,
+  "min_df": 2,
+  "max_df_ratio": 0.35,
+  "max_vocab": 200000,
+  "max_terms_per_doc": 90,
+  "postings": 8453279,
+  "elapsed_seconds": 52.101
+}

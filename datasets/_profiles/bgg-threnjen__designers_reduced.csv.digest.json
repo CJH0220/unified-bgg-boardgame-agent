@@ -1,0 +1,46 @@
+{
+ "file": "bgg-threnjen/raw/designers_reduced.csv",
+ "rows": 21925,
+ "key_column": "BGGId",
+ "key_column_index": 1592,
+ "total_columns": 1594,
+ "label_columns": 1593,
+ "labels_per_row": {
+  "min": 0,
+  "max": 16,
+  "mean": 1.22,
+  "median": 1,
+  "zero_label_rows": 599
+ },
+ "non_binary_values_distinct": 0,
+ "non_binary_values_sample": {},
+ "top_labels": [
+  {
+   "label": "Low-Exp Designer",
+   "n": 8355,
+   "pct": 38.11
+  },
+  {
+   "label": "(Uncredited)",
+   "n": 1452,
+   "pct": 6.62
+  },
+  {
+   "label": "Reiner Knizia",
+   "n": 338,
+   "pct": 1.54
+  },
+  {
+   "label": "Joseph Miranda",
+   "n": 141,
+   "pct": 0.64
+  },
+  {
+   "label": "Wolfgang Kramer",
+   "n": 136,
+   "pct": 0.62
+  }
+ ],
+ "singleton_labels": 0,
+ "empty_labels": 0
+}

@@ -1,0 +1,92 @@
+{
+ "file": "user_ratings.csv",
+ "path": "bgg-threnjen/raw/user_ratings.csv",
+ "bytes": 399396389,
+ "encoding": "utf-8-sig",
+ "delimiter": ",",
+ "n_columns": 3,
+ "rows_scanned": 18942215,
+ "scan_truncated": false,
+ "ragged_rows": 0,
+ "scan_seconds": 74.6,
+ "columns": [
+  {
+   "name": "BGGId",
+   "dtype": "int",
+   "kind_counts": {
+    "int": 18936863,
+    "bool01": 5352
+   },
+   "rows": 18942215,
+   "nulls": 0,
+   "null_pct": 0.0,
+   "distinct": 21925,
+   "max_str_len": 6,
+   "samples": [
+    "213788",
+    "193500",
+    "1252",
+    "126025",
+    "126021",
+    "158968"
+   ],
+   "min": 1.0,
+   "max": 349161.0,
+   "mean": 109953.2506,
+   "numeric_pct": 100.0
+  },
+  {
+   "name": "Rating",
+   "dtype": "float",
+   "kind_counts": {
+    "float": 18942215
+   },
+   "rows": 18942215,
+   "nulls": 0,
+   "null_pct": 0.0,
+   "distinct": 10647,
+   "max_str_len": 7,
+   "samples": [
+    "8.0",
+    "7.8",
+    "7.6",
+    "7.50667",
+    "7.5",
+    "7.2"
+   ],
+   "min": 0.0001,
+   "max": 10.0,
+   "mean": 7.131,
+   "numeric_pct": 100.0
+  },
+  {
+   "name": "Username",
+   "dtype": "str",
+   "kind_counts": {
+    "str": 18935757,
+    "int": 6204,
+    "bool": 115,
+    "float": 76,
+    "null": 63
+   },
+   "rows": 18942215,
+   "nulls": 63,
+   "null_pct": 0.0,
+   "distinct": ">100000",
+   "max_str_len": 20,
+   "samples": [
+    "Tonydorrf",
+    "tachyon14k",
+    "Ungotter",
+    "brainlocki3",
+    "PPMP",
+    "Dychotimer"
+   ],
+   "min": 1.0,
+   "max": 6e+38,
+   "mean": 7.036747458952301e+36,
+   "numeric_pct": 0.03
+  }
+ ],
+ "dataset": "bgg-threnjen"
+}

@@ -1,0 +1,657 @@
+{
+ "file": "bgg_dataset.csv",
+ "path": "bgg-andrewmvd/raw/bgg_dataset.csv",
+ "bytes": 2444831,
+ "encoding": "utf-8-sig",
+ "delimiter": ";",
+ "n_columns": 14,
+ "rows_scanned": 20343,
+ "scan_truncated": false,
+ "ragged_rows": 0,
+ "scan_seconds": 0.3,
+ "columns": [
+  {
+   "name": "ID",
+   "dtype": "int",
+   "kind_counts": {
+    "int": 20326,
+    "null": 16,
+    "bool01": 1
+   },
+   "rows": 20343,
+   "nulls": 16,
+   "null_pct": 0.079,
+   "distinct": 20327,
+   "max_str_len": 6,
+   "samples": [
+    "174430",
+    "161936",
+    "224517",
+    "167791",
+    "233078",
+    "291457"
+   ],
+   "min": 1.0,
+   "max": 331787.0,
+   "mean": 108216.2451,
+   "numeric_pct": 100.0
+  },
+  {
+   "name": "Name",
+   "dtype": "str",
+   "kind_counts": {
+    "str": 20303,
+    "int": 38,
+    "null": 2
+   },
+   "rows": 20343,
+   "nulls": 2,
+   "null_pct": 0.01,
+   "distinct": 19975,
+   "max_str_len": 107,
+   "samples": [
+    "Gloomhaven",
+    "Pandemic Legacy: Season 1",
+    "Brass: Birmingham",
+    "Terraforming Mars",
+    "Twilight Imperium: Fourth Edition",
+    "Gloomhaven: Jaws of the Lion"
+   ],
+   "min": 7.0,
+   "max": 5211.0,
+   "mean": 1502.0789,
+   "numeric_pct": 0.19
+  },
+  {
+   "name": "Year Published",
+   "dtype": "int",
+   "kind_counts": {
+    "int": 20157,
+    "bool01": 185,
+    "null": 1
+   },
+   "rows": 20343,
+   "nulls": 1,
+   "null_pct": 0.005,
+   "distinct": 188,
+   "max_str_len": 5,
+   "samples": [
+    "2017",
+    "2015",
+    "2018",
+    "2016",
+    "2020",
+    "2005"
+   ],
+   "min": -3500.0,
+   "max": 2022.0,
+   "mean": 1984.2499,
+   "numeric_pct": 100.0,
+   "top_values": [
+    {
+     "v": "2017",
+     "n": 1274
+    },
+    {
+     "v": "2016",
+     "n": 1257
+    },
+    {
+     "v": "2018",
+     "n": 1254
+    },
+    {
+     "v": "2019",
+     "n": 1134
+    },
+    {
+     "v": "2015",
+     "n": 1131
+    },
+    {
+     "v": "2014",
+     "n": 987
+    },
+    {
+     "v": "2013",
+     "n": 850
+    },
+    {
+     "v": "2012",
+     "n": 815
+    },
+    {
+     "v": "2011",
+     "n": 735
+    },
+    {
+     "v": "2010",
+     "n": 692
+    },
+    {
+     "v": "2020",
+     "n": 684
+    },
+    {
+     "v": "2009",
+     "n": 631
+    }
+   ]
+  },
+  {
+   "name": "Min Players",
+   "dtype": "int",
+   "kind_counts": {
+    "int": 17027,
+    "bool01": 3316
+   },
+   "rows": 20343,
+   "nulls": 0,
+   "null_pct": 0.0,
+   "distinct": 11,
+   "max_str_len": 2,
+   "samples": [
+    "1",
+    "2",
+    "3",
+    "5",
+    "4",
+    "6"
+   ],
+   "min": 0.0,
+   "max": 10.0,
+   "mean": 2.0197,
+   "numeric_pct": 100.0,
+   "top_values": [
+    {
+     "v": "2",
+     "n": 14076
+    },
+    {
+     "v": "1",
+     "n": 3270
+    },
+    {
+     "v": "3",
+     "n": 2365
+    },
+    {
+     "v": "4",
+     "n": 474
+    },
+    {
+     "v": "5",
+     "n": 57
+    },
+    {
+     "v": "0",
+     "n": 46
+    },
+    {
+     "v": "6",
+     "n": 21
+    },
+    {
+     "v": "8",
+     "n": 17
+    },
+    {
+     "v": "7",
+     "n": 14
+    },
+    {
+     "v": "10",
+     "n": 2
+    },
+    {
+     "v": "9",
+     "n": 1
+    }
+   ]
+  },
+  {
+   "name": "Max Players",
+   "dtype": "int",
+   "kind_counts": {
+    "int": 19869,
+    "bool01": 474
+   },
+   "rows": 20343,
+   "nulls": 0,
+   "null_pct": 0.0,
+   "distinct": 54,
+   "max_str_len": 3,
+   "samples": [
+    "4",
+    "5",
+    "6",
+    "2",
+    "7",
+    "8"
+   ],
+   "min": 0.0,
+   "max": 999.0,
+   "mean": 5.6722,
+   "numeric_pct": 100.0,
+   "top_values": [
+    {
+     "v": "4",
+     "n": 6376
+    },
+    {
+     "v": "2",
+     "n": 4074
+    },
+    {
+     "v": "6",
+     "n": 3723
+    },
+    {
+     "v": "5",
+     "n": 2814
+    },
+    {
+     "v": "8",
+     "n": 1154
+    },
+    {
+     "v": "10",
+     "n": 380
+    },
+    {
+     "v": "1",
+     "n": 313
+    },
+    {
+     "v": "7",
+     "n": 309
+    },
+    {
+     "v": "3",
+     "n": 272
+    },
+    {
+     "v": "12",
+     "n": 236
+    },
+    {
+     "v": "0",
+     "n": 161
+    },
+    {
+     "v": "99",
+     "n": 136
+    }
+   ]
+  },
+  {
+   "name": "Play Time",
+   "dtype": "int",
+   "kind_counts": {
+    "int": 19764,
+    "bool01": 579
+   },
+   "rows": 20343,
+   "nulls": 0,
+   "null_pct": 0.0,
+   "distinct": 116,
+   "max_str_len": 5,
+   "samples": [
+    "120",
+    "60",
+    "480",
+    "150",
+    "240",
+    "180"
+   ],
+   "min": 0.0,
+   "max": 60000.0,
+   "mean": 91.2945,
+   "numeric_pct": 100.0,
+   "top_values": [
+    {
+     "v": "30",
+     "n": 3638
+    },
+    {
+     "v": "60",
+     "n": 3003
+    },
+    {
+     "v": "45",
+     "n": 2107
+    },
+    {
+     "v": "20",
+     "n": 2026
+    },
+    {
+     "v": "120",
+     "n": 1618
+    },
+    {
+     "v": "90",
+     "n": 1591
+    },
+    {
+     "v": "15",
+     "n": 1230
+    },
+    {
+     "v": "180",
+     "n": 805
+    },
+    {
+     "v": "10",
+     "n": 758
+    },
+    {
+     "v": "0",
+     "n": 556
+    },
+    {
+     "v": "240",
+     "n": 528
+    },
+    {
+     "v": "40",
+     "n": 506
+    }
+   ]
+  },
+  {
+   "name": "Min Age",
+   "dtype": "int",
+   "kind_counts": {
+    "int": 19090,
+    "bool01": 1253
+   },
+   "rows": 20343,
+   "nulls": 0,
+   "null_pct": 0.0,
+   "distinct": 21,
+   "max_str_len": 2,
+   "samples": [
+    "14",
+    "13",
+    "12",
+    "10",
+    "17",
+    "15"
+   ],
+   "min": 0.0,
+   "max": 25.0,
+   "mean": 9.6015,
+   "numeric_pct": 100.0,
+   "top_values": [
+    {
+     "v": "12",
+     "n": 4704
+    },
+    {
+     "v": "8",
+     "n": 4065
+    },
+    {
+     "v": "10",
+     "n": 3870
+    },
+    {
+     "v": "14",
+     "n": 1780
+    },
+    {
+     "v": "0",
+     "n": 1251
+    },
+    {
+     "v": "13",
+     "n": 1133
+    },
+    {
+     "v": "6",
+     "n": 917
+    },
+    {
+     "v": "7",
+     "n": 809
+    },
+    {
+     "v": "5",
+     "n": 436
+    },
+    {
+     "v": "9",
+     "n": 326
+    },
+    {
+     "v": "4",
+     "n": 268
+    },
+    {
+     "v": "18",
+     "n": 171
+    }
+   ]
+  },
+  {
+   "name": "Users Rated",
+   "dtype": "int",
+   "kind_counts": {
+    "int": 20343
+   },
+   "rows": 20343,
+   "nulls": 0,
+   "null_pct": 0.0,
+   "distinct": 2973,
+   "max_str_len": 6,
+   "samples": [
+    "42055",
+    "41643",
+    "19217",
+    "64864",
+    "13468",
+    "8392"
+   ],
+   "min": 30.0,
+   "max": 102214.0,
+   "mean": 840.9714,
+   "numeric_pct": 100.0
+  },
+  {
+   "name": "Rating Average",
+   "dtype": "str",
+   "kind_counts": {
+    "str": 20318,
+    "int": 25
+   },
+   "rows": 20343,
+   "nulls": 0,
+   "null_pct": 0.0,
+   "distinct": 627,
+   "max_str_len": 4,
+   "samples": [
+    "8,79",
+    "8,61",
+    "8,66",
+    "8,43",
+    "8,70",
+    "8,87"
+   ],
+   "min": 3.0,
+   "max": 8.0,
+   "mean": 6.08,
+   "numeric_pct": 0.12
+  },
+  {
+   "name": "BGG Rank",
+   "dtype": "int",
+   "kind_counts": {
+    "int": 20342,
+    "bool01": 1
+   },
+   "rows": 20343,
+   "nulls": 0,
+   "null_pct": 0.0,
+   "distinct": 20343,
+   "max_str_len": 5,
+   "samples": [
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6"
+   ],
+   "min": 1.0,
+   "max": 20344.0,
+   "mean": 10172.8904,
+   "numeric_pct": 100.0
+  },
+  {
+   "name": "Complexity Average",
+   "dtype": "str",
+   "kind_counts": {
+    "str": 15489,
+    "bool01": 2729,
+    "int": 2125
+   },
+   "rows": 20343,
+   "nulls": 0,
+   "null_pct": 0.0,
+   "distinct": 383,
+   "max_str_len": 4,
+   "samples": [
+    "3,86",
+    "2,84",
+    "3,91",
+    "3,24",
+    "4,22",
+    "3,55"
+   ],
+   "min": 0.0,
+   "max": 5.0,
+   "mean": 1.4813,
+   "numeric_pct": 23.86
+  },
+  {
+   "name": "Owned Users",
+   "dtype": "int",
+   "kind_counts": {
+    "int": 20319,
+    "null": 23,
+    "bool01": 1
+   },
+   "rows": 20343,
+   "nulls": 23,
+   "null_pct": 0.113,
+   "distinct": 3997,
+   "max_str_len": 6,
+   "samples": [
+    "68323",
+    "65294",
+    "28785",
+    "87099",
+    "16831",
+    "21609"
+   ],
+   "min": 0.0,
+   "max": 155312.0,
+   "mean": 1408.4576,
+   "numeric_pct": 100.0
+  },
+  {
+   "name": "Mechanics",
+   "dtype": "str",
+   "kind_counts": {
+    "str": 18745,
+    "null": 1598
+   },
+   "rows": 20343,
+   "nulls": 1598,
+   "null_pct": 7.855,
+   "distinct": 7381,
+   "max_str_len": 406,
+   "samples": [
+    "Action Queue, Action Retrieval, Campaign / Battle Card Driven, Card Play Conflict Resolution, Communication Limits, Coop",
+    "Action Points, Cooperative Game, Hand Management, Legacy Game, Point to Point Movement, Set Collection, Trading, Variabl",
+    "Hand Management, Income, Loans, Market, Network and Route Building, Score-and-Reset Game, Tech Trees / Tech Tracks, Turn",
+    "Card Drafting, Drafting, End Game Bonuses, Hand Management, Hexagon Grid, Income, Set Collection, Solo / Solitaire Game,",
+    "Action Drafting, Area Majority / Influence, Area-Impulse, Dice Rolling, Follow, Grid Movement, Hexagon Grid, Modular Boa",
+    "Action Queue, Campaign / Battle Card Driven, Communication Limits, Cooperative Game, Critical Hits and Failures, Deck Co"
+   ]
+  },
+  {
+   "name": "Domains",
+   "dtype": "str",
+   "kind_counts": {
+    "str": 10184,
+    "null": 10159
+   },
+   "rows": 20343,
+   "nulls": 10159,
+   "null_pct": 49.939,
+   "distinct": 39,
+   "max_str_len": 46,
+   "samples": [
+    "Strategy Games, Thematic Games",
+    "Strategy Games",
+    "Thematic Games",
+    "Strategy Games, Wargames",
+    "Thematic Games, Wargames",
+    "Family Games, Strategy Games"
+   ],
+   "top_values": [
+    {
+     "v": "Wargames",
+     "n": 3029
+    },
+    {
+     "v": "Strategy Games",
+     "n": 1455
+    },
+    {
+     "v": "Family Games",
+     "n": 1340
+    },
+    {
+     "v": "Abstract Games",
+     "n": 869
+    },
+    {
+     "v": "Children's Games",
+     "n": 708
+    },
+    {
+     "v": "Thematic Games",
+     "n": 647
+    },
+    {
+     "v": "Party Games",
+     "n": 409
+    },
+    {
+     "v": "Family Games, Strategy Games",
+     "n": 354
+    },
+    {
+     "v": "Customizable Games",
+     "n": 235
+    },
+    {
+     "v": "Strategy Games, Thematic Games",
+     "n": 217
+    },
+    {
+     "v": "Thematic Games, Wargames",
+     "n": 139
+    },
+    {
+     "v": "Family Games, Party Games",
+     "n": 139
+    }
+   ]
+  }
+ ],
+ "dataset": "bgg-andrewmvd"
+}

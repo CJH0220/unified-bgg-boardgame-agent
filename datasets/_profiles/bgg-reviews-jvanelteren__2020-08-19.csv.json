@@ -1,0 +1,304 @@
+{
+ "file": "2020-08-19.csv",
+ "path": "bgg-reviews-jvanelteren/raw/2020-08-19.csv",
+ "bytes": 3686149,
+ "encoding": "utf-8-sig",
+ "delimiter": ",",
+ "n_columns": 10,
+ "rows_scanned": 19330,
+ "scan_truncated": false,
+ "ragged_rows": 0,
+ "scan_seconds": 0.3,
+ "columns": [
+  {
+   "name": "col_0",
+   "dtype": "int",
+   "kind_counts": {
+    "int": 19328,
+    "bool01": 2
+   },
+   "rows": 19330,
+   "nulls": 0,
+   "null_pct": 0.0,
+   "distinct": 19330,
+   "max_str_len": 5,
+   "samples": [
+    "90",
+    "172",
+    "380",
+    "49",
+    "87",
+    "164"
+   ],
+   "min": 0.0,
+   "max": 19329.0,
+   "mean": 9664.5,
+   "numeric_pct": 100.0
+  },
+  {
+   "name": "ID",
+   "dtype": "int",
+   "kind_counts": {
+    "int": 19329,
+    "bool01": 1
+   },
+   "rows": 19330,
+   "nulls": 0,
+   "null_pct": 0.0,
+   "distinct": 19330,
+   "max_str_len": 6,
+   "samples": [
+    "30549",
+    "822",
+    "13",
+    "68448",
+    "36218",
+    "9209"
+   ],
+   "min": 1.0,
+   "max": 314040.0,
+   "mean": 101516.3031,
+   "numeric_pct": 100.0
+  },
+  {
+   "name": "Name",
+   "dtype": "str",
+   "kind_counts": {
+    "str": 19283,
+    "int": 45,
+    "null": 2
+   },
+   "rows": 19330,
+   "nulls": 2,
+   "null_pct": 0.01,
+   "distinct": 18983,
+   "max_str_len": 107,
+   "samples": [
+    "Pandemic",
+    "Carcassonne",
+    "Catan",
+    "7 Wonders",
+    "Dominion",
+    "Ticket to Ride"
+   ],
+   "min": 7.0,
+   "max": 5211.0,
+   "mean": 1557.5556,
+   "numeric_pct": 0.23
+  },
+  {
+   "name": "Year",
+   "dtype": "int",
+   "kind_counts": {
+    "int": 19160,
+    "bool01": 170
+   },
+   "rows": 19330,
+   "nulls": 0,
+   "null_pct": 0.0,
+   "distinct": 186,
+   "max_str_len": 4,
+   "samples": [
+    "2008",
+    "2000",
+    "1995",
+    "2010",
+    "2004",
+    "2015"
+   ],
+   "min": 0.0,
+   "max": 3500.0,
+   "mean": 1986.1278,
+   "numeric_pct": 100.0,
+   "top_values": [
+    {
+     "v": "2017",
+     "n": 1229
+    },
+    {
+     "v": "2016",
+     "n": 1218
+    },
+    {
+     "v": "2018",
+     "n": 1191
+    },
+    {
+     "v": "2015",
+     "n": 1110
+    },
+    {
+     "v": "2019",
+     "n": 1019
+    },
+    {
+     "v": "2014",
+     "n": 966
+    },
+    {
+     "v": "2013",
+     "n": 831
+    },
+    {
+     "v": "2012",
+     "n": 800
+    },
+    {
+     "v": "2011",
+     "n": 721
+    },
+    {
+     "v": "2010",
+     "n": 681
+    },
+    {
+     "v": "2009",
+     "n": 620
+    },
+    {
+     "v": "2008",
+     "n": 574
+    }
+   ]
+  },
+  {
+   "name": "Rank",
+   "dtype": "int",
+   "kind_counts": {
+    "int": 19329,
+    "bool01": 1
+   },
+   "rows": 19330,
+   "nulls": 0,
+   "null_pct": 0.0,
+   "distinct": 19330,
+   "max_str_len": 5,
+   "samples": [
+    "91",
+    "173",
+    "381",
+    "50",
+    "88",
+    "165"
+   ],
+   "min": 1.0,
+   "max": 19330.0,
+   "mean": 9665.5,
+   "numeric_pct": 100.0
+  },
+  {
+   "name": "Average",
+   "dtype": "float",
+   "kind_counts": {
+    "float": 19330
+   },
+   "rows": 19330,
+   "nulls": 0,
+   "null_pct": 0.0,
+   "distinct": 621,
+   "max_str_len": 4,
+   "samples": [
+    "7.62",
+    "7.42",
+    "7.16",
+    "7.76",
+    "7.63",
+    "7.43"
+   ],
+   "min": 1.05,
+   "max": 9.69,
+   "mean": 6.3923,
+   "numeric_pct": 100.0
+  },
+  {
+   "name": "Bayes average",
+   "dtype": "float",
+   "kind_counts": {
+    "float": 19330
+   },
+   "rows": 19330,
+   "nulls": 0,
+   "null_pct": 0.0,
+   "distinct": 1872,
+   "max_str_len": 18,
+   "samples": [
+    "7.518",
+    "7.311",
+    "7.001",
+    "7.662000000000001",
+    "7.521",
+    "7.3229999999999995"
+   ],
+   "min": 3.536,
+   "max": 8.568999999999999,
+   "mean": 5.6889,
+   "numeric_pct": 100.0
+  },
+  {
+   "name": "Users rated",
+   "dtype": "int",
+   "kind_counts": {
+    "int": 19330
+   },
+   "rows": 19330,
+   "nulls": 0,
+   "null_pct": 0.0,
+   "distinct": 2874,
+   "max_str_len": 5,
+   "samples": [
+    "96186",
+    "96181",
+    "96171",
+    "79830",
+    "74933",
+    "67957"
+   ],
+   "min": 30.0,
+   "max": 96186.0,
+   "mean": 818.132,
+   "numeric_pct": 100.0
+  },
+  {
+   "name": "URL",
+   "dtype": "str",
+   "kind_counts": {
+    "str": 19330
+   },
+   "rows": 19330,
+   "nulls": 0,
+   "null_pct": 0.0,
+   "distinct": 19330,
+   "max_str_len": 68,
+   "samples": [
+    "/boardgame/30549/pandemic",
+    "/boardgame/822/carcassonne",
+    "/boardgame/13/catan",
+    "/boardgame/68448/7-wonders",
+    "/boardgame/36218/dominion",
+    "/boardgame/9209/ticket-ride"
+   ]
+  },
+  {
+   "name": "Thumbnail",
+   "dtype": "str",
+   "kind_counts": {
+    "str": 19317,
+    "null": 13
+   },
+   "rows": 19330,
+   "nulls": 13,
+   "null_pct": 0.067,
+   "distinct": 19312,
+   "max_str_len": 95,
+   "samples": [
+    "https://cf.geekdo-images.com/micro/img/0m3-oqBk1jhb7YouAZoZmoJA7Wc=/fit-in/64x64/pic1534148.jpg",
+    "https://cf.geekdo-images.com/micro/img/z0tTaije1bRO7y8zKLxgx2IObNo=/fit-in/64x64/pic2337577.jpg",
+    "https://cf.geekdo-images.com/micro/img/e0y6BognJpgqdsgn2mXP5AARp98=/fit-in/64x64/pic2419375.jpg",
+    "https://cf.geekdo-images.com/micro/img/h-Ejv31TdN2d4KNPXwopv6w8pF0=/fit-in/64x64/pic860217.jpg",
+    "https://cf.geekdo-images.com/micro/img/VYp2s2f8X0Jmxrlzk02J9Ml2Jkw=/fit-in/64x64/pic394356.jpg",
+    "https://cf.geekdo-images.com/micro/img/2ytp3TGuItH2Zzur8-NAiWtt6Xw=/fit-in/64x64/pic38668.jpg"
+   ]
+  }
+ ],
+ "dataset": "bgg-reviews-jvanelteren"
+}

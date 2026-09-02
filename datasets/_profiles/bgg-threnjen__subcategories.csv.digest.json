@@ -1,0 +1,46 @@
+{
+ "file": "bgg-threnjen/raw/subcategories.csv",
+ "rows": 21925,
+ "key_column": "BGGId",
+ "key_column_index": 0,
+ "total_columns": 11,
+ "label_columns": 10,
+ "labels_per_row": {
+  "min": 0,
+  "max": 4,
+  "mean": 0.539,
+  "median": 0,
+  "zero_label_rows": 11892
+ },
+ "non_binary_values_distinct": 0,
+ "non_binary_values_sample": {},
+ "top_labels": [
+  {
+   "label": "Card Game",
+   "n": 6480,
+   "pct": 29.56
+  },
+  {
+   "label": "Miniatures",
+   "n": 1089,
+   "pct": 4.97
+  },
+  {
+   "label": "Exploration",
+   "n": 897,
+   "pct": 4.09
+  },
+  {
+   "label": "Puzzle",
+   "n": 676,
+   "pct": 3.08
+  },
+  {
+   "label": "Print & Play",
+   "n": 604,
+   "pct": 2.75
+  }
+ ],
+ "singleton_labels": 0,
+ "empty_labels": 0
+}

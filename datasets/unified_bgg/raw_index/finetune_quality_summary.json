@@ -1,0 +1,67 @@
+{
+  "generated_at": "2026-08-26T09:37:15",
+  "files": [
+    "samples/finetune/game_qa.preview.jsonl",
+    "samples/finetune/mechanic_explanation.preview.jsonl",
+    "samples/finetune/review_summary.preview.jsonl",
+    "samples/finetune/recommendation_reasoning.preview.jsonl",
+    "samples/finetune/extraction.preview.jsonl"
+  ],
+  "parsed_rows": 250,
+  "unique_sample_ids": 250,
+  "rows_by_file": {
+    "samples/finetune/game_qa.preview.jsonl": 50,
+    "samples/finetune/mechanic_explanation.preview.jsonl": 50,
+    "samples/finetune/review_summary.preview.jsonl": 50,
+    "samples/finetune/recommendation_reasoning.preview.jsonl": 50,
+    "samples/finetune/extraction.preview.jsonl": 50
+  },
+  "task_counts": {
+    "game_qa": 50,
+    "mechanic_explanation": 50,
+    "review_summary": 50,
+    "recommendation_reasoning": 50,
+    "extraction": 50
+  },
+  "structural_flags": {},
+  "source_flags": {},
+  "input_text_flags": {},
+  "output_text_flags": {},
+  "sample_quality_flags": {
+    "template_generated": 250
+  },
+  "output_length_summary": {
+    "extraction": {
+      "min": 423,
+      "median": 666,
+      "p95": 743,
+      "max": 752
+    },
+    "game_qa": {
+      "min": 190,
+      "median": 365,
+      "p95": 424,
+      "max": 446
+    },
+    "mechanic_explanation": {
+      "min": 403,
+      "median": 495,
+      "p95": 574,
+      "max": 620
+    },
+    "recommendation_reasoning": {
+      "min": 278,
+      "median": 302,
+      "p95": 334,
+      "max": 341
+    },
+    "review_summary": {
+      "min": 223,
+      "median": 239,
+      "p95": 254,
+      "max": 264
+    }
+  },
+  "finding_rows_written": 0,
+  "rag_doc_ids_loaded": 128320
+}

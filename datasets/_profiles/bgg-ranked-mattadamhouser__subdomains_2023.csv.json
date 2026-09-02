@@ -1,0 +1,280 @@
+{
+ "file": "subdomains_2023.csv",
+ "path": "bgg-ranked-mattadamhouser/raw/subdomains_2023.csv",
+ "bytes": 47103,
+ "encoding": "utf-8-sig",
+ "delimiter": ",",
+ "n_columns": 9,
+ "rows_scanned": 2000,
+ "scan_truncated": false,
+ "ragged_rows": 0,
+ "scan_seconds": 0.0,
+ "columns": [
+  {
+   "name": "game_id",
+   "dtype": "int",
+   "kind_counts": {
+    "int": 1999,
+    "bool01": 1
+   },
+   "rows": 2000,
+   "nulls": 0,
+   "null_pct": 0.0,
+   "distinct": 2000,
+   "max_str_len": 6,
+   "samples": [
+    "224517",
+    "161936",
+    "174430",
+    "342942",
+    "233078",
+    "167791"
+   ],
+   "min": 1.0,
+   "max": 374173.0,
+   "mean": 161915.5255,
+   "numeric_pct": 100.0
+  },
+  {
+   "name": "Abstract Games",
+   "dtype": "bool01",
+   "kind_counts": {
+    "bool01": 2000
+   },
+   "rows": 2000,
+   "nulls": 0,
+   "null_pct": 0.0,
+   "distinct": 2,
+   "max_str_len": 1,
+   "samples": [
+    "0",
+    "1"
+   ],
+   "min": 0.0,
+   "max": 1.0,
+   "mean": 0.0565,
+   "numeric_pct": 100.0,
+   "top_values": [
+    {
+     "v": "0",
+     "n": 1887
+    },
+    {
+     "v": "1",
+     "n": 113
+    }
+   ]
+  },
+  {
+   "name": "Children's Games",
+   "dtype": "bool01",
+   "kind_counts": {
+    "bool01": 2000
+   },
+   "rows": 2000,
+   "nulls": 0,
+   "null_pct": 0.0,
+   "distinct": 2,
+   "max_str_len": 1,
+   "samples": [
+    "0",
+    "1"
+   ],
+   "min": 0.0,
+   "max": 1.0,
+   "mean": 0.02,
+   "numeric_pct": 100.0,
+   "top_values": [
+    {
+     "v": "0",
+     "n": 1960
+    },
+    {
+     "v": "1",
+     "n": 40
+    }
+   ]
+  },
+  {
+   "name": "Customizable Games",
+   "dtype": "bool01",
+   "kind_counts": {
+    "bool01": 2000
+   },
+   "rows": 2000,
+   "nulls": 0,
+   "null_pct": 0.0,
+   "distinct": 2,
+   "max_str_len": 1,
+   "samples": [
+    "0",
+    "1"
+   ],
+   "min": 0.0,
+   "max": 1.0,
+   "mean": 0.035,
+   "numeric_pct": 100.0,
+   "top_values": [
+    {
+     "v": "0",
+     "n": 1930
+    },
+    {
+     "v": "1",
+     "n": 70
+    }
+   ]
+  },
+  {
+   "name": "Family Games",
+   "dtype": "bool01",
+   "kind_counts": {
+    "bool01": 2000
+   },
+   "rows": 2000,
+   "nulls": 0,
+   "null_pct": 0.0,
+   "distinct": 2,
+   "max_str_len": 1,
+   "samples": [
+    "0",
+    "1"
+   ],
+   "min": 0.0,
+   "max": 1.0,
+   "mean": 0.3,
+   "numeric_pct": 100.0,
+   "top_values": [
+    {
+     "v": "0",
+     "n": 1400
+    },
+    {
+     "v": "1",
+     "n": 600
+    }
+   ]
+  },
+  {
+   "name": "Party Games",
+   "dtype": "bool01",
+   "kind_counts": {
+    "bool01": 2000
+   },
+   "rows": 2000,
+   "nulls": 0,
+   "null_pct": 0.0,
+   "distinct": 2,
+   "max_str_len": 1,
+   "samples": [
+    "0",
+    "1"
+   ],
+   "min": 0.0,
+   "max": 1.0,
+   "mean": 0.0625,
+   "numeric_pct": 100.0,
+   "top_values": [
+    {
+     "v": "0",
+     "n": 1875
+    },
+    {
+     "v": "1",
+     "n": 125
+    }
+   ]
+  },
+  {
+   "name": "Strategy Games",
+   "dtype": "bool01",
+   "kind_counts": {
+    "bool01": 2000
+   },
+   "rows": 2000,
+   "nulls": 0,
+   "null_pct": 0.0,
+   "distinct": 2,
+   "max_str_len": 1,
+   "samples": [
+    "1",
+    "0"
+   ],
+   "min": 0.0,
+   "max": 1.0,
+   "mean": 0.502,
+   "numeric_pct": 100.0,
+   "top_values": [
+    {
+     "v": "1",
+     "n": 1004
+    },
+    {
+     "v": "0",
+     "n": 996
+    }
+   ]
+  },
+  {
+   "name": "Thematic Games",
+   "dtype": "bool01",
+   "kind_counts": {
+    "bool01": 2000
+   },
+   "rows": 2000,
+   "nulls": 0,
+   "null_pct": 0.0,
+   "distinct": 2,
+   "max_str_len": 1,
+   "samples": [
+    "0",
+    "1"
+   ],
+   "min": 0.0,
+   "max": 1.0,
+   "mean": 0.2005,
+   "numeric_pct": 100.0,
+   "top_values": [
+    {
+     "v": "0",
+     "n": 1599
+    },
+    {
+     "v": "1",
+     "n": 401
+    }
+   ]
+  },
+  {
+   "name": "Wargames",
+   "dtype": "bool01",
+   "kind_counts": {
+    "bool01": 2000
+   },
+   "rows": 2000,
+   "nulls": 0,
+   "null_pct": 0.0,
+   "distinct": 2,
+   "max_str_len": 1,
+   "samples": [
+    "0",
+    "1"
+   ],
+   "min": 0.0,
+   "max": 1.0,
+   "mean": 0.088,
+   "numeric_pct": 100.0,
+   "top_values": [
+    {
+     "v": "0",
+     "n": 1824
+    },
+    {
+     "v": "1",
+     "n": 176
+    }
+   ]
+  }
+ ],
+ "dataset": "bgg-ranked-mattadamhouser"
+}

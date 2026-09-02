@@ -1,0 +1,27 @@
+{
+  "generated_at": "2026-08-26T14:53:31",
+  "index_path": "final/rag_index.sqlite",
+  "index_bytes": 1131544576,
+  "schema_version": "sqlite-fts5-v0.1",
+  "source_files": [
+    "samples/rag/game_overview.jsonl",
+    "samples/rag/mechanic_profile.jsonl",
+    "samples/rag/review_digest.jsonl",
+    "samples/rag/rulebook_text.jsonl"
+  ],
+  "parsed_docs": 128420,
+  "duplicate_errors": 0,
+  "doc_types": {
+    "game_overview": 100274,
+    "mechanic_profile": 195,
+    "review_digest": 27851,
+    "rulebook_text": 100
+  },
+  "rows_by_file": {
+    "samples/rag/game_overview.jsonl": 100274,
+    "samples/rag/mechanic_profile.jsonl": 195,
+    "samples/rag/review_digest.jsonl": 27851,
+    "samples/rag/rulebook_text.jsonl": 100
+  },
+  "elapsed_seconds": 17.963
+}

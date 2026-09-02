@@ -1,0 +1,264 @@
+{
+ "file": "bgg-26m-reviews.csv",
+ "path": "bgg-reviews-jvanelteren/raw/bgg-26m-reviews.csv",
+ "bytes": 2179204668,
+ "encoding": "utf-8-sig",
+ "delimiter": ",",
+ "n_columns": 6,
+ "rows_scanned": 3000000,
+ "scan_truncated": true,
+ "ragged_rows": 0,
+ "scan_seconds": 21.8,
+ "columns": [
+  {
+   "name": "col_0",
+   "dtype": "int",
+   "kind_counts": {
+    "int": 2999998,
+    "bool01": 2
+   },
+   "rows": 3000000,
+   "nulls": 0,
+   "null_pct": 0.0,
+   "distinct": ">100000",
+   "max_str_len": 7,
+   "samples": [
+    "0",
+    "1",
+    "2",
+    "3",
+    "4",
+    "5"
+   ],
+   "min": 0.0,
+   "max": 2999999.0,
+   "mean": 1499999.5,
+   "numeric_pct": 100.0
+  },
+  {
+   "name": "user",
+   "dtype": "str",
+   "kind_counts": {
+    "str": 2999052,
+    "int": 929,
+    "float": 9,
+    "null": 7,
+    "bool": 3
+   },
+   "rows": 3000000,
+   "nulls": 7,
+   "null_pct": 0.0,
+   "distinct": ">100000",
+   "max_str_len": 20,
+   "samples": [
+    "sidehacker",
+    "Varthlokkur",
+    "dougthonus",
+    "cypar7",
+    "ssmooth",
+    "Halloran"
+   ],
+   "min": 1.0,
+   "max": 6e+38,
+   "mean": 5.738575982996812e+36,
+   "numeric_pct": 0.03
+  },
+  {
+   "name": "rating",
+   "dtype": "float",
+   "kind_counts": {
+    "float": 3000000
+   },
+   "rows": 3000000,
+   "nulls": 0,
+   "null_pct": 0.0,
+   "distinct": 3337,
+   "max_str_len": 7,
+   "samples": [
+    "10.0",
+    "9.94",
+    "9.9",
+    "9.88",
+    "9.85",
+    "9.81"
+   ],
+   "min": 1.0,
+   "max": 10.0,
+   "mean": 7.7025,
+   "numeric_pct": 100.0
+  },
+  {
+   "name": "comment",
+   "dtype": "str",
+   "kind_counts": {
+    "null": 2623985,
+    "str": 372834,
+    "int": 2550,
+    "float": 439,
+    "bool01": 192
+   },
+   "rows": 3000000,
+   "nulls": 2623985,
+   "null_pct": 87.466,
+   "distinct": ">100000",
+   "max_str_len": 23257,
+   "samples": [
+    "Currently, this sits on my list as my favorite game.",
+    "I know it says how many plays, but many, many were uncounted. I liked this version the best. ",
+    "i will never tire of this game.. Awesome",
+    "This is probably the best game I ever played.  Requires more than just thinking; develops negotiation skills",
+    "Fantastic game. Got me hooked on games all over again.",
+    "One of the best games ever created. Period. New board setups allow practically infinite replayability. Expansions are wo"
+   ],
+   "min": -11.0,
+   "max": 7.777777777777778e+34,
+   "mean": 2.4450731775472425e+31,
+   "numeric_pct": 0.85
+  },
+  {
+   "name": "ID",
+   "dtype": "int",
+   "kind_counts": {
+    "int": 3000000
+   },
+   "rows": 3000000,
+   "nulls": 0,
+   "null_pct": 0.0,
+   "distinct": 60,
+   "max_str_len": 6,
+   "samples": [
+    "13",
+    "822",
+    "30549",
+    "68448",
+    "167791",
+    "266192"
+   ],
+   "min": 11.0,
+   "max": 342942.0,
+   "mean": 102377.2764,
+   "numeric_pct": 100.0,
+   "top_values": [
+    {
+     "v": "13",
+     "n": 131303
+    },
+    {
+     "v": "822",
+     "n": 131205
+    },
+    {
+     "v": "30549",
+     "n": 128952
+    },
+    {
+     "v": "68448",
+     "n": 107527
+    },
+    {
+     "v": "167791",
+     "n": 103950
+    },
+    {
+     "v": "266192",
+     "n": 100041
+    },
+    {
+     "v": "173346",
+     "n": 99667
+    },
+    {
+     "v": "230802",
+     "n": 96517
+    },
+    {
+     "v": "178900",
+     "n": 96081
+    },
+    {
+     "v": "36218",
+     "n": 92964
+    },
+    {
+     "v": "9209",
+     "n": 92840
+    },
+    {
+     "v": "169786",
+     "n": 86940
+    }
+   ]
+  },
+  {
+   "name": "name",
+   "dtype": "str",
+   "kind_counts": {
+    "str": 3000000
+   },
+   "rows": 3000000,
+   "nulls": 0,
+   "null_pct": 0.0,
+   "distinct": 60,
+   "max_str_len": 48,
+   "samples": [
+    "CATAN",
+    "Carcassonne",
+    "Pandemic",
+    "7 Wonders",
+    "Terraforming Mars",
+    "Wingspan"
+   ],
+   "top_values": [
+    {
+     "v": "CATAN",
+     "n": 131303
+    },
+    {
+     "v": "Carcassonne",
+     "n": 131205
+    },
+    {
+     "v": "Pandemic",
+     "n": 128952
+    },
+    {
+     "v": "7 Wonders",
+     "n": 107527
+    },
+    {
+     "v": "Terraforming Mars",
+     "n": 103950
+    },
+    {
+     "v": "Wingspan",
+     "n": 100041
+    },
+    {
+     "v": "7 Wonders Duel",
+     "n": 99667
+    },
+    {
+     "v": "Azul",
+     "n": 96517
+    },
+    {
+     "v": "Codenames",
+     "n": 96081
+    },
+    {
+     "v": "Dominion",
+     "n": 92964
+    },
+    {
+     "v": "Ticket to Ride",
+     "n": 92840
+    },
+    {
+     "v": "Scythe",
+     "n": 86940
+    }
+   ]
+  }
+ ],
+ "dataset": "bgg-reviews-jvanelteren"
+}

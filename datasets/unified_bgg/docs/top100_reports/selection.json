@@ -1,0 +1,902 @@
+[
+  {
+    "rank": 1,
+    "bgg_id": 224517,
+    "title": "Brass: Birmingham",
+    "bayes_average": 8.40871,
+    "average_rating": 8.58506,
+    "users_rated": 49988,
+    "file": "001_224517_brass-birmingham.md"
+  },
+  {
+    "rank": 2,
+    "bgg_id": 161936,
+    "title": "Pandemic Legacy: Season 1",
+    "bayes_average": 8.37151,
+    "average_rating": 8.52051,
+    "users_rated": 54900,
+    "file": "002_161936_pandemic-legacy-season-1.md"
+  },
+  {
+    "rank": 3,
+    "bgg_id": 342942,
+    "title": "Ark Nova",
+    "bayes_average": 8.34169,
+    "average_rating": 8.53445,
+    "users_rated": 49425,
+    "file": "003_342942_ark-nova.md"
+  },
+  {
+    "rank": 4,
+    "bgg_id": 174430,
+    "title": "Gloomhaven",
+    "bayes_average": 8.33542,
+    "average_rating": 8.57287,
+    "users_rated": 64028,
+    "file": "004_174430_gloomhaven.md"
+  },
+  {
+    "rank": 5,
+    "bgg_id": 233078,
+    "title": "Twilight Imperium: Fourth Edition",
+    "bayes_average": 8.23305,
+    "average_rating": 8.58467,
+    "users_rated": 25302,
+    "file": "005_233078_twilight-imperium-fourth-edition.md"
+  },
+  {
+    "rank": 6,
+    "bgg_id": 316554,
+    "title": "Dune: Imperium",
+    "bayes_average": 8.22695,
+    "average_rating": 8.42702,
+    "users_rated": 50217,
+    "file": "006_316554_dune-imperium.md"
+  },
+  {
+    "rank": 7,
+    "bgg_id": 167791,
+    "title": "Terraforming Mars",
+    "bayes_average": 8.2045,
+    "average_rating": 8.35266,
+    "users_rated": 103923,
+    "file": "007_167791_terraforming-mars.md"
+  },
+  {
+    "rank": 8,
+    "bgg_id": 115746,
+    "title": "War of the Ring: Second Edition",
+    "bayes_average": 8.19246,
+    "average_rating": 8.54719,
+    "users_rated": 22640,
+    "file": "008_115746_war-of-the-ring-second-edition.md"
+  },
+  {
+    "rank": 9,
+    "bgg_id": 187645,
+    "title": "Star Wars: Rebellion",
+    "bayes_average": 8.16976,
+    "average_rating": 8.41821,
+    "users_rated": 33792,
+    "file": "009_187645_star-wars-rebellion.md"
+  },
+  {
+    "rank": 10,
+    "bgg_id": 162886,
+    "title": "Spirit Island",
+    "bayes_average": 8.1449,
+    "average_rating": 8.34228,
+    "users_rated": 55427,
+    "file": "010_162886_spirit-island.md"
+  },
+  {
+    "rank": 11,
+    "bgg_id": 291457,
+    "title": "Gloomhaven: Jaws of the Lion",
+    "bayes_average": 8.14059,
+    "average_rating": 8.40839,
+    "users_rated": 36683,
+    "file": "011_291457_gloomhaven-jaws-of-the-lion.md"
+  },
+  {
+    "rank": 12,
+    "bgg_id": 220308,
+    "title": "Gaia Project",
+    "bayes_average": 8.10492,
+    "average_rating": 8.36671,
+    "users_rated": 28596,
+    "file": "012_220308_gaia-project.md"
+  },
+  {
+    "rank": 13,
+    "bgg_id": 12333,
+    "title": "Twilight Struggle",
+    "bayes_average": 8.06005,
+    "average_rating": 8.24093,
+    "users_rated": 49897,
+    "file": "013_12333_twilight-struggle.md"
+  },
+  {
+    "rank": 14,
+    "bgg_id": 182028,
+    "title": "Through the Ages: A New Story of Civilization",
+    "bayes_average": 8.04292,
+    "average_rating": 8.27194,
+    "users_rated": 32739,
+    "file": "014_182028_through-the-ages-a-new-story-of-civilization.md"
+  },
+  {
+    "rank": 15,
+    "bgg_id": 66690,
+    "title": "Dominion: Prosperity",
+    "bayes_average": 8.04066,
+    "average_rating": 8.30579,
+    "users_rated": 10252,
+    "file": "015_66690_dominion-prosperity.md"
+  },
+  {
+    "rank": 16,
+    "bgg_id": 84876,
+    "title": "The Castles of Burgundy",
+    "bayes_average": 8.0194,
+    "average_rating": 8.14651,
+    "users_rated": 64560,
+    "file": "016_84876_the-castles-of-burgundy.md"
+  },
+  {
+    "rank": 17,
+    "bgg_id": 397598,
+    "title": "Dune: Imperium – Uprising",
+    "bayes_average": 8.01601,
+    "average_rating": 8.7249,
+    "users_rated": 9420,
+    "file": "017_397598_dune-imperium-uprising.md"
+  },
+  {
+    "rank": 18,
+    "bgg_id": 22821,
+    "title": "Twilight Imperium (Third Edition): Shattered Empire",
+    "bayes_average": 8.00967,
+    "average_rating": 8.63793,
+    "users_rated": 4168,
+    "file": "018_22821_twilight-imperium-third-edition-shattered-empire.md"
+  },
+  {
+    "rank": 19,
+    "bgg_id": 193738,
+    "title": "Great Western Trail",
+    "bayes_average": 8.00941,
+    "average_rating": 8.17768,
+    "users_rated": 41915,
+    "file": "019_193738_great-western-trail.md"
+  },
+  {
+    "rank": 20,
+    "bgg_id": 246900,
+    "title": "Eclipse: Second Dawn for the Galaxy",
+    "bayes_average": 7.97556,
+    "average_rating": 8.43303,
+    "users_rated": 14896,
+    "file": "020_246900_eclipse-second-dawn-for-the-galaxy.md"
+  },
+  {
+    "rank": 21,
+    "bgg_id": 169786,
+    "title": "Scythe",
+    "bayes_average": 7.97542,
+    "average_rating": 8.12802,
+    "users_rated": 86921,
+    "file": "021_169786_scythe.md"
+  },
+  {
+    "rank": 22,
+    "bgg_id": 173346,
+    "title": "7 Wonders Duel",
+    "bayes_average": 7.96579,
+    "average_rating": 8.09021,
+    "users_rated": 99655,
+    "file": "022_173346_7-wonders-duel.md"
+  },
+  {
+    "rank": 23,
+    "bgg_id": 28720,
+    "title": "Brass: Lancashire",
+    "bayes_average": 7.96172,
+    "average_rating": 8.19557,
+    "users_rated": 25707,
+    "file": "023_28720_brass-lancashire.md"
+  },
+  {
+    "rank": 24,
+    "bgg_id": 167355,
+    "title": "Nemesis",
+    "bayes_average": 7.95203,
+    "average_rating": 8.25975,
+    "users_rated": 32836,
+    "file": "024_167355_nemesis.md"
+  },
+  {
+    "rank": 25,
+    "bgg_id": 266507,
+    "title": "Clank! Legacy: Acquisitions Incorporated",
+    "bayes_average": 7.95015,
+    "average_rating": 8.52964,
+    "users_rated": 10031,
+    "file": "025_266507_clank-legacy-acquisitions-incorporated.md"
+  },
+  {
+    "rank": 26,
+    "bgg_id": 177736,
+    "title": "A Feast for Odin",
+    "bayes_average": 7.9424,
+    "average_rating": 8.16695,
+    "users_rated": 30092,
+    "file": "026_177736_a-feast-for-odin.md"
+  },
+  {
+    "rank": 27,
+    "bgg_id": 124361,
+    "title": "Concordia",
+    "bayes_average": 7.93592,
+    "average_rating": 8.08766,
+    "users_rated": 41986,
+    "file": "027_124361_concordia.md"
+  },
+  {
+    "rank": 28,
+    "bgg_id": 295770,
+    "title": "Frosthaven",
+    "bayes_average": 7.93061,
+    "average_rating": 8.80166,
+    "users_rated": 7983,
+    "file": "028_295770_frosthaven.md"
+  },
+  {
+    "rank": 29,
+    "bgg_id": 341169,
+    "title": "Great Western Trail: Second Edition",
+    "bayes_average": 7.90579,
+    "average_rating": 8.30841,
+    "users_rated": 14502,
+    "file": "029_341169_great-western-trail-second-edition.md"
+  },
+  {
+    "rank": 30,
+    "bgg_id": 205637,
+    "title": "Arkham Horror: The Card Game",
+    "bayes_average": 7.89912,
+    "average_rating": 8.12965,
+    "users_rated": 44782,
+    "file": "030_205637_arkham-horror-the-card-game.md"
+  },
+  {
+    "rank": 31,
+    "bgg_id": 312484,
+    "title": "Lost Ruins of Arnak",
+    "bayes_average": 7.89584,
+    "average_rating": 8.06965,
+    "users_rated": 48134,
+    "file": "031_312484_lost-ruins-of-arnak.md"
+  },
+  {
+    "rank": 32,
+    "bgg_id": 134342,
+    "title": "Lords of Waterdeep: Scoundrels of Skullport",
+    "bayes_average": 7.89308,
+    "average_rating": 8.23407,
+    "users_rated": 7229,
+    "file": "032_134342_lords-of-waterdeep-scoundrels-of-skullport.md"
+  },
+  {
+    "rank": 33,
+    "bgg_id": 40849,
+    "title": "Pandemic: On the Brink",
+    "bayes_average": 7.89161,
+    "average_rating": 8.10901,
+    "users_rated": 12398,
+    "file": "033_40849_pandemic-on-the-brink.md"
+  },
+  {
+    "rank": 34,
+    "bgg_id": 130704,
+    "title": "Mage Knight Board Game: The Lost Legion",
+    "bayes_average": 7.88934,
+    "average_rating": 8.83925,
+    "users_rated": 2549,
+    "file": "034_130704_mage-knight-board-game-the-lost-legion.md"
+  },
+  {
+    "rank": 35,
+    "bgg_id": 237182,
+    "title": "Root",
+    "bayes_average": 7.88501,
+    "average_rating": 8.07215,
+    "users_rated": 55543,
+    "file": "035_237182_root.md"
+  },
+  {
+    "rank": 36,
+    "bgg_id": 120677,
+    "title": "Terra Mystica",
+    "bayes_average": 7.88224,
+    "average_rating": 8.04943,
+    "users_rated": 49044,
+    "file": "036_120677_terra-mystica.md"
+  },
+  {
+    "rank": 37,
+    "bgg_id": 266192,
+    "title": "Wingspan",
+    "bayes_average": 7.87908,
+    "average_rating": 8.03062,
+    "users_rated": 100009,
+    "file": "037_266192_wingspan.md"
+  },
+  {
+    "rank": 38,
+    "bgg_id": 192135,
+    "title": "Too Many Bones",
+    "bayes_average": 7.87352,
+    "average_rating": 8.33112,
+    "users_rated": 14681,
+    "file": "038_192135_too-many-bones.md"
+  },
+  {
+    "rank": 39,
+    "bgg_id": 164928,
+    "title": "Orléans",
+    "bayes_average": 7.86632,
+    "average_rating": 8.05429,
+    "users_rated": 32805,
+    "file": "039_164928_orl-ans.md"
+  },
+  {
+    "rank": 40,
+    "bgg_id": 51811,
+    "title": "Dominion: Seaside",
+    "bayes_average": 7.85183,
+    "average_rating": 8.07639,
+    "users_rated": 11603,
+    "file": "040_51811_dominion-seaside.md"
+  },
+  {
+    "rank": 41,
+    "bgg_id": 96848,
+    "title": "Mage Knight Board Game",
+    "bayes_average": 7.84959,
+    "average_rating": 8.08235,
+    "users_rated": 33903,
+    "file": "041_96848_mage-knight-board-game.md"
+  },
+  {
+    "rank": 42,
+    "bgg_id": 251247,
+    "title": "Barrage",
+    "bayes_average": 7.84734,
+    "average_rating": 8.15727,
+    "users_rated": 19063,
+    "file": "042_251247_barrage.md"
+  },
+  {
+    "rank": 43,
+    "bgg_id": 324856,
+    "title": "The Crew: Mission Deep Sea",
+    "bayes_average": 7.83485,
+    "average_rating": 8.11434,
+    "users_rated": 20253,
+    "file": "043_324856_the-crew-mission-deep-sea.md"
+  },
+  {
+    "rank": 44,
+    "bgg_id": 199792,
+    "title": "Everdell",
+    "bayes_average": 7.83251,
+    "average_rating": 8.01062,
+    "users_rated": 59428,
+    "file": "044_199792_everdell.md"
+  },
+  {
+    "rank": 45,
+    "bgg_id": 183394,
+    "title": "Viticulture Essential Edition",
+    "bayes_average": 7.82771,
+    "average_rating": 7.97932,
+    "users_rated": 50924,
+    "file": "045_183394_viticulture-essential-edition.md"
+  },
+  {
+    "rank": 46,
+    "bgg_id": 373106,
+    "title": "Sky Team",
+    "bayes_average": 7.80899,
+    "average_rating": 8.18795,
+    "users_rated": 16190,
+    "file": "046_373106_sky-team.md"
+  },
+  {
+    "rank": 47,
+    "bgg_id": 366013,
+    "title": "Heat: Pedal to the Metal",
+    "bayes_average": 7.798,
+    "average_rating": 8.03553,
+    "users_rated": 29260,
+    "file": "047_366013_heat-pedal-to-the-metal.md"
+  },
+  {
+    "rank": 48,
+    "bgg_id": 34499,
+    "title": "Race for the Galaxy: The Gathering Storm",
+    "bayes_average": 7.79616,
+    "average_rating": 8.0763,
+    "users_rated": 8240,
+    "file": "048_34499_race-for-the-galaxy-the-gathering-storm.md"
+  },
+  {
+    "rank": 49,
+    "bgg_id": 285774,
+    "title": "Marvel Champions: The Card Game",
+    "bayes_average": 7.79361,
+    "average_rating": 8.1159,
+    "users_rated": 25064,
+    "file": "049_285774_marvel-champions-the-card-game.md"
+  },
+  {
+    "rank": 50,
+    "bgg_id": 175914,
+    "title": "Food Chain Magnate",
+    "bayes_average": 7.79207,
+    "average_rating": 8.05245,
+    "users_rated": 21209,
+    "file": "050_175914_food-chain-magnate.md"
+  },
+  {
+    "rank": 51,
+    "bgg_id": 256960,
+    "title": "Pax Pamir: Second Edition",
+    "bayes_average": 7.78422,
+    "average_rating": 8.16282,
+    "users_rated": 15311,
+    "file": "051_256960_pax-pamir-second-edition.md"
+  },
+  {
+    "rank": 52,
+    "bgg_id": 521,
+    "title": "Crokinole",
+    "bayes_average": 7.7797,
+    "average_rating": 8.04608,
+    "users_rated": 19053,
+    "file": "052_521_crokinole.md"
+  },
+  {
+    "rank": 53,
+    "bgg_id": 247763,
+    "title": "Underwater Cities",
+    "bayes_average": 7.7795,
+    "average_rating": 8.05093,
+    "users_rated": 20731,
+    "file": "053_247763_underwater-cities.md"
+  },
+  {
+    "rank": 54,
+    "bgg_id": 284378,
+    "title": "Kanban EV",
+    "bayes_average": 7.77658,
+    "average_rating": 8.40663,
+    "users_rated": 8456,
+    "file": "054_284378_kanban-ev.md"
+  },
+  {
+    "rank": 55,
+    "bgg_id": 3076,
+    "title": "Puerto Rico",
+    "bayes_average": 7.76775,
+    "average_rating": 7.90851,
+    "users_rated": 72142,
+    "file": "055_3076_puerto-rico.md"
+  },
+  {
+    "rank": 56,
+    "bgg_id": 248562,
+    "title": "Mage Knight: Ultimate Edition",
+    "bayes_average": 7.76184,
+    "average_rating": 8.94937,
+    "users_rated": 3877,
+    "file": "056_248562_mage-knight-ultimate-edition.md"
+  },
+  {
+    "rank": 57,
+    "bgg_id": 295947,
+    "title": "Cascadia",
+    "bayes_average": 7.75727,
+    "average_rating": 7.9282,
+    "users_rated": 44582,
+    "file": "057_295947_cascadia.md"
+  },
+  {
+    "rank": 58,
+    "bgg_id": 102794,
+    "title": "Caverna: The Cave Farmers",
+    "bayes_average": 7.75256,
+    "average_rating": 7.93759,
+    "users_rated": 35636,
+    "file": "058_102794_caverna-the-cave-farmers.md"
+  },
+  {
+    "rank": 59,
+    "bgg_id": 314040,
+    "title": "Pandemic Legacy: Season 0",
+    "bayes_average": 7.75114,
+    "average_rating": 8.38072,
+    "users_rated": 8321,
+    "file": "059_314040_pandemic-legacy-season-0.md"
+  },
+  {
+    "rank": 60,
+    "bgg_id": 185343,
+    "title": "Anachrony",
+    "bayes_average": 7.74845,
+    "average_rating": 8.06169,
+    "users_rated": 19635,
+    "file": "060_185343_anachrony.md"
+  },
+  {
+    "rank": 61,
+    "bgg_id": 184267,
+    "title": "On Mars",
+    "bayes_average": 7.74721,
+    "average_rating": 8.17473,
+    "users_rated": 13442,
+    "file": "061_184267_on-mars.md"
+  },
+  {
+    "rank": 62,
+    "bgg_id": 125898,
+    "title": "Eclipse: Rise of the Ancients",
+    "bayes_average": 7.74624,
+    "average_rating": 8.50483,
+    "users_rated": 3005,
+    "file": "062_125898_eclipse-rise-of-the-ancients.md"
+  },
+  {
+    "rank": 63,
+    "bgg_id": 321608,
+    "title": "Hegemony: Lead Your Class to Victory",
+    "bayes_average": 7.74489,
+    "average_rating": 8.43687,
+    "users_rated": 8417,
+    "file": "063_321608_hegemony-lead-your-class-to-victory.md"
+  },
+  {
+    "rank": 64,
+    "bgg_id": 170216,
+    "title": "Blood Rage",
+    "bayes_average": 7.74434,
+    "average_rating": 7.91803,
+    "users_rated": 48756,
+    "file": "064_170216_blood-rage.md"
+  },
+  {
+    "rank": 65,
+    "bgg_id": 31260,
+    "title": "Agricola",
+    "bayes_average": 7.74044,
+    "average_rating": 7.8688,
+    "users_rated": 74068,
+    "file": "065_31260_agricola.md"
+  },
+  {
+    "rank": 66,
+    "bgg_id": 253344,
+    "title": "Cthulhu: Death May Die",
+    "bayes_average": 7.73744,
+    "average_rating": 8.18549,
+    "users_rated": 14081,
+    "file": "066_253344_cthulhu-death-may-die.md"
+  },
+  {
+    "rank": 67,
+    "bgg_id": 251661,
+    "title": "Oathsworn: Into the Deepwood",
+    "bayes_average": 7.73072,
+    "average_rating": 8.90711,
+    "users_rated": 5559,
+    "file": "067_251661_oathsworn-into-the-deepwood.md"
+  },
+  {
+    "rank": 68,
+    "bgg_id": 255984,
+    "title": "Sleeping Gods",
+    "bayes_average": 7.72673,
+    "average_rating": 8.1655,
+    "users_rated": 13457,
+    "file": "068_255984_sleeping-gods.md"
+  },
+  {
+    "rank": 69,
+    "bgg_id": 24439,
+    "title": "Ticket to Ride: USA 1910",
+    "bayes_average": 7.72371,
+    "average_rating": 8.01787,
+    "users_rated": 8034,
+    "file": "069_24439_ticket-to-ride-usa-1910.md"
+  },
+  {
+    "rank": 70,
+    "bgg_id": 161533,
+    "title": "Lisboa",
+    "bayes_average": 7.71579,
+    "average_rating": 8.18,
+    "users_rated": 11662,
+    "file": "070_161533_lisboa.md"
+  },
+  {
+    "rank": 71,
+    "bgg_id": 221107,
+    "title": "Pandemic Legacy: Season 2",
+    "bayes_average": 7.71271,
+    "average_rating": 8.02603,
+    "users_rated": 17382,
+    "file": "071_221107_pandemic-legacy-season-2.md"
+  },
+  {
+    "rank": 72,
+    "bgg_id": 231733,
+    "title": "Obsession",
+    "bayes_average": 7.71021,
+    "average_rating": 8.11768,
+    "users_rated": 14384,
+    "file": "072_231733_obsession.md"
+  },
+  {
+    "rank": 73,
+    "bgg_id": 205059,
+    "title": "Mansions of Madness: Second Edition",
+    "bayes_average": 7.70104,
+    "average_rating": 7.93459,
+    "users_rated": 37766,
+    "file": "073_205059_mansions-of-madness-second-edition.md"
+  },
+  {
+    "rank": 74,
+    "bgg_id": 182874,
+    "title": "Grand Austria Hotel",
+    "bayes_average": 7.69907,
+    "average_rating": 7.95165,
+    "users_rated": 22212,
+    "file": "074_182874_grand-austria-hotel.md"
+  },
+  {
+    "rank": 75,
+    "bgg_id": 126163,
+    "title": "Tzolk'in: The Mayan Calendar",
+    "bayes_average": 7.69393,
+    "average_rating": 7.85337,
+    "users_rated": 40386,
+    "file": "075_126163_tzolk-in-the-mayan-calendar.md"
+  },
+  {
+    "rank": 76,
+    "bgg_id": 2651,
+    "title": "Power Grid",
+    "bayes_average": 7.69227,
+    "average_rating": 7.80466,
+    "users_rated": 66812,
+    "file": "076_2651_power-grid.md"
+  },
+  {
+    "rank": 77,
+    "bgg_id": 271320,
+    "title": "The Castles of Burgundy",
+    "bayes_average": 7.68653,
+    "average_rating": 8.49373,
+    "users_rated": 4876,
+    "file": "077_271320_the-castles-of-burgundy.md"
+  },
+  {
+    "rank": 78,
+    "bgg_id": 383179,
+    "title": "Age of Innovation",
+    "bayes_average": 7.67876,
+    "average_rating": 8.59875,
+    "users_rated": 5652,
+    "file": "078_383179_age-of-innovation.md"
+  },
+  {
+    "rank": 79,
+    "bgg_id": 137762,
+    "title": "Legendary: Dark City",
+    "bayes_average": 7.6786,
+    "average_rating": 8.33602,
+    "users_rated": 3554,
+    "file": "079_137762_legendary-dark-city.md"
+  },
+  {
+    "rank": 80,
+    "bgg_id": 276025,
+    "title": "Maracaibo",
+    "bayes_average": 7.67798,
+    "average_rating": 7.98885,
+    "users_rated": 17209,
+    "file": "080_276025_maracaibo.md"
+  },
+  {
+    "rank": 81,
+    "bgg_id": 244521,
+    "title": "The Quacks of Quedlinburg",
+    "bayes_average": 7.67679,
+    "average_rating": 7.81402,
+    "users_rated": 53310,
+    "file": "081_244521_the-quacks-of-quedlinburg.md"
+  },
+  {
+    "rank": 82,
+    "bgg_id": 216132,
+    "title": "Clans of Caledonia",
+    "bayes_average": 7.67539,
+    "average_rating": 7.93828,
+    "users_rated": 21082,
+    "file": "082_216132_clans-of-caledonia.md"
+  },
+  {
+    "rank": 83,
+    "bgg_id": 35677,
+    "title": "Le Havre",
+    "bayes_average": 7.67332,
+    "average_rating": 7.84399,
+    "users_rated": 32410,
+    "file": "083_35677_le-havre.md"
+  },
+  {
+    "rank": 84,
+    "bgg_id": 125153,
+    "title": "The Gallerist",
+    "bayes_average": 7.67052,
+    "average_rating": 8.01707,
+    "users_rated": 15233,
+    "file": "084_125153_the-gallerist.md"
+  },
+  {
+    "rank": 85,
+    "bgg_id": 266810,
+    "title": "Paladins of the West Kingdom",
+    "bayes_average": 7.67004,
+    "average_rating": 7.96919,
+    "users_rated": 18733,
+    "file": "085_266810_paladins-of-the-west-kingdom.md"
+  },
+  {
+    "rank": 86,
+    "bgg_id": 43018,
+    "title": "Agricola: Farmers of the Moor",
+    "bayes_average": 7.66517,
+    "average_rating": 8.12116,
+    "users_rated": 4856,
+    "file": "086_43018_agricola-farmers-of-the-moor.md"
+  },
+  {
+    "rank": 87,
+    "bgg_id": 164153,
+    "title": "Star Wars: Imperial Assault",
+    "bayes_average": 7.66466,
+    "average_rating": 7.96011,
+    "users_rated": 25072,
+    "file": "087_164153_star-wars-imperial-assault.md"
+  },
+  {
+    "rank": 88,
+    "bgg_id": 124742,
+    "title": "Android: Netrunner",
+    "bayes_average": 7.65923,
+    "average_rating": 7.88778,
+    "users_rated": 30531,
+    "file": "088_124742_android-netrunner.md"
+  },
+  {
+    "rank": 89,
+    "bgg_id": 209010,
+    "title": "Mechs vs. Minions",
+    "bayes_average": 7.64961,
+    "average_rating": 7.96287,
+    "users_rated": 17782,
+    "file": "089_209010_mechs-vs-minions.md"
+  },
+  {
+    "rank": 90,
+    "bgg_id": 161317,
+    "title": "Terra Mystica: Fire & Ice",
+    "bayes_average": 7.6457,
+    "average_rating": 8.5549,
+    "users_rated": 2298,
+    "file": "090_161317_terra-mystica-fire-ice.md"
+  },
+  {
+    "rank": 91,
+    "bgg_id": 284083,
+    "title": "The Crew: The Quest for Planet Nine",
+    "bayes_average": 7.64485,
+    "average_rating": 7.7855,
+    "users_rated": 44126,
+    "file": "091_284083_the-crew-the-quest-for-planet-nine.md"
+  },
+  {
+    "rank": 92,
+    "bgg_id": 421006,
+    "title": "The Lord of the Rings: Duel for Middle-earth",
+    "bayes_average": 7.64037,
+    "average_rating": 8.44581,
+    "users_rated": 6771,
+    "file": "092_421006_the-lord-of-the-rings-duel-for-middle-earth.md"
+  },
+  {
+    "rank": 93,
+    "bgg_id": 55690,
+    "title": "Kingdom Death: Monster",
+    "bayes_average": 7.64031,
+    "average_rating": 8.48817,
+    "users_rated": 9902,
+    "file": "093_55690_kingdom-death-monster.md"
+  },
+  {
+    "rank": 94,
+    "bgg_id": 154842,
+    "title": "Eldritch Horror: Forsaken Lore",
+    "bayes_average": 7.63982,
+    "average_rating": 8.34033,
+    "users_rated": 3252,
+    "file": "094_154842_eldritch-horror-forsaken-lore.md"
+  },
+  {
+    "rank": 95,
+    "bgg_id": 200680,
+    "title": "Agricola (Revised Edition)",
+    "bayes_average": 7.63954,
+    "average_rating": 7.94974,
+    "users_rated": 18997,
+    "file": "095_200680_agricola-revised-edition.md"
+  },
+  {
+    "rank": 96,
+    "bgg_id": 95802,
+    "title": "Twilight Imperium (Third Edition): Shards of the Throne",
+    "bayes_average": 7.63932,
+    "average_rating": 8.70137,
+    "users_rated": 2038,
+    "file": "096_95802_twilight-imperium-third-edition-shards-of-the-throne.md"
+  },
+  {
+    "rank": 97,
+    "bgg_id": 108687,
+    "title": "Puerto Rico",
+    "bayes_average": 7.6331,
+    "average_rating": 8.43583,
+    "users_rated": 4730,
+    "file": "097_108687_puerto-rico.md"
+  },
+  {
+    "rank": 98,
+    "bgg_id": 365717,
+    "title": "Clank!: Catacombs",
+    "bayes_average": 7.62727,
+    "average_rating": 8.26324,
+    "users_rated": 8240,
+    "file": "098_365717_clank-catacombs.md"
+  },
+  {
+    "rank": 99,
+    "bgg_id": 28143,
+    "title": "Race for the Galaxy",
+    "bayes_average": 7.62667,
+    "average_rating": 7.74199,
+    "users_rated": 56665,
+    "file": "099_28143_race-for-the-galaxy.md"
+  },
+  {
+    "rank": 100,
+    "bgg_id": 230802,
+    "title": "Azul",
+    "bayes_average": 7.62655,
+    "average_rating": 7.73658,
+    "users_rated": 96502,
+    "file": "100_230802_azul.md"
+  }
+]

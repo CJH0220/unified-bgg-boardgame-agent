@@ -1,0 +1,92 @@
+[
+  {
+    "rank": 1,
+    "bgg_id": 12333,
+    "title": "Twilight Struggle",
+    "bayes_average": 8.06005,
+    "average_rating": 8.24093,
+    "users_rated": 49897,
+    "file": "001_12333_twilight-struggle.md"
+  },
+  {
+    "rank": 2,
+    "bgg_id": 224517,
+    "title": "Brass: Birmingham",
+    "bayes_average": 8.40871,
+    "average_rating": 8.58506,
+    "users_rated": 49988,
+    "file": "002_224517_brass-birmingham.md"
+  },
+  {
+    "rank": 3,
+    "bgg_id": 161936,
+    "title": "Pandemic Legacy: Season 1",
+    "bayes_average": 8.37151,
+    "average_rating": 8.52051,
+    "users_rated": 54900,
+    "file": "003_161936_pandemic-legacy-season-1.md"
+  },
+  {
+    "rank": 4,
+    "bgg_id": 373106,
+    "title": "Sky Team",
+    "bayes_average": 7.80899,
+    "average_rating": 8.18795,
+    "users_rated": 16190,
+    "file": "004_373106_sky-team.md"
+  },
+  {
+    "rank": 5,
+    "bgg_id": 174430,
+    "title": "Gloomhaven",
+    "bayes_average": 8.33542,
+    "average_rating": 8.57287,
+    "users_rated": 64028,
+    "file": "005_174430_gloomhaven.md"
+  },
+  {
+    "rank": 6,
+    "bgg_id": 173346,
+    "title": "7 Wonders Duel",
+    "bayes_average": 7.96579,
+    "average_rating": 8.09021,
+    "users_rated": 99655,
+    "file": "006_173346_7-wonders-duel.md"
+  },
+  {
+    "rank": 7,
+    "bgg_id": 115746,
+    "title": "War of the Ring: Second Edition",
+    "bayes_average": 8.19246,
+    "average_rating": 8.54719,
+    "users_rated": 22640,
+    "file": "007_115746_war-of-the-ring-second-edition.md"
+  },
+  {
+    "rank": 8,
+    "bgg_id": 342942,
+    "title": "Ark Nova",
+    "bayes_average": 8.34169,
+    "average_rating": 8.53445,
+    "users_rated": 49425,
+    "file": "008_342942_ark-nova.md"
+  },
+  {
+    "rank": 9,
+    "bgg_id": 316554,
+    "title": "Dune: Imperium",
+    "bayes_average": 8.22695,
+    "average_rating": 8.42702,
+    "users_rated": 50217,
+    "file": "009_316554_dune-imperium.md"
+  },
+  {
+    "rank": 10,
+    "bgg_id": 163412,
+    "title": "Patchwork",
+    "bayes_average": 7.4836,
+    "average_rating": 7.59083,
+    "users_rated": 68875,
+    "file": "010_163412_patchwork.md"
+  }
+]

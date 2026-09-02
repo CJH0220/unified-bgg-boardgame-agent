@@ -1,0 +1,586 @@
+{
+  "generated_at": "2026-08-25T15:19:44",
+  "datasets_root": "D:/OpenViking/research/datasets",
+  "dataset_count": 7,
+  "total_bytes": 3243201844,
+  "total_size": "3.02 GB",
+  "datasets": [
+    {
+      "dataset": "bgg-andrewmvd",
+      "meta": {
+        "snapshot": "2021-02",
+        "license": "CC BY 4.0",
+        "role": "Lightweight baseline and cross-check source"
+      },
+      "file_count": 3,
+      "bytes": 2449616,
+      "size": "2.34 MB",
+      "files": [
+        {
+          "path": "bgg-andrewmvd/DATASET.md",
+          "file": "DATASET.md",
+          "bytes": 4747,
+          "size": "4.64 KB",
+          "suffix": ".md"
+        },
+        {
+          "path": "bgg-andrewmvd/raw/.bundle-ok",
+          "file": ".bundle-ok",
+          "bytes": 38,
+          "size": "38 B",
+          "suffix": ""
+        },
+        {
+          "path": "bgg-andrewmvd/raw/bgg_dataset.csv",
+          "file": "bgg_dataset.csv",
+          "bytes": 2444831,
+          "size": "2.33 MB",
+          "suffix": ".csv",
+          "encoding": "utf-8-sig",
+          "delimiter": ";",
+          "n_columns": 14,
+          "rows_scanned": 20343,
+          "scan_truncated": false,
+          "ragged_rows": 0
+        }
+      ]
+    },
+    {
+      "dataset": "bgg-gabrio",
+      "meta": {
+        "snapshot": "2017-06",
+        "license": "Other",
+        "role": "Supplement for SQLite coverage, expansions, historical descriptions, and 2017 mechanisms"
+      },
+      "file_count": 3,
+      "bytes": 147065904,
+      "size": "140.25 MB",
+      "files": [
+        {
+          "path": "bgg-gabrio/DATASET.md",
+          "file": "DATASET.md",
+          "bytes": 9226,
+          "size": "9.01 KB",
+          "suffix": ".md"
+        },
+        {
+          "path": "bgg-gabrio/raw/.bundle-ok",
+          "file": ".bundle-ok",
+          "bytes": 38,
+          "size": "38 B",
+          "suffix": ""
+        },
+        {
+          "path": "bgg-gabrio/raw/database.sqlite",
+          "file": "database.sqlite",
+          "bytes": 147056640,
+          "size": "140.24 MB",
+          "suffix": ".sqlite",
+          "sqlite_tables": [
+            {
+              "name": "BoardGames",
+              "type": "table",
+              "rows": 90400,
+              "n_columns": 81,
+              "columns_preview": [
+                "row_names",
+                "game.id",
+                "game.type",
+                "details.description",
+                "details.image",
+                "details.maxplayers",
+                "details.maxplaytime",
+                "details.minage",
+                "details.minplayers",
+                "details.minplaytime",
+                "details.name",
+                "details.playingtime"
+              ]
+            },
+            {
+              "name": "bgg.ldaOut.top.documents",
+              "type": "table",
+              "rows": 288,
+              "n_columns": 4,
+              "columns_preview": [
+                "row_names",
+                "document",
+                "topic",
+                "gamma"
+              ]
+            },
+            {
+              "name": "bgg.ldaOut.top.terms",
+              "type": "table",
+              "rows": 250,
+              "n_columns": 4,
+              "columns_preview": [
+                "row_names",
+                "topic",
+                "term",
+                "beta"
+              ]
+            },
+            {
+              "name": "bgg.ldaOut.topics",
+              "type": "table",
+              "rows": 29229,
+              "n_columns": 2,
+              "columns_preview": [
+                "row_names",
+                "topics(bgg.ldaOut)"
+              ]
+            },
+            {
+              "name": "bgg.topics",
+              "type": "table",
+              "rows": 29313,
+              "n_columns": 74,
+              "columns_preview": [
+                "row_names",
+                "game.id",
+                "game.type",
+                "details.maxplayers",
+                "details.maxplaytime",
+                "details.minage",
+                "details.minplayers",
+                "details.minplaytime",
+                "details.name",
+                "details.playingtime",
+                "details.yearpublished",
+                "attributes.boardgameartist"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "dataset": "bgg-mrpantherson",
+      "meta": {
+        "snapshot": "2017-04 / 2018-01 / 2018-06",
+        "license": "CC0",
+        "role": "Specialized source for rating/ranking drift across homogeneous Top-5000 snapshots"
+      },
+      "file_count": 5,
+      "bytes": 4706780,
+      "size": "4.49 MB",
+      "files": [
+        {
+          "path": "bgg-mrpantherson/DATASET.md",
+          "file": "DATASET.md",
+          "bytes": 4912,
+          "size": "4.80 KB",
+          "suffix": ".md"
+        },
+        {
+          "path": "bgg-mrpantherson/raw/.bundle-ok",
+          "file": ".bundle-ok",
+          "bytes": 38,
+          "size": "38 B",
+          "suffix": ""
+        },
+        {
+          "path": "bgg-mrpantherson/raw/bgg_db_1806.csv",
+          "file": "bgg_db_1806.csv",
+          "bytes": 1706957,
+          "size": "1.63 MB",
+          "suffix": ".csv",
+          "encoding": "utf-8-sig",
+          "delimiter": ",",
+          "n_columns": 20,
+          "rows_scanned": 4999,
+          "scan_truncated": false,
+          "ragged_rows": 0
+        },
+        {
+          "path": "bgg-mrpantherson/raw/bgg_db_2017_04.csv",
+          "file": "bgg_db_2017_04.csv",
+          "bytes": 1490899,
+          "size": "1.42 MB",
+          "suffix": ".csv",
+          "encoding": "cp1252",
+          "delimiter": ",",
+          "n_columns": 20,
+          "rows_scanned": 4999,
+          "scan_truncated": false,
+          "ragged_rows": 0
+        },
+        {
+          "path": "bgg-mrpantherson/raw/bgg_db_2018_01.csv",
+          "file": "bgg_db_2018_01.csv",
+          "bytes": 1503974,
+          "size": "1.43 MB",
+          "suffix": ".csv",
+          "encoding": "cp1252",
+          "delimiter": ",",
+          "n_columns": 20,
+          "rows_scanned": 4999,
+          "scan_truncated": false,
+          "ragged_rows": 0
+        }
+      ]
+    },
+    {
+      "dataset": "bgg-ranked-mattadamhouser",
+      "meta": {
+        "snapshot": "2023-08",
+        "license": "CC0",
+        "role": "Supplement for Top-2000 ranked games, 2023 mechanisms, and reimplementations"
+      },
+      "file_count": 7,
+      "bytes": 1497762,
+      "size": "1.43 MB",
+      "files": [
+        {
+          "path": "bgg-ranked-mattadamhouser/DATASET.md",
+          "file": "DATASET.md",
+          "bytes": 6948,
+          "size": "6.79 KB",
+          "suffix": ".md"
+        },
+        {
+          "path": "bgg-ranked-mattadamhouser/raw/.bundle-ok",
+          "file": ".bundle-ok",
+          "bytes": 38,
+          "size": "38 B",
+          "suffix": ""
+        },
+        {
+          "path": "bgg-ranked-mattadamhouser/raw/basic_data_2023.csv",
+          "file": "basic_data_2023.csv",
+          "bytes": 304054,
+          "size": "296.93 KB",
+          "suffix": ".csv",
+          "encoding": "utf-8-sig",
+          "delimiter": ",",
+          "n_columns": 17,
+          "rows_scanned": 2000,
+          "scan_truncated": false,
+          "ragged_rows": 0
+        },
+        {
+          "path": "bgg-ranked-mattadamhouser/raw/mechanisms_2023.csv",
+          "file": "mechanisms_2023.csv",
+          "bytes": 770205,
+          "size": "752.15 KB",
+          "suffix": ".csv",
+          "encoding": "utf-8-sig",
+          "delimiter": ",",
+          "n_columns": 189,
+          "rows_scanned": 2000,
+          "scan_truncated": false,
+          "ragged_rows": 0
+        },
+        {
+          "path": "bgg-ranked-mattadamhouser/raw/reimplementations_2023.csv",
+          "file": "reimplementations_2023.csv",
+          "bytes": 12534,
+          "size": "12.24 KB",
+          "suffix": ".csv",
+          "encoding": "utf-8-sig",
+          "delimiter": ",",
+          "n_columns": 7,
+          "rows_scanned": 470,
+          "scan_truncated": false,
+          "ragged_rows": 0
+        },
+        {
+          "path": "bgg-ranked-mattadamhouser/raw/subdomains_2023.csv",
+          "file": "subdomains_2023.csv",
+          "bytes": 47103,
+          "size": "46.00 KB",
+          "suffix": ".csv",
+          "encoding": "utf-8-sig",
+          "delimiter": ",",
+          "n_columns": 9,
+          "rows_scanned": 2000,
+          "scan_truncated": false,
+          "ragged_rows": 0
+        },
+        {
+          "path": "bgg-ranked-mattadamhouser/raw/themes_2023.csv",
+          "file": "themes_2023.csv",
+          "bytes": 356880,
+          "size": "348.52 KB",
+          "suffix": ".csv",
+          "encoding": "utf-8-sig",
+          "delimiter": ",",
+          "n_columns": 85,
+          "rows_scanned": 2000,
+          "scan_truncated": false,
+          "ragged_rows": 0
+        }
+      ]
+    },
+    {
+      "dataset": "bgg-reviews-jvanelteren",
+      "meta": {
+        "snapshot": "2025-02 plus historical files 2020-08-19/2022-01-08",
+        "license": "Other",
+        "role": "Primary source for 2025 metadata, 26.2M ratings, and review text"
+      },
+      "file_count": 6,
+      "bytes": 2397485636,
+      "size": "2.23 GB",
+      "files": [
+        {
+          "path": "bgg-reviews-jvanelteren/DATASET.md",
+          "file": "DATASET.md",
+          "bytes": 9502,
+          "size": "9.28 KB",
+          "suffix": ".md"
+        },
+        {
+          "path": "bgg-reviews-jvanelteren/raw/2020-08-19.csv",
+          "file": "2020-08-19.csv",
+          "bytes": 3686149,
+          "size": "3.52 MB",
+          "suffix": ".csv",
+          "encoding": "utf-8-sig",
+          "delimiter": ",",
+          "n_columns": 10,
+          "rows_scanned": 19330,
+          "scan_truncated": false,
+          "ragged_rows": 0
+        },
+        {
+          "path": "bgg-reviews-jvanelteren/raw/2022-01-08.csv",
+          "file": "2022-01-08.csv",
+          "bytes": 5055241,
+          "size": "4.82 MB",
+          "suffix": ".csv",
+          "encoding": "utf-8-sig",
+          "delimiter": ",",
+          "n_columns": 10,
+          "rows_scanned": 21831,
+          "scan_truncated": false,
+          "ragged_rows": 0
+        },
+        {
+          "path": "bgg-reviews-jvanelteren/raw/bgg-26m-reviews.csv",
+          "file": "bgg-26m-reviews.csv",
+          "bytes": 2179204668,
+          "size": "2.03 GB",
+          "suffix": ".csv",
+          "encoding": "utf-8-sig",
+          "delimiter": ",",
+          "n_columns": 6,
+          "rows_scanned": 3000000,
+          "scan_truncated": true,
+          "ragged_rows": 0
+        },
+        {
+          "path": "bgg-reviews-jvanelteren/raw/games_detailed_info.csv",
+          "file": "games_detailed_info.csv",
+          "bytes": 99466534,
+          "size": "94.86 MB",
+          "suffix": ".csv",
+          "encoding": "utf-8-sig",
+          "delimiter": ",",
+          "n_columns": 56,
+          "rows_scanned": 21631,
+          "scan_truncated": false,
+          "ragged_rows": 0
+        },
+        {
+          "path": "bgg-reviews-jvanelteren/raw/games_detailed_info2025.csv",
+          "file": "games_detailed_info2025.csv",
+          "bytes": 110063542,
+          "size": "104.96 MB",
+          "suffix": ".csv",
+          "encoding": "utf-8-sig",
+          "delimiter": ",",
+          "n_columns": 52,
+          "rows_scanned": 27780,
+          "scan_truncated": false,
+          "ragged_rows": 0
+        }
+      ]
+    },
+    {
+      "dataset": "bgg-sujaykapadnis",
+      "meta": {
+        "snapshot": "2017 derived subset",
+        "license": "Other",
+        "role": "Demo/cross-reference only; strict subset of bgg-gabrio, not independent evidence"
+      },
+      "file_count": 3,
+      "bytes": 16565572,
+      "size": "15.80 MB",
+      "files": [
+        {
+          "path": "bgg-sujaykapadnis/DATASET.md",
+          "file": "DATASET.md",
+          "bytes": 4000,
+          "size": "3.91 KB",
+          "suffix": ".md"
+        },
+        {
+          "path": "bgg-sujaykapadnis/raw/.bundle-ok",
+          "file": ".bundle-ok",
+          "bytes": 38,
+          "size": "38 B",
+          "suffix": ""
+        },
+        {
+          "path": "bgg-sujaykapadnis/raw/board_games.csv",
+          "file": "board_games.csv",
+          "bytes": 16561534,
+          "size": "15.79 MB",
+          "suffix": ".csv",
+          "encoding": "utf-8-sig",
+          "delimiter": ",",
+          "n_columns": 22,
+          "rows_scanned": 10532,
+          "scan_truncated": false,
+          "ragged_rows": 0
+        }
+      ]
+    },
+    {
+      "dataset": "bgg-threnjen",
+      "meta": {
+        "snapshot": "2021-12",
+        "license": "CC BY-SA 3.0",
+        "role": "Primary source for normalized user ratings and wide taxonomy/entity matrices"
+      },
+      "file_count": 11,
+      "bytes": 673430574,
+      "size": "642.23 MB",
+      "files": [
+        {
+          "path": "bgg-threnjen/DATASET.md",
+          "file": "DATASET.md",
+          "bytes": 21275,
+          "size": "20.78 KB",
+          "suffix": ".md"
+        },
+        {
+          "path": "bgg-threnjen/raw/artists_reduced.csv",
+          "file": "artists_reduced.csv",
+          "bytes": 73851622,
+          "size": "70.43 MB",
+          "suffix": ".csv",
+          "encoding": "utf-8-sig",
+          "delimiter": ",",
+          "n_columns": 1681,
+          "rows_scanned": 21925,
+          "scan_truncated": false,
+          "ragged_rows": 0
+        },
+        {
+          "path": "bgg-threnjen/raw/bgg_data_documentation.txt",
+          "file": "bgg_data_documentation.txt",
+          "bytes": 3278,
+          "size": "3.20 KB",
+          "suffix": ".txt"
+        },
+        {
+          "path": "bgg-threnjen/raw/designers_reduced.csv",
+          "file": "designers_reduced.csv",
+          "bytes": 70035299,
+          "size": "66.79 MB",
+          "suffix": ".csv",
+          "encoding": "utf-8-sig",
+          "delimiter": ",",
+          "n_columns": 1594,
+          "rows_scanned": 21925,
+          "scan_truncated": false,
+          "ragged_rows": 0
+        },
+        {
+          "path": "bgg-threnjen/raw/games.csv",
+          "file": "games.csv",
+          "bytes": 22141390,
+          "size": "21.12 MB",
+          "suffix": ".csv",
+          "encoding": "utf-8-sig",
+          "delimiter": ",",
+          "n_columns": 48,
+          "rows_scanned": 21925,
+          "scan_truncated": false,
+          "ragged_rows": 0
+        },
+        {
+          "path": "bgg-threnjen/raw/mechanics.csv",
+          "file": "mechanics.csv",
+          "bytes": 7045861,
+          "size": "6.72 MB",
+          "suffix": ".csv",
+          "encoding": "utf-8-sig",
+          "delimiter": ",",
+          "n_columns": 158,
+          "rows_scanned": 21925,
+          "scan_truncated": false,
+          "ragged_rows": 0
+        },
+        {
+          "path": "bgg-threnjen/raw/publishers_reduced.csv",
+          "file": "publishers_reduced.csv",
+          "bytes": 81968251,
+          "size": "78.17 MB",
+          "suffix": ".csv",
+          "encoding": "utf-8-sig",
+          "delimiter": ",",
+          "n_columns": 1866,
+          "rows_scanned": 21925,
+          "scan_truncated": false,
+          "ragged_rows": 0
+        },
+        {
+          "path": "bgg-threnjen/raw/ratings_distribution.csv",
+          "file": "ratings_distribution.csv",
+          "bytes": 8691368,
+          "size": "8.29 MB",
+          "suffix": ".csv",
+          "encoding": "utf-8-sig",
+          "delimiter": ",",
+          "n_columns": 96,
+          "rows_scanned": 21925,
+          "scan_truncated": false,
+          "ragged_rows": 0
+        },
+        {
+          "path": "bgg-threnjen/raw/subcategories.csv",
+          "file": "subcategories.csv",
+          "bytes": 597465,
+          "size": "583.46 KB",
+          "suffix": ".csv",
+          "encoding": "utf-8-sig",
+          "delimiter": ",",
+          "n_columns": 11,
+          "rows_scanned": 21925,
+          "scan_truncated": false,
+          "ragged_rows": 0
+        },
+        {
+          "path": "bgg-threnjen/raw/themes.csv",
+          "file": "themes.csv",
+          "bytes": 9678376,
+          "size": "9.23 MB",
+          "suffix": ".csv",
+          "encoding": "utf-8-sig",
+          "delimiter": ",",
+          "n_columns": 218,
+          "rows_scanned": 21925,
+          "scan_truncated": false,
+          "ragged_rows": 0
+        },
+        {
+          "path": "bgg-threnjen/raw/user_ratings.csv",
+          "file": "user_ratings.csv",
+          "bytes": 399396389,
+          "size": "380.89 MB",
+          "suffix": ".csv",
+          "encoding": "utf-8-sig",
+          "delimiter": ",",
+          "n_columns": 3,
+          "rows_scanned": 18942215,
+          "scan_truncated": false,
+          "ragged_rows": 0
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+﻿== mattadamhouser/ranked-board-game-data-from-boardgamegeek
+  GET   <bundle>
+  ok    bundle extracted
+== mrpantherson/board-game-data
+  GET   <bundle>
+  ok    bundle extracted
+== andrewmvd/board-games
+  GET   <bundle>
+  ok    bundle extracted
+== sujaykapadnis/board-games
+  GET   <bundle>
+  ok    bundle extracted
+== gabrio/board-games-dataset
+  GET   <bundle>
+  ok    bundle extracted
+
+DONE. 落盘统计：
+bgg-andrewmvd                  2 files       2.3 MB
+bgg-gabrio                     2 files     140.2 MB
+bgg-mrpantherson               4 files       4.5 MB
+bgg-ranked-mattadamhouser      6 files       1.4 MB
+bgg-reviews-jvanelteren        1 files     132.7 MB
+bgg-sujaykapadnis              2 files      15.8 MB
+bgg-threnjen                  10 files     642.2 MB

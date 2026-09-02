@@ -1,0 +1,268 @@
+{
+ "file": "reimplementations_2023.csv",
+ "path": "bgg-ranked-mattadamhouser/raw/reimplementations_2023.csv",
+ "bytes": 12534,
+ "encoding": "utf-8-sig",
+ "delimiter": ",",
+ "n_columns": 7,
+ "rows_scanned": 470,
+ "scan_truncated": false,
+ "ragged_rows": 0,
+ "scan_seconds": 0.0,
+ "columns": [
+  {
+   "name": "game_id",
+   "dtype": "int",
+   "kind_counts": {
+    "int": 470
+   },
+   "rows": 470,
+   "nulls": 0,
+   "null_pct": 0.0,
+   "distinct": 470,
+   "max_str_len": 6,
+   "samples": [
+    "224517",
+    "161936",
+    "233078",
+    "115746",
+    "220308",
+    "182028"
+   ],
+   "min": 10.0,
+   "max": 370913.0,
+   "mean": 183784.5894,
+   "numeric_pct": 100.0
+  },
+  {
+   "name": "parent_id",
+   "dtype": "int",
+   "kind_counts": {
+    "int": 470
+   },
+   "rows": 470,
+   "nulls": 0,
+   "null_pct": 0.0,
+   "distinct": 359,
+   "max_str_len": 6,
+   "samples": [
+    "28720",
+    "30549",
+    "12493",
+    "9609",
+    "120677",
+    "25613"
+   ],
+   "min": 12.0,
+   "max": 344176.0,
+   "mean": 80319.7404,
+   "numeric_pct": 100.0
+  },
+  {
+   "name": "year",
+   "dtype": "int",
+   "kind_counts": {
+    "int": 470
+   },
+   "rows": 470,
+   "nulls": 0,
+   "null_pct": 0.0,
+   "distinct": 32,
+   "max_str_len": 4,
+   "samples": [
+    "2018",
+    "2015",
+    "2017",
+    "2011",
+    "2020",
+    "2019"
+   ],
+   "min": 1903.0,
+   "max": 2022.0,
+   "mean": 2014.1936,
+   "numeric_pct": 100.0,
+   "top_values": [
+    {
+     "v": "2019",
+     "n": 46
+    },
+    {
+     "v": "2016",
+     "n": 41
+    },
+    {
+     "v": "2020",
+     "n": 39
+    },
+    {
+     "v": "2018",
+     "n": 38
+    },
+    {
+     "v": "2015",
+     "n": 36
+    },
+    {
+     "v": "2021",
+     "n": 35
+    },
+    {
+     "v": "2017",
+     "n": 33
+    },
+    {
+     "v": "2014",
+     "n": 31
+    },
+    {
+     "v": "2012",
+     "n": 23
+    },
+    {
+     "v": "2022",
+     "n": 23
+    },
+    {
+     "v": "2008",
+     "n": 15
+    },
+    {
+     "v": "2010",
+     "n": 14
+    }
+   ]
+  },
+  {
+   "name": "iteration",
+   "dtype": "int",
+   "kind_counts": {
+    "int": 465,
+    "bool01": 5
+   },
+   "rows": 470,
+   "nulls": 0,
+   "null_pct": 0.0,
+   "distinct": 5,
+   "max_str_len": 1,
+   "samples": [
+    "2",
+    "3",
+    "4",
+    "1",
+    "5"
+   ],
+   "min": 1.0,
+   "max": 5.0,
+   "mean": 2.1319,
+   "numeric_pct": 100.0,
+   "top_values": [
+    {
+     "v": "2",
+     "n": 416
+    },
+    {
+     "v": "3",
+     "n": 34
+    },
+    {
+     "v": "4",
+     "n": 12
+    },
+    {
+     "v": "1",
+     "n": 5
+    },
+    {
+     "v": "5",
+     "n": 3
+    }
+   ]
+  },
+  {
+   "name": "reimplementation",
+   "dtype": "bool01",
+   "kind_counts": {
+    "bool01": 470
+   },
+   "rows": 470,
+   "nulls": 0,
+   "null_pct": 0.0,
+   "distinct": 2,
+   "max_str_len": 1,
+   "samples": [
+    "1",
+    "0"
+   ],
+   "min": 0.0,
+   "max": 1.0,
+   "mean": 0.9894,
+   "numeric_pct": 100.0,
+   "top_values": [
+    {
+     "v": "1",
+     "n": 465
+    },
+    {
+     "v": "0",
+     "n": 5
+    }
+   ]
+  },
+  {
+   "name": "expansion",
+   "dtype": "bool01",
+   "kind_counts": {
+    "bool01": 470
+   },
+   "rows": 470,
+   "nulls": 0,
+   "null_pct": 0.0,
+   "distinct": 1,
+   "max_str_len": 1,
+   "samples": [
+    "0"
+   ],
+   "min": 0.0,
+   "max": 0.0,
+   "mean": 0.0,
+   "numeric_pct": 100.0,
+   "top_values": [
+    {
+     "v": "0",
+     "n": 470
+    }
+   ]
+  },
+  {
+   "name": "compilation",
+   "dtype": "bool01",
+   "kind_counts": {
+    "bool01": 470
+   },
+   "rows": 470,
+   "nulls": 0,
+   "null_pct": 0.0,
+   "distinct": 2,
+   "max_str_len": 1,
+   "samples": [
+    "0",
+    "1"
+   ],
+   "min": 0.0,
+   "max": 1.0,
+   "mean": 0.017,
+   "numeric_pct": 100.0,
+   "top_values": [
+    {
+     "v": "0",
+     "n": 462
+    },
+    {
+     "v": "1",
+     "n": 8
+    }
+   ]
+  }
+ ],
+ "dataset": "bgg-ranked-mattadamhouser"
+}

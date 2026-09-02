@@ -1,0 +1,57 @@
+{
+ "file": "bgg-ranked-mattadamhouser/raw/themes_2023.csv",
+ "rows": 2000,
+ "key_column": "game_id",
+ "key_column_index": 1,
+ "total_columns": 85,
+ "label_columns": 84,
+ "labels_per_row": {
+  "min": 0,
+  "max": 10,
+  "mean": 3.142,
+  "median": 3.0,
+  "zero_label_rows": 7
+ },
+ "non_binary_values_distinct": 1998,
+ "non_binary_values_sample": {
+  "10": 1,
+  "100": 1,
+  "1000": 1,
+  "1001": 1,
+  "1002": 1,
+  "1003": 1,
+  "1004": 1,
+  "1005": 1,
+  "1006": 1,
+  "1007": 1
+ },
+ "top_labels": [
+  {
+   "label": "Card Game",
+   "n": 541,
+   "pct": 27.05
+  },
+  {
+   "label": "Fantasy",
+   "n": 420,
+   "pct": 21.0
+  },
+  {
+   "label": "Economic",
+   "n": 323,
+   "pct": 16.15
+  },
+  {
+   "label": "Fighting",
+   "n": 272,
+   "pct": 13.6
+  },
+  {
+   "label": "Science Fiction",
+   "n": 243,
+   "pct": 12.15
+  }
+ ],
+ "singleton_labels": 3,
+ "empty_labels": 0
+}

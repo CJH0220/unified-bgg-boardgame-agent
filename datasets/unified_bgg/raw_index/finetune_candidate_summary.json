@@ -1,0 +1,49 @@
+{
+  "generated_at": "2026-08-26T09:40:45",
+  "schema_version": "finetune-candidate-v0.1",
+  "transform_version": "phase7-finetune-candidate-v0.1",
+  "kind": "candidate",
+  "sample_size": 1000,
+  "preview_size": 1000,
+  "inputs": {
+    "game_overview_docs": 100274,
+    "mechanic_profile_docs": 195,
+    "review_digest_docs": 27851,
+    "selected_game_docs": 55916,
+    "review_game_pairs": 27851
+  },
+  "task_counts": {
+    "game_qa": 1000,
+    "mechanic_explanation": 195,
+    "review_summary": 1000,
+    "recommendation_reasoning": 1000,
+    "extraction": 1000
+  },
+  "outputs": [
+    {
+      "path": "samples/finetune/game_qa.candidate.jsonl",
+      "rows": 1000,
+      "bytes": 1083266
+    },
+    {
+      "path": "samples/finetune/mechanic_explanation.candidate.jsonl",
+      "rows": 195,
+      "bytes": 280209
+    },
+    {
+      "path": "samples/finetune/review_summary.candidate.jsonl",
+      "rows": 1000,
+      "bytes": 1297778
+    },
+    {
+      "path": "samples/finetune/recommendation_reasoning.candidate.jsonl",
+      "rows": 1000,
+      "bytes": 1474769
+    },
+    {
+      "path": "samples/finetune/extraction.candidate.jsonl",
+      "rows": 1000,
+      "bytes": 2086441
+    }
+  ]
+}

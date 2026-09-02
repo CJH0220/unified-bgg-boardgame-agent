@@ -1,0 +1,827 @@
+{
+ "file": "bgg_db_2017_04.csv",
+ "path": "bgg-mrpantherson/raw/bgg_db_2017_04.csv",
+ "bytes": 1490899,
+ "encoding": "cp1252",
+ "delimiter": ",",
+ "n_columns": 20,
+ "rows_scanned": 4999,
+ "scan_truncated": false,
+ "ragged_rows": 0,
+ "scan_seconds": 0.1,
+ "columns": [
+  {
+   "name": "rank",
+   "dtype": "int",
+   "kind_counts": {
+    "int": 4998,
+    "bool01": 1
+   },
+   "rows": 4999,
+   "nulls": 0,
+   "null_pct": 0.0,
+   "distinct": 4999,
+   "max_str_len": 4,
+   "samples": [
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6"
+   ],
+   "min": 1.0,
+   "max": 4999.0,
+   "mean": 2500.0,
+   "numeric_pct": 100.0
+  },
+  {
+   "name": "bgg_url",
+   "dtype": "str",
+   "kind_counts": {
+    "str": 4999
+   },
+   "rows": 4999,
+   "nulls": 0,
+   "null_pct": 0.0,
+   "distinct": 4999,
+   "max_str_len": 93,
+   "samples": [
+    "https://boardgamegeek.com/boardgame/161936/pandemic-legacy-season-1",
+    "https://boardgamegeek.com/boardgame/182028/through-ages-new-story-civilization",
+    "https://boardgamegeek.com/boardgame/12333/twilight-struggle",
+    "https://boardgamegeek.com/boardgame/120677/terra-mystica",
+    "https://boardgamegeek.com/boardgame/174430/gloomhaven",
+    "https://boardgamegeek.com/boardgame/187645/star-wars-rebellion"
+   ]
+  },
+  {
+   "name": "game_id",
+   "dtype": "int",
+   "kind_counts": {
+    "int": 4998,
+    "bool01": 1
+   },
+   "rows": 4999,
+   "nulls": 0,
+   "null_pct": 0.0,
+   "distinct": 4999,
+   "max_str_len": 6,
+   "samples": [
+    "161936",
+    "182028",
+    "12333",
+    "120677",
+    "174430",
+    "187645"
+   ],
+   "min": 1.0,
+   "max": 224316.0,
+   "mean": 75692.1876,
+   "numeric_pct": 100.0
+  },
+  {
+   "name": "names",
+   "dtype": "str",
+   "kind_counts": {
+    "str": 4976,
+    "int": 22,
+    "null": 1
+   },
+   "rows": 4999,
+   "nulls": 1,
+   "null_pct": 0.02,
+   "distinct": 4961,
+   "max_str_len": 82,
+   "samples": [
+    "Pandemic Legacy: Season 1",
+    "Through the Ages: A New Story of Civilization",
+    "Twilight Struggle",
+    "Terra Mystica",
+    "Gloomhaven",
+    "Star Wars: Rebellion"
+   ],
+   "min": 11.0,
+   "max": 1969.0,
+   "mean": 1327.6818,
+   "numeric_pct": 0.44
+  },
+  {
+   "name": "min_players",
+   "dtype": "int",
+   "kind_counts": {
+    "int": 4224,
+    "bool01": 775
+   },
+   "rows": 4999,
+   "nulls": 0,
+   "null_pct": 0.0,
+   "distinct": 8,
+   "max_str_len": 1,
+   "samples": [
+    "2",
+    "1",
+    "3",
+    "5",
+    "4",
+    "8"
+   ],
+   "min": 0.0,
+   "max": 8.0,
+   "mean": 2.0346,
+   "numeric_pct": 100.0,
+   "top_values": [
+    {
+     "v": "2",
+     "n": 3436
+    },
+    {
+     "v": "1",
+     "n": 761
+    },
+    {
+     "v": "3",
+     "n": 660
+    },
+    {
+     "v": "4",
+     "n": 103
+    },
+    {
+     "v": "5",
+     "n": 14
+    },
+    {
+     "v": "0",
+     "n": 14
+    },
+    {
+     "v": "6",
+     "n": 6
+    },
+    {
+     "v": "8",
+     "n": 5
+    }
+   ]
+  },
+  {
+   "name": "max_players",
+   "dtype": "int",
+   "kind_counts": {
+    "int": 4896,
+    "bool01": 103
+   },
+   "rows": 4999,
+   "nulls": 0,
+   "null_pct": 0.0,
+   "distinct": 29,
+   "max_str_len": 3,
+   "samples": [
+    "4",
+    "2",
+    "5",
+    "7",
+    "6",
+    "8"
+   ],
+   "min": 0.0,
+   "max": 999.0,
+   "mean": 5.2873,
+   "numeric_pct": 100.0,
+   "top_values": [
+    {
+     "v": "4",
+     "n": 1580
+    },
+    {
+     "v": "2",
+     "n": 1012
+    },
+    {
+     "v": "5",
+     "n": 897
+    },
+    {
+     "v": "6",
+     "n": 797
+    },
+    {
+     "v": "8",
+     "n": 238
+    },
+    {
+     "v": "7",
+     "n": 94
+    },
+    {
+     "v": "1",
+     "n": 77
+    },
+    {
+     "v": "10",
+     "n": 71
+    },
+    {
+     "v": "3",
+     "n": 68
+    },
+    {
+     "v": "12",
+     "n": 42
+    },
+    {
+     "v": "0",
+     "n": 26
+    },
+    {
+     "v": "99",
+     "n": 23
+    }
+   ]
+  },
+  {
+   "name": "avg_time",
+   "dtype": "int",
+   "kind_counts": {
+    "int": 4915,
+    "bool01": 84
+   },
+   "rows": 4999,
+   "nulls": 0,
+   "null_pct": 0.0,
+   "distinct": 69,
+   "max_str_len": 5,
+   "samples": [
+    "60",
+    "240",
+    "180",
+    "150",
+    "115",
+    "120"
+   ],
+   "min": 0.0,
+   "max": 17280.0,
+   "mean": 105.5575,
+   "numeric_pct": 100.0,
+   "top_values": [
+    {
+     "v": "60",
+     "n": 817
+    },
+    {
+     "v": "30",
+     "n": 786
+    },
+    {
+     "v": "45",
+     "n": 597
+    },
+    {
+     "v": "90",
+     "n": 504
+    },
+    {
+     "v": "120",
+     "n": 481
+    },
+    {
+     "v": "20",
+     "n": 328
+    },
+    {
+     "v": "180",
+     "n": 262
+    },
+    {
+     "v": "15",
+     "n": 200
+    },
+    {
+     "v": "240",
+     "n": 183
+    },
+    {
+     "v": "360",
+     "n": 114
+    },
+    {
+     "v": "40",
+     "n": 100
+    },
+    {
+     "v": "10",
+     "n": 95
+    }
+   ]
+  },
+  {
+   "name": "min_time",
+   "dtype": "int",
+   "kind_counts": {
+    "int": 4908,
+    "bool01": 91
+   },
+   "rows": 4999,
+   "nulls": 0,
+   "null_pct": 0.0,
+   "distinct": 62,
+   "max_str_len": 5,
+   "samples": [
+    "60",
+    "180",
+    "90",
+    "30",
+    "150",
+    "240"
+   ],
+   "min": 0.0,
+   "max": 17280.0,
+   "mean": 87.3317,
+   "numeric_pct": 100.0,
+   "top_values": [
+    {
+     "v": "30",
+     "n": 920
+    },
+    {
+     "v": "60",
+     "n": 837
+    },
+    {
+     "v": "45",
+     "n": 648
+    },
+    {
+     "v": "90",
+     "n": 423
+    },
+    {
+     "v": "20",
+     "n": 391
+    },
+    {
+     "v": "120",
+     "n": 360
+    },
+    {
+     "v": "15",
+     "n": 254
+    },
+    {
+     "v": "180",
+     "n": 232
+    },
+    {
+     "v": "10",
+     "n": 150
+    },
+    {
+     "v": "240",
+     "n": 144
+    },
+    {
+     "v": "360",
+     "n": 109
+    },
+    {
+     "v": "0",
+     "n": 87
+    }
+   ]
+  },
+  {
+   "name": "max_time",
+   "dtype": "int",
+   "kind_counts": {
+    "int": 4876,
+    "bool01": 123
+   },
+   "rows": 4999,
+   "nulls": 0,
+   "null_pct": 0.0,
+   "distinct": 69,
+   "max_str_len": 5,
+   "samples": [
+    "60",
+    "240",
+    "180",
+    "150",
+    "115",
+    "120"
+   ],
+   "min": 0.0,
+   "max": 17280.0,
+   "mean": 105.1544,
+   "numeric_pct": 100.0,
+   "top_values": [
+    {
+     "v": "60",
+     "n": 812
+    },
+    {
+     "v": "30",
+     "n": 774
+    },
+    {
+     "v": "45",
+     "n": 593
+    },
+    {
+     "v": "90",
+     "n": 503
+    },
+    {
+     "v": "120",
+     "n": 478
+    },
+    {
+     "v": "20",
+     "n": 323
+    },
+    {
+     "v": "180",
+     "n": 259
+    },
+    {
+     "v": "15",
+     "n": 197
+    },
+    {
+     "v": "240",
+     "n": 184
+    },
+    {
+     "v": "0",
+     "n": 121
+    },
+    {
+     "v": "360",
+     "n": 113
+    },
+    {
+     "v": "40",
+     "n": 99
+    }
+   ]
+  },
+  {
+   "name": "year",
+   "dtype": "int",
+   "kind_counts": {
+    "int": 4987,
+    "bool01": 12
+   },
+   "rows": 4999,
+   "nulls": 0,
+   "null_pct": 0.0,
+   "distinct": 107,
+   "max_str_len": 5,
+   "samples": [
+    "2015",
+    "2005",
+    "2012",
+    "2017",
+    "2016",
+    "2013"
+   ],
+   "min": -3000.0,
+   "max": 2018.0,
+   "mean": 1996.3369,
+   "numeric_pct": 100.0,
+   "top_values": [
+    {
+     "v": "2015",
+     "n": 439
+    },
+    {
+     "v": "2016",
+     "n": 389
+    },
+    {
+     "v": "2014",
+     "n": 360
+    },
+    {
+     "v": "2013",
+     "n": 342
+    },
+    {
+     "v": "2012",
+     "n": 327
+    },
+    {
+     "v": "2011",
+     "n": 276
+    },
+    {
+     "v": "2010",
+     "n": 275
+    },
+    {
+     "v": "2009",
+     "n": 234
+    },
+    {
+     "v": "2008",
+     "n": 208
+    },
+    {
+     "v": "2007",
+     "n": 171
+    },
+    {
+     "v": "2005",
+     "n": 163
+    },
+    {
+     "v": "2004",
+     "n": 160
+    }
+   ]
+  },
+  {
+   "name": "avg_rating",
+   "dtype": "float",
+   "kind_counts": {
+    "float": 4998,
+    "int": 1
+   },
+   "rows": 4999,
+   "nulls": 0,
+   "null_pct": 0.0,
+   "distinct": 4929,
+   "max_str_len": 7,
+   "samples": [
+    "8.66905",
+    "8.72977",
+    "8.35745",
+    "8.29627",
+    "9.0897",
+    "8.53049"
+   ],
+   "min": 5.73429,
+   "max": 9.33167,
+   "mean": 6.932,
+   "numeric_pct": 100.0
+  },
+  {
+   "name": "geek_rating",
+   "dtype": "float",
+   "kind_counts": {
+    "float": 4999
+   },
+   "rows": 4999,
+   "nulls": 0,
+   "null_pct": 0.0,
+   "distinct": 4841,
+   "max_str_len": 7,
+   "samples": [
+    "8.48904",
+    "8.30744",
+    "8.22021",
+    "8.15458",
+    "8.15151",
+    "8.15037"
+   ],
+   "min": 5.62627,
+   "max": 8.48904,
+   "mean": 6.0641,
+   "numeric_pct": 100.0
+  },
+  {
+   "name": "num_votes",
+   "dtype": "int",
+   "kind_counts": {
+    "int": 4999
+   },
+   "rows": 4999,
+   "nulls": 0,
+   "null_pct": 0.0,
+   "distinct": 2206,
+   "max_str_len": 5,
+   "samples": [
+    "18009",
+    "7309",
+    "27403",
+    "24267",
+    "3978",
+    "8696"
+   ],
+   "min": 47.0,
+   "max": 68505.0,
+   "mean": 1698.1502,
+   "numeric_pct": 100.0
+  },
+  {
+   "name": "image_url",
+   "dtype": "str",
+   "kind_counts": {
+    "str": 4998,
+    "null": 1
+   },
+   "rows": 4999,
+   "nulls": 1,
+   "null_pct": 0.02,
+   "distinct": 4998,
+   "max_str_len": 50,
+   "samples": [
+    "https://cf.geekdo-images.com/images/pic2452831.png",
+    "https://cf.geekdo-images.com/images/pic2663291.jpg",
+    "https://cf.geekdo-images.com/images/pic361592.jpg",
+    "https://cf.geekdo-images.com/images/pic1356616.jpg",
+    "https://cf.geekdo-images.com/images/pic2437871.jpg",
+    "https://cf.geekdo-images.com/images/pic2737530.png"
+   ]
+  },
+  {
+   "name": "age",
+   "dtype": "int",
+   "kind_counts": {
+    "int": 4747,
+    "bool01": 252
+   },
+   "rows": 4999,
+   "nulls": 0,
+   "null_pct": 0.0,
+   "distinct": 20,
+   "max_str_len": 2,
+   "samples": [
+    "13",
+    "14",
+    "12",
+    "10",
+    "8",
+    "17"
+   ],
+   "min": 0.0,
+   "max": 42.0,
+   "mean": 10.2863,
+   "numeric_pct": 100.0,
+   "top_values": [
+    {
+     "v": "12",
+     "n": 1459
+    },
+    {
+     "v": "10",
+     "n": 1106
+    },
+    {
+     "v": "8",
+     "n": 807
+    },
+    {
+     "v": "14",
+     "n": 447
+    },
+    {
+     "v": "13",
+     "n": 435
+    },
+    {
+     "v": "0",
+     "n": 252
+    },
+    {
+     "v": "6",
+     "n": 100
+    },
+    {
+     "v": "7",
+     "n": 90
+    },
+    {
+     "v": "9",
+     "n": 82
+    },
+    {
+     "v": "5",
+     "n": 46
+    },
+    {
+     "v": "15",
+     "n": 45
+    },
+    {
+     "v": "11",
+     "n": 33
+    }
+   ]
+  },
+  {
+   "name": "mechanic",
+   "dtype": "str",
+   "kind_counts": {
+    "str": 4807,
+    "null": 192
+   },
+   "rows": 4999,
+   "nulls": 192,
+   "null_pct": 3.841,
+   "distinct": 2192,
+   "max_str_len": 331,
+   "samples": [
+    "Action Point Allowance System, Co-operative Play, Hand Management, Point to Point Movement, Set Collection, Trading, Var",
+    "Action Point Allowance System, Auction/Bidding, Card Drafting, Hand Management",
+    "Area Control / Area Influence, Campaign / Battle Card Driven, Dice Rolling, Hand Management, Simultaneous Action Selecti",
+    "Route/Network Building, Variable Phase Order, Variable Player Powers",
+    "Action / Movement Programming, Campaign / Battle Card Driven, Co-operative Play, Grid Movement, Hand Management, Modular",
+    "Area Control / Area Influence, Area Movement, Dice Rolling, Hand Management"
+   ]
+  },
+  {
+   "name": "owned",
+   "dtype": "int",
+   "kind_counts": {
+    "int": 4999
+   },
+   "rows": 4999,
+   "nulls": 0,
+   "null_pct": 0.0,
+   "distinct": 2764,
+   "max_str_len": 5,
+   "samples": [
+    "29472",
+    "10007",
+    "37382",
+    "27948",
+    "6057",
+    "14304"
+   ],
+   "min": 12.0,
+   "max": 96783.0,
+   "mean": 2535.9436,
+   "numeric_pct": 100.0
+  },
+  {
+   "name": "category",
+   "dtype": "str",
+   "kind_counts": {
+    "str": 4961,
+    "null": 38
+   },
+   "rows": 4999,
+   "nulls": 38,
+   "null_pct": 0.76,
+   "distinct": 2189,
+   "max_str_len": 151,
+   "samples": [
+    "Environmental, Medical",
+    "Card Game, Civilization, Economic",
+    "Modern Warfare, Political, Wargame",
+    "Civilization, Economic, Fantasy, Territory Building",
+    "Adventure, Economic, Exploration, Fantasy, Fighting, Miniatures",
+    "Dice, Fighting, Movies / TV / Radio theme, Science Fiction, Wargame"
+   ]
+  },
+  {
+   "name": "designer",
+   "dtype": "str",
+   "kind_counts": {
+    "str": 4965,
+    "null": 34
+   },
+   "rows": 4999,
+   "nulls": 34,
+   "null_pct": 0.68,
+   "distinct": 2471,
+   "max_str_len": 147,
+   "samples": [
+    "Rob Daviau, Matt Leacock",
+    "Vlaada Chvátil",
+    "Ananda Gupta, Jason Matthews",
+    "Jens Drögemüller, Helge Ostertag",
+    "Isaac Childres",
+    "Corey Konieczka"
+   ]
+  },
+  {
+   "name": "weight",
+   "dtype": "float",
+   "kind_counts": {
+    "float": 4752,
+    "int": 181,
+    "bool01": 66
+   },
+   "rows": 4999,
+   "nulls": 0,
+   "null_pct": 0.0,
+   "distinct": 2868,
+   "max_str_len": 6,
+   "samples": [
+    "2.8076",
+    "4.3093",
+    "3.5317",
+    "3.9387",
+    "3.7028",
+    "3.5686"
+   ],
+   "min": 0.0,
+   "max": 4.9048,
+   "mean": 2.3449,
+   "numeric_pct": 100.0
+  }
+ ],
+ "dataset": "bgg-mrpantherson"
+}

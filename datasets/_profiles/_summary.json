@@ -1,0 +1,57 @@
+[
+ {
+  "dataset": "bgg-reviews-jvanelteren",
+  "file": "2020-08-19.csv",
+  "bytes": 3686149,
+  "n_columns": 10,
+  "rows_scanned": 19330,
+  "scan_truncated": false,
+  "ragged_rows": 0,
+  "encoding": "utf-8-sig",
+  "error": null
+ },
+ {
+  "dataset": "bgg-reviews-jvanelteren",
+  "file": "2022-01-08.csv",
+  "bytes": 5055241,
+  "n_columns": 10,
+  "rows_scanned": 21831,
+  "scan_truncated": false,
+  "ragged_rows": 0,
+  "encoding": "utf-8-sig",
+  "error": null
+ },
+ {
+  "dataset": "bgg-reviews-jvanelteren",
+  "file": "bgg-26m-reviews.csv",
+  "bytes": 2179204668,
+  "n_columns": 6,
+  "rows_scanned": 3000000,
+  "scan_truncated": true,
+  "ragged_rows": 0,
+  "encoding": "utf-8-sig",
+  "error": null
+ },
+ {
+  "dataset": "bgg-reviews-jvanelteren",
+  "file": "games_detailed_info.csv",
+  "bytes": 99466534,
+  "n_columns": 56,
+  "rows_scanned": 21631,
+  "scan_truncated": false,
+  "ragged_rows": 0,
+  "encoding": "utf-8-sig",
+  "error": null
+ },
+ {
+  "dataset": "bgg-reviews-jvanelteren",
+  "file": "games_detailed_info2025.csv",
+  "bytes": 110063542,
+  "n_columns": 52,
+  "rows_scanned": 27780,
+  "scan_truncated": false,
+  "ragged_rows": 0,
+  "encoding": "utf-8-sig",
+  "error": null
+ }
+]

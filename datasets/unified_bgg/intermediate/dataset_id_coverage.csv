@@ -1,0 +1,8 @@
+dataset,unique_scanned_ids,in_reference_2025,pct_in_reference_2025,ids_not_in_reference_2025,reference_2025_ids_missing_from_dataset
+bgg-andrewmvd,20327,20224,99.49,103,7556
+bgg-gabrio,90400,18078,20.00,72322,9702
+bgg-mrpantherson,5455,5442,99.76,13,22338
+bgg-ranked-mattadamhouser,2135,2112,98.92,23,25668
+bgg-reviews-jvanelteren,27907,27780,99.54,127,0
+bgg-sujaykapadnis,10532,10376,98.52,156,17404
+bgg-threnjen,21925,21497,98.05,428,6283

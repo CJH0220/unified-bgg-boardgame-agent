@@ -1,0 +1,4750 @@
+{
+ "file": "mechanics.csv",
+ "path": "bgg-threnjen/raw/mechanics.csv",
+ "bytes": 7045861,
+ "encoding": "utf-8-sig",
+ "delimiter": ",",
+ "n_columns": 158,
+ "rows_scanned": 21925,
+ "scan_truncated": false,
+ "ragged_rows": 0,
+ "scan_seconds": 2.3,
+ "columns": [
+  {
+   "name": "BGGId",
+   "dtype": "int",
+   "kind_counts": {
+    "int": 21924,
+    "bool01": 1
+   },
+   "rows": 21925,
+   "nulls": 0,
+   "null_pct": 0.0,
+   "distinct": 21925,
+   "max_str_len": 6,
+   "samples": [
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6"
+   ],
+   "min": 1.0,
+   "max": 349161.0,
+   "mean": 117652.6632,
+   "numeric_pct": 100.0
+  },
+  {
+   "name": "Alliances",
+   "dtype": "bool01",
+   "kind_counts": {
+    "bool01": 21925
+   },
+   "rows": 21925,
+   "nulls": 0,
+   "null_pct": 0.0,
+   "distinct": 2,
+   "max_str_len": 1,
+   "samples": [
+    "1",
+    "0"
+   ],
+   "min": 0.0,
+   "max": 1.0,
+   "mean": 0.0017,
+   "numeric_pct": 100.0,
+   "top_values": [
+    {
+     "v": "0",
+     "n": 21888
+    },
+    {
+     "v": "1",
+     "n": 37
+    }
+   ]
+  },
+  {
+   "name": "Area Majority / Influence",
+   "dtype": "bool01",
+   "kind_counts": {
+    "bool01": 21925
+   },
+   "rows": 21925,
+   "nulls": 0,
+   "null_pct": 0.0,
+   "distinct": 2,
+   "max_str_len": 1,
+   "samples": [
+    "1",
+    "0"
+   ],
+   "min": 0.0,
+   "max": 1.0,
+   "mean": 0.0748,
+   "numeric_pct": 100.0,
+   "top_values": [
+    {
+     "v": "0",
+     "n": 20286
+    },
+    {
+     "v": "1",
+     "n": 1639
+    }
+   ]
+  },
+  {
+   "name": "Auction/Bidding",
+   "dtype": "bool01",
+   "kind_counts": {
+    "bool01": 21925
+   },
+   "rows": 21925,
+   "nulls": 0,
+   "null_pct": 0.0,
+   "distinct": 2,
+   "max_str_len": 1,
+   "samples": [
+    "1",
+    "0"
+   ],
+   "min": 0.0,
+   "max": 1.0,
+   "mean": 0.0528,
+   "numeric_pct": 100.0,
+   "top_values": [
+    {
+     "v": "0",
+     "n": 20768
+    },
+    {
+     "v": "1",
+     "n": 1157
+    }
+   ]
+  },
+  {
+   "name": "Dice Rolling",
+   "dtype": "bool01",
+   "kind_counts": {
+    "bool01": 21925
+   },
+   "rows": 21925,
+   "nulls": 0,
+   "null_pct": 0.0,
+   "distinct": 2,
+   "max_str_len": 1,
+   "samples": [
+    "1",
+    "0"
+   ],
+   "min": 0.0,
+   "max": 1.0,
+   "mean": 0.2958,
+   "numeric_pct": 100.0,
+   "top_values": [
+    {
+     "v": "0",
+     "n": 15439
+    },
+    {
+     "v": "1",
+     "n": 6486
+    }
+   ]
+  },
+  {
+   "name": "Hand Management",
+   "dtype": "bool01",
+   "kind_counts": {
+    "bool01": 21925
+   },
+   "rows": 21925,
+   "nulls": 0,
+   "null_pct": 0.0,
+   "distinct": 2,
+   "max_str_len": 1,
+   "samples": [
+    "1",
+    "0"
+   ],
+   "min": 0.0,
+   "max": 1.0,
+   "mean": 0.2051,
+   "numeric_pct": 100.0,
+   "top_values": [
+    {
+     "v": "0",
+     "n": 17429
+    },
+    {
+     "v": "1",
+     "n": 4496
+    }
+   ]
+  },
+  {
+   "name": "Simultaneous Action Selection",
+   "dtype": "bool01",
+   "kind_counts": {
+    "bool01": 21925
+   },
+   "rows": 21925,
+   "nulls": 0,
+   "null_pct": 0.0,
+   "distinct": 2,
+   "max_str_len": 1,
+   "samples": [
+    "1",
+    "0"
+   ],
+   "min": 0.0,
+   "max": 1.0,
+   "mean": 0.054,
+   "numeric_pct": 100.0,
+   "top_values": [
+    {
+     "v": "0",
+     "n": 20741
+    },
+    {
+     "v": "1",
+     "n": 1184
+    }
+   ]
+  },
+  {
+   "name": "Trick-taking",
+   "dtype": "bool01",
+   "kind_counts": {
+    "bool01": 21925
+   },
+   "rows": 21925,
+   "nulls": 0,
+   "null_pct": 0.0,
+   "distinct": 2,
+   "max_str_len": 1,
+   "samples": [
+    "0",
+    "1"
+   ],
+   "min": 0.0,
+   "max": 1.0,
+   "mean": 0.0183,
+   "numeric_pct": 100.0,
+   "top_values": [
+    {
+     "v": "0",
+     "n": 21523
+    },
+    {
+     "v": "1",
+     "n": 402
+    }
+   ]
+  },
+  {
+   "name": "Hexagon Grid",
+   "dtype": "bool01",
+   "kind_counts": {
+    "bool01": 21925
+   },
+   "rows": 21925,
+   "nulls": 0,
+   "null_pct": 0.0,
+   "distinct": 2,
+   "max_str_len": 1,
+   "samples": [
+    "0",
+    "1"
+   ],
+   "min": 0.0,
+   "max": 1.0,
+   "mean": 0.1112,
+   "numeric_pct": 100.0,
+   "top_values": [
+    {
+     "v": "0",
+     "n": 19487
+    },
+    {
+     "v": "1",
+     "n": 2438
+    }
+   ]
+  },
+  {
+   "name": "Once-Per-Game Abilities",
+   "dtype": "bool01",
+   "kind_counts": {
+    "bool01": 21925
+   },
+   "rows": 21925,
+   "nulls": 0,
+   "null_pct": 0.0,
+   "distinct": 2,
+   "max_str_len": 1,
+   "samples": [
+    "0",
+    "1"
+   ],
+   "min": 0.0,
+   "max": 1.0,
+   "mean": 0.0019,
+   "numeric_pct": 100.0,
+   "top_values": [
+    {
+     "v": "0",
+     "n": 21884
+    },
+    {
+     "v": "1",
+     "n": 41
+    }
+   ]
+  },
+  {
+   "name": "Set Collection",
+   "dtype": "bool01",
+   "kind_counts": {
+    "bool01": 21925
+   },
+   "rows": 21925,
+   "nulls": 0,
+   "null_pct": 0.0,
+   "distinct": 2,
+   "max_str_len": 1,
+   "samples": [
+    "0",
+    "1"
+   ],
+   "min": 0.0,
+   "max": 1.0,
+   "mean": 0.135,
+   "numeric_pct": 100.0,
+   "top_values": [
+    {
+     "v": "0",
+     "n": 18966
+    },
+    {
+     "v": "1",
+     "n": 2959
+    }
+   ]
+  },
+  {
+   "name": "Tile Placement",
+   "dtype": "bool01",
+   "kind_counts": {
+    "bool01": 21925
+   },
+   "rows": 21925,
+   "nulls": 0,
+   "null_pct": 0.0,
+   "distinct": 2,
+   "max_str_len": 1,
+   "samples": [
+    "0",
+    "1"
+   ],
+   "min": 0.0,
+   "max": 1.0,
+   "mean": 0.0836,
+   "numeric_pct": 100.0,
+   "top_values": [
+    {
+     "v": "0",
+     "n": 20093
+    },
+    {
+     "v": "1",
+     "n": 1832
+    }
+   ]
+  },
+  {
+   "name": "Action Points",
+   "dtype": "bool01",
+   "kind_counts": {
+    "bool01": 21925
+   },
+   "rows": 21925,
+   "nulls": 0,
+   "null_pct": 0.0,
+   "distinct": 2,
+   "max_str_len": 1,
+   "samples": [
+    "0",
+    "1"
+   ],
+   "min": 0.0,
+   "max": 1.0,
+   "mean": 0.054,
+   "numeric_pct": 100.0,
+   "top_values": [
+    {
+     "v": "0",
+     "n": 20742
+    },
+    {
+     "v": "1",
+     "n": 1183
+    }
+   ]
+  },
+  {
+   "name": "Investment",
+   "dtype": "bool01",
+   "kind_counts": {
+    "bool01": 21925
+   },
+   "rows": 21925,
+   "nulls": 0,
+   "null_pct": 0.0,
+   "distinct": 2,
+   "max_str_len": 1,
+   "samples": [
+    "0",
+    "1"
+   ],
+   "min": 0.0,
+   "max": 1.0,
+   "mean": 0.0015,
+   "numeric_pct": 100.0,
+   "top_values": [
+    {
+     "v": "0",
+     "n": 21892
+    },
+    {
+     "v": "1",
+     "n": 33
+    }
+   ]
+  },
+  {
+   "name": "Market",
+   "dtype": "bool01",
+   "kind_counts": {
+    "bool01": 21925
+   },
+   "rows": 21925,
+   "nulls": 0,
+   "null_pct": 0.0,
+   "distinct": 2,
+   "max_str_len": 1,
+   "samples": [
+    "0",
+    "1"
+   ],
+   "min": 0.0,
+   "max": 1.0,
+   "mean": 0.0036,
+   "numeric_pct": 100.0,
+   "top_values": [
+    {
+     "v": "0",
+     "n": 21846
+    },
+    {
+     "v": "1",
+     "n": 79
+    }
+   ]
+  },
+  {
+   "name": "Square Grid",
+   "dtype": "bool01",
+   "kind_counts": {
+    "bool01": 21925
+   },
+   "rows": 21925,
+   "nulls": 0,
+   "null_pct": 0.0,
+   "distinct": 2,
+   "max_str_len": 1,
+   "samples": [
+    "0",
+    "1"
+   ],
+   "min": 0.0,
+   "max": 1.0,
+   "mean": 0.0104,
+   "numeric_pct": 100.0,
+   "top_values": [
+    {
+     "v": "0",
+     "n": 21697
+    },
+    {
+     "v": "1",
+     "n": 228
+    }
+   ]
+  },
+  {
+   "name": "Stock Holding",
+   "dtype": "bool01",
+   "kind_counts": {
+    "bool01": 21925
+   },
+   "rows": 21925,
+   "nulls": 0,
+   "null_pct": 0.0,
+   "distinct": 2,
+   "max_str_len": 1,
+   "samples": [
+    "0",
+    "1"
+   ],
+   "min": 0.0,
+   "max": 1.0,
+   "mean": 0.014,
+   "numeric_pct": 100.0,
+   "top_values": [
+    {
+     "v": "0",
+     "n": 21617
+    },
+    {
+     "v": "1",
+     "n": 308
+    }
+   ]
+  },
+  {
+   "name": "Victory Points as a Resource",
+   "dtype": "bool01",
+   "kind_counts": {
+    "bool01": 21925
+   },
+   "rows": 21925,
+   "nulls": 0,
+   "null_pct": 0.0,
+   "distinct": 2,
+   "max_str_len": 1,
+   "samples": [
+    "0",
+    "1"
+   ],
+   "min": 0.0,
+   "max": 1.0,
+   "mean": 0.0032,
+   "numeric_pct": 100.0,
+   "top_values": [
+    {
+     "v": "0",
+     "n": 21854
+    },
+    {
+     "v": "1",
+     "n": 71
+    }
+   ]
+  },
+  {
+   "name": "Enclosure",
+   "dtype": "bool01",
+   "kind_counts": {
+    "bool01": 21925
+   },
+   "rows": 21925,
+   "nulls": 0,
+   "null_pct": 0.0,
+   "distinct": 2,
+   "max_str_len": 1,
+   "samples": [
+    "0",
+    "1"
+   ],
+   "min": 0.0,
+   "max": 1.0,
+   "mean": 0.0099,
+   "numeric_pct": 100.0,
+   "top_values": [
+    {
+     "v": "0",
+     "n": 21707
+    },
+    {
+     "v": "1",
+     "n": 218
+    }
+   ]
+  },
+  {
+   "name": "Pattern Building",
+   "dtype": "bool01",
+   "kind_counts": {
+    "bool01": 21925
+   },
+   "rows": 21925,
+   "nulls": 0,
+   "null_pct": 0.0,
+   "distinct": 2,
+   "max_str_len": 1,
+   "samples": [
+    "0",
+    "1"
+   ],
+   "min": 0.0,
+   "max": 1.0,
+   "mean": 0.038,
+   "numeric_pct": 100.0,
+   "top_values": [
+    {
+     "v": "0",
+     "n": 21092
+    },
+    {
+     "v": "1",
+     "n": 833
+    }
+   ]
+  },
+  {
+   "name": "Pattern Recognition",
+   "dtype": "bool01",
+   "kind_counts": {
+    "bool01": 21925
+   },
+   "rows": 21925,
+   "nulls": 0,
+   "null_pct": 0.0,
+   "distinct": 2,
+   "max_str_len": 1,
+   "samples": [
+    "0",
+    "1"
+   ],
+   "min": 0.0,
+   "max": 1.0,
+   "mean": 0.0255,
+   "numeric_pct": 100.0,
+   "top_values": [
+    {
+     "v": "0",
+     "n": 21365
+    },
+    {
+     "v": "1",
+     "n": 560
+    }
+   ]
+  },
+  {
+   "name": "Modular Board",
+   "dtype": "bool01",
+   "kind_counts": {
+    "bool01": 21925
+   },
+   "rows": 21925,
+   "nulls": 0,
+   "null_pct": 0.0,
+   "distinct": 2,
+   "max_str_len": 1,
+   "samples": [
+    "0",
+    "1"
+   ],
+   "min": 0.0,
+   "max": 1.0,
+   "mean": 0.0783,
+   "numeric_pct": 100.0,
+   "top_values": [
+    {
+     "v": "0",
+     "n": 20209
+    },
+    {
+     "v": "1",
+     "n": 1716
+    }
+   ]
+  },
+  {
+   "name": "Network and Route Building",
+   "dtype": "bool01",
+   "kind_counts": {
+    "bool01": 21925
+   },
+   "rows": 21925,
+   "nulls": 0,
+   "null_pct": 0.0,
+   "distinct": 2,
+   "max_str_len": 1,
+   "samples": [
+    "0",
+    "1"
+   ],
+   "min": 0.0,
+   "max": 1.0,
+   "mean": 0.0268,
+   "numeric_pct": 100.0,
+   "top_values": [
+    {
+     "v": "0",
+     "n": 21337
+    },
+    {
+     "v": "1",
+     "n": 588
+    }
+   ]
+  },
+  {
+   "name": "Point to Point Movement",
+   "dtype": "bool01",
+   "kind_counts": {
+    "bool01": 21925
+   },
+   "rows": 21925,
+   "nulls": 0,
+   "null_pct": 0.0,
+   "distinct": 2,
+   "max_str_len": 1,
+   "samples": [
+    "0",
+    "1"
+   ],
+   "min": 0.0,
+   "max": 1.0,
+   "mean": 0.0429,
+   "numeric_pct": 100.0,
+   "top_values": [
+    {
+     "v": "0",
+     "n": 20984
+    },
+    {
+     "v": "1",
+     "n": 941
+    }
+   ]
+  },
+  {
+   "name": "Melding and Splaying",
+   "dtype": "bool01",
+   "kind_counts": {
+    "bool01": 21925
+   },
+   "rows": 21925,
+   "nulls": 0,
+   "null_pct": 0.0,
+   "distinct": 2,
+   "max_str_len": 1,
+   "samples": [
+    "0",
+    "1"
+   ],
+   "min": 0.0,
+   "max": 1.0,
+   "mean": 0.0014,
+   "numeric_pct": 100.0,
+   "top_values": [
+    {
+     "v": "0",
+     "n": 21895
+    },
+    {
+     "v": "1",
+     "n": 30
+    }
+   ]
+  },
+  {
+   "name": "Negotiation",
+   "dtype": "bool01",
+   "kind_counts": {
+    "bool01": 21925
+   },
+   "rows": 21925,
+   "nulls": 0,
+   "null_pct": 0.0,
+   "distinct": 2,
+   "max_str_len": 1,
+   "samples": [
+    "1",
+    "0"
+   ],
+   "min": 0.0,
+   "max": 1.0,
+   "mean": 0.0313,
+   "numeric_pct": 100.0,
+   "top_values": [
+    {
+     "v": "0",
+     "n": 21238
+    },
+    {
+     "v": "1",
+     "n": 687
+    }
+   ]
+  },
+  {
+   "name": "Trading",
+   "dtype": "bool01",
+   "kind_counts": {
+    "bool01": 21925
+   },
+   "rows": 21925,
+   "nulls": 0,
+   "null_pct": 0.0,
+   "distinct": 2,
+   "max_str_len": 1,
+   "samples": [
+    "0",
+    "1"
+   ],
+   "min": 0.0,
+   "max": 1.0,
+   "mean": 0.0291,
+   "numeric_pct": 100.0,
+   "top_values": [
+    {
+     "v": "0",
+     "n": 21288
+    },
+    {
+     "v": "1",
+     "n": 637
+    }
+   ]
+  },
+  {
+   "name": "Push Your Luck",
+   "dtype": "bool01",
+   "kind_counts": {
+    "bool01": 21925
+   },
+   "rows": 21925,
+   "nulls": 0,
+   "null_pct": 0.0,
+   "distinct": 2,
+   "max_str_len": 1,
+   "samples": [
+    "0",
+    "1"
+   ],
+   "min": 0.0,
+   "max": 1.0,
+   "mean": 0.0427,
+   "numeric_pct": 100.0,
+   "top_values": [
+    {
+     "v": "0",
+     "n": 20988
+    },
+    {
+     "v": "1",
+     "n": 937
+    }
+   ]
+  },
+  {
+   "name": "Income",
+   "dtype": "bool01",
+   "kind_counts": {
+    "bool01": 21925
+   },
+   "rows": 21925,
+   "nulls": 0,
+   "null_pct": 0.0,
+   "distinct": 2,
+   "max_str_len": 1,
+   "samples": [
+    "0",
+    "1"
+   ],
+   "min": 0.0,
+   "max": 1.0,
+   "mean": 0.0045,
+   "numeric_pct": 100.0,
+   "top_values": [
+    {
+     "v": "0",
+     "n": 21827
+    },
+    {
+     "v": "1",
+     "n": 98
+    }
+   ]
+  },
+  {
+   "name": "Race",
+   "dtype": "bool01",
+   "kind_counts": {
+    "bool01": 21925
+   },
+   "rows": 21925,
+   "nulls": 0,
+   "null_pct": 0.0,
+   "distinct": 2,
+   "max_str_len": 1,
+   "samples": [
+    "0",
+    "1"
+   ],
+   "min": 0.0,
+   "max": 1.0,
+   "mean": 0.0113,
+   "numeric_pct": 100.0,
+   "top_values": [
+    {
+     "v": "0",
+     "n": 21677
+    },
+    {
+     "v": "1",
+     "n": 248
+    }
+   ]
+  },
+  {
+   "name": "Random Production",
+   "dtype": "bool01",
+   "kind_counts": {
+    "bool01": 21925
+   },
+   "rows": 21925,
+   "nulls": 0,
+   "null_pct": 0.0,
+   "distinct": 2,
+   "max_str_len": 1,
+   "samples": [
+    "0",
+    "1"
+   ],
+   "min": 0.0,
+   "max": 1.0,
+   "mean": 0.0012,
+   "numeric_pct": 100.0,
+   "top_values": [
+    {
+     "v": "0",
+     "n": 21899
+    },
+    {
+     "v": "1",
+     "n": 26
+    }
+   ]
+  },
+  {
+   "name": "Variable Set-up",
+   "dtype": "bool01",
+   "kind_counts": {
+    "bool01": 21925
+   },
+   "rows": 21925,
+   "nulls": 0,
+   "null_pct": 0.0,
+   "distinct": 2,
+   "max_str_len": 1,
+   "samples": [
+    "0",
+    "1"
+   ],
+   "min": 0.0,
+   "max": 1.0,
+   "mean": 0.0166,
+   "numeric_pct": 100.0,
+   "top_values": [
+    {
+     "v": "0",
+     "n": 21560
+    },
+    {
+     "v": "1",
+     "n": 365
+    }
+   ]
+  },
+  {
+   "name": "Roll / Spin and Move",
+   "dtype": "bool01",
+   "kind_counts": {
+    "bool01": 21925
+   },
+   "rows": 21925,
+   "nulls": 0,
+   "null_pct": 0.0,
+   "distinct": 2,
+   "max_str_len": 1,
+   "samples": [
+    "0",
+    "1"
+   ],
+   "min": 0.0,
+   "max": 1.0,
+   "mean": 0.0625,
+   "numeric_pct": 100.0,
+   "top_values": [
+    {
+     "v": "0",
+     "n": 20554
+    },
+    {
+     "v": "1",
+     "n": 1371
+    }
+   ]
+  },
+  {
+   "name": "Variable Player Powers",
+   "dtype": "bool01",
+   "kind_counts": {
+    "bool01": 21925
+   },
+   "rows": 21925,
+   "nulls": 0,
+   "null_pct": 0.0,
+   "distinct": 2,
+   "max_str_len": 1,
+   "samples": [
+    "0",
+    "1"
+   ],
+   "min": 0.0,
+   "max": 1.0,
+   "mean": 0.1248,
+   "numeric_pct": 100.0,
+   "top_values": [
+    {
+     "v": "0",
+     "n": 19189
+    },
+    {
+     "v": "1",
+     "n": 2736
+    }
+   ]
+  },
+  {
+   "name": "Action Queue",
+   "dtype": "bool01",
+   "kind_counts": {
+    "bool01": 21925
+   },
+   "rows": 21925,
+   "nulls": 0,
+   "null_pct": 0.0,
+   "distinct": 2,
+   "max_str_len": 1,
+   "samples": [
+    "0",
+    "1"
+   ],
+   "min": 0.0,
+   "max": 1.0,
+   "mean": 0.0193,
+   "numeric_pct": 100.0,
+   "top_values": [
+    {
+     "v": "0",
+     "n": 21502
+    },
+    {
+     "v": "1",
+     "n": 423
+    }
+   ]
+  },
+  {
+   "name": "Bias",
+   "dtype": "bool01",
+   "kind_counts": {
+    "bool01": 21925
+   },
+   "rows": 21925,
+   "nulls": 0,
+   "null_pct": 0.0,
+   "distinct": 2,
+   "max_str_len": 1,
+   "samples": [
+    "0",
+    "1"
+   ],
+   "min": 0.0,
+   "max": 1.0,
+   "mean": 0.0023,
+   "numeric_pct": 100.0,
+   "top_values": [
+    {
+     "v": "0",
+     "n": 21875
+    },
+    {
+     "v": "1",
+     "n": 50
+    }
+   ]
+  },
+  {
+   "name": "Grid Movement",
+   "dtype": "bool01",
+   "kind_counts": {
+    "bool01": 21925
+   },
+   "rows": 21925,
+   "nulls": 0,
+   "null_pct": 0.0,
+   "distinct": 2,
+   "max_str_len": 1,
+   "samples": [
+    "0",
+    "1"
+   ],
+   "min": 0.0,
+   "max": 1.0,
+   "mean": 0.0749,
+   "numeric_pct": 100.0,
+   "top_values": [
+    {
+     "v": "0",
+     "n": 20282
+    },
+    {
+     "v": "1",
+     "n": 1643
+    }
+   ]
+  },
+  {
+   "name": "Lose a Turn",
+   "dtype": "bool01",
+   "kind_counts": {
+    "bool01": 21925
+   },
+   "rows": 21925,
+   "nulls": 0,
+   "null_pct": 0.0,
+   "distinct": 2,
+   "max_str_len": 1,
+   "samples": [
+    "0",
+    "1"
+   ],
+   "min": 0.0,
+   "max": 1.0,
+   "mean": 0.001,
+   "numeric_pct": 100.0,
+   "top_values": [
+    {
+     "v": "0",
+     "n": 21902
+    },
+    {
+     "v": "1",
+     "n": 23
+    }
+   ]
+  },
+  {
+   "name": "Programmed Movement",
+   "dtype": "bool01",
+   "kind_counts": {
+    "bool01": 21925
+   },
+   "rows": 21925,
+   "nulls": 0,
+   "null_pct": 0.0,
+   "distinct": 2,
+   "max_str_len": 1,
+   "samples": [
+    "0",
+    "1"
+   ],
+   "min": 0.0,
+   "max": 1.0,
+   "mean": 0.0018,
+   "numeric_pct": 100.0,
+   "top_values": [
+    {
+     "v": "0",
+     "n": 21886
+    },
+    {
+     "v": "1",
+     "n": 39
+    }
+   ]
+  },
+  {
+   "name": "Scenario / Mission / Campaign Game",
+   "dtype": "bool01",
+   "kind_counts": {
+    "bool01": 21925
+   },
+   "rows": 21925,
+   "nulls": 0,
+   "null_pct": 0.0,
+   "distinct": 2,
+   "max_str_len": 1,
+   "samples": [
+    "0",
+    "1"
+   ],
+   "min": 0.0,
+   "max": 1.0,
+   "mean": 0.0229,
+   "numeric_pct": 100.0,
+   "top_values": [
+    {
+     "v": "0",
+     "n": 21423
+    },
+    {
+     "v": "1",
+     "n": 502
+    }
+   ]
+  },
+  {
+   "name": "Voting",
+   "dtype": "bool01",
+   "kind_counts": {
+    "bool01": 21925
+   },
+   "rows": 21925,
+   "nulls": 0,
+   "null_pct": 0.0,
+   "distinct": 2,
+   "max_str_len": 1,
+   "samples": [
+    "0",
+    "1"
+   ],
+   "min": 0.0,
+   "max": 1.0,
+   "mean": 0.0214,
+   "numeric_pct": 100.0,
+   "top_values": [
+    {
+     "v": "0",
+     "n": 21456
+    },
+    {
+     "v": "1",
+     "n": 469
+    }
+   ]
+  },
+  {
+   "name": "Events",
+   "dtype": "bool01",
+   "kind_counts": {
+    "bool01": 21925
+   },
+   "rows": 21925,
+   "nulls": 0,
+   "null_pct": 0.0,
+   "distinct": 2,
+   "max_str_len": 1,
+   "samples": [
+    "0",
+    "1"
+   ],
+   "min": 0.0,
+   "max": 1.0,
+   "mean": 0.0154,
+   "numeric_pct": 100.0,
+   "top_values": [
+    {
+     "v": "0",
+     "n": 21588
+    },
+    {
+     "v": "1",
+     "n": 337
+    }
+   ]
+  },
+  {
+   "name": "Paper-and-Pencil",
+   "dtype": "bool01",
+   "kind_counts": {
+    "bool01": 21925
+   },
+   "rows": 21925,
+   "nulls": 0,
+   "null_pct": 0.0,
+   "distinct": 2,
+   "max_str_len": 1,
+   "samples": [
+    "0",
+    "1"
+   ],
+   "min": 0.0,
+   "max": 1.0,
+   "mean": 0.0255,
+   "numeric_pct": 100.0,
+   "top_values": [
+    {
+     "v": "0",
+     "n": 21366
+    },
+    {
+     "v": "1",
+     "n": 559
+    }
+   ]
+  },
+  {
+   "name": "Player Elimination",
+   "dtype": "bool01",
+   "kind_counts": {
+    "bool01": 21925
+   },
+   "rows": 21925,
+   "nulls": 0,
+   "null_pct": 0.0,
+   "distinct": 2,
+   "max_str_len": 1,
+   "samples": [
+    "0",
+    "1"
+   ],
+   "min": 0.0,
+   "max": 1.0,
+   "mean": 0.0334,
+   "numeric_pct": 100.0,
+   "top_values": [
+    {
+     "v": "0",
+     "n": 21193
+    },
+    {
+     "v": "1",
+     "n": 732
+    }
+   ]
+  },
+  {
+   "name": "Role Playing",
+   "dtype": "bool01",
+   "kind_counts": {
+    "bool01": 21925
+   },
+   "rows": 21925,
+   "nulls": 0,
+   "null_pct": 0.0,
+   "distinct": 2,
+   "max_str_len": 1,
+   "samples": [
+    "0",
+    "1"
+   ],
+   "min": 0.0,
+   "max": 1.0,
+   "mean": 0.0249,
+   "numeric_pct": 100.0,
+   "top_values": [
+    {
+     "v": "0",
+     "n": 21378
+    },
+    {
+     "v": "1",
+     "n": 547
+    }
+   ]
+  },
+  {
+   "name": "Movement Points",
+   "dtype": "bool01",
+   "kind_counts": {
+    "bool01": 21925
+   },
+   "rows": 21925,
+   "nulls": 0,
+   "null_pct": 0.0,
+   "distinct": 2,
+   "max_str_len": 1,
+   "samples": [
+    "0",
+    "1"
+   ],
+   "min": 0.0,
+   "max": 1.0,
+   "mean": 0.0234,
+   "numeric_pct": 100.0,
+   "top_values": [
+    {
+     "v": "0",
+     "n": 21411
+    },
+    {
+     "v": "1",
+     "n": 514
+    }
+   ]
+  },
+  {
+   "name": "Simulation",
+   "dtype": "bool01",
+   "kind_counts": {
+    "bool01": 21925
+   },
+   "rows": 21925,
+   "nulls": 0,
+   "null_pct": 0.0,
+   "distinct": 2,
+   "max_str_len": 1,
+   "samples": [
+    "0",
+    "1"
+   ],
+   "min": 0.0,
+   "max": 1.0,
+   "mean": 0.0973,
+   "numeric_pct": 100.0,
+   "top_values": [
+    {
+     "v": "0",
+     "n": 19791
+    },
+    {
+     "v": "1",
+     "n": 2134
+    }
+   ]
+  },
+  {
+   "name": "Variable Phase Order",
+   "dtype": "bool01",
+   "kind_counts": {
+    "bool01": 21925
+   },
+   "rows": 21925,
+   "nulls": 0,
+   "null_pct": 0.0,
+   "distinct": 2,
+   "max_str_len": 1,
+   "samples": [
+    "0",
+    "1"
+   ],
+   "min": 0.0,
+   "max": 1.0,
+   "mean": 0.0144,
+   "numeric_pct": 100.0,
+   "top_values": [
+    {
+     "v": "0",
+     "n": 21610
+    },
+    {
+     "v": "1",
+     "n": 315
+    }
+   ]
+  },
+  {
+   "name": "Area Movement",
+   "dtype": "bool01",
+   "kind_counts": {
+    "bool01": 21925
+   },
+   "rows": 21925,
+   "nulls": 0,
+   "null_pct": 0.0,
+   "distinct": 2,
+   "max_str_len": 1,
+   "samples": [
+    "0",
+    "1"
+   ],
+   "min": 0.0,
+   "max": 1.0,
+   "mean": 0.0548,
+   "numeric_pct": 100.0,
+   "top_values": [
+    {
+     "v": "0",
+     "n": 20723
+    },
+    {
+     "v": "1",
+     "n": 1202
+    }
+   ]
+  },
+  {
+   "name": "Commodity Speculation",
+   "dtype": "bool01",
+   "kind_counts": {
+    "bool01": 21925
+   },
+   "rows": 21925,
+   "nulls": 0,
+   "null_pct": 0.0,
+   "distinct": 2,
+   "max_str_len": 1,
+   "samples": [
+    "0",
+    "1"
+   ],
+   "min": 0.0,
+   "max": 1.0,
+   "mean": 0.0118,
+   "numeric_pct": 100.0,
+   "top_values": [
+    {
+     "v": "0",
+     "n": 21666
+    },
+    {
+     "v": "1",
+     "n": 259
+    }
+   ]
+  },
+  {
+   "name": "Cooperative Game",
+   "dtype": "bool01",
+   "kind_counts": {
+    "bool01": 21925
+   },
+   "rows": 21925,
+   "nulls": 0,
+   "null_pct": 0.0,
+   "distinct": 2,
+   "max_str_len": 1,
+   "samples": [
+    "0",
+    "1"
+   ],
+   "min": 0.0,
+   "max": 1.0,
+   "mean": 0.0717,
+   "numeric_pct": 100.0,
+   "top_values": [
+    {
+     "v": "0",
+     "n": 20353
+    },
+    {
+     "v": "1",
+     "n": 1572
+    }
+   ]
+  },
+  {
+   "name": "Deduction",
+   "dtype": "bool01",
+   "kind_counts": {
+    "bool01": 21925
+   },
+   "rows": 21925,
+   "nulls": 0,
+   "null_pct": 0.0,
+   "distinct": 2,
+   "max_str_len": 1,
+   "samples": [
+    "0",
+    "1"
+   ],
+   "min": 0.0,
+   "max": 1.0,
+   "mean": 0.0547,
+   "numeric_pct": 100.0,
+   "top_values": [
+    {
+     "v": "0",
+     "n": 20726
+    },
+    {
+     "v": "1",
+     "n": 1199
+    }
+   ]
+  },
+  {
+   "name": "Sudden Death Ending",
+   "dtype": "bool01",
+   "kind_counts": {
+    "bool01": 21925
+   },
+   "rows": 21925,
+   "nulls": 0,
+   "null_pct": 0.0,
+   "distinct": 2,
+   "max_str_len": 1,
+   "samples": [
+    "0",
+    "1"
+   ],
+   "min": 0.0,
+   "max": 1.0,
+   "mean": 0.0019,
+   "numeric_pct": 100.0,
+   "top_values": [
+    {
+     "v": "0",
+     "n": 21884
+    },
+    {
+     "v": "1",
+     "n": 41
+    }
+   ]
+  },
+  {
+   "name": "Connections",
+   "dtype": "bool01",
+   "kind_counts": {
+    "bool01": 21925
+   },
+   "rows": 21925,
+   "nulls": 0,
+   "null_pct": 0.0,
+   "distinct": 2,
+   "max_str_len": 1,
+   "samples": [
+    "0",
+    "1"
+   ],
+   "min": 0.0,
+   "max": 1.0,
+   "mean": 0.0028,
+   "numeric_pct": 100.0,
+   "top_values": [
+    {
+     "v": "0",
+     "n": 21863
+    },
+    {
+     "v": "1",
+     "n": 62
+    }
+   ]
+  },
+  {
+   "name": "Highest-Lowest Scoring",
+   "dtype": "bool01",
+   "kind_counts": {
+    "bool01": 21925
+   },
+   "rows": 21925,
+   "nulls": 0,
+   "null_pct": 0.0,
+   "distinct": 2,
+   "max_str_len": 1,
+   "samples": [
+    "0",
+    "1"
+   ],
+   "min": 0.0,
+   "max": 1.0,
+   "mean": 0.0011,
+   "numeric_pct": 100.0,
+   "top_values": [
+    {
+     "v": "0",
+     "n": 21900
+    },
+    {
+     "v": "1",
+     "n": 25
+    }
+   ]
+  },
+  {
+   "name": "Betting and Bluffing",
+   "dtype": "bool01",
+   "kind_counts": {
+    "bool01": 21925
+   },
+   "rows": 21925,
+   "nulls": 0,
+   "null_pct": 0.0,
+   "distinct": 2,
+   "max_str_len": 1,
+   "samples": [
+    "0",
+    "1"
+   ],
+   "min": 0.0,
+   "max": 1.0,
+   "mean": 0.0706,
+   "numeric_pct": 100.0,
+   "top_values": [
+    {
+     "v": "0",
+     "n": 20377
+    },
+    {
+     "v": "1",
+     "n": 1548
+    }
+   ]
+  },
+  {
+   "name": "Memory",
+   "dtype": "bool01",
+   "kind_counts": {
+    "bool01": 21925
+   },
+   "rows": 21925,
+   "nulls": 0,
+   "null_pct": 0.0,
+   "distinct": 2,
+   "max_str_len": 1,
+   "samples": [
+    "0",
+    "1"
+   ],
+   "min": 0.0,
+   "max": 1.0,
+   "mean": 0.0463,
+   "numeric_pct": 100.0,
+   "top_values": [
+    {
+     "v": "0",
+     "n": 20910
+    },
+    {
+     "v": "1",
+     "n": 1015
+    }
+   ]
+  },
+  {
+   "name": "Score-and-Reset Game",
+   "dtype": "bool01",
+   "kind_counts": {
+    "bool01": 21925
+   },
+   "rows": 21925,
+   "nulls": 0,
+   "null_pct": 0.0,
+   "distinct": 2,
+   "max_str_len": 1,
+   "samples": [
+    "0",
+    "1"
+   ],
+   "min": 0.0,
+   "max": 1.0,
+   "mean": 0.0012,
+   "numeric_pct": 100.0,
+   "top_values": [
+    {
+     "v": "0",
+     "n": 21899
+    },
+    {
+     "v": "1",
+     "n": 26
+    }
+   ]
+  },
+  {
+   "name": "Layering",
+   "dtype": "bool01",
+   "kind_counts": {
+    "bool01": 21925
+   },
+   "rows": 21925,
+   "nulls": 0,
+   "null_pct": 0.0,
+   "distinct": 2,
+   "max_str_len": 1,
+   "samples": [
+    "0",
+    "1"
+   ],
+   "min": 0.0,
+   "max": 1.0,
+   "mean": 0.0024,
+   "numeric_pct": 100.0,
+   "top_values": [
+    {
+     "v": "0",
+     "n": 21872
+    },
+    {
+     "v": "1",
+     "n": 53
+    }
+   ]
+  },
+  {
+   "name": "Map Addition",
+   "dtype": "bool01",
+   "kind_counts": {
+    "bool01": 21925
+   },
+   "rows": 21925,
+   "nulls": 0,
+   "null_pct": 0.0,
+   "distinct": 2,
+   "max_str_len": 1,
+   "samples": [
+    "0",
+    "1"
+   ],
+   "min": 0.0,
+   "max": 1.0,
+   "mean": 0.0024,
+   "numeric_pct": 100.0,
+   "top_values": [
+    {
+     "v": "0",
+     "n": 21872
+    },
+    {
+     "v": "1",
+     "n": 53
+    }
+   ]
+  },
+  {
+   "name": "Secret Unit Deployment",
+   "dtype": "bool01",
+   "kind_counts": {
+    "bool01": 21925
+   },
+   "rows": 21925,
+   "nulls": 0,
+   "null_pct": 0.0,
+   "distinct": 2,
+   "max_str_len": 1,
+   "samples": [
+    "0",
+    "1"
+   ],
+   "min": 0.0,
+   "max": 1.0,
+   "mean": 0.027,
+   "numeric_pct": 100.0,
+   "top_values": [
+    {
+     "v": "0",
+     "n": 21332
+    },
+    {
+     "v": "1",
+     "n": 593
+    }
+   ]
+  },
+  {
+   "name": "Increase Value of Unchosen Resources",
+   "dtype": "bool01",
+   "kind_counts": {
+    "bool01": 21925
+   },
+   "rows": 21925,
+   "nulls": 0,
+   "null_pct": 0.0,
+   "distinct": 2,
+   "max_str_len": 1,
+   "samples": [
+    "0",
+    "1"
+   ],
+   "min": 0.0,
+   "max": 1.0,
+   "mean": 0.0019,
+   "numeric_pct": 100.0,
+   "top_values": [
+    {
+     "v": "0",
+     "n": 21884
+    },
+    {
+     "v": "1",
+     "n": 41
+    }
+   ]
+  },
+  {
+   "name": "Ratio / Combat Results Table",
+   "dtype": "bool01",
+   "kind_counts": {
+    "bool01": 21925
+   },
+   "rows": 21925,
+   "nulls": 0,
+   "null_pct": 0.0,
+   "distinct": 2,
+   "max_str_len": 1,
+   "samples": [
+    "0",
+    "1"
+   ],
+   "min": 0.0,
+   "max": 1.0,
+   "mean": 0.014,
+   "numeric_pct": 100.0,
+   "top_values": [
+    {
+     "v": "0",
+     "n": 21617
+    },
+    {
+     "v": "1",
+     "n": 308
+    }
+   ]
+  },
+  {
+   "name": "Take That",
+   "dtype": "bool01",
+   "kind_counts": {
+    "bool01": 21925
+   },
+   "rows": 21925,
+   "nulls": 0,
+   "null_pct": 0.0,
+   "distinct": 2,
+   "max_str_len": 1,
+   "samples": [
+    "0",
+    "1"
+   ],
+   "min": 0.0,
+   "max": 1.0,
+   "mean": 0.0521,
+   "numeric_pct": 100.0,
+   "top_values": [
+    {
+     "v": "0",
+     "n": 20783
+    },
+    {
+     "v": "1",
+     "n": 1142
+    }
+   ]
+  },
+  {
+   "name": "Team-Based Game",
+   "dtype": "bool01",
+   "kind_counts": {
+    "bool01": 21925
+   },
+   "rows": 21925,
+   "nulls": 0,
+   "null_pct": 0.0,
+   "distinct": 2,
+   "max_str_len": 1,
+   "samples": [
+    "0",
+    "1"
+   ],
+   "min": 0.0,
+   "max": 1.0,
+   "mean": 0.0473,
+   "numeric_pct": 100.0,
+   "top_values": [
+    {
+     "v": "0",
+     "n": 20889
+    },
+    {
+     "v": "1",
+     "n": 1036
+    }
+   ]
+  },
+  {
+   "name": "Campaign / Battle Card Driven",
+   "dtype": "bool01",
+   "kind_counts": {
+    "bool01": 21925
+   },
+   "rows": 21925,
+   "nulls": 0,
+   "null_pct": 0.0,
+   "distinct": 2,
+   "max_str_len": 1,
+   "samples": [
+    "0",
+    "1"
+   ],
+   "min": 0.0,
+   "max": 1.0,
+   "mean": 0.0256,
+   "numeric_pct": 100.0,
+   "top_values": [
+    {
+     "v": "0",
+     "n": 21364
+    },
+    {
+     "v": "1",
+     "n": 561
+    }
+   ]
+  },
+  {
+   "name": "Tech Trees / Tech Tracks",
+   "dtype": "bool01",
+   "kind_counts": {
+    "bool01": 21925
+   },
+   "rows": 21925,
+   "nulls": 0,
+   "null_pct": 0.0,
+   "distinct": 2,
+   "max_str_len": 1,
+   "samples": [
+    "0",
+    "1"
+   ],
+   "min": 0.0,
+   "max": 1.0,
+   "mean": 0.0026,
+   "numeric_pct": 100.0,
+   "top_values": [
+    {
+     "v": "0",
+     "n": 21867
+    },
+    {
+     "v": "1",
+     "n": 58
+    }
+   ]
+  },
+  {
+   "name": "Player Judge",
+   "dtype": "bool01",
+   "kind_counts": {
+    "bool01": 21925
+   },
+   "rows": 21925,
+   "nulls": 0,
+   "null_pct": 0.0,
+   "distinct": 2,
+   "max_str_len": 1,
+   "samples": [
+    "0",
+    "1"
+   ],
+   "min": 0.0,
+   "max": 1.0,
+   "mean": 0.0015,
+   "numeric_pct": 100.0,
+   "top_values": [
+    {
+     "v": "0",
+     "n": 21893
+    },
+    {
+     "v": "1",
+     "n": 32
+    }
+   ]
+  },
+  {
+   "name": "Chit-Pull System",
+   "dtype": "bool01",
+   "kind_counts": {
+    "bool01": 21925
+   },
+   "rows": 21925,
+   "nulls": 0,
+   "null_pct": 0.0,
+   "distinct": 2,
+   "max_str_len": 1,
+   "samples": [
+    "0",
+    "1"
+   ],
+   "min": 0.0,
+   "max": 1.0,
+   "mean": 0.012,
+   "numeric_pct": 100.0,
+   "top_values": [
+    {
+     "v": "0",
+     "n": 21661
+    },
+    {
+     "v": "1",
+     "n": 264
+    }
+   ]
+  },
+  {
+   "name": "Three Dimensional Movement",
+   "dtype": "bool01",
+   "kind_counts": {
+    "bool01": 21925
+   },
+   "rows": 21925,
+   "nulls": 0,
+   "null_pct": 0.0,
+   "distinct": 2,
+   "max_str_len": 1,
+   "samples": [
+    "0",
+    "1"
+   ],
+   "min": 0.0,
+   "max": 1.0,
+   "mean": 0.0026,
+   "numeric_pct": 100.0,
+   "top_values": [
+    {
+     "v": "0",
+     "n": 21869
+    },
+    {
+     "v": "1",
+     "n": 56
+    }
+   ]
+  },
+  {
+   "name": "Action Drafting",
+   "dtype": "bool01",
+   "kind_counts": {
+    "bool01": 21925
+   },
+   "rows": 21925,
+   "nulls": 0,
+   "null_pct": 0.0,
+   "distinct": 2,
+   "max_str_len": 1,
+   "samples": [
+    "0",
+    "1"
+   ],
+   "min": 0.0,
+   "max": 1.0,
+   "mean": 0.002,
+   "numeric_pct": 100.0,
+   "top_values": [
+    {
+     "v": "0",
+     "n": 21881
+    },
+    {
+     "v": "1",
+     "n": 44
+    }
+   ]
+  },
+  {
+   "name": "Minimap Resolution",
+   "dtype": "bool01",
+   "kind_counts": {
+    "bool01": 21925
+   },
+   "rows": 21925,
+   "nulls": 0,
+   "null_pct": 0.0,
+   "distinct": 2,
+   "max_str_len": 1,
+   "samples": [
+    "0",
+    "1"
+   ],
+   "min": 0.0,
+   "max": 1.0,
+   "mean": 0.0016,
+   "numeric_pct": 100.0,
+   "top_values": [
+    {
+     "v": "0",
+     "n": 21890
+    },
+    {
+     "v": "1",
+     "n": 35
+    }
+   ]
+  },
+  {
+   "name": "Stat Check Resolution",
+   "dtype": "bool01",
+   "kind_counts": {
+    "bool01": 21925
+   },
+   "rows": 21925,
+   "nulls": 0,
+   "null_pct": 0.0,
+   "distinct": 2,
+   "max_str_len": 1,
+   "samples": [
+    "0",
+    "1"
+   ],
+   "min": 0.0,
+   "max": 1.0,
+   "mean": 0.0016,
+   "numeric_pct": 100.0,
+   "top_values": [
+    {
+     "v": "0",
+     "n": 21889
+    },
+    {
+     "v": "1",
+     "n": 36
+    }
+   ]
+  },
+  {
+   "name": "Action Timer",
+   "dtype": "bool01",
+   "kind_counts": {
+    "bool01": 21925
+   },
+   "rows": 21925,
+   "nulls": 0,
+   "null_pct": 0.0,
+   "distinct": 2,
+   "max_str_len": 1,
+   "samples": [
+    "0",
+    "1"
+   ],
+   "min": 0.0,
+   "max": 1.0,
+   "mean": 0.0008,
+   "numeric_pct": 100.0,
+   "top_values": [
+    {
+     "v": "0",
+     "n": 21907
+    },
+    {
+     "v": "1",
+     "n": 18
+    }
+   ]
+  },
+  {
+   "name": "Pick-up and Deliver",
+   "dtype": "bool01",
+   "kind_counts": {
+    "bool01": 21925
+   },
+   "rows": 21925,
+   "nulls": 0,
+   "null_pct": 0.0,
+   "distinct": 2,
+   "max_str_len": 1,
+   "samples": [
+    "0",
+    "1"
+   ],
+   "min": 0.0,
+   "max": 1.0,
+   "mean": 0.0274,
+   "numeric_pct": 100.0,
+   "top_values": [
+    {
+     "v": "0",
+     "n": 21325
+    },
+    {
+     "v": "1",
+     "n": 600
+    }
+   ]
+  },
+  {
+   "name": "Map Deformation",
+   "dtype": "bool01",
+   "kind_counts": {
+    "bool01": 21925
+   },
+   "rows": 21925,
+   "nulls": 0,
+   "null_pct": 0.0,
+   "distinct": 2,
+   "max_str_len": 1,
+   "samples": [
+    "0",
+    "1"
+   ],
+   "min": 0.0,
+   "max": 1.0,
+   "mean": 0.001,
+   "numeric_pct": 100.0,
+   "top_values": [
+    {
+     "v": "0",
+     "n": 21904
+    },
+    {
+     "v": "1",
+     "n": 21
+    }
+   ]
+  },
+  {
+   "name": "Bingo",
+   "dtype": "bool01",
+   "kind_counts": {
+    "bool01": 21925
+   },
+   "rows": 21925,
+   "nulls": 0,
+   "null_pct": 0.0,
+   "distinct": 2,
+   "max_str_len": 1,
+   "samples": [
+    "0",
+    "1"
+   ],
+   "min": 0.0,
+   "max": 1.0,
+   "mean": 0.0019,
+   "numeric_pct": 100.0,
+   "top_values": [
+    {
+     "v": "0",
+     "n": 21884
+    },
+    {
+     "v": "1",
+     "n": 41
+    }
+   ]
+  },
+  {
+   "name": "Crayon Rail System",
+   "dtype": "bool01",
+   "kind_counts": {
+    "bool01": 21925
+   },
+   "rows": 21925,
+   "nulls": 0,
+   "null_pct": 0.0,
+   "distinct": 2,
+   "max_str_len": 1,
+   "samples": [
+    "0",
+    "1"
+   ],
+   "min": 0.0,
+   "max": 1.0,
+   "mean": 0.001,
+   "numeric_pct": 100.0,
+   "top_values": [
+    {
+     "v": "0",
+     "n": 21902
+    },
+    {
+     "v": "1",
+     "n": 23
+    }
+   ]
+  },
+  {
+   "name": "Multiple Maps",
+   "dtype": "bool01",
+   "kind_counts": {
+    "bool01": 21925
+   },
+   "rows": 21925,
+   "nulls": 0,
+   "null_pct": 0.0,
+   "distinct": 2,
+   "max_str_len": 1,
+   "samples": [
+    "0",
+    "1"
+   ],
+   "min": 0.0,
+   "max": 1.0,
+   "mean": 0.0013,
+   "numeric_pct": 100.0,
+   "top_values": [
+    {
+     "v": "0",
+     "n": 21896
+    },
+    {
+     "v": "1",
+     "n": 29
+    }
+   ]
+  },
+  {
+   "name": "Hidden Roles",
+   "dtype": "bool01",
+   "kind_counts": {
+    "bool01": 21925
+   },
+   "rows": 21925,
+   "nulls": 0,
+   "null_pct": 0.0,
+   "distinct": 2,
+   "max_str_len": 1,
+   "samples": [
+    "0",
+    "1"
+   ],
+   "min": 0.0,
+   "max": 1.0,
+   "mean": 0.0043,
+   "numeric_pct": 100.0,
+   "top_values": [
+    {
+     "v": "0",
+     "n": 21830
+    },
+    {
+     "v": "1",
+     "n": 95
+    }
+   ]
+  },
+  {
+   "name": "Line Drawing",
+   "dtype": "bool01",
+   "kind_counts": {
+    "bool01": 21925
+   },
+   "rows": 21925,
+   "nulls": 0,
+   "null_pct": 0.0,
+   "distinct": 2,
+   "max_str_len": 1,
+   "samples": [
+    "0",
+    "1"
+   ],
+   "min": 0.0,
+   "max": 1.0,
+   "mean": 0.0075,
+   "numeric_pct": 100.0,
+   "top_values": [
+    {
+     "v": "0",
+     "n": 21761
+    },
+    {
+     "v": "1",
+     "n": 164
+    }
+   ]
+  },
+  {
+   "name": "Tug of War",
+   "dtype": "bool01",
+   "kind_counts": {
+    "bool01": 21925
+   },
+   "rows": 21925,
+   "nulls": 0,
+   "null_pct": 0.0,
+   "distinct": 2,
+   "max_str_len": 1,
+   "samples": [
+    "0",
+    "1"
+   ],
+   "min": 0.0,
+   "max": 1.0,
+   "mean": 0.0014,
+   "numeric_pct": 100.0,
+   "top_values": [
+    {
+     "v": "0",
+     "n": 21895
+    },
+    {
+     "v": "1",
+     "n": 30
+    }
+   ]
+  },
+  {
+   "name": "Pattern Movement",
+   "dtype": "bool01",
+   "kind_counts": {
+    "bool01": 21925
+   },
+   "rows": 21925,
+   "nulls": 0,
+   "null_pct": 0.0,
+   "distinct": 2,
+   "max_str_len": 1,
+   "samples": [
+    "0",
+    "1"
+   ],
+   "min": 0.0,
+   "max": 1.0,
+   "mean": 0.0005,
+   "numeric_pct": 100.0,
+   "top_values": [
+    {
+     "v": "0",
+     "n": 21915
+    },
+    {
+     "v": "1",
+     "n": 10
+    }
+   ]
+  },
+  {
+   "name": "Static Capture",
+   "dtype": "bool01",
+   "kind_counts": {
+    "bool01": 21925
+   },
+   "rows": 21925,
+   "nulls": 0,
+   "null_pct": 0.0,
+   "distinct": 2,
+   "max_str_len": 1,
+   "samples": [
+    "0",
+    "1"
+   ],
+   "min": 0.0,
+   "max": 1.0,
+   "mean": 0.0012,
+   "numeric_pct": 100.0,
+   "top_values": [
+    {
+     "v": "0",
+     "n": 21899
+    },
+    {
+     "v": "1",
+     "n": 26
+    }
+   ]
+  },
+  {
+   "name": "Different Dice Movement",
+   "dtype": "bool01",
+   "kind_counts": {
+    "bool01": 21925
+   },
+   "rows": 21925,
+   "nulls": 0,
+   "null_pct": 0.0,
+   "distinct": 2,
+   "max_str_len": 1,
+   "samples": [
+    "0",
+    "1"
+   ],
+   "min": 0.0,
+   "max": 1.0,
+   "mean": 0.0005,
+   "numeric_pct": 100.0,
+   "top_values": [
+    {
+     "v": "0",
+     "n": 21915
+    },
+    {
+     "v": "1",
+     "n": 10
+    }
+   ]
+  },
+  {
+   "name": "Chaining",
+   "dtype": "bool01",
+   "kind_counts": {
+    "bool01": 21925
+   },
+   "rows": 21925,
+   "nulls": 0,
+   "null_pct": 0.0,
+   "distinct": 2,
+   "max_str_len": 1,
+   "samples": [
+    "0",
+    "1"
+   ],
+   "min": 0.0,
+   "max": 1.0,
+   "mean": 0.0014,
+   "numeric_pct": 100.0,
+   "top_values": [
+    {
+     "v": "0",
+     "n": 21894
+    },
+    {
+     "v": "1",
+     "n": 31
+    }
+   ]
+  },
+  {
+   "name": "Ladder Climbing",
+   "dtype": "bool01",
+   "kind_counts": {
+    "bool01": 21925
+   },
+   "rows": 21925,
+   "nulls": 0,
+   "null_pct": 0.0,
+   "distinct": 2,
+   "max_str_len": 1,
+   "samples": [
+    "0",
+    "1"
+   ],
+   "min": 0.0,
+   "max": 1.0,
+   "mean": 0.002,
+   "numeric_pct": 100.0,
+   "top_values": [
+    {
+     "v": "0",
+     "n": 21882
+    },
+    {
+     "v": "1",
+     "n": 43
+    }
+   ]
+  },
+  {
+   "name": "Predictive Bid",
+   "dtype": "bool01",
+   "kind_counts": {
+    "bool01": 21925
+   },
+   "rows": 21925,
+   "nulls": 0,
+   "null_pct": 0.0,
+   "distinct": 2,
+   "max_str_len": 1,
+   "samples": [
+    "0",
+    "1"
+   ],
+   "min": 0.0,
+   "max": 1.0,
+   "mean": 0.0007,
+   "numeric_pct": 100.0,
+   "top_values": [
+    {
+     "v": "0",
+     "n": 21910
+    },
+    {
+     "v": "1",
+     "n": 15
+    }
+   ]
+  },
+  {
+   "name": "Solo / Solitaire Game",
+   "dtype": "bool01",
+   "kind_counts": {
+    "bool01": 21925
+   },
+   "rows": 21925,
+   "nulls": 0,
+   "null_pct": 0.0,
+   "distinct": 2,
+   "max_str_len": 1,
+   "samples": [
+    "0",
+    "1"
+   ],
+   "min": 0.0,
+   "max": 1.0,
+   "mean": 0.0444,
+   "numeric_pct": 100.0,
+   "top_values": [
+    {
+     "v": "0",
+     "n": 20952
+    },
+    {
+     "v": "1",
+     "n": 973
+    }
+   ]
+  },
+  {
+   "name": "Line of Sight",
+   "dtype": "bool01",
+   "kind_counts": {
+    "bool01": 21925
+   },
+   "rows": 21925,
+   "nulls": 0,
+   "null_pct": 0.0,
+   "distinct": 2,
+   "max_str_len": 1,
+   "samples": [
+    "0",
+    "1"
+   ],
+   "min": 0.0,
+   "max": 1.0,
+   "mean": 0.0126,
+   "numeric_pct": 100.0,
+   "top_values": [
+    {
+     "v": "0",
+     "n": 21649
+    },
+    {
+     "v": "1",
+     "n": 276
+    }
+   ]
+  },
+  {
+   "name": "Critical Hits and Failures",
+   "dtype": "bool01",
+   "kind_counts": {
+    "bool01": 21925
+   },
+   "rows": 21925,
+   "nulls": 0,
+   "null_pct": 0.0,
+   "distinct": 2,
+   "max_str_len": 1,
+   "samples": [
+    "0",
+    "1"
+   ],
+   "min": 0.0,
+   "max": 1.0,
+   "mean": 0.0023,
+   "numeric_pct": 100.0,
+   "top_values": [
+    {
+     "v": "0",
+     "n": 21875
+    },
+    {
+     "v": "1",
+     "n": 50
+    }
+   ]
+  },
+  {
+   "name": "Interrupts",
+   "dtype": "bool01",
+   "kind_counts": {
+    "bool01": 21925
+   },
+   "rows": 21925,
+   "nulls": 0,
+   "null_pct": 0.0,
+   "distinct": 2,
+   "max_str_len": 1,
+   "samples": [
+    "0",
+    "1"
+   ],
+   "min": 0.0,
+   "max": 1.0,
+   "mean": 0.0011,
+   "numeric_pct": 100.0,
+   "top_values": [
+    {
+     "v": "0",
+     "n": 21900
+    },
+    {
+     "v": "1",
+     "n": 25
+    }
+   ]
+  },
+  {
+   "name": "Zone of Control",
+   "dtype": "bool01",
+   "kind_counts": {
+    "bool01": 21925
+   },
+   "rows": 21925,
+   "nulls": 0,
+   "null_pct": 0.0,
+   "distinct": 2,
+   "max_str_len": 1,
+   "samples": [
+    "0",
+    "1"
+   ],
+   "min": 0.0,
+   "max": 1.0,
+   "mean": 0.0126,
+   "numeric_pct": 100.0,
+   "top_values": [
+    {
+     "v": "0",
+     "n": 21649
+    },
+    {
+     "v": "1",
+     "n": 276
+    }
+   ]
+  },
+  {
+   "name": "Bribery",
+   "dtype": "bool01",
+   "kind_counts": {
+    "bool01": 21925
+   },
+   "rows": 21925,
+   "nulls": 0,
+   "null_pct": 0.0,
+   "distinct": 2,
+   "max_str_len": 1,
+   "samples": [
+    "0",
+    "1"
+   ],
+   "min": 0.0,
+   "max": 1.0,
+   "mean": 0.0009,
+   "numeric_pct": 100.0,
+   "top_values": [
+    {
+     "v": "0",
+     "n": 21906
+    },
+    {
+     "v": "1",
+     "n": 19
+    }
+   ]
+  },
+  {
+   "name": "End Game Bonuses",
+   "dtype": "bool01",
+   "kind_counts": {
+    "bool01": 21925
+   },
+   "rows": 21925,
+   "nulls": 0,
+   "null_pct": 0.0,
+   "distinct": 2,
+   "max_str_len": 1,
+   "samples": [
+    "0",
+    "1"
+   ],
+   "min": 0.0,
+   "max": 1.0,
+   "mean": 0.0082,
+   "numeric_pct": 100.0,
+   "top_values": [
+    {
+     "v": "0",
+     "n": 21745
+    },
+    {
+     "v": "1",
+     "n": 180
+    }
+   ]
+  },
+  {
+   "name": "Area-Impulse",
+   "dtype": "bool01",
+   "kind_counts": {
+    "bool01": 21925
+   },
+   "rows": 21925,
+   "nulls": 0,
+   "null_pct": 0.0,
+   "distinct": 2,
+   "max_str_len": 1,
+   "samples": [
+    "0",
+    "1"
+   ],
+   "min": 0.0,
+   "max": 1.0,
+   "mean": 0.0049,
+   "numeric_pct": 100.0,
+   "top_values": [
+    {
+     "v": "0",
+     "n": 21818
+    },
+    {
+     "v": "1",
+     "n": 107
+    }
+   ]
+  },
+  {
+   "name": "Worker Placement",
+   "dtype": "bool01",
+   "kind_counts": {
+    "bool01": 21925
+   },
+   "rows": 21925,
+   "nulls": 0,
+   "null_pct": 0.0,
+   "distinct": 2,
+   "max_str_len": 1,
+   "samples": [
+    "0",
+    "1"
+   ],
+   "min": 0.0,
+   "max": 1.0,
+   "mean": 0.0387,
+   "numeric_pct": 100.0,
+   "top_values": [
+    {
+     "v": "0",
+     "n": 21076
+    },
+    {
+     "v": "1",
+     "n": 849
+    }
+   ]
+  },
+  {
+   "name": "Measurement Movement",
+   "dtype": "bool01",
+   "kind_counts": {
+    "bool01": 21925
+   },
+   "rows": 21925,
+   "nulls": 0,
+   "null_pct": 0.0,
+   "distinct": 2,
+   "max_str_len": 1,
+   "samples": [
+    "0",
+    "1"
+   ],
+   "min": 0.0,
+   "max": 1.0,
+   "mean": 0.0045,
+   "numeric_pct": 100.0,
+   "top_values": [
+    {
+     "v": "0",
+     "n": 21827
+    },
+    {
+     "v": "1",
+     "n": 98
+    }
+   ]
+  },
+  {
+   "name": "Map Reduction",
+   "dtype": "bool01",
+   "kind_counts": {
+    "bool01": 21925
+   },
+   "rows": 21925,
+   "nulls": 0,
+   "null_pct": 0.0,
+   "distinct": 2,
+   "max_str_len": 1,
+   "samples": [
+    "0",
+    "1"
+   ],
+   "min": 0.0,
+   "max": 1.0,
+   "mean": 0.0016,
+   "numeric_pct": 100.0,
+   "top_values": [
+    {
+     "v": "0",
+     "n": 21890
+    },
+    {
+     "v": "1",
+     "n": 35
+    }
+   ]
+  },
+  {
+   "name": "Real-Time",
+   "dtype": "bool01",
+   "kind_counts": {
+    "bool01": 21925
+   },
+   "rows": 21925,
+   "nulls": 0,
+   "null_pct": 0.0,
+   "distinct": 2,
+   "max_str_len": 1,
+   "samples": [
+    "0",
+    "1"
+   ],
+   "min": 0.0,
+   "max": 1.0,
+   "mean": 0.0366,
+   "numeric_pct": 100.0,
+   "top_values": [
+    {
+     "v": "0",
+     "n": 21122
+    },
+    {
+     "v": "1",
+     "n": 803
+    }
+   ]
+  },
+  {
+   "name": "Resource to Move",
+   "dtype": "bool01",
+   "kind_counts": {
+    "bool01": 21925
+   },
+   "rows": 21925,
+   "nulls": 0,
+   "null_pct": 0.0,
+   "distinct": 2,
+   "max_str_len": 1,
+   "samples": [
+    "0",
+    "1"
+   ],
+   "min": 0.0,
+   "max": 1.0,
+   "mean": 0.0014,
+   "numeric_pct": 100.0,
+   "top_values": [
+    {
+     "v": "0",
+     "n": 21895
+    },
+    {
+     "v": "1",
+     "n": 30
+    }
+   ]
+  },
+  {
+   "name": "Mancala",
+   "dtype": "bool01",
+   "kind_counts": {
+    "bool01": 21925
+   },
+   "rows": 21925,
+   "nulls": 0,
+   "null_pct": 0.0,
+   "distinct": 2,
+   "max_str_len": 1,
+   "samples": [
+    "0",
+    "1"
+   ],
+   "min": 0.0,
+   "max": 1.0,
+   "mean": 0.0017,
+   "numeric_pct": 100.0,
+   "top_values": [
+    {
+     "v": "0",
+     "n": 21888
+    },
+    {
+     "v": "1",
+     "n": 37
+    }
+   ]
+  },
+  {
+   "name": "Ownership",
+   "dtype": "bool01",
+   "kind_counts": {
+    "bool01": 21925
+   },
+   "rows": 21925,
+   "nulls": 0,
+   "null_pct": 0.0,
+   "distinct": 2,
+   "max_str_len": 1,
+   "samples": [
+    "0",
+    "1"
+   ],
+   "min": 0.0,
+   "max": 1.0,
+   "mean": 0.0021,
+   "numeric_pct": 100.0,
+   "top_values": [
+    {
+     "v": "0",
+     "n": 21878
+    },
+    {
+     "v": "1",
+     "n": 47
+    }
+   ]
+  },
+  {
+   "name": "Kill Steal",
+   "dtype": "bool01",
+   "kind_counts": {
+    "bool01": 21925
+   },
+   "rows": 21925,
+   "nulls": 0,
+   "null_pct": 0.0,
+   "distinct": 2,
+   "max_str_len": 1,
+   "samples": [
+    "0",
+    "1"
+   ],
+   "min": 0.0,
+   "max": 1.0,
+   "mean": 0.0007,
+   "numeric_pct": 100.0,
+   "top_values": [
+    {
+     "v": "0",
+     "n": 21910
+    },
+    {
+     "v": "1",
+     "n": 15
+    }
+   ]
+  },
+  {
+   "name": "Hidden Movement",
+   "dtype": "bool01",
+   "kind_counts": {
+    "bool01": 21925
+   },
+   "rows": 21925,
+   "nulls": 0,
+   "null_pct": 0.0,
+   "distinct": 2,
+   "max_str_len": 1,
+   "samples": [
+    "0",
+    "1"
+   ],
+   "min": 0.0,
+   "max": 1.0,
+   "mean": 0.0037,
+   "numeric_pct": 100.0,
+   "top_values": [
+    {
+     "v": "0",
+     "n": 21844
+    },
+    {
+     "v": "1",
+     "n": 81
+    }
+   ]
+  },
+  {
+   "name": "Track Movement",
+   "dtype": "bool01",
+   "kind_counts": {
+    "bool01": 21925
+   },
+   "rows": 21925,
+   "nulls": 0,
+   "null_pct": 0.0,
+   "distinct": 2,
+   "max_str_len": 1,
+   "samples": [
+    "0",
+    "1"
+   ],
+   "min": 0.0,
+   "max": 1.0,
+   "mean": 0.0042,
+   "numeric_pct": 100.0,
+   "top_values": [
+    {
+     "v": "0",
+     "n": 21833
+    },
+    {
+     "v": "1",
+     "n": 92
+    }
+   ]
+  },
+  {
+   "name": "Deck Construction",
+   "dtype": "bool01",
+   "kind_counts": {
+    "bool01": 21925
+   },
+   "rows": 21925,
+   "nulls": 0,
+   "null_pct": 0.0,
+   "distinct": 2,
+   "max_str_len": 1,
+   "samples": [
+    "0",
+    "1"
+   ],
+   "min": 0.0,
+   "max": 1.0,
+   "mean": 0.0022,
+   "numeric_pct": 100.0,
+   "top_values": [
+    {
+     "v": "0",
+     "n": 21876
+    },
+    {
+     "v": "1",
+     "n": 49
+    }
+   ]
+  },
+  {
+   "name": "Drafting",
+   "dtype": "bool01",
+   "kind_counts": {
+    "bool01": 21925
+   },
+   "rows": 21925,
+   "nulls": 0,
+   "null_pct": 0.0,
+   "distinct": 2,
+   "max_str_len": 1,
+   "samples": [
+    "0",
+    "1"
+   ],
+   "min": 0.0,
+   "max": 1.0,
+   "mean": 0.0919,
+   "numeric_pct": 100.0,
+   "top_values": [
+    {
+     "v": "0",
+     "n": 19910
+    },
+    {
+     "v": "1",
+     "n": 2015
+    }
+   ]
+  },
+  {
+   "name": "TableauBuilding",
+   "dtype": "bool01",
+   "kind_counts": {
+    "bool01": 21925
+   },
+   "rows": 21925,
+   "nulls": 0,
+   "null_pct": 0.0,
+   "distinct": 2,
+   "max_str_len": 1,
+   "samples": [
+    "0",
+    "1"
+   ],
+   "min": 0.0,
+   "max": 1.0,
+   "mean": 0.008,
+   "numeric_pct": 100.0,
+   "top_values": [
+    {
+     "v": "0",
+     "n": 21750
+    },
+    {
+     "v": "1",
+     "n": 175
+    }
+   ]
+  },
+  {
+   "name": "Prisoner's Dilemma",
+   "dtype": "bool01",
+   "kind_counts": {
+    "bool01": 21925
+   },
+   "rows": 21925,
+   "nulls": 0,
+   "null_pct": 0.0,
+   "distinct": 2,
+   "max_str_len": 1,
+   "samples": [
+    "0",
+    "1"
+   ],
+   "min": 0.0,
+   "max": 1.0,
+   "mean": 0.0007,
+   "numeric_pct": 100.0,
+   "top_values": [
+    {
+     "v": "0",
+     "n": 21909
+    },
+    {
+     "v": "1",
+     "n": 16
+    }
+   ]
+  },
+  {
+   "name": "Hidden Victory Points",
+   "dtype": "bool01",
+   "kind_counts": {
+    "bool01": 21925
+   },
+   "rows": 21925,
+   "nulls": 0,
+   "null_pct": 0.0,
+   "distinct": 2,
+   "max_str_len": 1,
+   "samples": [
+    "0",
+    "1"
+   ],
+   "min": 0.0,
+   "max": 1.0,
+   "mean": 0.0019,
+   "numeric_pct": 100.0,
+   "top_values": [
+    {
+     "v": "0",
+     "n": 21884
+    },
+    {
+     "v": "1",
+     "n": 41
+    }
+   ]
+  },
+  {
+   "name": "Movement Template",
+   "dtype": "bool01",
+   "kind_counts": {
+    "bool01": 21925
+   },
+   "rows": 21925,
+   "nulls": 0,
+   "null_pct": 0.0,
+   "distinct": 2,
+   "max_str_len": 1,
+   "samples": [
+    "0",
+    "1"
+   ],
+   "min": 0.0,
+   "max": 1.0,
+   "mean": 0.0014,
+   "numeric_pct": 100.0,
+   "top_values": [
+    {
+     "v": "0",
+     "n": 21895
+    },
+    {
+     "v": "1",
+     "n": 30
+    }
+   ]
+  },
+  {
+   "name": "Slide/Push",
+   "dtype": "bool01",
+   "kind_counts": {
+    "bool01": 21925
+   },
+   "rows": 21925,
+   "nulls": 0,
+   "null_pct": 0.0,
+   "distinct": 2,
+   "max_str_len": 1,
+   "samples": [
+    "0",
+    "1"
+   ],
+   "min": 0.0,
+   "max": 1.0,
+   "mean": 0.001,
+   "numeric_pct": 100.0,
+   "top_values": [
+    {
+     "v": "0",
+     "n": 21903
+    },
+    {
+     "v": "1",
+     "n": 22
+    }
+   ]
+  },
+  {
+   "name": "Targeted Clues",
+   "dtype": "bool01",
+   "kind_counts": {
+    "bool01": 21925
+   },
+   "rows": 21925,
+   "nulls": 0,
+   "null_pct": 0.0,
+   "distinct": 2,
+   "max_str_len": 1,
+   "samples": [
+    "0",
+    "1"
+   ],
+   "min": 0.0,
+   "max": 1.0,
+   "mean": 0.0011,
+   "numeric_pct": 100.0,
+   "top_values": [
+    {
+     "v": "0",
+     "n": 21901
+    },
+    {
+     "v": "1",
+     "n": 24
+    }
+   ]
+  },
+  {
+   "name": "Command Cards",
+   "dtype": "bool01",
+   "kind_counts": {
+    "bool01": 21925
+   },
+   "rows": 21925,
+   "nulls": 0,
+   "null_pct": 0.0,
+   "distinct": 2,
+   "max_str_len": 1,
+   "samples": [
+    "0",
+    "1"
+   ],
+   "min": 0.0,
+   "max": 1.0,
+   "mean": 0.0012,
+   "numeric_pct": 100.0,
+   "top_values": [
+    {
+     "v": "0",
+     "n": 21898
+    },
+    {
+     "v": "1",
+     "n": 27
+    }
+   ]
+  },
+  {
+   "name": "Grid Coverage",
+   "dtype": "bool01",
+   "kind_counts": {
+    "bool01": 21925
+   },
+   "rows": 21925,
+   "nulls": 0,
+   "null_pct": 0.0,
+   "distinct": 2,
+   "max_str_len": 1,
+   "samples": [
+    "0",
+    "1"
+   ],
+   "min": 0.0,
+   "max": 1.0,
+   "mean": 0.0024,
+   "numeric_pct": 100.0,
+   "top_values": [
+    {
+     "v": "0",
+     "n": 21872
+    },
+    {
+     "v": "1",
+     "n": 53
+    }
+   ]
+  },
+  {
+   "name": "Relative Movement",
+   "dtype": "bool01",
+   "kind_counts": {
+    "bool01": 21925
+   },
+   "rows": 21925,
+   "nulls": 0,
+   "null_pct": 0.0,
+   "distinct": 2,
+   "max_str_len": 1,
+   "samples": [
+    "0",
+    "1"
+   ],
+   "min": 0.0,
+   "max": 1.0,
+   "mean": 0.0006,
+   "numeric_pct": 100.0,
+   "top_values": [
+    {
+     "v": "0",
+     "n": 21912
+    },
+    {
+     "v": "1",
+     "n": 13
+    }
+   ]
+  },
+  {
+   "name": "Action/Event",
+   "dtype": "bool01",
+   "kind_counts": {
+    "bool01": 21925
+   },
+   "rows": 21925,
+   "nulls": 0,
+   "null_pct": 0.0,
+   "distinct": 2,
+   "max_str_len": 1,
+   "samples": [
+    "0",
+    "1"
+   ],
+   "min": 0.0,
+   "max": 1.0,
+   "mean": 0.0021,
+   "numeric_pct": 100.0,
+   "top_values": [
+    {
+     "v": "0",
+     "n": 21879
+    },
+    {
+     "v": "1",
+     "n": 46
+    }
+   ]
+  },
+  {
+   "name": "Card Play Conflict Resolution",
+   "dtype": "bool01",
+   "kind_counts": {
+    "bool01": 21925
+   },
+   "rows": 21925,
+   "nulls": 0,
+   "null_pct": 0.0,
+   "distinct": 2,
+   "max_str_len": 1,
+   "samples": [
+    "0",
+    "1"
+   ],
+   "min": 0.0,
+   "max": 1.0,
+   "mean": 0.0045,
+   "numeric_pct": 100.0,
+   "top_values": [
+    {
+     "v": "0",
+     "n": 21826
+    },
+    {
+     "v": "1",
+     "n": 99
+    }
+   ]
+  },
+  {
+   "name": "I Cut, You Choose",
+   "dtype": "bool01",
+   "kind_counts": {
+    "bool01": 21925
+   },
+   "rows": 21925,
+   "nulls": 0,
+   "null_pct": 0.0,
+   "distinct": 2,
+   "max_str_len": 1,
+   "samples": [
+    "0",
+    "1"
+   ],
+   "min": 0.0,
+   "max": 1.0,
+   "mean": 0.0016,
+   "numeric_pct": 100.0,
+   "top_values": [
+    {
+     "v": "0",
+     "n": 21889
+    },
+    {
+     "v": "1",
+     "n": 36
+    }
+   ]
+  },
+  {
+   "name": "Die Icon Resolution",
+   "dtype": "bool01",
+   "kind_counts": {
+    "bool01": 21925
+   },
+   "rows": 21925,
+   "nulls": 0,
+   "null_pct": 0.0,
+   "distinct": 2,
+   "max_str_len": 1,
+   "samples": [
+    "0",
+    "1"
+   ],
+   "min": 0.0,
+   "max": 1.0,
+   "mean": 0.0021,
+   "numeric_pct": 100.0,
+   "top_values": [
+    {
+     "v": "0",
+     "n": 21880
+    },
+    {
+     "v": "1",
+     "n": 45
+    }
+   ]
+  },
+  {
+   "name": "Elapsed Real Time Ending",
+   "dtype": "bool01",
+   "kind_counts": {
+    "bool01": 21925
+   },
+   "rows": 21925,
+   "nulls": 0,
+   "null_pct": 0.0,
+   "distinct": 2,
+   "max_str_len": 1,
+   "samples": [
+    "0",
+    "1"
+   ],
+   "min": 0.0,
+   "max": 1.0,
+   "mean": 0.0017,
+   "numeric_pct": 100.0,
+   "top_values": [
+    {
+     "v": "0",
+     "n": 21887
+    },
+    {
+     "v": "1",
+     "n": 38
+    }
+   ]
+  },
+  {
+   "name": "Advantage Token",
+   "dtype": "bool01",
+   "kind_counts": {
+    "bool01": 21925
+   },
+   "rows": 21925,
+   "nulls": 0,
+   "null_pct": 0.0,
+   "distinct": 2,
+   "max_str_len": 1,
+   "samples": [
+    "0",
+    "1"
+   ],
+   "min": 0.0,
+   "max": 1.0,
+   "mean": 0.0008,
+   "numeric_pct": 100.0,
+   "top_values": [
+    {
+     "v": "0",
+     "n": 21908
+    },
+    {
+     "v": "1",
+     "n": 17
+    }
+   ]
+  },
+  {
+   "name": "Storytelling",
+   "dtype": "bool01",
+   "kind_counts": {
+    "bool01": 21925
+   },
+   "rows": 21925,
+   "nulls": 0,
+   "null_pct": 0.0,
+   "distinct": 2,
+   "max_str_len": 1,
+   "samples": [
+    "0",
+    "1"
+   ],
+   "min": 0.0,
+   "max": 1.0,
+   "mean": 0.0229,
+   "numeric_pct": 100.0,
+   "top_values": [
+    {
+     "v": "0",
+     "n": 21424
+    },
+    {
+     "v": "1",
+     "n": 501
+    }
+   ]
+  },
+  {
+   "name": "Catch the Leader",
+   "dtype": "bool01",
+   "kind_counts": {
+    "bool01": 21925
+   },
+   "rows": 21925,
+   "nulls": 0,
+   "null_pct": 0.0,
+   "distinct": 2,
+   "max_str_len": 1,
+   "samples": [
+    "0",
+    "1"
+   ],
+   "min": 0.0,
+   "max": 1.0,
+   "mean": 0.0016,
+   "numeric_pct": 100.0,
+   "top_values": [
+    {
+     "v": "0",
+     "n": 21890
+    },
+    {
+     "v": "1",
+     "n": 35
+    }
+   ]
+  },
+  {
+   "name": "Roles with Asymmetric Information",
+   "dtype": "bool01",
+   "kind_counts": {
+    "bool01": 21925
+   },
+   "rows": 21925,
+   "nulls": 0,
+   "null_pct": 0.0,
+   "distinct": 2,
+   "max_str_len": 1,
+   "samples": [
+    "0",
+    "1"
+   ],
+   "min": 0.0,
+   "max": 1.0,
+   "mean": 0.0015,
+   "numeric_pct": 100.0,
+   "top_values": [
+    {
+     "v": "0",
+     "n": 21893
+    },
+    {
+     "v": "1",
+     "n": 32
+    }
+   ]
+  },
+  {
+   "name": "Traitor Game",
+   "dtype": "bool01",
+   "kind_counts": {
+    "bool01": 21925
+   },
+   "rows": 21925,
+   "nulls": 0,
+   "null_pct": 0.0,
+   "distinct": 2,
+   "max_str_len": 1,
+   "samples": [
+    "0",
+    "1"
+   ],
+   "min": 0.0,
+   "max": 1.0,
+   "mean": 0.0039,
+   "numeric_pct": 100.0,
+   "top_values": [
+    {
+     "v": "0",
+     "n": 21840
+    },
+    {
+     "v": "1",
+     "n": 85
+    }
+   ]
+  },
+  {
+   "name": "Moving Multiple Units",
+   "dtype": "bool01",
+   "kind_counts": {
+    "bool01": 21925
+   },
+   "rows": 21925,
+   "nulls": 0,
+   "null_pct": 0.0,
+   "distinct": 2,
+   "max_str_len": 1,
+   "samples": [
+    "0",
+    "1"
+   ],
+   "min": 0.0,
+   "max": 1.0,
+   "mean": 0.0007,
+   "numeric_pct": 100.0,
+   "top_values": [
+    {
+     "v": "0",
+     "n": 21909
+    },
+    {
+     "v": "1",
+     "n": 16
+    }
+   ]
+  },
+  {
+   "name": "Semi-Cooperative Game",
+   "dtype": "bool01",
+   "kind_counts": {
+    "bool01": 21925
+   },
+   "rows": 21925,
+   "nulls": 0,
+   "null_pct": 0.0,
+   "distinct": 2,
+   "max_str_len": 1,
+   "samples": [
+    "0",
+    "1"
+   ],
+   "min": 0.0,
+   "max": 1.0,
+   "mean": 0.0026,
+   "numeric_pct": 100.0,
+   "top_values": [
+    {
+     "v": "0",
+     "n": 21869
+    },
+    {
+     "v": "1",
+     "n": 56
+    }
+   ]
+  },
+  {
+   "name": "Communication Limits",
+   "dtype": "bool01",
+   "kind_counts": {
+    "bool01": 21925
+   },
+   "rows": 21925,
+   "nulls": 0,
+   "null_pct": 0.0,
+   "distinct": 2,
+   "max_str_len": 1,
+   "samples": [
+    "0",
+    "1"
+   ],
+   "min": 0.0,
+   "max": 1.0,
+   "mean": 0.0056,
+   "numeric_pct": 100.0,
+   "top_values": [
+    {
+     "v": "0",
+     "n": 21802
+    },
+    {
+     "v": "1",
+     "n": 123
+    }
+   ]
+  },
+  {
+   "name": "Time Track",
+   "dtype": "bool01",
+   "kind_counts": {
+    "bool01": 21925
+   },
+   "rows": 21925,
+   "nulls": 0,
+   "null_pct": 0.0,
+   "distinct": 2,
+   "max_str_len": 1,
+   "samples": [
+    "0",
+    "1"
+   ],
+   "min": 0.0,
+   "max": 1.0,
+   "mean": 0.0045,
+   "numeric_pct": 100.0,
+   "top_values": [
+    {
+     "v": "0",
+     "n": 21826
+    },
+    {
+     "v": "1",
+     "n": 99
+    }
+   ]
+  },
+  {
+   "name": "Speed Matching",
+   "dtype": "bool01",
+   "kind_counts": {
+    "bool01": 21925
+   },
+   "rows": 21925,
+   "nulls": 0,
+   "null_pct": 0.0,
+   "distinct": 2,
+   "max_str_len": 1,
+   "samples": [
+    "0",
+    "1"
+   ],
+   "min": 0.0,
+   "max": 1.0,
+   "mean": 0.0013,
+   "numeric_pct": 100.0,
+   "top_values": [
+    {
+     "v": "0",
+     "n": 21896
+    },
+    {
+     "v": "1",
+     "n": 29
+    }
+   ]
+  },
+  {
+   "name": "Cube Tower",
+   "dtype": "bool01",
+   "kind_counts": {
+    "bool01": 21925
+   },
+   "rows": 21925,
+   "nulls": 0,
+   "null_pct": 0.0,
+   "distinct": 2,
+   "max_str_len": 1,
+   "samples": [
+    "0",
+    "1"
+   ],
+   "min": 0.0,
+   "max": 1.0,
+   "mean": 0.0006,
+   "numeric_pct": 100.0,
+   "top_values": [
+    {
+     "v": "0",
+     "n": 21911
+    },
+    {
+     "v": "1",
+     "n": 14
+    }
+   ]
+  },
+  {
+   "name": "Re-rolling and Locking",
+   "dtype": "bool01",
+   "kind_counts": {
+    "bool01": 21925
+   },
+   "rows": 21925,
+   "nulls": 0,
+   "null_pct": 0.0,
+   "distinct": 2,
+   "max_str_len": 1,
+   "samples": [
+    "0",
+    "1"
+   ],
+   "min": 0.0,
+   "max": 1.0,
+   "mean": 0.0031,
+   "numeric_pct": 100.0,
+   "top_values": [
+    {
+     "v": "0",
+     "n": 21858
+    },
+    {
+     "v": "1",
+     "n": 67
+    }
+   ]
+  },
+  {
+   "name": "Impulse Movement",
+   "dtype": "bool01",
+   "kind_counts": {
+    "bool01": 21925
+   },
+   "rows": 21925,
+   "nulls": 0,
+   "null_pct": 0.0,
+   "distinct": 2,
+   "max_str_len": 1,
+   "samples": [
+    "0",
+    "1"
+   ],
+   "min": 0.0,
+   "max": 1.0,
+   "mean": 0.0005,
+   "numeric_pct": 100.0,
+   "top_values": [
+    {
+     "v": "0",
+     "n": 21914
+    },
+    {
+     "v": "1",
+     "n": 11
+    }
+   ]
+  },
+  {
+   "name": "Loans",
+   "dtype": "bool01",
+   "kind_counts": {
+    "bool01": 21925
+   },
+   "rows": 21925,
+   "nulls": 0,
+   "null_pct": 0.0,
+   "distinct": 2,
+   "max_str_len": 1,
+   "samples": [
+    "0",
+    "1"
+   ],
+   "min": 0.0,
+   "max": 1.0,
+   "mean": 0.0011,
+   "numeric_pct": 100.0,
+   "top_values": [
+    {
+     "v": "0",
+     "n": 21901
+    },
+    {
+     "v": "1",
+     "n": 24
+    }
+   ]
+  },
+  {
+   "name": "Delayed Purchase",
+   "dtype": "bool01",
+   "kind_counts": {
+    "bool01": 21925
+   },
+   "rows": 21925,
+   "nulls": 0,
+   "null_pct": 0.0,
+   "distinct": 2,
+   "max_str_len": 1,
+   "samples": [
+    "0",
+    "1"
+   ],
+   "min": 0.0,
+   "max": 1.0,
+   "mean": 0.0008,
+   "numeric_pct": 100.0,
+   "top_values": [
+    {
+     "v": "0",
+     "n": 21908
+    },
+    {
+     "v": "1",
+     "n": 17
+    }
+   ]
+  },
+  {
+   "name": "Deck, Bag, and Pool Building",
+   "dtype": "bool01",
+   "kind_counts": {
+    "bool01": 21925
+   },
+   "rows": 21925,
+   "nulls": 0,
+   "null_pct": 0.0,
+   "distinct": 2,
+   "max_str_len": 1,
+   "samples": [
+    "0",
+    "1"
+   ],
+   "min": 0.0,
+   "max": 1.0,
+   "mean": 0.0359,
+   "numeric_pct": 100.0,
+   "top_values": [
+    {
+     "v": "0",
+     "n": 21138
+    },
+    {
+     "v": "1",
+     "n": 787
+    }
+   ]
+  },
+  {
+   "name": "Move Through Deck",
+   "dtype": "bool01",
+   "kind_counts": {
+    "bool01": 21925
+   },
+   "rows": 21925,
+   "nulls": 0,
+   "null_pct": 0.0,
+   "distinct": 2,
+   "max_str_len": 1,
+   "samples": [
+    "0",
+    "1"
+   ],
+   "min": 0.0,
+   "max": 1.0,
+   "mean": 0.002,
+   "numeric_pct": 100.0,
+   "top_values": [
+    {
+     "v": "0",
+     "n": 21882
+    },
+    {
+     "v": "1",
+     "n": 43
+    }
+   ]
+  },
+  {
+   "name": "Single Loser Game",
+   "dtype": "bool01",
+   "kind_counts": {
+    "bool01": 21925
+   },
+   "rows": 21925,
+   "nulls": 0,
+   "null_pct": 0.0,
+   "distinct": 2,
+   "max_str_len": 1,
+   "samples": [
+    "0",
+    "1"
+   ],
+   "min": 0.0,
+   "max": 1.0,
+   "mean": 0.0013,
+   "numeric_pct": 100.0,
+   "top_values": [
+    {
+     "v": "0",
+     "n": 21897
+    },
+    {
+     "v": "1",
+     "n": 28
+    }
+   ]
+  },
+  {
+   "name": "Matching",
+   "dtype": "bool01",
+   "kind_counts": {
+    "bool01": 21925
+   },
+   "rows": 21925,
+   "nulls": 0,
+   "null_pct": 0.0,
+   "distinct": 2,
+   "max_str_len": 1,
+   "samples": [
+    "0",
+    "1"
+   ],
+   "min": 0.0,
+   "max": 1.0,
+   "mean": 0.0013,
+   "numeric_pct": 100.0,
+   "top_values": [
+    {
+     "v": "0",
+     "n": 21896
+    },
+    {
+     "v": "1",
+     "n": 29
+    }
+   ]
+  },
+  {
+   "name": "Induction",
+   "dtype": "bool01",
+   "kind_counts": {
+    "bool01": 21925
+   },
+   "rows": 21925,
+   "nulls": 0,
+   "null_pct": 0.0,
+   "distinct": 2,
+   "max_str_len": 1,
+   "samples": [
+    "0",
+    "1"
+   ],
+   "min": 0.0,
+   "max": 1.0,
+   "mean": 0.0005,
+   "numeric_pct": 100.0,
+   "top_values": [
+    {
+     "v": "0",
+     "n": 21915
+    },
+    {
+     "v": "1",
+     "n": 10
+    }
+   ]
+  },
+  {
+   "name": "Physical Removal",
+   "dtype": "bool01",
+   "kind_counts": {
+    "bool01": 21925
+   },
+   "rows": 21925,
+   "nulls": 0,
+   "null_pct": 0.0,
+   "distinct": 2,
+   "max_str_len": 1,
+   "samples": [
+    "0",
+    "1"
+   ],
+   "min": 0.0,
+   "max": 1.0,
+   "mean": 0.0008,
+   "numeric_pct": 100.0,
+   "top_values": [
+    {
+     "v": "0",
+     "n": 21908
+    },
+    {
+     "v": "1",
+     "n": 17
+    }
+   ]
+  },
+  {
+   "name": "Narrative Choice / Paragraph",
+   "dtype": "bool01",
+   "kind_counts": {
+    "bool01": 21925
+   },
+   "rows": 21925,
+   "nulls": 0,
+   "null_pct": 0.0,
+   "distinct": 2,
+   "max_str_len": 1,
+   "samples": [
+    "0",
+    "1"
+   ],
+   "min": 0.0,
+   "max": 1.0,
+   "mean": 0.0018,
+   "numeric_pct": 100.0,
+   "top_values": [
+    {
+     "v": "0",
+     "n": 21885
+    },
+    {
+     "v": "1",
+     "n": 40
+    }
+   ]
+  },
+  {
+   "name": "Pieces as Map",
+   "dtype": "bool01",
+   "kind_counts": {
+    "bool01": 21925
+   },
+   "rows": 21925,
+   "nulls": 0,
+   "null_pct": 0.0,
+   "distinct": 2,
+   "max_str_len": 1,
+   "samples": [
+    "0",
+    "1"
+   ],
+   "min": 0.0,
+   "max": 1.0,
+   "mean": 0.0009,
+   "numeric_pct": 100.0,
+   "top_values": [
+    {
+     "v": "0",
+     "n": 21906
+    },
+    {
+     "v": "1",
+     "n": 19
+    }
+   ]
+  },
+  {
+   "name": "Follow",
+   "dtype": "bool01",
+   "kind_counts": {
+    "bool01": 21925
+   },
+   "rows": 21925,
+   "nulls": 0,
+   "null_pct": 0.0,
+   "distinct": 2,
+   "max_str_len": 1,
+   "samples": [
+    "0",
+    "1"
+   ],
+   "min": 0.0,
+   "max": 1.0,
+   "mean": 0.002,
+   "numeric_pct": 100.0,
+   "top_values": [
+    {
+     "v": "0",
+     "n": 21881
+    },
+    {
+     "v": "1",
+     "n": 44
+    }
+   ]
+  },
+  {
+   "name": "Finale Ending",
+   "dtype": "bool01",
+   "kind_counts": {
+    "bool01": 21925
+   },
+   "rows": 21925,
+   "nulls": 0,
+   "null_pct": 0.0,
+   "distinct": 2,
+   "max_str_len": 1,
+   "samples": [
+    "0",
+    "1"
+   ],
+   "min": 0.0,
+   "max": 1.0,
+   "mean": 0.0011,
+   "numeric_pct": 100.0,
+   "top_values": [
+    {
+     "v": "0",
+     "n": 21901
+    },
+    {
+     "v": "1",
+     "n": 24
+    }
+   ]
+  },
+  {
+   "name": "Order Counters",
+   "dtype": "bool01",
+   "kind_counts": {
+    "bool01": 21925
+   },
+   "rows": 21925,
+   "nulls": 0,
+   "null_pct": 0.0,
+   "distinct": 2,
+   "max_str_len": 1,
+   "samples": [
+    "0",
+    "1"
+   ],
+   "min": 0.0,
+   "max": 1.0,
+   "mean": 0.0004,
+   "numeric_pct": 100.0,
+   "top_values": [
+    {
+     "v": "0",
+     "n": 21916
+    },
+    {
+     "v": "1",
+     "n": 9
+    }
+   ]
+  },
+  {
+   "name": "Contracts",
+   "dtype": "bool01",
+   "kind_counts": {
+    "bool01": 21925
+   },
+   "rows": 21925,
+   "nulls": 0,
+   "null_pct": 0.0,
+   "distinct": 2,
+   "max_str_len": 1,
+   "samples": [
+    "0",
+    "1"
+   ],
+   "min": 0.0,
+   "max": 1.0,
+   "mean": 0.0062,
+   "numeric_pct": 100.0,
+   "top_values": [
+    {
+     "v": "0",
+     "n": 21788
+    },
+    {
+     "v": "1",
+     "n": 137
+    }
+   ]
+  },
+  {
+   "name": "Passed Action Token",
+   "dtype": "bool01",
+   "kind_counts": {
+    "bool01": 21925
+   },
+   "rows": 21925,
+   "nulls": 0,
+   "null_pct": 0.0,
+   "distinct": 2,
+   "max_str_len": 1,
+   "samples": [
+    "0",
+    "1"
+   ],
+   "min": 0.0,
+   "max": 1.0,
+   "mean": 0.0002,
+   "numeric_pct": 100.0,
+   "top_values": [
+    {
+     "v": "0",
+     "n": 21920
+    },
+    {
+     "v": "1",
+     "n": 5
+    }
+   ]
+  },
+  {
+   "name": "King of the Hill",
+   "dtype": "bool01",
+   "kind_counts": {
+    "bool01": 21925
+   },
+   "rows": 21925,
+   "nulls": 0,
+   "null_pct": 0.0,
+   "distinct": 2,
+   "max_str_len": 1,
+   "samples": [
+    "0",
+    "1"
+   ],
+   "min": 0.0,
+   "max": 1.0,
+   "mean": 0.0009,
+   "numeric_pct": 100.0,
+   "top_values": [
+    {
+     "v": "0",
+     "n": 21906
+    },
+    {
+     "v": "1",
+     "n": 19
+    }
+   ]
+  },
+  {
+   "name": "Action Retrieval",
+   "dtype": "bool01",
+   "kind_counts": {
+    "bool01": 21925
+   },
+   "rows": 21925,
+   "nulls": 0,
+   "null_pct": 0.0,
+   "distinct": 2,
+   "max_str_len": 1,
+   "samples": [
+    "0",
+    "1"
+   ],
+   "min": 0.0,
+   "max": 1.0,
+   "mean": 0.0028,
+   "numeric_pct": 100.0,
+   "top_values": [
+    {
+     "v": "0",
+     "n": 21863
+    },
+    {
+     "v": "1",
+     "n": 62
+    }
+   ]
+  },
+  {
+   "name": "Force Commitment",
+   "dtype": "bool01",
+   "kind_counts": {
+    "bool01": 21925
+   },
+   "rows": 21925,
+   "nulls": 0,
+   "null_pct": 0.0,
+   "distinct": 2,
+   "max_str_len": 1,
+   "samples": [
+    "0",
+    "1"
+   ],
+   "min": 0.0,
+   "max": 1.0,
+   "mean": 0.0007,
+   "numeric_pct": 100.0,
+   "top_values": [
+    {
+     "v": "0",
+     "n": 21910
+    },
+    {
+     "v": "1",
+     "n": 15
+    }
+   ]
+  },
+  {
+   "name": "Rondel",
+   "dtype": "bool01",
+   "kind_counts": {
+    "bool01": 21925
+   },
+   "rows": 21925,
+   "nulls": 0,
+   "null_pct": 0.0,
+   "distinct": 2,
+   "max_str_len": 1,
+   "samples": [
+    "0",
+    "1"
+   ],
+   "min": 0.0,
+   "max": 1.0,
+   "mean": 0.0029,
+   "numeric_pct": 100.0,
+   "top_values": [
+    {
+     "v": "0",
+     "n": 21861
+    },
+    {
+     "v": "1",
+     "n": 64
+    }
+   ]
+  },
+  {
+   "name": "Automatic Resource Growth",
+   "dtype": "bool01",
+   "kind_counts": {
+    "bool01": 21925
+   },
+   "rows": 21925,
+   "nulls": 0,
+   "null_pct": 0.0,
+   "distinct": 2,
+   "max_str_len": 1,
+   "samples": [
+    "0",
+    "1"
+   ],
+   "min": 0.0,
+   "max": 1.0,
+   "mean": 0.0007,
+   "numeric_pct": 100.0,
+   "top_values": [
+    {
+     "v": "0",
+     "n": 21909
+    },
+    {
+     "v": "1",
+     "n": 16
+    }
+   ]
+  },
+  {
+   "name": "Legacy Game",
+   "dtype": "bool01",
+   "kind_counts": {
+    "bool01": 21925
+   },
+   "rows": 21925,
+   "nulls": 0,
+   "null_pct": 0.0,
+   "distinct": 2,
+   "max_str_len": 1,
+   "samples": [
+    "0",
+    "1"
+   ],
+   "min": 0.0,
+   "max": 1.0,
+   "mean": 0.0015,
+   "numeric_pct": 100.0,
+   "top_values": [
+    {
+     "v": "0",
+     "n": 21893
+    },
+    {
+     "v": "1",
+     "n": 32
+    }
+   ]
+  },
+  {
+   "name": "Dexterity",
+   "dtype": "bool01",
+   "kind_counts": {
+    "bool01": 21925
+   },
+   "rows": 21925,
+   "nulls": 0,
+   "null_pct": 0.0,
+   "distinct": 2,
+   "max_str_len": 1,
+   "samples": [
+    "0",
+    "1"
+   ],
+   "min": 0.0,
+   "max": 1.0,
+   "mean": 0.0504,
+   "numeric_pct": 100.0,
+   "top_values": [
+    {
+     "v": "0",
+     "n": 20820
+    },
+    {
+     "v": "1",
+     "n": 1105
+    }
+   ]
+  },
+  {
+   "name": "Physical",
+   "dtype": "bool01",
+   "kind_counts": {
+    "bool01": 21925
+   },
+   "rows": 21925,
+   "nulls": 0,
+   "null_pct": 0.0,
+   "distinct": 2,
+   "max_str_len": 1,
+   "samples": [
+    "0",
+    "1"
+   ],
+   "min": 0.0,
+   "max": 1.0,
+   "mean": 0.0209,
+   "numeric_pct": 100.0,
+   "top_values": [
+    {
+     "v": "0",
+     "n": 21466
+    },
+    {
+     "v": "1",
+     "n": 459
+    }
+   ]
+  }
+ ],
+ "dataset": "bgg-threnjen"
+}

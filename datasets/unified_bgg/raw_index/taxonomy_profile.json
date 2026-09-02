@@ -1,0 +1,298 @@
+{
+  "generated_at": "2026-08-26T09:25:33",
+  "input_rows": 1164739,
+  "alias_rows": 15149,
+  "override_rows": 11,
+  "canonical_rows": 1162257,
+  "reference_vocab_sizes": {
+    "category": 84,
+    "domain": 8,
+    "family": 4208,
+    "mechanic": 192,
+    "subcategory": 10,
+    "theme": 241
+  },
+  "alias_strategy_counts": {
+    "auto_keep_legacy_broad_mechanic": 5,
+    "auto_keep_legacy_family": 5233,
+    "auto_merge_2025_equivalent": 8,
+    "auto_merge_legacy_synonym": 4,
+    "auto_normalize_legacy_label": 1,
+    "auto_split_legacy_combo": 2,
+    "canonical_reference_exact": 4484,
+    "exact_label_match": 5335,
+    "invalid_label": 3,
+    "manual_alias": 20,
+    "normalized_label_match": 54
+  },
+  "invalid_label_rows": 3852,
+  "canonical_review_counts": {
+    "false": 1162257
+  },
+  "vocabulary_profiles": [
+    {
+      "taxonomy_type": "category",
+      "snapshot": "2017-06",
+      "source_dataset": "bgg-gabrio",
+      "rows": 227530,
+      "vocab_size": 84
+    },
+    {
+      "taxonomy_type": "category",
+      "snapshot": "2017-derived",
+      "source_dataset": "bgg-sujaykapadnis",
+      "rows": 27514,
+      "vocab_size": 84
+    },
+    {
+      "taxonomy_type": "category",
+      "snapshot": "2020-08-19",
+      "source_dataset": "bgg-reviews-jvanelteren",
+      "rows": 56632,
+      "vocab_size": 84
+    },
+    {
+      "taxonomy_type": "category",
+      "snapshot": "2025-02",
+      "source_dataset": "bgg-reviews-jvanelteren",
+      "rows": 73043,
+      "vocab_size": 84
+    },
+    {
+      "taxonomy_type": "domain",
+      "snapshot": "2021-02",
+      "source_dataset": "bgg-andrewmvd",
+      "rows": 11689,
+      "vocab_size": 8
+    },
+    {
+      "taxonomy_type": "domain",
+      "snapshot": "2021-12",
+      "source_dataset": "bgg-threnjen",
+      "rows": 12328,
+      "vocab_size": 8
+    },
+    {
+      "taxonomy_type": "domain",
+      "snapshot": "2023-08",
+      "source_dataset": "bgg-ranked-mattadamhouser",
+      "rows": 2529,
+      "vocab_size": 8
+    },
+    {
+      "taxonomy_type": "family",
+      "snapshot": "2017-06",
+      "source_dataset": "bgg-gabrio",
+      "rows": 79506,
+      "vocab_size": 2546
+    },
+    {
+      "taxonomy_type": "family",
+      "snapshot": "2017-derived",
+      "source_dataset": "bgg-sujaykapadnis",
+      "rows": 17151,
+      "vocab_size": 1733
+    },
+    {
+      "taxonomy_type": "family",
+      "snapshot": "2020-08-19",
+      "source_dataset": "bgg-reviews-jvanelteren",
+      "rows": 48026,
+      "vocab_size": 3532
+    },
+    {
+      "taxonomy_type": "family",
+      "snapshot": "2021-12",
+      "source_dataset": "bgg-threnjen",
+      "rows": 6663,
+      "vocab_size": 1456
+    },
+    {
+      "taxonomy_type": "family",
+      "snapshot": "2025-02",
+      "source_dataset": "bgg-reviews-jvanelteren",
+      "rows": 77056,
+      "vocab_size": 4208
+    },
+    {
+      "taxonomy_type": "mechanic",
+      "snapshot": "2017-06",
+      "source_dataset": "bgg-gabrio",
+      "rows": 161759,
+      "vocab_size": 51
+    },
+    {
+      "taxonomy_type": "mechanic",
+      "snapshot": "2017-derived",
+      "source_dataset": "bgg-sujaykapadnis",
+      "rows": 24900,
+      "vocab_size": 52
+    },
+    {
+      "taxonomy_type": "mechanic",
+      "snapshot": "2020-08-19",
+      "source_dataset": "bgg-reviews-jvanelteren",
+      "rows": 62901,
+      "vocab_size": 182
+    },
+    {
+      "taxonomy_type": "mechanic",
+      "snapshot": "2021-02",
+      "source_dataset": "bgg-andrewmvd",
+      "rows": 56762,
+      "vocab_size": 182
+    },
+    {
+      "taxonomy_type": "mechanic",
+      "snapshot": "2021-12",
+      "source_dataset": "bgg-threnjen",
+      "rows": 68080,
+      "vocab_size": 157
+    },
+    {
+      "taxonomy_type": "mechanic",
+      "snapshot": "2023-08",
+      "source_dataset": "bgg-ranked-mattadamhouser",
+      "rows": 11405,
+      "vocab_size": 188
+    },
+    {
+      "taxonomy_type": "mechanic",
+      "snapshot": "2025-02",
+      "source_dataset": "bgg-reviews-jvanelteren",
+      "rows": 88793,
+      "vocab_size": 192
+    },
+    {
+      "taxonomy_type": "subcategory",
+      "snapshot": "2021-12",
+      "source_dataset": "bgg-threnjen",
+      "rows": 11810,
+      "vocab_size": 10
+    },
+    {
+      "taxonomy_type": "theme",
+      "snapshot": "2021-12",
+      "source_dataset": "bgg-threnjen",
+      "rows": 32379,
+      "vocab_size": 217
+    },
+    {
+      "taxonomy_type": "theme",
+      "snapshot": "2023-08",
+      "source_dataset": "bgg-ranked-mattadamhouser",
+      "rows": 6283,
+      "vocab_size": 83
+    }
+  ],
+  "top_unmapped_mechanics": [],
+  "manual_mechanic_aliases": {
+    "Action Point Allowance System": "Action Points",
+    "Area Control / Area Influence": "Area Majority / Influence",
+    "Area Enclosure": "Enclosure",
+    "Auction/Bidding": "Auction / Bidding",
+    "Betting/Wagering": "Betting and Bluffing",
+    "Co-operative Play": "Cooperative Game",
+    "Deck / Pool Building": "Deck, Bag, and Pool Building",
+    "Deck Bag and Pool Building": "Deck, Bag, and Pool Building",
+    "Hex-and-Counter": "Hexagon Grid",
+    "Partnerships": "Team-Based Game",
+    "Press Your Luck": "Push Your Luck",
+    "Route/Network Building": "Network and Route Building"
+  },
+  "auto_mechanic_decisions": {
+    "Card Drafting": {
+      "action": "keep",
+      "targets": [
+        "Card Drafting"
+      ],
+      "strategy": "auto_keep_legacy_broad_mechanic",
+      "confidence": "legacy_keep",
+      "reason": "Legacy broad label; cannot infer Open Drafting vs Closed Drafting from source rows."
+    },
+    "Drafting": {
+      "action": "merge",
+      "targets": [
+        "Card Drafting"
+      ],
+      "strategy": "auto_merge_legacy_synonym",
+      "confidence": "auto",
+      "reason": "Older generic drafting label is consolidated into the legacy broad Card Drafting label."
+    },
+    "Action / Movement Programming": {
+      "action": "split",
+      "targets": [
+        "Action Queue",
+        "Programmed Movement"
+      ],
+      "strategy": "auto_split_legacy_combo",
+      "confidence": "auto_split",
+      "reason": "Legacy compound label corresponds to two newer explicit BGG mechanisms."
+    },
+    "Acting / Singing / Rock-Paper-Scissors": {
+      "action": "split",
+      "targets": [
+        "Acting",
+        "Singing",
+        "Rock-Paper-Scissors"
+      ],
+      "strategy": "auto_split_legacy_combo",
+      "confidence": "auto_split",
+      "reason": "Legacy mixed party-game label can be represented by three newer explicit mechanisms."
+    },
+    "Dexterity": {
+      "action": "keep",
+      "targets": [
+        "Dexterity"
+      ],
+      "strategy": "auto_keep_legacy_broad_mechanic",
+      "confidence": "legacy_keep",
+      "reason": "Legacy broad dexterity label is broader than any single 2025 physical submechanism."
+    },
+    "Physical": {
+      "action": "merge",
+      "targets": [
+        "Dexterity"
+      ],
+      "strategy": "auto_merge_legacy_synonym",
+      "confidence": "auto",
+      "reason": "Legacy physical-skill label is semantically closest to the broad Dexterity mechanism."
+    },
+    "Time Track": {
+      "action": "merge",
+      "targets": [
+        "Turn Order: Time Track"
+      ],
+      "strategy": "auto_merge_2025_equivalent",
+      "confidence": "auto",
+      "reason": "Old BGG Time Track mechanism maps to the newer turn-order time-track mechanism."
+    },
+    "TableauBuilding": {
+      "action": "merge",
+      "targets": [
+        "Tableau Building"
+      ],
+      "strategy": "auto_normalize_legacy_label",
+      "confidence": "normalized",
+      "reason": "CamelCase spelling normalized to a readable legacy canonical label."
+    },
+    "Different Worker Types": {
+      "action": "merge",
+      "targets": [
+        "Worker Placement, Different Worker Types"
+      ],
+      "strategy": "auto_merge_2025_equivalent",
+      "confidence": "auto",
+      "reason": "Legacy shorthand maps to the explicit 2025 worker-placement mechanism."
+    },
+    "Multiple-Lot Auction": {
+      "action": "merge",
+      "targets": [
+        "Auction: Multiple Lot"
+      ],
+      "strategy": "auto_merge_2025_equivalent",
+      "confidence": "auto",
+      "reason": "Legacy hyphenated auction label maps to the explicit 2025 auction subtype."
+    }
+  }
+}

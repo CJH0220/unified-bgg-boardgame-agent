@@ -1,0 +1,46 @@
+{
+ "file": "bgg-threnjen/raw/mechanics.csv",
+ "rows": 21925,
+ "key_column": "BGGId",
+ "key_column_index": 0,
+ "total_columns": 158,
+ "label_columns": 157,
+ "labels_per_row": {
+  "min": 0,
+  "max": 20,
+  "mean": 3.105,
+  "median": 3,
+  "zero_label_rows": 1084
+ },
+ "non_binary_values_distinct": 0,
+ "non_binary_values_sample": {},
+ "top_labels": [
+  {
+   "label": "Dice Rolling",
+   "n": 6486,
+   "pct": 29.58
+  },
+  {
+   "label": "Hand Management",
+   "n": 4496,
+   "pct": 20.51
+  },
+  {
+   "label": "Set Collection",
+   "n": 2959,
+   "pct": 13.5
+  },
+  {
+   "label": "Variable Player Powers",
+   "n": 2736,
+   "pct": 12.48
+  },
+  {
+   "label": "Hexagon Grid",
+   "n": 2438,
+   "pct": 11.12
+  }
+ ],
+ "singleton_labels": 0,
+ "empty_labels": 0
+}

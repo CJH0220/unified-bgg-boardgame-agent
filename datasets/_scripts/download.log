@@ -1,0 +1,51 @@
+﻿== threnjen/board-games-database-from-boardgamegeek
+  GET   games.csv
+  ok    games.csv  21.1 MB
+  GET   user_ratings.csv
+  ok    user_ratings.csv  380.9 MB
+  GET   ratings_distribution.csv
+  ok    ratings_distribution.csv  8.3 MB
+  GET   mechanics.csv
+  ok    mechanics.csv  6.7 MB
+  GET   themes.csv
+  ok    themes.csv  9.2 MB
+  GET   subcategories.csv
+  ok    subcategories.csv  0.6 MB
+  GET   artists_reduced.csv
+  ok    artists_reduced.csv  70.4 MB
+  GET   designers_reduced.csv
+  ok    designers_reduced.csv  66.8 MB
+  GET   publishers_reduced.csv
+  ok    publishers_reduced.csv  78.2 MB
+  GET   bgg_data_documentation.txt
+  ok    bgg_data_documentation.txt  0.0 MB
+== jvanelteren/boardgamegeek-reviews
+  GET   bgg-26m-reviews.csv
+  ok    bgg-26m-reviews.csv  2,078.3 MB
+  GET   games_detailed_info2025.csv
+  ok    games_detailed_info2025.csv  105.0 MB
+  GET   games_detailed_info.csv
+  ok    games_detailed_info.csv  94.9 MB
+  GET   2020-08-19.csv
+  ok    2020-08-19.csv  3.5 MB
+  GET   2022-01-08.csv
+  ok    2022-01-08.csv  4.8 MB
+== mattadamhouser/ranked-board-game-data-from-boardgamegeek
+  skip  bundle (exists)
+== mrpantherson/board-game-data
+  skip  bundle (exists)
+== andrewmvd/board-games
+  skip  bundle (exists)
+== sujaykapadnis/board-games
+  skip  bundle (exists)
+== gabrio/board-games-dataset
+  skip  bundle (exists)
+
+DONE. 落盘统计：
+bgg-andrewmvd                  2 files       2.3 MB
+bgg-gabrio                     2 files     140.2 MB
+bgg-mrpantherson               4 files       4.5 MB
+bgg-ranked-mattadamhouser      6 files       1.4 MB
+bgg-reviews-jvanelteren        5 files   2,286.4 MB
+bgg-sujaykapadnis              2 files      15.8 MB
+bgg-threnjen                  10 files     642.2 MB

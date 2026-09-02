@@ -1,0 +1,1706 @@
+{
+ "file": "games_detailed_info.csv",
+ "path": "bgg-reviews-jvanelteren/raw/games_detailed_info.csv",
+ "bytes": 99466534,
+ "encoding": "utf-8-sig",
+ "delimiter": ",",
+ "n_columns": 56,
+ "rows_scanned": 21631,
+ "scan_truncated": false,
+ "ragged_rows": 0,
+ "scan_seconds": 2.5,
+ "columns": [
+  {
+   "name": "col_0",
+   "dtype": "int",
+   "kind_counts": {
+    "int": 21629,
+    "bool01": 2
+   },
+   "rows": 21631,
+   "nulls": 0,
+   "null_pct": 0.0,
+   "distinct": 21631,
+   "max_str_len": 5,
+   "samples": [
+    "0",
+    "1",
+    "2",
+    "3",
+    "4",
+    "5"
+   ],
+   "min": 0.0,
+   "max": 21630.0,
+   "mean": 10815.0,
+   "numeric_pct": 100.0
+  },
+  {
+   "name": "type",
+   "dtype": "str",
+   "kind_counts": {
+    "str": 21631
+   },
+   "rows": 21631,
+   "nulls": 0,
+   "null_pct": 0.0,
+   "distinct": 1,
+   "max_str_len": 9,
+   "samples": [
+    "boardgame"
+   ],
+   "top_values": [
+    {
+     "v": "boardgame",
+     "n": 21631
+    }
+   ]
+  },
+  {
+   "name": "id",
+   "dtype": "int",
+   "kind_counts": {
+    "int": 21630,
+    "bool01": 1
+   },
+   "rows": 21631,
+   "nulls": 0,
+   "null_pct": 0.0,
+   "distinct": 21631,
+   "max_str_len": 6,
+   "samples": [
+    "30549",
+    "822",
+    "13",
+    "68448",
+    "36218",
+    "9209"
+   ],
+   "min": 1.0,
+   "max": 350992.0,
+   "mean": 118133.0938,
+   "numeric_pct": 100.0
+  },
+  {
+   "name": "thumbnail",
+   "dtype": "str",
+   "kind_counts": {
+    "str": 21616,
+    "null": 15
+   },
+   "rows": 21631,
+   "nulls": 15,
+   "null_pct": 0.069,
+   "distinct": 21615,
+   "max_str_len": 141,
+   "samples": [
+    "https://cf.geekdo-images.com/S3ybV1LAp-8SnHIXLLjVqA__thumb/img/oqViRj6nVxK3m36NluTxU1PZkrk=/fit-in/200x150/filters:strip",
+    "https://cf.geekdo-images.com/okM0dq_bEXnbyQTOvHfwRA__thumb/img/88274KiOg94wziybVHyW8AeOiXg=/fit-in/200x150/filters:strip",
+    "https://cf.geekdo-images.com/W3Bsga_uLP9kO91gZ7H8yw__thumb/img/8a9HeqFydO7Uun_le9bXWPnidcA=/fit-in/200x150/filters:strip",
+    "https://cf.geekdo-images.com/RvFVTEpnbb4NM7k0IF8V7A__thumb/img/ZlG_SRFChObHenw79fAve56_mnk=/fit-in/200x150/filters:strip",
+    "https://cf.geekdo-images.com/j6iQpZ4XkemZP07HNCODBA__thumb/img/B2u2ghwlmI_qsUtCwuvcbnBcIqU=/fit-in/200x150/filters:strip",
+    "https://cf.geekdo-images.com/ZWJg0dCdrWHxVnc0eFXK8w__thumb/img/a9rsFV6KR0aun8GobhRU16aU8Kc=/fit-in/200x150/filters:strip"
+   ]
+  },
+  {
+   "name": "image",
+   "dtype": "str",
+   "kind_counts": {
+    "str": 21616,
+    "null": 15
+   },
+   "rows": 21631,
+   "nulls": 15,
+   "null_pct": 0.069,
+   "distinct": 21615,
+   "max_str_len": 134,
+   "samples": [
+    "https://cf.geekdo-images.com/S3ybV1LAp-8SnHIXLLjVqA__original/img/IsrvRLpUV1TEyZsO5rC-btXaPz0=/0x0/filters:format(jpeg)/",
+    "https://cf.geekdo-images.com/okM0dq_bEXnbyQTOvHfwRA__original/img/aVZEXAI-cUtuunNfPhjeHlS4fwQ=/0x0/filters:format(png)/p",
+    "https://cf.geekdo-images.com/W3Bsga_uLP9kO91gZ7H8yw__original/img/xV7oisd3RQ8R-k18cdWAYthHXsA=/0x0/filters:format(jpeg)/",
+    "https://cf.geekdo-images.com/RvFVTEpnbb4NM7k0IF8V7A__original/img/JQvRoz0xns9LZII74-ygKGDq_Es=/0x0/filters:format(jpeg)/",
+    "https://cf.geekdo-images.com/j6iQpZ4XkemZP07HNCODBA__original/img/96COuakNiLRrjDLc1sM4Zxsw4WE=/0x0/filters:format(jpeg)/",
+    "https://cf.geekdo-images.com/ZWJg0dCdrWHxVnc0eFXK8w__original/img/LgzEsQlF3xkSEQLoorc8ntiYiIY=/0x0/filters:format(jpeg)/"
+   ]
+  },
+  {
+   "name": "primary",
+   "dtype": "str",
+   "kind_counts": {
+    "str": 21591,
+    "int": 38,
+    "null": 2
+   },
+   "rows": 21631,
+   "nulls": 2,
+   "null_pct": 0.009,
+   "distinct": 21235,
+   "max_str_len": 107,
+   "samples": [
+    "Pandemic",
+    "Carcassonne",
+    "Catan",
+    "7 Wonders",
+    "Dominion",
+    "Ticket to Ride"
+   ],
+   "min": 7.0,
+   "max": 5211.0,
+   "mean": 1502.0789,
+   "numeric_pct": 0.18
+  },
+  {
+   "name": "alternate",
+   "dtype": "str",
+   "kind_counts": {
+    "null": 12781,
+    "str": 8850
+   },
+   "rows": 21631,
+   "nulls": 12781,
+   "null_pct": 59.086,
+   "distinct": 8836,
+   "max_str_len": 24060,
+   "samples": [
+    "['EPIZOotic', 'Pandemia', 'Pandemia 10 Aniversario', 'Pandemia: Una Nuova Sfida', 'Pandemic, 10 Jahre Jubiläumsedition',",
+    "['Carcassonne Jubilee Edition', 'Carcassonne: Plus', 'Domínio de Carcassonne', 'Τα Κάστρα του Μυστρά', 'Каркасон', 'Карк",
+    "['CATAN', 'Catan (Колонизаторы)', 'Catan telepesei', 'Catan: Das Spiel', 'Catan: Die Bordspel', 'Catan: El Juego', 'Cata",
+    "['7 csoda', '7 Cudów Świata', '7 divů světa', '7 чудес', '7 สิ่งมหัศจรรย์', '7 원더스', 'Τα 7 θαύματα του κόσμου', '七大奇蹟', ",
+    "['Dominion: Basisspiel', 'Dominion: In naam van de koning', 'Dominion: Rozdarte Królestwo', 'Dominion: Tweede Editie', '",
+    "['Les Aventuriers du Rail', 'Jízdenky, prosím!', 'Menolippu', 'Ticket to Ride سكة سفر', 'Wsiąść do Pociągu', 'Zug um Zug"
+   ]
+  },
+  {
+   "name": "description",
+   "dtype": "str",
+   "kind_counts": {
+    "str": 21630,
+    "null": 1
+   },
+   "rows": 21631,
+   "nulls": 1,
+   "null_pct": 0.005,
+   "distinct": 21615,
+   "max_str_len": 16144,
+   "samples": [
+    "In Pandemic, several virulent diseases have broken out simultaneously all over the world! The players are disease-fighti",
+    "Carcassonne is a tile-placement game in which the players draw and place a tile with a piece of southern French landscap",
+    "In CATAN (formerly The Settlers of Catan), players try to be the dominant force on the island of Catan by building settl",
+    "You are the leader of one of the 7 great cities of the Ancient World. Gather resources, develop commercial routes, and a",
+    "&quot;You are a monarch, like your parents before you, a ruler of a small pleasant kingdom of rivers and evergreens. Unl",
+    "With elegantly simple gameplay, Ticket to Ride can be learned in under 15 minutes. Players collect cards of various type"
+   ]
+  },
+  {
+   "name": "yearpublished",
+   "dtype": "int",
+   "kind_counts": {
+    "int": 21447,
+    "bool01": 184
+   },
+   "rows": 21631,
+   "nulls": 0,
+   "null_pct": 0.0,
+   "distinct": 190,
+   "max_str_len": 5,
+   "samples": [
+    "2008",
+    "2000",
+    "1995",
+    "2010",
+    "2004",
+    "2015"
+   ],
+   "min": -3500.0,
+   "max": 2023.0,
+   "mean": 1986.0949,
+   "numeric_pct": 100.0,
+   "top_values": [
+    {
+     "v": "2017",
+     "n": 1325
+    },
+    {
+     "v": "2018",
+     "n": 1321
+    },
+    {
+     "v": "2016",
+     "n": 1291
+    },
+    {
+     "v": "2019",
+     "n": 1258
+    },
+    {
+     "v": "2015",
+     "n": 1147
+    },
+    {
+     "v": "2014",
+     "n": 1007
+    },
+    {
+     "v": "2020",
+     "n": 897
+    },
+    {
+     "v": "2013",
+     "n": 862
+    },
+    {
+     "v": "2012",
+     "n": 831
+    },
+    {
+     "v": "2011",
+     "n": 741
+    },
+    {
+     "v": "2010",
+     "n": 696
+    },
+    {
+     "v": "2021",
+     "n": 678
+    }
+   ]
+  },
+  {
+   "name": "minplayers",
+   "dtype": "int",
+   "kind_counts": {
+    "int": 17912,
+    "bool01": 3719
+   },
+   "rows": 21631,
+   "nulls": 0,
+   "null_pct": 0.0,
+   "distinct": 11,
+   "max_str_len": 2,
+   "samples": [
+    "2",
+    "3",
+    "1",
+    "5",
+    "4",
+    "8"
+   ],
+   "min": 0.0,
+   "max": 10.0,
+   "mean": 2.007,
+   "numeric_pct": 100.0,
+   "top_values": [
+    {
+     "v": "2",
+     "n": 14834
+    },
+    {
+     "v": "1",
+     "n": 3675
+    },
+    {
+     "v": "3",
+     "n": 2462
+    },
+    {
+     "v": "4",
+     "n": 503
+    },
+    {
+     "v": "5",
+     "n": 59
+    },
+    {
+     "v": "0",
+     "n": 44
+    },
+    {
+     "v": "6",
+     "n": 24
+    },
+    {
+     "v": "8",
+     "n": 16
+    },
+    {
+     "v": "7",
+     "n": 11
+    },
+    {
+     "v": "10",
+     "n": 2
+    },
+    {
+     "v": "9",
+     "n": 1
+    }
+   ]
+  },
+  {
+   "name": "maxplayers",
+   "dtype": "int",
+   "kind_counts": {
+    "int": 21098,
+    "bool01": 533
+   },
+   "rows": 21631,
+   "nulls": 0,
+   "null_pct": 0.0,
+   "distinct": 52,
+   "max_str_len": 3,
+   "samples": [
+    "4",
+    "5",
+    "7",
+    "8",
+    "2",
+    "6"
+   ],
+   "min": 0.0,
+   "max": 999.0,
+   "mean": 5.7095,
+   "numeric_pct": 100.0,
+   "top_values": [
+    {
+     "v": "4",
+     "n": 6810
+    },
+    {
+     "v": "2",
+     "n": 4287
+    },
+    {
+     "v": "6",
+     "n": 3969
+    },
+    {
+     "v": "5",
+     "n": 2987
+    },
+    {
+     "v": "8",
+     "n": 1218
+    },
+    {
+     "v": "10",
+     "n": 413
+    },
+    {
+     "v": "1",
+     "n": 369
+    },
+    {
+     "v": "7",
+     "n": 324
+    },
+    {
+     "v": "3",
+     "n": 279
+    },
+    {
+     "v": "12",
+     "n": 248
+    },
+    {
+     "v": "0",
+     "n": 164
+    },
+    {
+     "v": "99",
+     "n": 155
+    }
+   ]
+  },
+  {
+   "name": "suggested_num_players",
+   "dtype": "str",
+   "kind_counts": {
+    "str": 21631
+   },
+   "rows": 21631,
+   "nulls": 0,
+   "null_pct": 0.0,
+   "distinct": 14955,
+   "max_str_len": 7354,
+   "samples": [
+    "[OrderedDict([('@numplayers', '1'), ('result', [OrderedDict([('@value', 'Best'), ('@numvotes', '139')]), OrderedDict([('",
+    "[OrderedDict([('@numplayers', '1'), ('result', [OrderedDict([('@value', 'Best'), ('@numvotes', '6')]), OrderedDict([('@v",
+    "[OrderedDict([('@numplayers', '1'), ('result', [OrderedDict([('@value', 'Best'), ('@numvotes', '1')]), OrderedDict([('@v",
+    "[OrderedDict([('@numplayers', '1'), ('result', [OrderedDict([('@value', 'Best'), ('@numvotes', '4')]), OrderedDict([('@v",
+    "[OrderedDict([('@numplayers', '1'), ('result', [OrderedDict([('@value', 'Best'), ('@numvotes', '5')]), OrderedDict([('@v",
+    "[OrderedDict([('@numplayers', '1'), ('result', [OrderedDict([('@value', 'Best'), ('@numvotes', '1')]), OrderedDict([('@v"
+   ]
+  },
+  {
+   "name": "suggested_playerage",
+   "dtype": "str",
+   "kind_counts": {
+    "str": 21520,
+    "null": 111
+   },
+   "rows": 21631,
+   "nulls": 111,
+   "null_pct": 0.513,
+   "distinct": 3540,
+   "max_str_len": 646,
+   "samples": [
+    "[OrderedDict([('@value', '2'), ('@numvotes', '0')]), OrderedDict([('@value', '3'), ('@numvotes', '0')]), OrderedDict([('",
+    "[OrderedDict([('@value', '2'), ('@numvotes', '2')]), OrderedDict([('@value', '3'), ('@numvotes', '0')]), OrderedDict([('",
+    "[OrderedDict([('@value', '2'), ('@numvotes', '1')]), OrderedDict([('@value', '3'), ('@numvotes', '0')]), OrderedDict([('",
+    "[OrderedDict([('@value', '2'), ('@numvotes', '0')]), OrderedDict([('@value', '3'), ('@numvotes', '0')]), OrderedDict([('",
+    "[OrderedDict([('@value', '2'), ('@numvotes', '1')]), OrderedDict([('@value', '3'), ('@numvotes', '0')]), OrderedDict([('",
+    "[OrderedDict([('@value', '2'), ('@numvotes', '0')]), OrderedDict([('@value', '3'), ('@numvotes', '0')]), OrderedDict([('"
+   ]
+  },
+  {
+   "name": "suggested_language_dependence",
+   "dtype": "str",
+   "kind_counts": {
+    "str": 21559,
+    "null": 72
+   },
+   "rows": 21631,
+   "nulls": 72,
+   "null_pct": 0.333,
+   "distinct": 4853,
+   "max_str_len": 586,
+   "samples": [
+    "[OrderedDict([('@level', '6'), ('@value', 'No necessary in-game text'), ('@numvotes', '10')]), OrderedDict([('@level', '",
+    "[OrderedDict([('@level', '81'), ('@value', 'No necessary in-game text'), ('@numvotes', '463')]), OrderedDict([('@level',",
+    "[OrderedDict([('@level', '86'), ('@value', 'No necessary in-game text'), ('@numvotes', '21')]), OrderedDict([('@level', ",
+    "[OrderedDict([('@level', '6'), ('@value', 'No necessary in-game text'), ('@numvotes', '303')]), OrderedDict([('@level', ",
+    "[OrderedDict([('@level', '161'), ('@value', 'No necessary in-game text'), ('@numvotes', '1')]), OrderedDict([('@level', ",
+    "[OrderedDict([('@level', '71'), ('@value', 'No necessary in-game text'), ('@numvotes', '182')]), OrderedDict([('@level',"
+   ]
+  },
+  {
+   "name": "playingtime",
+   "dtype": "int",
+   "kind_counts": {
+    "int": 20831,
+    "bool01": 800
+   },
+   "rows": 21631,
+   "nulls": 0,
+   "null_pct": 0.0,
+   "distinct": 119,
+   "max_str_len": 5,
+   "samples": [
+    "45",
+    "120",
+    "30",
+    "60",
+    "15",
+    "150"
+   ],
+   "min": 0.0,
+   "max": 60000.0,
+   "mean": 90.5092,
+   "numeric_pct": 100.0,
+   "top_values": [
+    {
+     "v": "30",
+     "n": 3804
+    },
+    {
+     "v": "60",
+     "n": 3169
+    },
+    {
+     "v": "45",
+     "n": 2182
+    },
+    {
+     "v": "20",
+     "n": 2134
+    },
+    {
+     "v": "120",
+     "n": 1704
+    },
+    {
+     "v": "90",
+     "n": 1687
+    },
+    {
+     "v": "15",
+     "n": 1292
+    },
+    {
+     "v": "180",
+     "n": 837
+    },
+    {
+     "v": "10",
+     "n": 796
+    },
+    {
+     "v": "0",
+     "n": 774
+    },
+    {
+     "v": "40",
+     "n": 579
+    },
+    {
+     "v": "240",
+     "n": 552
+    }
+   ]
+  },
+  {
+   "name": "minplaytime",
+   "dtype": "int",
+   "kind_counts": {
+    "int": 20933,
+    "bool01": 698
+   },
+   "rows": 21631,
+   "nulls": 0,
+   "null_pct": 0.0,
+   "distinct": 89,
+   "max_str_len": 5,
+   "samples": [
+    "45",
+    "30",
+    "60",
+    "15",
+    "120",
+    "90"
+   ],
+   "min": 0.0,
+   "max": 60000.0,
+   "mean": 63.6478,
+   "numeric_pct": 100.0,
+   "top_values": [
+    {
+     "v": "30",
+     "n": 4417
+    },
+    {
+     "v": "60",
+     "n": 2991
+    },
+    {
+     "v": "20",
+     "n": 2654
+    },
+    {
+     "v": "45",
+     "n": 2166
+    },
+    {
+     "v": "15",
+     "n": 1893
+    },
+    {
+     "v": "120",
+     "n": 1292
+    },
+    {
+     "v": "10",
+     "n": 1262
+    },
+    {
+     "v": "90",
+     "n": 1206
+    },
+    {
+     "v": "180",
+     "n": 669
+    },
+    {
+     "v": "0",
+     "n": 642
+    },
+    {
+     "v": "240",
+     "n": 406
+    },
+    {
+     "v": "5",
+     "n": 377
+    }
+   ]
+  },
+  {
+   "name": "maxplaytime",
+   "dtype": "int",
+   "kind_counts": {
+    "int": 20831,
+    "bool01": 800
+   },
+   "rows": 21631,
+   "nulls": 0,
+   "null_pct": 0.0,
+   "distinct": 119,
+   "max_str_len": 5,
+   "samples": [
+    "45",
+    "120",
+    "30",
+    "60",
+    "15",
+    "150"
+   ],
+   "min": 0.0,
+   "max": 60000.0,
+   "mean": 90.5092,
+   "numeric_pct": 100.0,
+   "top_values": [
+    {
+     "v": "30",
+     "n": 3804
+    },
+    {
+     "v": "60",
+     "n": 3169
+    },
+    {
+     "v": "45",
+     "n": 2182
+    },
+    {
+     "v": "20",
+     "n": 2134
+    },
+    {
+     "v": "120",
+     "n": 1704
+    },
+    {
+     "v": "90",
+     "n": 1687
+    },
+    {
+     "v": "15",
+     "n": 1292
+    },
+    {
+     "v": "180",
+     "n": 837
+    },
+    {
+     "v": "10",
+     "n": 796
+    },
+    {
+     "v": "0",
+     "n": 774
+    },
+    {
+     "v": "40",
+     "n": 579
+    },
+    {
+     "v": "240",
+     "n": 552
+    }
+   ]
+  },
+  {
+   "name": "minage",
+   "dtype": "int",
+   "kind_counts": {
+    "int": 20329,
+    "bool01": 1302
+   },
+   "rows": 21631,
+   "nulls": 0,
+   "null_pct": 0.0,
+   "distinct": 21,
+   "max_str_len": 2,
+   "samples": [
+    "8",
+    "7",
+    "10",
+    "13",
+    "14",
+    "12"
+   ],
+   "min": 0.0,
+   "max": 25.0,
+   "mean": 9.6114,
+   "numeric_pct": 100.0,
+   "top_values": [
+    {
+     "v": "12",
+     "n": 4875
+    },
+    {
+     "v": "8",
+     "n": 4370
+    },
+    {
+     "v": "10",
+     "n": 4108
+    },
+    {
+     "v": "14",
+     "n": 2005
+    },
+    {
+     "v": "0",
+     "n": 1301
+    },
+    {
+     "v": "13",
+     "n": 1187
+    },
+    {
+     "v": "6",
+     "n": 968
+    },
+    {
+     "v": "7",
+     "n": 862
+    },
+    {
+     "v": "5",
+     "n": 477
+    },
+    {
+     "v": "9",
+     "n": 349
+    },
+    {
+     "v": "4",
+     "n": 296
+    },
+    {
+     "v": "16",
+     "n": 191
+    }
+   ]
+  },
+  {
+   "name": "boardgamecategory",
+   "dtype": "str",
+   "kind_counts": {
+    "str": 21348,
+    "null": 283
+   },
+   "rows": 21631,
+   "nulls": 283,
+   "null_pct": 1.308,
+   "distinct": 6730,
+   "max_str_len": 216,
+   "samples": [
+    "['Medical']",
+    "['City Building', 'Medieval', 'Territory Building']",
+    "['Economic', 'Negotiation']",
+    "['Ancient', 'Card Game', 'City Building', 'Civilization', 'Economic']",
+    "['Card Game', 'Medieval']",
+    "['Trains']"
+   ]
+  },
+  {
+   "name": "boardgamemechanic",
+   "dtype": "str",
+   "kind_counts": {
+    "str": 20041,
+    "null": 1590
+   },
+   "rows": 21631,
+   "nulls": 1590,
+   "null_pct": 7.351,
+   "distinct": 8291,
+   "max_str_len": 478,
+   "samples": [
+    "['Action Points', 'Cooperative Game', 'Hand Management', 'Point to Point Movement', 'Set Collection', 'Trading', 'Variab",
+    "['Area Majority / Influence', 'Map Addition', 'Tile Placement']",
+    "['Dice Rolling', 'Hexagon Grid', 'Income', 'Modular Board', 'Network and Route Building', 'Race', 'Random Production', '",
+    "['Drafting', 'Hand Management', 'Set Collection', 'Simultaneous Action Selection', 'Variable Player Powers']",
+    "['Deck, Bag, and Pool Building', 'Delayed Purchase', 'Hand Management', 'Take That', 'Variable Set-up']",
+    "['Card Drafting', 'Contracts', 'End Game Bonuses', 'Hand Management', 'Network and Route Building', 'Push Your Luck', 'S"
+   ]
+  },
+  {
+   "name": "boardgamefamily",
+   "dtype": "str",
+   "kind_counts": {
+    "str": 17870,
+    "null": 3761
+   },
+   "rows": 21631,
+   "nulls": 3761,
+   "null_pct": 17.387,
+   "distinct": 11285,
+   "max_str_len": 2768,
+   "samples": [
+    "['Components: Map (Global Scale)', 'Components: Multi-Use Cards', 'Digital Implementations: Board Game Arena', 'Game: Pa",
+    "['Cities: Carcassonne (France)', 'Components: Meeples (Black)', 'Components: Meeples (Blue)', 'Components: Meeples (Gree",
+    "['Animals: Sheep', 'Components: Hexagonal Tiles', 'Components: Wooden pieces & boards', 'Game: Catan', 'Promotional: Pro",
+    "['Ancient: Babylon', 'Ancient: Egypt', 'Ancient: Greece', 'Digital Implementations: Board Game Arena', 'Game: 7 Wonders'",
+    "['Crowdfunding: Wspieram', 'Game: Dominion', 'Misc: Mensa Select']",
+    "['Components: Map (Continental / National scale)', 'Continents: North America', 'Country: USA', 'Game: Ticket to Ride (O"
+   ]
+  },
+  {
+   "name": "boardgameexpansion",
+   "dtype": "str",
+   "kind_counts": {
+    "null": 16125,
+    "str": 5506
+   },
+   "rows": 21631,
+   "nulls": 16125,
+   "null_pct": 74.546,
+   "distinct": 5264,
+   "max_str_len": 18150,
+   "samples": [
+    "['Pandemic: Gen Con 2016 Promos – Z-Force Team Member/Game Convention', 'Pandemic: In the Lab', 'Pandemic: On the Brink'",
+    "['20 Jahre Darmstadt Spielt', 'Apothecaries (fan expansion for Carcassonne)', 'Apothecaries and Tithes (fan expansion fo",
+    "['20 Jahre Darmstadt Spielt', 'Brettspiel Adventskalender 2015', 'Catan Austria / Wien meets Catan', 'Catan Geographies:",
+    "['7 Wonders: Armada', '7 Wonders: Babel', '7 Wonders: Catan', '7 Wonders: Cities', '7 Wonders: Leaders', '7 Wonders: Man",
+    "['Ancient Times (fan expansion for Dominion)', 'Animals (fan expansion for Dominion)', 'The Books of Magic (fan expansio",
+    "['Alaska (fan expansion for Ticket to Ride)', 'Alice in Wonderland (fan expansion for Ticket to Ride)', 'Alsace (fan exp"
+   ]
+  },
+  {
+   "name": "boardgameimplementation",
+   "dtype": "str",
+   "kind_counts": {
+    "null": 16769,
+    "str": 4862
+   },
+   "rows": 21631,
+   "nulls": 16769,
+   "null_pct": 77.523,
+   "distinct": 4247,
+   "max_str_len": 890,
+   "samples": [
+    "['Pandemic Legacy: Season 0', 'Pandemic Legacy: Season 1', 'Pandemic Legacy: Season 2', 'Pandemic: Fall of Rome', 'Pande",
+    "['The Ark of the Covenant', 'Carcassonne für 2', 'Carcassonne Junior', 'Carcassonne: Amazonas', 'Carcassonne: Demonstrat",
+    "['Baden-Württemberg Catan', 'Catan Geographies: Germany', 'Catan Histories: Merchants of Europe', 'Catan Histories: Rise",
+    "['7 Wonders (Second Edition)', '7 Wonders Duel', '7 Wonders: Architects']",
+    "['Dominion (Second Edition)', 'Het Koninkrijk Dominion']",
+    "['Les Aventuriers du Rail Express', 'Ticket to Ride Demo', 'Ticket to Ride: Amsterdam', 'Ticket to Ride: Europe', 'Ticke"
+   ]
+  },
+  {
+   "name": "boardgamedesigner",
+   "dtype": "str",
+   "kind_counts": {
+    "str": 21035,
+    "null": 596
+   },
+   "rows": 21631,
+   "nulls": 596,
+   "null_pct": 2.755,
+   "distinct": 9136,
+   "max_str_len": 332,
+   "samples": [
+    "['Matt Leacock']",
+    "['Klaus-Jürgen Wrede']",
+    "['Klaus Teuber']",
+    "['Antoine Bauza']",
+    "['Donald X. Vaccarino']",
+    "['Alan R. Moon']"
+   ]
+  },
+  {
+   "name": "boardgameartist",
+   "dtype": "str",
+   "kind_counts": {
+    "str": 15724,
+    "null": 5907
+   },
+   "rows": 21631,
+   "nulls": 5907,
+   "null_pct": 27.308,
+   "distinct": 9080,
+   "max_str_len": 8408,
+   "samples": [
+    "['Josh Cappel', 'Christian Hanisch', 'Régis Moulun', 'Chris Quilliams', 'Tom Thiel']",
+    "['Doris Matthäus', 'Anne Pätzke', 'Chris Quilliams', 'Klaus-Jürgen Wrede']",
+    "['Volkan Baga', 'Tanja Donner', 'Pete Fenlon', 'Jason Hawkins', 'Michaela Kienle', 'Harald Lieske', 'Michael Menzel', 'M",
+    "['Dimitri Chappuis', 'Miguel Coimbra', 'Etienne Hebinger', 'Cyril Nouvel']",
+    "['Matthias Catrein', 'Julien Delval', 'Tomasz Jedruszek', 'Ryan Laukat', 'Harald Lieske', 'Michael Menzel', 'Marcel-Andr",
+    "['Cyrille Daujean', 'Julien Delval']"
+   ]
+  },
+  {
+   "name": "boardgamepublisher",
+   "dtype": "str",
+   "kind_counts": {
+    "str": 21630,
+    "null": 1
+   },
+   "rows": 21631,
+   "nulls": 1,
+   "null_pct": 0.005,
+   "distinct": 11265,
+   "max_str_len": 3744,
+   "samples": [
+    "['Z-Man Games', 'Albi', 'Asmodee', 'Asmodee Italia', 'Asterion Press', 'Bergsala Enigma (Enigma)', 'Brain Games', 'Devir",
+    "['Hans im Glück', '999 Games', 'Albi', 'Bard Centrum Gier', 'Bergsala Enigma (Enigma)', 'Brain Games', 'cutia.ro', 'Devi",
+    "['KOSMOS', '999 Games', 'Albi', 'Asmodee', 'Astrel Games', 'Bergsala Enigma (Enigma)', 'Brädspel.se', 'Brain Games', 'Br",
+    "['Repos Production', 'ADC Blackfire Entertainment', 'Asmodee', 'Asterion Press', 'Galápagos Jogos', 'Gém Klub Kft.', 'Ho",
+    "['Rio Grande Games', '999 Games', 'Albi', 'Bard Centrum Gier', 'Conclave Editora', 'cutia.ro', 'Devir', 'Filosofia Éditi",
+    "['Days of Wonder', 'ADC Blackfire Entertainment', 'Asmodee China', 'Bandai', 'Bergsala Enigma (Enigma)', 'Boardgame Spac"
+   ]
+  },
+  {
+   "name": "usersrated",
+   "dtype": "int",
+   "kind_counts": {
+    "int": 21631
+   },
+   "rows": 21631,
+   "nulls": 0,
+   "null_pct": 0.0,
+   "distinct": 3092,
+   "max_str_len": 6,
+   "samples": [
+    "109006",
+    "108776",
+    "108064",
+    "90021",
+    "81582",
+    "76207"
+   ],
+   "min": 29.0,
+   "max": 109006.0,
+   "mean": 875.0007,
+   "numeric_pct": 100.0
+  },
+  {
+   "name": "average",
+   "dtype": "float",
+   "kind_counts": {
+    "float": 21603,
+    "int": 28
+   },
+   "rows": 21631,
+   "nulls": 0,
+   "null_pct": 0.0,
+   "distinct": 20129,
+   "max_str_len": 7,
+   "samples": [
+    "7.58896",
+    "7.41837",
+    "7.13598",
+    "7.73515",
+    "7.61",
+    "7.41291"
+   ],
+   "min": 1.04133,
+   "max": 9.56829,
+   "mean": 6.4171,
+   "numeric_pct": 100.0
+  },
+  {
+   "name": "bayesaverage",
+   "dtype": "float",
+   "kind_counts": {
+    "float": 21625,
+    "bool01": 6
+   },
+   "rows": 21631,
+   "nulls": 0,
+   "null_pct": 0.0,
+   "distinct": 15735,
+   "max_str_len": 7,
+   "samples": [
+    "7.48669",
+    "7.30857",
+    "6.96965",
+    "7.63355",
+    "7.49912",
+    "7.30509"
+   ],
+   "min": 0.0,
+   "max": 8.51055,
+   "mean": 5.6825,
+   "numeric_pct": 100.0
+  },
+  {
+   "name": "Board Game Rank",
+   "dtype": "int",
+   "kind_counts": {
+    "int": 21625,
+    "str": 5,
+    "bool01": 1
+   },
+   "rows": 21631,
+   "nulls": 0,
+   "null_pct": 0.0,
+   "distinct": 21627,
+   "max_str_len": 10,
+   "samples": [
+    "106",
+    "191",
+    "429",
+    "73",
+    "104",
+    "192"
+   ],
+   "min": 1.0,
+   "max": 21833.0,
+   "mean": 10878.3907,
+   "numeric_pct": 99.98
+  },
+  {
+   "name": "Strategy Game Rank",
+   "dtype": "int",
+   "kind_counts": {
+    "null": 19294,
+    "int": 2336,
+    "bool01": 1
+   },
+   "rows": 21631,
+   "nulls": 19294,
+   "null_pct": 89.196,
+   "distinct": 2337,
+   "max_str_len": 4,
+   "samples": [
+    "121",
+    "413",
+    "71",
+    "108",
+    "6",
+    "20"
+   ],
+   "min": 1.0,
+   "max": 2338.0,
+   "mean": 1169.0599,
+   "numeric_pct": 100.0
+  },
+  {
+   "name": "Family Game Rank",
+   "dtype": "int",
+   "kind_counts": {
+    "null": 19304,
+    "int": 2326,
+    "bool01": 1
+   },
+   "rows": 21631,
+   "nulls": 19304,
+   "null_pct": 89.242,
+   "distinct": 2327,
+   "max_str_len": 4,
+   "samples": [
+    "18",
+    "41",
+    "131",
+    "9",
+    "40",
+    "37"
+   ],
+   "min": 1.0,
+   "max": 2328.0,
+   "mean": 1164.1092,
+   "numeric_pct": 100.0
+  },
+  {
+   "name": "stddev",
+   "dtype": "float",
+   "kind_counts": {
+    "float": 21629,
+    "int": 2
+   },
+   "rows": 21631,
+   "nulls": 0,
+   "null_pct": 0.0,
+   "distinct": 19199,
+   "max_str_len": 8,
+   "samples": [
+    "1.32857",
+    "1.30532",
+    "1.48179",
+    "1.27613",
+    "1.42343",
+    "1.29647"
+   ],
+   "min": 0.196023,
+   "max": 4.27728,
+   "mean": 1.5217,
+   "numeric_pct": 100.0
+  },
+  {
+   "name": "median",
+   "dtype": "bool01",
+   "kind_counts": {
+    "bool01": 21631
+   },
+   "rows": 21631,
+   "nulls": 0,
+   "null_pct": 0.0,
+   "distinct": 1,
+   "max_str_len": 1,
+   "samples": [
+    "0"
+   ],
+   "min": 0.0,
+   "max": 0.0,
+   "mean": 0.0,
+   "numeric_pct": 100.0,
+   "top_values": [
+    {
+     "v": "0",
+     "n": 21631
+    }
+   ]
+  },
+  {
+   "name": "owned",
+   "dtype": "int",
+   "kind_counts": {
+    "int": 21629,
+    "bool01": 2
+   },
+   "rows": 21631,
+   "nulls": 0,
+   "null_pct": 0.0,
+   "distinct": 4226,
+   "max_str_len": 6,
+   "samples": [
+    "168364",
+    "161299",
+    "167733",
+    "120466",
+    "106956",
+    "105748"
+   ],
+   "min": 0.0,
+   "max": 168364.0,
+   "mean": 1487.9246,
+   "numeric_pct": 100.0
+  },
+  {
+   "name": "trading",
+   "dtype": "int",
+   "kind_counts": {
+    "int": 19652,
+    "bool01": 1979
+   },
+   "rows": 21631,
+   "nulls": 0,
+   "null_pct": 0.0,
+   "distinct": 610,
+   "max_str_len": 4,
+   "samples": [
+    "2508",
+    "1716",
+    "2018",
+    "1567",
+    "2009",
+    "930"
+   ],
+   "min": 0.0,
+   "max": 2508.0,
+   "mean": 43.586,
+   "numeric_pct": 100.0
+  },
+  {
+   "name": "wanting",
+   "dtype": "int",
+   "kind_counts": {
+    "int": 17870,
+    "bool01": 3761
+   },
+   "rows": 21631,
+   "nulls": 0,
+   "null_pct": 0.0,
+   "distinct": 706,
+   "max_str_len": 4,
+   "samples": [
+    "625",
+    "582",
+    "485",
+    "1010",
+    "655",
+    "692"
+   ],
+   "min": 0.0,
+   "max": 2011.0,
+   "mean": 42.0304,
+   "numeric_pct": 100.0
+  },
+  {
+   "name": "wishing",
+   "dtype": "int",
+   "kind_counts": {
+    "int": 21305,
+    "bool01": 326
+   },
+   "rows": 21631,
+   "nulls": 0,
+   "null_pct": 0.0,
+   "distinct": 1797,
+   "max_str_len": 5,
+   "samples": [
+    "9344",
+    "7383",
+    "5890",
+    "12105",
+    "8621",
+    "6620"
+   ],
+   "min": 0.0,
+   "max": 19325.0,
+   "mean": 233.6556,
+   "numeric_pct": 100.0
+  },
+  {
+   "name": "numcomments",
+   "dtype": "int",
+   "kind_counts": {
+    "int": 21625,
+    "bool01": 6
+   },
+   "rows": 21631,
+   "nulls": 0,
+   "null_pct": 0.0,
+   "distinct": 1644,
+   "max_str_len": 5,
+   "samples": [
+    "17305",
+    "19263",
+    "19402",
+    "14553",
+    "13787",
+    "13061"
+   ],
+   "min": 1.0,
+   "max": 19402.0,
+   "mean": 213.2218,
+   "numeric_pct": 100.0
+  },
+  {
+   "name": "numweights",
+   "dtype": "int",
+   "kind_counts": {
+    "int": 19937,
+    "bool01": 1694
+   },
+   "rows": 21631,
+   "nulls": 0,
+   "null_pct": 0.0,
+   "distinct": 778,
+   "max_str_len": 4,
+   "samples": [
+    "5597",
+    "7690",
+    "7526",
+    "4774",
+    "4997",
+    "4681"
+   ],
+   "min": 0.0,
+   "max": 7690.0,
+   "mean": 50.037,
+   "numeric_pct": 100.0
+  },
+  {
+   "name": "averageweight",
+   "dtype": "float",
+   "kind_counts": {
+    "float": 16329,
+    "bool01": 3002,
+    "int": 2300
+   },
+   "rows": 21631,
+   "nulls": 0,
+   "null_pct": 0.0,
+   "distinct": 3908,
+   "max_str_len": 6,
+   "samples": [
+    "2.4063",
+    "1.9057",
+    "2.313",
+    "2.3264",
+    "2.3542",
+    "1.8445"
+   ],
+   "min": 0.0,
+   "max": 5.0,
+   "mean": 1.9788,
+   "numeric_pct": 100.0
+  },
+  {
+   "name": "boardgameintegration",
+   "dtype": "str",
+   "kind_counts": {
+    "null": 19900,
+    "str": 1731
+   },
+   "rows": 21631,
+   "nulls": 19900,
+   "null_pct": 91.998,
+   "distinct": 1607,
+   "max_str_len": 3295,
+   "samples": [
+    "['Carcassonne: Wheel of Fortune']",
+    "['Dominion: Intrigue']",
+    "['Codenames: Deep Undercover', 'Codenames: Disney – Family Edition', 'Codenames: Duet', 'Codenames: Harry Potter', 'Code",
+    "['Small World Underground']",
+    "['Dixit: Journey', 'Dixit: Odyssey']",
+    "['Frosthaven', 'Gloomhaven: Jaws of the Lion']"
+   ]
+  },
+  {
+   "name": "boardgamecompilation",
+   "dtype": "str",
+   "kind_counts": {
+    "null": 20804,
+    "str": 827
+   },
+   "rows": 21631,
+   "nulls": 20804,
+   "null_pct": 96.177,
+   "distinct": 573,
+   "max_str_len": 455,
+   "samples": [
+    "['Carcassonne Big Box', 'Carcassonne Big Box 2', 'Carcassonne Big Box 3', 'Carcassonne Big Box 4', 'Carcassonne Big Box ",
+    "[\"CATAN 3D Collector's Edition\", 'Catan: 25 Jahre Jubiläums-Edition', 'Catan: 25th Anniversary Edition', 'CATAN: 3D Edit",
+    "['Dominion Big Box (English)', 'Dominion Big Box (German)', 'Dominion: Special Edition']",
+    "['Ticket to Ride: 10th Anniversary']",
+    "['Codenames: Malaysia Edition']",
+    "['Puerto Rico', 'Puerto Rico', 'Puerto Rico + Expansion I']"
+   ]
+  },
+  {
+   "name": "Party Game Rank",
+   "dtype": "int",
+   "kind_counts": {
+    "null": 20984,
+    "int": 646,
+    "bool01": 1
+   },
+   "rows": 21631,
+   "nulls": 20984,
+   "null_pct": 97.009,
+   "distinct": 647,
+   "max_str_len": 3,
+   "samples": [
+    "2",
+    "21",
+    "565",
+    "46",
+    "26",
+    "28"
+   ],
+   "min": 1.0,
+   "max": 647.0,
+   "mean": 324.0,
+   "numeric_pct": 100.0
+  },
+  {
+   "name": "Abstract Game Rank",
+   "dtype": "int",
+   "kind_counts": {
+    "null": 20522,
+    "int": 1108,
+    "bool01": 1
+   },
+   "rows": 21631,
+   "nulls": 20522,
+   "null_pct": 94.873,
+   "distinct": 1109,
+   "max_str_len": 4,
+   "samples": [
+    "1",
+    "5",
+    "18",
+    "12",
+    "47",
+    "10"
+   ],
+   "min": 1.0,
+   "max": 1120.0,
+   "mean": 558.8828,
+   "numeric_pct": 100.0
+  },
+  {
+   "name": "Thematic Rank",
+   "dtype": "int",
+   "kind_counts": {
+    "null": 20396,
+    "int": 1234,
+    "bool01": 1
+   },
+   "rows": 21631,
+   "nulls": 20396,
+   "null_pct": 94.291,
+   "distinct": 1235,
+   "max_str_len": 4,
+   "samples": [
+    "1",
+    "2",
+    "1137",
+    "51",
+    "214",
+    "122"
+   ],
+   "min": 1.0,
+   "max": 1236.0,
+   "mean": 618.1344,
+   "numeric_pct": 100.0
+  },
+  {
+   "name": "War Game Rank",
+   "dtype": "int",
+   "kind_counts": {
+    "null": 18130,
+    "int": 3500,
+    "bool01": 1
+   },
+   "rows": 21631,
+   "nulls": 18130,
+   "null_pct": 83.815,
+   "distinct": 3501,
+   "max_str_len": 4,
+   "samples": [
+    "2",
+    "3533",
+    "16",
+    "64",
+    "51",
+    "1"
+   ],
+   "min": 1.0,
+   "max": 3546.0,
+   "mean": 1765.0254,
+   "numeric_pct": 100.0
+  },
+  {
+   "name": "Customizable Rank",
+   "dtype": "int",
+   "kind_counts": {
+    "null": 21330,
+    "int": 300,
+    "bool01": 1
+   },
+   "rows": 21631,
+   "nulls": 21330,
+   "null_pct": 98.608,
+   "distinct": 301,
+   "max_str_len": 3,
+   "samples": [
+    "18",
+    "1",
+    "3",
+    "8",
+    "5",
+    "2"
+   ],
+   "min": 1.0,
+   "max": 303.0,
+   "mean": 151.4053,
+   "numeric_pct": 100.0
+  },
+  {
+   "name": "Children's Game Rank",
+   "dtype": "int",
+   "kind_counts": {
+    "null": 20755,
+    "int": 874,
+    "bool01": 1,
+    "str": 1
+   },
+   "rows": 21631,
+   "nulls": 20755,
+   "null_pct": 95.95,
+   "distinct": 876,
+   "max_str_len": 10,
+   "samples": [
+    "16",
+    "9",
+    "849",
+    "18",
+    "15",
+    "828"
+   ],
+   "min": 1.0,
+   "max": 884.0,
+   "mean": 442.1794,
+   "numeric_pct": 99.89
+  },
+  {
+   "name": "RPG Item Rank",
+   "dtype": "int",
+   "kind_counts": {
+    "null": 21630,
+    "int": 1
+   },
+   "rows": 21631,
+   "nulls": 21630,
+   "null_pct": 99.995,
+   "distinct": 1,
+   "max_str_len": 3,
+   "samples": [
+    "347"
+   ],
+   "min": 347.0,
+   "max": 347.0,
+   "mean": 347.0,
+   "numeric_pct": 100.0,
+   "top_values": [
+    {
+     "v": "347",
+     "n": 1
+    }
+   ]
+  },
+  {
+   "name": "Accessory Rank",
+   "dtype": "int",
+   "kind_counts": {
+    "null": 21630,
+    "int": 1
+   },
+   "rows": 21631,
+   "nulls": 21630,
+   "null_pct": 99.995,
+   "distinct": 1,
+   "max_str_len": 3,
+   "samples": [
+    "140"
+   ],
+   "min": 140.0,
+   "max": 140.0,
+   "mean": 140.0,
+   "numeric_pct": 100.0,
+   "top_values": [
+    {
+     "v": "140",
+     "n": 1
+    }
+   ]
+  },
+  {
+   "name": "Video Game Rank",
+   "dtype": "int",
+   "kind_counts": {
+    "null": 21630,
+    "int": 1
+   },
+   "rows": 21631,
+   "nulls": 21630,
+   "null_pct": 99.995,
+   "distinct": 1,
+   "max_str_len": 4,
+   "samples": [
+    "5374"
+   ],
+   "min": 5374.0,
+   "max": 5374.0,
+   "mean": 5374.0,
+   "numeric_pct": 100.0,
+   "top_values": [
+    {
+     "v": "5374",
+     "n": 1
+    }
+   ]
+  },
+  {
+   "name": "Amiga Rank",
+   "dtype": "int",
+   "kind_counts": {
+    "null": 21630,
+    "int": 1
+   },
+   "rows": 21631,
+   "nulls": 21630,
+   "null_pct": 99.995,
+   "distinct": 1,
+   "max_str_len": 3,
+   "samples": [
+    "227"
+   ],
+   "min": 227.0,
+   "max": 227.0,
+   "mean": 227.0,
+   "numeric_pct": 100.0,
+   "top_values": [
+    {
+     "v": "227",
+     "n": 1
+    }
+   ]
+  },
+  {
+   "name": "Commodore 64 Rank",
+   "dtype": "int",
+   "kind_counts": {
+    "null": 21630,
+    "int": 1
+   },
+   "rows": 21631,
+   "nulls": 21630,
+   "null_pct": 99.995,
+   "distinct": 1,
+   "max_str_len": 3,
+   "samples": [
+    "180"
+   ],
+   "min": 180.0,
+   "max": 180.0,
+   "mean": 180.0,
+   "numeric_pct": 100.0,
+   "top_values": [
+    {
+     "v": "180",
+     "n": 1
+    }
+   ]
+  },
+  {
+   "name": "Arcade Rank",
+   "dtype": "int",
+   "kind_counts": {
+    "null": 21630,
+    "int": 1
+   },
+   "rows": 21631,
+   "nulls": 21630,
+   "null_pct": 99.995,
+   "distinct": 1,
+   "max_str_len": 3,
+   "samples": [
+    "170"
+   ],
+   "min": 170.0,
+   "max": 170.0,
+   "mean": 170.0,
+   "numeric_pct": 100.0,
+   "top_values": [
+    {
+     "v": "170",
+     "n": 1
+    }
+   ]
+  },
+  {
+   "name": "Atari ST Rank",
+   "dtype": "int",
+   "kind_counts": {
+    "null": 21630,
+    "int": 1
+   },
+   "rows": 21631,
+   "nulls": 21630,
+   "null_pct": 99.995,
+   "distinct": 1,
+   "max_str_len": 3,
+   "samples": [
+    "140"
+   ],
+   "min": 140.0,
+   "max": 140.0,
+   "mean": 140.0,
+   "numeric_pct": 100.0,
+   "top_values": [
+    {
+     "v": "140",
+     "n": 1
+    }
+   ]
+  }
+ ],
+ "dataset": "bgg-reviews-jvanelteren"
+}

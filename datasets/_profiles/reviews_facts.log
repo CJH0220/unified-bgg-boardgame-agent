@@ -1,0 +1,48 @@
+﻿header: ['', 'user', 'rating', 'comment', 'ID', 'name']
+  ...5000000 rows
+  ...10000000 rows
+  ...15000000 rows
+  ...20000000 rows
+  ...25000000 rows
+{
+ "rows": 26200012,
+ "unique_users": 555482,
+ "unique_games": 27865,
+ "reviews_with_text": 4215806,
+ "text_pct": 16.09,
+ "avg_comment_len": 213.5,
+ "max_comment_len": 26962,
+ "first_col_is_sequential_index": true,
+ "ratings_below_1": 12,
+ "ratings_above_10": 0,
+ "non_integer_ratings": 4453469,
+ "non_integer_pct": 17.0,
+ "integer_histogram": {
+  "1": 117102,
+  "2": 182930,
+  "3": 396900,
+  "4": 758850,
+  "5": 1681963,
+  "6": 3722536,
+  "7": 5883610,
+  "8": 5140393,
+  "9": 2489834,
+  "10": 1372425
+ },
+ "reviews_per_user": {
+  "min": 1,
+  "p50": 11,
+  "p90": 117,
+  "max": 16792,
+  "mean": 47.17
+ },
+ "reviews_per_game": {
+  "min": 29,
+  "p50": 125,
+  "p90": 1555,
+  "max": 131303,
+  "mean": 940.25
+ },
+ "single_review_users": 114538
+}
+wrote D:\OpenViking\research\datasets\_profiles\reviews_facts.json

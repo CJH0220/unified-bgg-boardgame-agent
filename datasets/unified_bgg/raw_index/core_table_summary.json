@@ -1,0 +1,97 @@
+{
+  "generated_at": "2026-08-25T15:43:43",
+  "games": {
+    "rows": 100274,
+    "known_ids": 100274,
+    "missing_primary_name": 4,
+    "with_description": 100099,
+    "source_counts": {
+      "jv_2025": 27780,
+      "jv_2020_detail": 21631,
+      "threnjen_games": 21925,
+      "matt_basic": 2000,
+      "mr_2018_06": 4999,
+      "andrewmvd": 20327,
+      "sujay": 10532,
+      "gabrio": 90400
+    },
+    "by_game_type": {
+      "boardgame": 86489,
+      "boardgameexpansion": 13633
+    }
+  },
+  "game_stats": {
+    "rows": 291640,
+    "source_counts_from_build": {
+      "jv_2025_detail": 44007,
+      "jv_2020_detail": 33963,
+      "jv_2022_simple": 21831,
+      "jv_2020_simple": 19330,
+      "threnjen": 34253,
+      "matt": 2000,
+      "mr_2017_04": 4999,
+      "mr_2018_01": 4999,
+      "mr_2018_06": 4999,
+      "andrewmvd": 20327,
+      "sujay": 10532,
+      "gabrio": 90400
+    },
+    "by_source": {
+      "bgg-andrewmvd": 20327,
+      "bgg-gabrio": 90400,
+      "bgg-mrpantherson": 14997,
+      "bgg-ranked-mattadamhouser": 2000,
+      "bgg-reviews-jvanelteren": 119131,
+      "bgg-sujaykapadnis": 10532,
+      "bgg-threnjen": 34253
+    },
+    "by_rank_domain": {
+      "abstracts": 3656,
+      "cgs": 971,
+      "childrensgames": 2831,
+      "familygames": 8008,
+      "overall": 250753,
+      "partygames": 2209,
+      "strategygames": 7690,
+      "thematic": 4163,
+      "wargames": 11359
+    }
+  },
+  "game_taxonomy": {
+    "rows": 1164739,
+    "source_counts_from_build": {
+      "jv_2025": 238892,
+      "jv_2020": 167559,
+      "threnjen_mechanics": 68080,
+      "threnjen_themes": 32379,
+      "threnjen_subcategories": 11810,
+      "threnjen_domains": 18991,
+      "matt_mechanisms": 11405,
+      "matt_themes": 6283,
+      "matt_subdomains": 2529,
+      "andrewmvd": 68451,
+      "sujay": 69565,
+      "gabrio": 468795
+    },
+    "by_source": {
+      "bgg-andrewmvd": 68451,
+      "bgg-gabrio": 468795,
+      "bgg-ranked-mattadamhouser": 20217,
+      "bgg-reviews-jvanelteren": 406451,
+      "bgg-sujaykapadnis": 69565,
+      "bgg-threnjen": 131260
+    },
+    "by_type": {
+      "category": 384719,
+      "domain": 26546,
+      "family": 228402,
+      "mechanic": 474600,
+      "subcategory": 11810,
+      "theme": 38662
+    },
+    "by_mapping_confidence": {
+      "exact": 238892,
+      "raw_unmapped": 925847
+    }
+  }
+}

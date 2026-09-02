@@ -1,0 +1,71 @@
+{
+  "generated_at": "2026-08-26T14:53:33",
+  "files": [
+    "samples/rag/game_overview.jsonl",
+    "samples/rag/mechanic_profile.jsonl",
+    "samples/rag/review_digest.jsonl",
+    "samples/rag/rulebook_text.jsonl"
+  ],
+  "parsed_docs": 128420,
+  "unique_doc_ids": 128420,
+  "duplicate_doc_ids": 0,
+  "rows_by_file": {
+    "samples/rag/game_overview.jsonl": 100274,
+    "samples/rag/mechanic_profile.jsonl": 195,
+    "samples/rag/review_digest.jsonl": 27851,
+    "samples/rag/rulebook_text.jsonl": 100
+  },
+  "doc_types": {
+    "game_overview": 100274,
+    "mechanic_profile": 195,
+    "review_digest": 27851,
+    "rulebook_text": 100
+  },
+  "text_length_summary": {
+    "game_overview": {
+      "min": 128,
+      "median": 1007,
+      "p95": 1925,
+      "max": 2690
+    },
+    "mechanic_profile": {
+      "min": 621,
+      "median": 799,
+      "p95": 901,
+      "max": 978
+    },
+    "review_digest": {
+      "min": 188,
+      "median": 2589,
+      "p95": 3553,
+      "max": 3664
+    },
+    "rulebook_text": {
+      "min": 1234,
+      "median": 38913,
+      "p95": 93037,
+      "max": 142468
+    }
+  },
+  "structural_flags": {},
+  "text_flags": {
+    "very_long_text": 71
+  },
+  "game_quality_flags": {
+    "missing_reliable_mechanics": 14509,
+    "missing_mechanics": 14509,
+    "expansion_doc": 13633,
+    "missing_rating_values": 24339,
+    "game_needs_review": 4,
+    "missing_title": 4,
+    "missing_overall_stats": 3
+  },
+  "mechanic_quality_flags": {},
+  "review_quality_flags": {
+    "missing_critical_snippets": 2547,
+    "missing_mixed_snippets": 995,
+    "missing_positive_snippets": 3591,
+    "very_low_comment_coverage": 7
+  },
+  "finding_rows_written": 71
+}

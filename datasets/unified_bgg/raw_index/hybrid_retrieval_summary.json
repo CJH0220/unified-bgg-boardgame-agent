@@ -1,0 +1,685 @@
+{
+  "generated_at": "2026-08-26T09:53:46",
+  "top_k": 5,
+  "candidate_limit": 50,
+  "passed": 9,
+  "total": 9,
+  "pass_rate": 1.0,
+  "results": [
+    {
+      "query": "卡坦岛 交易 评论",
+      "doc_type_filter": "review_digest",
+      "expected_any": [
+        "reviews:bgg:13"
+      ],
+      "passed": true,
+      "top_results": [
+        {
+          "rank": 1,
+          "fusion_score": 0.078893,
+          "fts_rank": 20,
+          "vector_rank": 1,
+          "vector_score": 0.29466,
+          "doc_id": "reviews:bgg:13:digest:rag-v0.1",
+          "doc_type": "review_digest",
+          "title": "CATAN",
+          "game_id": "bgg:13",
+          "bgg_id": 13,
+          "source_file": "samples/rag/review_digest.jsonl"
+        },
+        {
+          "rank": 2,
+          "fusion_score": 0.032002,
+          "fts_rank": 2,
+          "vector_rank": 3,
+          "vector_score": 0.335663,
+          "doc_id": "reviews:bgg:103091:digest:rag-v0.1",
+          "doc_type": "review_digest",
+          "title": "Catan Histories: Merchants of Europe",
+          "game_id": "bgg:103091",
+          "bgg_id": 103091,
+          "source_file": "samples/rag/review_digest.jsonl"
+        },
+        {
+          "rank": 3,
+          "fusion_score": 0.030886,
+          "fts_rank": 1,
+          "vector_rank": 9,
+          "vector_score": 0.280932,
+          "doc_id": "reviews:bgg:6201:digest:rag-v0.1",
+          "doc_type": "review_digest",
+          "title": "Dante's Inferno",
+          "game_id": "bgg:6201",
+          "bgg_id": 6201,
+          "source_file": "samples/rag/review_digest.jsonl"
+        },
+        {
+          "rank": 4,
+          "fusion_score": 0.030835,
+          "fts_rank": 8,
+          "vector_rank": 2,
+          "vector_score": 0.367858,
+          "doc_id": "reviews:bgg:20899:digest:rag-v0.1",
+          "doc_type": "review_digest",
+          "title": "Settlers of Catan: Rockman Edition",
+          "game_id": "bgg:20899",
+          "bgg_id": 20899,
+          "source_file": "samples/rag/review_digest.jsonl"
+        },
+        {
+          "rank": 5,
+          "fusion_score": 0.030579,
+          "fts_rank": 3,
+          "vector_rank": 8,
+          "vector_score": 0.282102,
+          "doc_id": "reviews:bgg:27766:digest:rag-v0.1",
+          "doc_type": "review_digest",
+          "title": "Die Siedler von Catan: Junior",
+          "game_id": "bgg:27766",
+          "bgg_id": 27766,
+          "source_file": "samples/rag/review_digest.jsonl"
+        }
+      ]
+    },
+    {
+      "query": "卡坦岛 游戏简介",
+      "doc_type_filter": "game_overview",
+      "expected_any": [
+        "game:bgg:13"
+      ],
+      "passed": true,
+      "top_results": [
+        {
+          "rank": 1,
+          "fusion_score": 0.082787,
+          "fts_rank": 1,
+          "vector_rank": 1,
+          "vector_score": 0.307343,
+          "doc_id": "game:bgg:13:overview:rag-v0.1",
+          "doc_type": "game_overview",
+          "title": "CATAN",
+          "game_id": "bgg:13",
+          "bgg_id": 13,
+          "source_file": "samples/rag/game_overview.jsonl"
+        },
+        {
+          "rank": 2,
+          "fusion_score": 0.031746,
+          "fts_rank": 3,
+          "vector_rank": 3,
+          "vector_score": 0.479576,
+          "doc_id": "game:bgg:38821:overview:rag-v0.1",
+          "doc_type": "game_overview",
+          "title": "Settlers of Catan: Gallery Edition",
+          "game_id": "bgg:38821",
+          "bgg_id": 38821,
+          "source_file": "samples/rag/game_overview.jsonl"
+        },
+        {
+          "rank": 3,
+          "fusion_score": 0.031054,
+          "fts_rank": 2,
+          "vector_rank": 7,
+          "vector_score": 0.41857,
+          "doc_id": "game:bgg:20899:overview:rag-v0.1",
+          "doc_type": "game_overview",
+          "title": "Settlers of Catan: Rockman Edition",
+          "game_id": "bgg:20899",
+          "bgg_id": 20899,
+          "source_file": "samples/rag/game_overview.jsonl"
+        },
+        {
+          "rank": 4,
+          "fusion_score": 0.031054,
+          "fts_rank": 7,
+          "vector_rank": 2,
+          "vector_score": 0.522249,
+          "doc_id": "game:bgg:20247:overview:rag-v0.1",
+          "doc_type": "game_overview",
+          "title": "The Settlers of Catan: The Great River",
+          "game_id": "bgg:20247",
+          "bgg_id": 20247,
+          "source_file": "samples/rag/game_overview.jsonl"
+        },
+        {
+          "rank": 5,
+          "fusion_score": 0.027984,
+          "fts_rank": 13,
+          "vector_rank": 10,
+          "vector_score": 0.403408,
+          "doc_id": "game:bgg:147240:overview:rag-v0.1",
+          "doc_type": "game_overview",
+          "title": "Catan: Family Edition",
+          "game_id": "bgg:147240",
+          "bgg_id": 147240,
+          "source_file": "samples/rag/game_overview.jsonl"
+        }
+      ]
+    },
+    {
+      "query": "幽港迷城 合作 战役",
+      "doc_type_filter": "game_overview",
+      "expected_any": [
+        "game:bgg:174430"
+      ],
+      "passed": true,
+      "top_results": [
+        {
+          "rank": 1,
+          "fusion_score": 0.082522,
+          "fts_rank": 2,
+          "vector_rank": 1,
+          "vector_score": 0.309891,
+          "doc_id": "game:bgg:174430:overview:rag-v0.1",
+          "doc_type": "game_overview",
+          "title": "Gloomhaven",
+          "game_id": "bgg:174430",
+          "bgg_id": 174430,
+          "source_file": "samples/rag/game_overview.jsonl"
+        },
+        {
+          "rank": 2,
+          "fusion_score": 0.032522,
+          "fts_rank": 1,
+          "vector_rank": 2,
+          "vector_score": 0.304902,
+          "doc_id": "game:bgg:291457:overview:rag-v0.1",
+          "doc_type": "game_overview",
+          "title": "Gloomhaven: Jaws of the Lion",
+          "game_id": "bgg:291457",
+          "bgg_id": 291457,
+          "source_file": "samples/rag/game_overview.jsonl"
+        },
+        {
+          "rank": 3,
+          "fusion_score": 0.031498,
+          "fts_rank": 3,
+          "vector_rank": 4,
+          "vector_score": 0.287199,
+          "doc_id": "game:bgg:368939:overview:rag-v0.1",
+          "doc_type": "game_overview",
+          "title": "Trench Club: Legacy",
+          "game_id": "bgg:368939",
+          "bgg_id": 368939,
+          "source_file": "samples/rag/game_overview.jsonl"
+        },
+        {
+          "rank": 4,
+          "fusion_score": 0.031025,
+          "fts_rank": 6,
+          "vector_rank": 3,
+          "vector_score": 0.293062,
+          "doc_id": "game:bgg:390478:overview:rag-v0.1",
+          "doc_type": "game_overview",
+          "title": "Gloomhaven: Second Edition",
+          "game_id": "bgg:390478",
+          "bgg_id": 390478,
+          "source_file": "samples/rag/game_overview.jsonl"
+        },
+        {
+          "rank": 5,
+          "fusion_score": 0.030077,
+          "fts_rank": 7,
+          "vector_rank": 6,
+          "vector_score": 0.224823,
+          "doc_id": "game:bgg:224793:overview:rag-v0.1",
+          "doc_type": "game_overview",
+          "title": "Gascony's Legacy",
+          "game_id": "bgg:224793",
+          "bgg_id": 224793,
+          "source_file": "samples/rag/game_overview.jsonl"
+        }
+      ]
+    },
+    {
+      "query": "卡卡颂 拼放版图 评论",
+      "doc_type_filter": "review_digest",
+      "expected_any": [
+        "reviews:bgg:822"
+      ],
+      "passed": true,
+      "top_results": [
+        {
+          "rank": 1,
+          "fusion_score": 0.066393,
+          "fts_rank": null,
+          "vector_rank": 1,
+          "vector_score": 0.166101,
+          "doc_id": "reviews:bgg:822:digest:rag-v0.1",
+          "doc_type": "review_digest",
+          "title": "Carcassonne",
+          "game_id": "bgg:822",
+          "bgg_id": 822,
+          "source_file": "samples/rag/review_digest.jsonl"
+        },
+        {
+          "rank": 2,
+          "fusion_score": 0.031754,
+          "fts_rank": 2,
+          "vector_rank": 4,
+          "vector_score": 0.236884,
+          "doc_id": "reviews:bgg:9616:digest:rag-v0.1",
+          "doc_type": "review_digest",
+          "title": "Horus",
+          "game_id": "bgg:9616",
+          "bgg_id": 9616,
+          "source_file": "samples/rag/review_digest.jsonl"
+        },
+        {
+          "rank": 3,
+          "fusion_score": 0.031319,
+          "fts_rank": 1,
+          "vector_rank": 7,
+          "vector_score": 0.222568,
+          "doc_id": "reviews:bgg:179813:digest:rag-v0.1",
+          "doc_type": "review_digest",
+          "title": "Manhattan TraffIQ",
+          "game_id": "bgg:179813",
+          "bgg_id": 179813,
+          "source_file": "samples/rag/review_digest.jsonl"
+        },
+        {
+          "rank": 4,
+          "fusion_score": 0.031258,
+          "fts_rank": 3,
+          "vector_rank": 5,
+          "vector_score": 0.233514,
+          "doc_id": "reviews:bgg:364488:digest:rag-v0.1",
+          "doc_type": "review_digest",
+          "title": "Queensland",
+          "game_id": "bgg:364488",
+          "bgg_id": 364488,
+          "source_file": "samples/rag/review_digest.jsonl"
+        },
+        {
+          "rank": 5,
+          "fusion_score": 0.030622,
+          "fts_rank": 9,
+          "vector_rank": 2,
+          "vector_score": 0.249774,
+          "doc_id": "reviews:bgg:40425:digest:rag-v0.1",
+          "doc_type": "review_digest",
+          "title": "Maori",
+          "game_id": "bgg:40425",
+          "bgg_id": 40425,
+          "source_file": "samples/rag/review_digest.jsonl"
+        }
+      ]
+    },
+    {
+      "query": "牌库构筑 机制",
+      "doc_type_filter": "mechanic_profile",
+      "expected_any": [
+        "mechanic:deck,-bag,-and-pool-building"
+      ],
+      "passed": true,
+      "top_results": [
+        {
+          "rank": 1,
+          "fusion_score": 0.032787,
+          "fts_rank": 1,
+          "vector_rank": 1,
+          "vector_score": 0.417614,
+          "doc_id": "mechanic:deck,-bag,-and-pool-building:profile:rag-v0.1",
+          "doc_type": "mechanic_profile",
+          "title": "Deck, Bag, and Pool Building",
+          "game_id": null,
+          "bgg_id": null,
+          "source_file": "samples/rag/mechanic_profile.jsonl"
+        },
+        {
+          "rank": 2,
+          "fusion_score": 0.031754,
+          "fts_rank": 4,
+          "vector_rank": 2,
+          "vector_score": 0.279879,
+          "doc_id": "mechanic:move-through-deck:profile:rag-v0.1",
+          "doc_type": "mechanic_profile",
+          "title": "Move Through Deck",
+          "game_id": null,
+          "bgg_id": null,
+          "source_file": "samples/rag/mechanic_profile.jsonl"
+        },
+        {
+          "rank": 3,
+          "fusion_score": 0.031746,
+          "fts_rank": 3,
+          "vector_rank": 3,
+          "vector_score": 0.269152,
+          "doc_id": "mechanic:deck-construction:profile:rag-v0.1",
+          "doc_type": "mechanic_profile",
+          "title": "Deck Construction",
+          "game_id": null,
+          "bgg_id": null,
+          "source_file": "samples/rag/mechanic_profile.jsonl"
+        },
+        {
+          "rank": 4,
+          "fusion_score": 0.029418,
+          "fts_rank": 7,
+          "vector_rank": 9,
+          "vector_score": 0.221806,
+          "doc_id": "mechanic:open-drafting:profile:rag-v0.1",
+          "doc_type": "mechanic_profile",
+          "title": "Open Drafting",
+          "game_id": null,
+          "bgg_id": null,
+          "source_file": "samples/rag/mechanic_profile.jsonl"
+        },
+        {
+          "rank": 5,
+          "fusion_score": 0.029116,
+          "fts_rank": 2,
+          "vector_rank": 17,
+          "vector_score": 0.205245,
+          "doc_id": "mechanic:melding-and-splaying:profile:rag-v0.1",
+          "doc_type": "mechanic_profile",
+          "title": "Melding and Splaying",
+          "game_id": null,
+          "bgg_id": null,
+          "source_file": "samples/rag/mechanic_profile.jsonl"
+        }
+      ]
+    },
+    {
+      "query": "工人放置 机制",
+      "doc_type_filter": "mechanic_profile",
+      "expected_any": [
+        "mechanic:worker-placement:profile"
+      ],
+      "passed": true,
+      "top_results": [
+        {
+          "rank": 1,
+          "fusion_score": 0.032522,
+          "fts_rank": 1,
+          "vector_rank": 2,
+          "vector_score": 0.380935,
+          "doc_id": "mechanic:worker-placement-with-dice-workers:profile:rag-v0.1",
+          "doc_type": "mechanic_profile",
+          "title": "Worker Placement with Dice Workers",
+          "game_id": null,
+          "bgg_id": null,
+          "source_file": "samples/rag/mechanic_profile.jsonl"
+        },
+        {
+          "rank": 2,
+          "fusion_score": 0.032522,
+          "fts_rank": 2,
+          "vector_rank": 1,
+          "vector_score": 0.398993,
+          "doc_id": "mechanic:worker-placement,-different-worker-types:profile:rag-v0.1",
+          "doc_type": "mechanic_profile",
+          "title": "Worker Placement, Different Worker Types",
+          "game_id": null,
+          "bgg_id": null,
+          "source_file": "samples/rag/mechanic_profile.jsonl"
+        },
+        {
+          "rank": 3,
+          "fusion_score": 0.031746,
+          "fts_rank": 3,
+          "vector_rank": 3,
+          "vector_score": 0.377127,
+          "doc_id": "mechanic:worker-placement:profile:rag-v0.1",
+          "doc_type": "mechanic_profile",
+          "title": "Worker Placement",
+          "game_id": null,
+          "bgg_id": null,
+          "source_file": "samples/rag/mechanic_profile.jsonl"
+        },
+        {
+          "rank": 4,
+          "fusion_score": 0.03125,
+          "fts_rank": 4,
+          "vector_rank": 4,
+          "vector_score": 0.317392,
+          "doc_id": "mechanic:action-drafting:profile:rag-v0.1",
+          "doc_type": "mechanic_profile",
+          "title": "Action Drafting",
+          "game_id": null,
+          "bgg_id": null,
+          "source_file": "samples/rag/mechanic_profile.jsonl"
+        },
+        {
+          "rank": 5,
+          "fusion_score": 0.03031,
+          "fts_rank": 5,
+          "vector_rank": 7,
+          "vector_score": 0.261811,
+          "doc_id": "mechanic:turn-order:-claim-action:profile:rag-v0.1",
+          "doc_type": "mechanic_profile",
+          "title": "Turn Order: Claim Action",
+          "game_id": null,
+          "bgg_id": null,
+          "source_file": "samples/rag/mechanic_profile.jsonl"
+        }
+      ]
+    },
+    {
+      "query": "Brass Birmingham economic network route building",
+      "doc_type_filter": "game_overview",
+      "expected_any": [
+        "game:bgg:224517"
+      ],
+      "passed": true,
+      "top_results": [
+        {
+          "rank": 1,
+          "fusion_score": 0.082787,
+          "fts_rank": 1,
+          "vector_rank": 1,
+          "vector_score": 0.484826,
+          "doc_id": "game:bgg:224517:overview:rag-v0.1",
+          "doc_type": "game_overview",
+          "title": "Brass: Birmingham",
+          "game_id": "bgg:224517",
+          "bgg_id": 224517,
+          "source_file": "samples/rag/game_overview.jsonl"
+        },
+        {
+          "rank": 2,
+          "fusion_score": 0.032258,
+          "fts_rank": 2,
+          "vector_rank": 2,
+          "vector_score": 0.521126,
+          "doc_id": "game:bgg:201381:overview:rag-v0.1",
+          "doc_type": "game_overview",
+          "title": "Brass 2-player board",
+          "game_id": "bgg:201381",
+          "bgg_id": 201381,
+          "source_file": "samples/rag/game_overview.jsonl"
+        },
+        {
+          "rank": 3,
+          "fusion_score": 0.030331,
+          "fts_rank": 8,
+          "vector_rank": 4,
+          "vector_score": 0.375478,
+          "doc_id": "game:bgg:17673:overview:rag-v0.1",
+          "doc_type": "game_overview",
+          "title": "Birmingham in a Box",
+          "game_id": "bgg:17673",
+          "bgg_id": 17673,
+          "source_file": "samples/rag/game_overview.jsonl"
+        },
+        {
+          "rank": 4,
+          "fusion_score": 0.029958,
+          "fts_rank": 3,
+          "vector_rank": 11,
+          "vector_score": 0.255923,
+          "doc_id": "game:bgg:28720:overview:rag-v0.1",
+          "doc_type": "game_overview",
+          "title": "Brass: Lancashire",
+          "game_id": "bgg:28720",
+          "bgg_id": 28720,
+          "source_file": "samples/rag/game_overview.jsonl"
+        },
+        {
+          "rank": 5,
+          "fusion_score": 0.029911,
+          "fts_rank": 4,
+          "vector_rank": 10,
+          "vector_score": 0.266003,
+          "doc_id": "game:bgg:138329:overview:rag-v0.1",
+          "doc_type": "game_overview",
+          "title": "Catalonia (fan expansion for Brass)",
+          "game_id": "bgg:138329",
+          "bgg_id": 138329,
+          "source_file": "samples/rag/game_overview.jsonl"
+        }
+      ]
+    },
+    {
+      "query": "Catan trading negotiation user comments",
+      "doc_type_filter": "review_digest",
+      "expected_any": [
+        "reviews:bgg:13"
+      ],
+      "passed": true,
+      "top_results": [
+        {
+          "rank": 1,
+          "fusion_score": 0.080092,
+          "fts_rank": 13,
+          "vector_rank": 1,
+          "vector_score": 0.2831,
+          "doc_id": "reviews:bgg:13:digest:rag-v0.1",
+          "doc_type": "review_digest",
+          "title": "CATAN",
+          "game_id": "bgg:13",
+          "bgg_id": 13,
+          "source_file": "samples/rag/review_digest.jsonl"
+        },
+        {
+          "rank": 2,
+          "fusion_score": 0.031025,
+          "fts_rank": 6,
+          "vector_rank": 3,
+          "vector_score": 0.318671,
+          "doc_id": "reviews:bgg:123386:digest:rag-v0.1",
+          "doc_type": "review_digest",
+          "title": "Baden-Württemberg Catan",
+          "game_id": "bgg:123386",
+          "bgg_id": 123386,
+          "source_file": "samples/rag/review_digest.jsonl"
+        },
+        {
+          "rank": 3,
+          "fusion_score": 0.030622,
+          "fts_rank": 9,
+          "vector_rank": 2,
+          "vector_score": 0.340602,
+          "doc_id": "reviews:bgg:194097:digest:rag-v0.1",
+          "doc_type": "review_digest",
+          "title": "Catan: Big Game Event Kit",
+          "game_id": "bgg:194097",
+          "bgg_id": 194097,
+          "source_file": "samples/rag/review_digest.jsonl"
+        },
+        {
+          "rank": 4,
+          "fusion_score": 0.03009,
+          "fts_rank": 8,
+          "vector_rank": 5,
+          "vector_score": 0.302959,
+          "doc_id": "reviews:bgg:125921:digest:rag-v0.1",
+          "doc_type": "review_digest",
+          "title": "Catan: Junior",
+          "game_id": "bgg:125921",
+          "bgg_id": 125921,
+          "source_file": "samples/rag/review_digest.jsonl"
+        },
+        {
+          "rank": 5,
+          "fusion_score": 0.029828,
+          "fts_rank": 2,
+          "vector_rank": 13,
+          "vector_score": 0.246745,
+          "doc_id": "reviews:bgg:229218:digest:rag-v0.1",
+          "doc_type": "review_digest",
+          "title": "A Game of Thrones: Catan – Brotherhood of the Watch",
+          "game_id": "bgg:229218",
+          "bgg_id": 229218,
+          "source_file": "samples/rag/review_digest.jsonl"
+        }
+      ]
+    },
+    {
+      "query": "Gloomhaven cooperative campaign fantasy",
+      "doc_type_filter": "game_overview",
+      "expected_any": [
+        "game:bgg:174430"
+      ],
+      "passed": true,
+      "top_results": [
+        {
+          "rank": 1,
+          "fusion_score": 0.082018,
+          "fts_rank": 4,
+          "vector_rank": 1,
+          "vector_score": 0.399266,
+          "doc_id": "game:bgg:174430:overview:rag-v0.1",
+          "doc_type": "game_overview",
+          "title": "Gloomhaven",
+          "game_id": "bgg:174430",
+          "bgg_id": 174430,
+          "source_file": "samples/rag/game_overview.jsonl"
+        },
+        {
+          "rank": 2,
+          "fusion_score": 0.032258,
+          "fts_rank": 2,
+          "vector_rank": 2,
+          "vector_score": 0.37891,
+          "doc_id": "game:bgg:390478:overview:rag-v0.1",
+          "doc_type": "game_overview",
+          "title": "Gloomhaven: Second Edition",
+          "game_id": "bgg:390478",
+          "bgg_id": 390478,
+          "source_file": "samples/rag/game_overview.jsonl"
+        },
+        {
+          "rank": 3,
+          "fusion_score": 0.032018,
+          "fts_rank": 1,
+          "vector_rank": 4,
+          "vector_score": 0.363835,
+          "doc_id": "game:bgg:291457:overview:rag-v0.1",
+          "doc_type": "game_overview",
+          "title": "Gloomhaven: Jaws of the Lion",
+          "game_id": "bgg:291457",
+          "bgg_id": 291457,
+          "source_file": "samples/rag/game_overview.jsonl"
+        },
+        {
+          "rank": 4,
+          "fusion_score": 0.031025,
+          "fts_rank": 3,
+          "vector_rank": 6,
+          "vector_score": 0.28131,
+          "doc_id": "game:bgg:340909:overview:rag-v0.1",
+          "doc_type": "game_overview",
+          "title": "Gloomholdin'",
+          "game_id": "bgg:340909",
+          "bgg_id": 340909,
+          "source_file": "samples/rag/game_overview.jsonl"
+        },
+        {
+          "rank": 5,
+          "fusion_score": 0.030798,
+          "fts_rank": 7,
+          "vector_rank": 3,
+          "vector_score": 0.374863,
+          "doc_id": "game:bgg:214032:overview:rag-v0.1",
+          "doc_type": "game_overview",
+          "title": "Founders of Gloomhaven",
+          "game_id": "bgg:214032",
+          "bgg_id": 214032,
+          "source_file": "samples/rag/game_overview.jsonl"
+        }
+      ]
+    }
+  ]
+}

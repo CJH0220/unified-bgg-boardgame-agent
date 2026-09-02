@@ -1,0 +1,2555 @@
+{
+ "file": "themes_2023.csv",
+ "path": "bgg-ranked-mattadamhouser/raw/themes_2023.csv",
+ "bytes": 356880,
+ "encoding": "utf-8-sig",
+ "delimiter": ",",
+ "n_columns": 85,
+ "rows_scanned": 2000,
+ "scan_truncated": false,
+ "ragged_rows": 0,
+ "scan_seconds": 0.1,
+ "columns": [
+  {
+   "name": "col_0",
+   "dtype": "int",
+   "kind_counts": {
+    "int": 1998,
+    "bool01": 2
+   },
+   "rows": 2000,
+   "nulls": 0,
+   "null_pct": 0.0,
+   "distinct": 2000,
+   "max_str_len": 4,
+   "samples": [
+    "0",
+    "1",
+    "2",
+    "3",
+    "4",
+    "5"
+   ],
+   "min": 0.0,
+   "max": 1999.0,
+   "mean": 999.5,
+   "numeric_pct": 100.0
+  },
+  {
+   "name": "game_id",
+   "dtype": "int",
+   "kind_counts": {
+    "int": 1999,
+    "bool01": 1
+   },
+   "rows": 2000,
+   "nulls": 0,
+   "null_pct": 0.0,
+   "distinct": 2000,
+   "max_str_len": 6,
+   "samples": [
+    "224517",
+    "161936",
+    "174430",
+    "342942",
+    "233078",
+    "167791"
+   ],
+   "min": 1.0,
+   "max": 374173.0,
+   "mean": 161915.5255,
+   "numeric_pct": 100.0
+  },
+  {
+   "name": "Abstract Strategy",
+   "dtype": "bool01",
+   "kind_counts": {
+    "bool01": 2000
+   },
+   "rows": 2000,
+   "nulls": 0,
+   "null_pct": 0.0,
+   "distinct": 2,
+   "max_str_len": 1,
+   "samples": [
+    "0",
+    "1"
+   ],
+   "min": 0.0,
+   "max": 1.0,
+   "mean": 0.0495,
+   "numeric_pct": 100.0,
+   "top_values": [
+    {
+     "v": "0",
+     "n": 1901
+    },
+    {
+     "v": "1",
+     "n": 99
+    }
+   ]
+  },
+  {
+   "name": "Action / Dexterity",
+   "dtype": "bool01",
+   "kind_counts": {
+    "bool01": 2000
+   },
+   "rows": 2000,
+   "nulls": 0,
+   "null_pct": 0.0,
+   "distinct": 2,
+   "max_str_len": 1,
+   "samples": [
+    "0",
+    "1"
+   ],
+   "min": 0.0,
+   "max": 1.0,
+   "mean": 0.02,
+   "numeric_pct": 100.0,
+   "top_values": [
+    {
+     "v": "0",
+     "n": 1960
+    },
+    {
+     "v": "1",
+     "n": 40
+    }
+   ]
+  },
+  {
+   "name": "Adventure",
+   "dtype": "bool01",
+   "kind_counts": {
+    "bool01": 2000
+   },
+   "rows": 2000,
+   "nulls": 0,
+   "null_pct": 0.0,
+   "distinct": 2,
+   "max_str_len": 1,
+   "samples": [
+    "0",
+    "1"
+   ],
+   "min": 0.0,
+   "max": 1.0,
+   "mean": 0.0965,
+   "numeric_pct": 100.0,
+   "top_values": [
+    {
+     "v": "0",
+     "n": 1807
+    },
+    {
+     "v": "1",
+     "n": 193
+    }
+   ]
+  },
+  {
+   "name": "Age of Reason",
+   "dtype": "bool01",
+   "kind_counts": {
+    "bool01": 2000
+   },
+   "rows": 2000,
+   "nulls": 0,
+   "null_pct": 0.0,
+   "distinct": 2,
+   "max_str_len": 1,
+   "samples": [
+    "0",
+    "1"
+   ],
+   "min": 0.0,
+   "max": 1.0,
+   "mean": 0.01,
+   "numeric_pct": 100.0,
+   "top_values": [
+    {
+     "v": "0",
+     "n": 1980
+    },
+    {
+     "v": "1",
+     "n": 20
+    }
+   ]
+  },
+  {
+   "name": "American Civil War",
+   "dtype": "bool01",
+   "kind_counts": {
+    "bool01": 2000
+   },
+   "rows": 2000,
+   "nulls": 0,
+   "null_pct": 0.0,
+   "distinct": 2,
+   "max_str_len": 1,
+   "samples": [
+    "0",
+    "1"
+   ],
+   "min": 0.0,
+   "max": 1.0,
+   "mean": 0.0035,
+   "numeric_pct": 100.0,
+   "top_values": [
+    {
+     "v": "0",
+     "n": 1993
+    },
+    {
+     "v": "1",
+     "n": 7
+    }
+   ]
+  },
+  {
+   "name": "American Indian Wars",
+   "dtype": "bool01",
+   "kind_counts": {
+    "bool01": 2000
+   },
+   "rows": 2000,
+   "nulls": 0,
+   "null_pct": 0.0,
+   "distinct": 2,
+   "max_str_len": 1,
+   "samples": [
+    "0",
+    "1"
+   ],
+   "min": 0.0,
+   "max": 1.0,
+   "mean": 0.0035,
+   "numeric_pct": 100.0,
+   "top_values": [
+    {
+     "v": "0",
+     "n": 1993
+    },
+    {
+     "v": "1",
+     "n": 7
+    }
+   ]
+  },
+  {
+   "name": "American Revolutionary War",
+   "dtype": "bool01",
+   "kind_counts": {
+    "bool01": 2000
+   },
+   "rows": 2000,
+   "nulls": 0,
+   "null_pct": 0.0,
+   "distinct": 2,
+   "max_str_len": 1,
+   "samples": [
+    "0",
+    "1"
+   ],
+   "min": 0.0,
+   "max": 1.0,
+   "mean": 0.002,
+   "numeric_pct": 100.0,
+   "top_values": [
+    {
+     "v": "0",
+     "n": 1996
+    },
+    {
+     "v": "1",
+     "n": 4
+    }
+   ]
+  },
+  {
+   "name": "American West",
+   "dtype": "bool01",
+   "kind_counts": {
+    "bool01": 2000
+   },
+   "rows": 2000,
+   "nulls": 0,
+   "null_pct": 0.0,
+   "distinct": 2,
+   "max_str_len": 1,
+   "samples": [
+    "0",
+    "1"
+   ],
+   "min": 0.0,
+   "max": 1.0,
+   "mean": 0.014,
+   "numeric_pct": 100.0,
+   "top_values": [
+    {
+     "v": "0",
+     "n": 1972
+    },
+    {
+     "v": "1",
+     "n": 28
+    }
+   ]
+  },
+  {
+   "name": "Ancient",
+   "dtype": "bool01",
+   "kind_counts": {
+    "bool01": 2000
+   },
+   "rows": 2000,
+   "nulls": 0,
+   "null_pct": 0.0,
+   "distinct": 2,
+   "max_str_len": 1,
+   "samples": [
+    "0",
+    "1"
+   ],
+   "min": 0.0,
+   "max": 1.0,
+   "mean": 0.0615,
+   "numeric_pct": 100.0,
+   "top_values": [
+    {
+     "v": "0",
+     "n": 1877
+    },
+    {
+     "v": "1",
+     "n": 123
+    }
+   ]
+  },
+  {
+   "name": "Animals",
+   "dtype": "bool01",
+   "kind_counts": {
+    "bool01": 2000
+   },
+   "rows": 2000,
+   "nulls": 0,
+   "null_pct": 0.0,
+   "distinct": 2,
+   "max_str_len": 1,
+   "samples": [
+    "0",
+    "1"
+   ],
+   "min": 0.0,
+   "max": 1.0,
+   "mean": 0.072,
+   "numeric_pct": 100.0,
+   "top_values": [
+    {
+     "v": "0",
+     "n": 1856
+    },
+    {
+     "v": "1",
+     "n": 144
+    }
+   ]
+  },
+  {
+   "name": "Arabian",
+   "dtype": "bool01",
+   "kind_counts": {
+    "bool01": 2000
+   },
+   "rows": 2000,
+   "nulls": 0,
+   "null_pct": 0.0,
+   "distinct": 2,
+   "max_str_len": 1,
+   "samples": [
+    "0",
+    "1"
+   ],
+   "min": 0.0,
+   "max": 1.0,
+   "mean": 0.006,
+   "numeric_pct": 100.0,
+   "top_values": [
+    {
+     "v": "0",
+     "n": 1988
+    },
+    {
+     "v": "1",
+     "n": 12
+    }
+   ]
+  },
+  {
+   "name": "Aviation / Flight",
+   "dtype": "bool01",
+   "kind_counts": {
+    "bool01": 2000
+   },
+   "rows": 2000,
+   "nulls": 0,
+   "null_pct": 0.0,
+   "distinct": 2,
+   "max_str_len": 1,
+   "samples": [
+    "0",
+    "1"
+   ],
+   "min": 0.0,
+   "max": 1.0,
+   "mean": 0.0095,
+   "numeric_pct": 100.0,
+   "top_values": [
+    {
+     "v": "0",
+     "n": 1981
+    },
+    {
+     "v": "1",
+     "n": 19
+    }
+   ]
+  },
+  {
+   "name": "Bluffing",
+   "dtype": "bool01",
+   "kind_counts": {
+    "bool01": 2000
+   },
+   "rows": 2000,
+   "nulls": 0,
+   "null_pct": 0.0,
+   "distinct": 2,
+   "max_str_len": 1,
+   "samples": [
+    "0",
+    "1"
+   ],
+   "min": 0.0,
+   "max": 1.0,
+   "mean": 0.0585,
+   "numeric_pct": 100.0,
+   "top_values": [
+    {
+     "v": "0",
+     "n": 1883
+    },
+    {
+     "v": "1",
+     "n": 117
+    }
+   ]
+  },
+  {
+   "name": "Book",
+   "dtype": "bool01",
+   "kind_counts": {
+    "bool01": 2000
+   },
+   "rows": 2000,
+   "nulls": 0,
+   "null_pct": 0.0,
+   "distinct": 2,
+   "max_str_len": 1,
+   "samples": [
+    "0",
+    "1"
+   ],
+   "min": 0.0,
+   "max": 1.0,
+   "mean": 0.0145,
+   "numeric_pct": 100.0,
+   "top_values": [
+    {
+     "v": "0",
+     "n": 1971
+    },
+    {
+     "v": "1",
+     "n": 29
+    }
+   ]
+  },
+  {
+   "name": "Card Game",
+   "dtype": "bool01",
+   "kind_counts": {
+    "bool01": 2000
+   },
+   "rows": 2000,
+   "nulls": 0,
+   "null_pct": 0.0,
+   "distinct": 2,
+   "max_str_len": 1,
+   "samples": [
+    "0",
+    "1"
+   ],
+   "min": 0.0,
+   "max": 1.0,
+   "mean": 0.2705,
+   "numeric_pct": 100.0,
+   "top_values": [
+    {
+     "v": "0",
+     "n": 1459
+    },
+    {
+     "v": "1",
+     "n": 541
+    }
+   ]
+  },
+  {
+   "name": "Children's Game",
+   "dtype": "bool01",
+   "kind_counts": {
+    "bool01": 2000
+   },
+   "rows": 2000,
+   "nulls": 0,
+   "null_pct": 0.0,
+   "distinct": 2,
+   "max_str_len": 1,
+   "samples": [
+    "0",
+    "1"
+   ],
+   "min": 0.0,
+   "max": 1.0,
+   "mean": 0.018,
+   "numeric_pct": 100.0,
+   "top_values": [
+    {
+     "v": "0",
+     "n": 1964
+    },
+    {
+     "v": "1",
+     "n": 36
+    }
+   ]
+  },
+  {
+   "name": "City Building",
+   "dtype": "bool01",
+   "kind_counts": {
+    "bool01": 2000
+   },
+   "rows": 2000,
+   "nulls": 0,
+   "null_pct": 0.0,
+   "distinct": 2,
+   "max_str_len": 1,
+   "samples": [
+    "0",
+    "1"
+   ],
+   "min": 0.0,
+   "max": 1.0,
+   "mean": 0.0795,
+   "numeric_pct": 100.0,
+   "top_values": [
+    {
+     "v": "0",
+     "n": 1841
+    },
+    {
+     "v": "1",
+     "n": 159
+    }
+   ]
+  },
+  {
+   "name": "Civil War",
+   "dtype": "bool01",
+   "kind_counts": {
+    "bool01": 2000
+   },
+   "rows": 2000,
+   "nulls": 0,
+   "null_pct": 0.0,
+   "distinct": 2,
+   "max_str_len": 1,
+   "samples": [
+    "0",
+    "1"
+   ],
+   "min": 0.0,
+   "max": 1.0,
+   "mean": 0.008,
+   "numeric_pct": 100.0,
+   "top_values": [
+    {
+     "v": "0",
+     "n": 1984
+    },
+    {
+     "v": "1",
+     "n": 16
+    }
+   ]
+  },
+  {
+   "name": "Civilization",
+   "dtype": "bool01",
+   "kind_counts": {
+    "bool01": 2000
+   },
+   "rows": 2000,
+   "nulls": 0,
+   "null_pct": 0.0,
+   "distinct": 2,
+   "max_str_len": 1,
+   "samples": [
+    "0",
+    "1"
+   ],
+   "min": 0.0,
+   "max": 1.0,
+   "mean": 0.053,
+   "numeric_pct": 100.0,
+   "top_values": [
+    {
+     "v": "0",
+     "n": 1894
+    },
+    {
+     "v": "1",
+     "n": 106
+    }
+   ]
+  },
+  {
+   "name": "Collectible Components",
+   "dtype": "bool01",
+   "kind_counts": {
+    "bool01": 2000
+   },
+   "rows": 2000,
+   "nulls": 0,
+   "null_pct": 0.0,
+   "distinct": 2,
+   "max_str_len": 1,
+   "samples": [
+    "0",
+    "1"
+   ],
+   "min": 0.0,
+   "max": 1.0,
+   "mean": 0.0185,
+   "numeric_pct": 100.0,
+   "top_values": [
+    {
+     "v": "0",
+     "n": 1963
+    },
+    {
+     "v": "1",
+     "n": 37
+    }
+   ]
+  },
+  {
+   "name": "Comic Book / Strip",
+   "dtype": "bool01",
+   "kind_counts": {
+    "bool01": 2000
+   },
+   "rows": 2000,
+   "nulls": 0,
+   "null_pct": 0.0,
+   "distinct": 2,
+   "max_str_len": 1,
+   "samples": [
+    "0",
+    "1"
+   ],
+   "min": 0.0,
+   "max": 1.0,
+   "mean": 0.013,
+   "numeric_pct": 100.0,
+   "top_values": [
+    {
+     "v": "0",
+     "n": 1974
+    },
+    {
+     "v": "1",
+     "n": 26
+    }
+   ]
+  },
+  {
+   "name": "Deduction",
+   "dtype": "bool01",
+   "kind_counts": {
+    "bool01": 2000
+   },
+   "rows": 2000,
+   "nulls": 0,
+   "null_pct": 0.0,
+   "distinct": 2,
+   "max_str_len": 1,
+   "samples": [
+    "0",
+    "1"
+   ],
+   "min": 0.0,
+   "max": 1.0,
+   "mean": 0.0655,
+   "numeric_pct": 100.0,
+   "top_values": [
+    {
+     "v": "0",
+     "n": 1869
+    },
+    {
+     "v": "1",
+     "n": 131
+    }
+   ]
+  },
+  {
+   "name": "Dice",
+   "dtype": "bool01",
+   "kind_counts": {
+    "bool01": 2000
+   },
+   "rows": 2000,
+   "nulls": 0,
+   "null_pct": 0.0,
+   "distinct": 2,
+   "max_str_len": 1,
+   "samples": [
+    "0",
+    "1"
+   ],
+   "min": 0.0,
+   "max": 1.0,
+   "mean": 0.0845,
+   "numeric_pct": 100.0,
+   "top_values": [
+    {
+     "v": "0",
+     "n": 1831
+    },
+    {
+     "v": "1",
+     "n": 169
+    }
+   ]
+  },
+  {
+   "name": "Economic",
+   "dtype": "bool01",
+   "kind_counts": {
+    "bool01": 2000
+   },
+   "rows": 2000,
+   "nulls": 0,
+   "null_pct": 0.0,
+   "distinct": 2,
+   "max_str_len": 1,
+   "samples": [
+    "1",
+    "0"
+   ],
+   "min": 0.0,
+   "max": 1.0,
+   "mean": 0.1615,
+   "numeric_pct": 100.0,
+   "top_values": [
+    {
+     "v": "0",
+     "n": 1677
+    },
+    {
+     "v": "1",
+     "n": 323
+    }
+   ]
+  },
+  {
+   "name": "Educational",
+   "dtype": "bool01",
+   "kind_counts": {
+    "bool01": 2000
+   },
+   "rows": 2000,
+   "nulls": 0,
+   "null_pct": 0.0,
+   "distinct": 2,
+   "max_str_len": 1,
+   "samples": [
+    "0",
+    "1"
+   ],
+   "min": 0.0,
+   "max": 1.0,
+   "mean": 0.015,
+   "numeric_pct": 100.0,
+   "top_values": [
+    {
+     "v": "0",
+     "n": 1970
+    },
+    {
+     "v": "1",
+     "n": 30
+    }
+   ]
+  },
+  {
+   "name": "Electronic",
+   "dtype": "bool01",
+   "kind_counts": {
+    "bool01": 2000
+   },
+   "rows": 2000,
+   "nulls": 0,
+   "null_pct": 0.0,
+   "distinct": 2,
+   "max_str_len": 1,
+   "samples": [
+    "0",
+    "1"
+   ],
+   "min": 0.0,
+   "max": 1.0,
+   "mean": 0.0035,
+   "numeric_pct": 100.0,
+   "top_values": [
+    {
+     "v": "0",
+     "n": 1993
+    },
+    {
+     "v": "1",
+     "n": 7
+    }
+   ]
+  },
+  {
+   "name": "Environmental",
+   "dtype": "bool01",
+   "kind_counts": {
+    "bool01": 2000
+   },
+   "rows": 2000,
+   "nulls": 0,
+   "null_pct": 0.0,
+   "distinct": 2,
+   "max_str_len": 1,
+   "samples": [
+    "0",
+    "1"
+   ],
+   "min": 0.0,
+   "max": 1.0,
+   "mean": 0.0245,
+   "numeric_pct": 100.0,
+   "top_values": [
+    {
+     "v": "0",
+     "n": 1951
+    },
+    {
+     "v": "1",
+     "n": 49
+    }
+   ]
+  },
+  {
+   "name": "Expansion for Base-game",
+   "dtype": "bool01",
+   "kind_counts": {
+    "bool01": 2000
+   },
+   "rows": 2000,
+   "nulls": 0,
+   "null_pct": 0.0,
+   "distinct": 2,
+   "max_str_len": 1,
+   "samples": [
+    "0",
+    "1"
+   ],
+   "min": 0.0,
+   "max": 1.0,
+   "mean": 0.0015,
+   "numeric_pct": 100.0,
+   "top_values": [
+    {
+     "v": "0",
+     "n": 1997
+    },
+    {
+     "v": "1",
+     "n": 3
+    }
+   ]
+  },
+  {
+   "name": "Exploration",
+   "dtype": "bool01",
+   "kind_counts": {
+    "bool01": 2000
+   },
+   "rows": 2000,
+   "nulls": 0,
+   "null_pct": 0.0,
+   "distinct": 2,
+   "max_str_len": 1,
+   "samples": [
+    "0",
+    "1"
+   ],
+   "min": 0.0,
+   "max": 1.0,
+   "mean": 0.12,
+   "numeric_pct": 100.0,
+   "top_values": [
+    {
+     "v": "0",
+     "n": 1760
+    },
+    {
+     "v": "1",
+     "n": 240
+    }
+   ]
+  },
+  {
+   "name": "Fantasy",
+   "dtype": "bool01",
+   "kind_counts": {
+    "bool01": 2000
+   },
+   "rows": 2000,
+   "nulls": 0,
+   "null_pct": 0.0,
+   "distinct": 2,
+   "max_str_len": 1,
+   "samples": [
+    "0",
+    "1"
+   ],
+   "min": 0.0,
+   "max": 1.0,
+   "mean": 0.21,
+   "numeric_pct": 100.0,
+   "top_values": [
+    {
+     "v": "0",
+     "n": 1580
+    },
+    {
+     "v": "1",
+     "n": 420
+    }
+   ]
+  },
+  {
+   "name": "Farming",
+   "dtype": "bool01",
+   "kind_counts": {
+    "bool01": 2000
+   },
+   "rows": 2000,
+   "nulls": 0,
+   "null_pct": 0.0,
+   "distinct": 2,
+   "max_str_len": 1,
+   "samples": [
+    "0",
+    "1"
+   ],
+   "min": 0.0,
+   "max": 1.0,
+   "mean": 0.033,
+   "numeric_pct": 100.0,
+   "top_values": [
+    {
+     "v": "0",
+     "n": 1934
+    },
+    {
+     "v": "1",
+     "n": 66
+    }
+   ]
+  },
+  {
+   "name": "Fighting",
+   "dtype": "bool01",
+   "kind_counts": {
+    "bool01": 2000
+   },
+   "rows": 2000,
+   "nulls": 0,
+   "null_pct": 0.0,
+   "distinct": 2,
+   "max_str_len": 1,
+   "samples": [
+    "0",
+    "1"
+   ],
+   "min": 0.0,
+   "max": 1.0,
+   "mean": 0.136,
+   "numeric_pct": 100.0,
+   "top_values": [
+    {
+     "v": "0",
+     "n": 1728
+    },
+    {
+     "v": "1",
+     "n": 272
+    }
+   ]
+  },
+  {
+   "name": "Game System",
+   "dtype": "bool01",
+   "kind_counts": {
+    "bool01": 2000
+   },
+   "rows": 2000,
+   "nulls": 0,
+   "null_pct": 0.0,
+   "distinct": 2,
+   "max_str_len": 1,
+   "samples": [
+    "0",
+    "1"
+   ],
+   "min": 0.0,
+   "max": 1.0,
+   "mean": 0.0005,
+   "numeric_pct": 100.0,
+   "top_values": [
+    {
+     "v": "0",
+     "n": 1999
+    },
+    {
+     "v": "1",
+     "n": 1
+    }
+   ]
+  },
+  {
+   "name": "Horror",
+   "dtype": "bool01",
+   "kind_counts": {
+    "bool01": 2000
+   },
+   "rows": 2000,
+   "nulls": 0,
+   "null_pct": 0.0,
+   "distinct": 2,
+   "max_str_len": 1,
+   "samples": [
+    "0",
+    "1"
+   ],
+   "min": 0.0,
+   "max": 1.0,
+   "mean": 0.0515,
+   "numeric_pct": 100.0,
+   "top_values": [
+    {
+     "v": "0",
+     "n": 1897
+    },
+    {
+     "v": "1",
+     "n": 103
+    }
+   ]
+  },
+  {
+   "name": "Humor",
+   "dtype": "bool01",
+   "kind_counts": {
+    "bool01": 2000
+   },
+   "rows": 2000,
+   "nulls": 0,
+   "null_pct": 0.0,
+   "distinct": 2,
+   "max_str_len": 1,
+   "samples": [
+    "0",
+    "1"
+   ],
+   "min": 0.0,
+   "max": 1.0,
+   "mean": 0.029,
+   "numeric_pct": 100.0,
+   "top_values": [
+    {
+     "v": "0",
+     "n": 1942
+    },
+    {
+     "v": "1",
+     "n": 58
+    }
+   ]
+  },
+  {
+   "name": "Industry / Manufacturing",
+   "dtype": "bool01",
+   "kind_counts": {
+    "bool01": 2000
+   },
+   "rows": 2000,
+   "nulls": 0,
+   "null_pct": 0.0,
+   "distinct": 2,
+   "max_str_len": 1,
+   "samples": [
+    "1",
+    "0"
+   ],
+   "min": 0.0,
+   "max": 1.0,
+   "mean": 0.046,
+   "numeric_pct": 100.0,
+   "top_values": [
+    {
+     "v": "0",
+     "n": 1908
+    },
+    {
+     "v": "1",
+     "n": 92
+    }
+   ]
+  },
+  {
+   "name": "Korean War",
+   "dtype": "bool01",
+   "kind_counts": {
+    "bool01": 2000
+   },
+   "rows": 2000,
+   "nulls": 0,
+   "null_pct": 0.0,
+   "distinct": 2,
+   "max_str_len": 1,
+   "samples": [
+    "0",
+    "1"
+   ],
+   "min": 0.0,
+   "max": 1.0,
+   "mean": 0.0005,
+   "numeric_pct": 100.0,
+   "top_values": [
+    {
+     "v": "0",
+     "n": 1999
+    },
+    {
+     "v": "1",
+     "n": 1
+    }
+   ]
+  },
+  {
+   "name": "Mafia",
+   "dtype": "bool01",
+   "kind_counts": {
+    "bool01": 2000
+   },
+   "rows": 2000,
+   "nulls": 0,
+   "null_pct": 0.0,
+   "distinct": 2,
+   "max_str_len": 1,
+   "samples": [
+    "0",
+    "1"
+   ],
+   "min": 0.0,
+   "max": 1.0,
+   "mean": 0.007,
+   "numeric_pct": 100.0,
+   "top_values": [
+    {
+     "v": "0",
+     "n": 1986
+    },
+    {
+     "v": "1",
+     "n": 14
+    }
+   ]
+  },
+  {
+   "name": "Math",
+   "dtype": "bool01",
+   "kind_counts": {
+    "bool01": 2000
+   },
+   "rows": 2000,
+   "nulls": 0,
+   "null_pct": 0.0,
+   "distinct": 2,
+   "max_str_len": 1,
+   "samples": [
+    "0",
+    "1"
+   ],
+   "min": 0.0,
+   "max": 1.0,
+   "mean": 0.003,
+   "numeric_pct": 100.0,
+   "top_values": [
+    {
+     "v": "0",
+     "n": 1994
+    },
+    {
+     "v": "1",
+     "n": 6
+    }
+   ]
+  },
+  {
+   "name": "Mature / Adult",
+   "dtype": "bool01",
+   "kind_counts": {
+    "bool01": 2000
+   },
+   "rows": 2000,
+   "nulls": 0,
+   "null_pct": 0.0,
+   "distinct": 2,
+   "max_str_len": 1,
+   "samples": [
+    "0",
+    "1"
+   ],
+   "min": 0.0,
+   "max": 1.0,
+   "mean": 0.003,
+   "numeric_pct": 100.0,
+   "top_values": [
+    {
+     "v": "0",
+     "n": 1994
+    },
+    {
+     "v": "1",
+     "n": 6
+    }
+   ]
+  },
+  {
+   "name": "Maze",
+   "dtype": "bool01",
+   "kind_counts": {
+    "bool01": 2000
+   },
+   "rows": 2000,
+   "nulls": 0,
+   "null_pct": 0.0,
+   "distinct": 2,
+   "max_str_len": 1,
+   "samples": [
+    "0",
+    "1"
+   ],
+   "min": 0.0,
+   "max": 1.0,
+   "mean": 0.0075,
+   "numeric_pct": 100.0,
+   "top_values": [
+    {
+     "v": "0",
+     "n": 1985
+    },
+    {
+     "v": "1",
+     "n": 15
+    }
+   ]
+  },
+  {
+   "name": "Medical",
+   "dtype": "bool01",
+   "kind_counts": {
+    "bool01": 2000
+   },
+   "rows": 2000,
+   "nulls": 0,
+   "null_pct": 0.0,
+   "distinct": 2,
+   "max_str_len": 1,
+   "samples": [
+    "0",
+    "1"
+   ],
+   "min": 0.0,
+   "max": 1.0,
+   "mean": 0.0065,
+   "numeric_pct": 100.0,
+   "top_values": [
+    {
+     "v": "0",
+     "n": 1987
+    },
+    {
+     "v": "1",
+     "n": 13
+    }
+   ]
+  },
+  {
+   "name": "Medieval",
+   "dtype": "bool01",
+   "kind_counts": {
+    "bool01": 2000
+   },
+   "rows": 2000,
+   "nulls": 0,
+   "null_pct": 0.0,
+   "distinct": 2,
+   "max_str_len": 1,
+   "samples": [
+    "0",
+    "1"
+   ],
+   "min": 0.0,
+   "max": 1.0,
+   "mean": 0.0865,
+   "numeric_pct": 100.0,
+   "top_values": [
+    {
+     "v": "0",
+     "n": 1827
+    },
+    {
+     "v": "1",
+     "n": 173
+    }
+   ]
+  },
+  {
+   "name": "Memory",
+   "dtype": "bool01",
+   "kind_counts": {
+    "bool01": 2000
+   },
+   "rows": 2000,
+   "nulls": 0,
+   "null_pct": 0.0,
+   "distinct": 2,
+   "max_str_len": 1,
+   "samples": [
+    "0",
+    "1"
+   ],
+   "min": 0.0,
+   "max": 1.0,
+   "mean": 0.004,
+   "numeric_pct": 100.0,
+   "top_values": [
+    {
+     "v": "0",
+     "n": 1992
+    },
+    {
+     "v": "1",
+     "n": 8
+    }
+   ]
+  },
+  {
+   "name": "Miniatures",
+   "dtype": "bool01",
+   "kind_counts": {
+    "bool01": 2000
+   },
+   "rows": 2000,
+   "nulls": 0,
+   "null_pct": 0.0,
+   "distinct": 2,
+   "max_str_len": 1,
+   "samples": [
+    "0",
+    "1"
+   ],
+   "min": 0.0,
+   "max": 1.0,
+   "mean": 0.081,
+   "numeric_pct": 100.0,
+   "top_values": [
+    {
+     "v": "0",
+     "n": 1838
+    },
+    {
+     "v": "1",
+     "n": 162
+    }
+   ]
+  },
+  {
+   "name": "Modern Warfare",
+   "dtype": "bool01",
+   "kind_counts": {
+    "bool01": 2000
+   },
+   "rows": 2000,
+   "nulls": 0,
+   "null_pct": 0.0,
+   "distinct": 2,
+   "max_str_len": 1,
+   "samples": [
+    "0",
+    "1"
+   ],
+   "min": 0.0,
+   "max": 1.0,
+   "mean": 0.007,
+   "numeric_pct": 100.0,
+   "top_values": [
+    {
+     "v": "0",
+     "n": 1986
+    },
+    {
+     "v": "1",
+     "n": 14
+    }
+   ]
+  },
+  {
+   "name": "Movies / TV / Radio theme",
+   "dtype": "bool01",
+   "kind_counts": {
+    "bool01": 2000
+   },
+   "rows": 2000,
+   "nulls": 0,
+   "null_pct": 0.0,
+   "distinct": 2,
+   "max_str_len": 1,
+   "samples": [
+    "0",
+    "1"
+   ],
+   "min": 0.0,
+   "max": 1.0,
+   "mean": 0.033,
+   "numeric_pct": 100.0,
+   "top_values": [
+    {
+     "v": "0",
+     "n": 1934
+    },
+    {
+     "v": "1",
+     "n": 66
+    }
+   ]
+  },
+  {
+   "name": "Murder/Mystery",
+   "dtype": "bool01",
+   "kind_counts": {
+    "bool01": 2000
+   },
+   "rows": 2000,
+   "nulls": 0,
+   "null_pct": 0.0,
+   "distinct": 2,
+   "max_str_len": 1,
+   "samples": [
+    "0",
+    "1"
+   ],
+   "min": 0.0,
+   "max": 1.0,
+   "mean": 0.0205,
+   "numeric_pct": 100.0,
+   "top_values": [
+    {
+     "v": "0",
+     "n": 1959
+    },
+    {
+     "v": "1",
+     "n": 41
+    }
+   ]
+  },
+  {
+   "name": "Music",
+   "dtype": "bool01",
+   "kind_counts": {
+    "bool01": 2000
+   },
+   "rows": 2000,
+   "nulls": 0,
+   "null_pct": 0.0,
+   "distinct": 2,
+   "max_str_len": 1,
+   "samples": [
+    "0",
+    "1"
+   ],
+   "min": 0.0,
+   "max": 1.0,
+   "mean": 0.0015,
+   "numeric_pct": 100.0,
+   "top_values": [
+    {
+     "v": "0",
+     "n": 1997
+    },
+    {
+     "v": "1",
+     "n": 3
+    }
+   ]
+  },
+  {
+   "name": "Mythology",
+   "dtype": "bool01",
+   "kind_counts": {
+    "bool01": 2000
+   },
+   "rows": 2000,
+   "nulls": 0,
+   "null_pct": 0.0,
+   "distinct": 2,
+   "max_str_len": 1,
+   "samples": [
+    "0",
+    "1"
+   ],
+   "min": 0.0,
+   "max": 1.0,
+   "mean": 0.0325,
+   "numeric_pct": 100.0,
+   "top_values": [
+    {
+     "v": "0",
+     "n": 1935
+    },
+    {
+     "v": "1",
+     "n": 65
+    }
+   ]
+  },
+  {
+   "name": "Napoleonic",
+   "dtype": "bool01",
+   "kind_counts": {
+    "bool01": 2000
+   },
+   "rows": 2000,
+   "nulls": 0,
+   "null_pct": 0.0,
+   "distinct": 2,
+   "max_str_len": 1,
+   "samples": [
+    "1",
+    "0"
+   ],
+   "min": 0.0,
+   "max": 1.0,
+   "mean": 0.0225,
+   "numeric_pct": 100.0,
+   "top_values": [
+    {
+     "v": "0",
+     "n": 1955
+    },
+    {
+     "v": "1",
+     "n": 45
+    }
+   ]
+  },
+  {
+   "name": "Nautical",
+   "dtype": "bool01",
+   "kind_counts": {
+    "bool01": 2000
+   },
+   "rows": 2000,
+   "nulls": 0,
+   "null_pct": 0.0,
+   "distinct": 2,
+   "max_str_len": 1,
+   "samples": [
+    "0",
+    "1"
+   ],
+   "min": 0.0,
+   "max": 1.0,
+   "mean": 0.0395,
+   "numeric_pct": 100.0,
+   "top_values": [
+    {
+     "v": "0",
+     "n": 1921
+    },
+    {
+     "v": "1",
+     "n": 79
+    }
+   ]
+  },
+  {
+   "name": "Negotiation",
+   "dtype": "bool01",
+   "kind_counts": {
+    "bool01": 2000
+   },
+   "rows": 2000,
+   "nulls": 0,
+   "null_pct": 0.0,
+   "distinct": 2,
+   "max_str_len": 1,
+   "samples": [
+    "0",
+    "1"
+   ],
+   "min": 0.0,
+   "max": 1.0,
+   "mean": 0.039,
+   "numeric_pct": 100.0,
+   "top_values": [
+    {
+     "v": "0",
+     "n": 1922
+    },
+    {
+     "v": "1",
+     "n": 78
+    }
+   ]
+  },
+  {
+   "name": "Novel-based",
+   "dtype": "bool01",
+   "kind_counts": {
+    "bool01": 2000
+   },
+   "rows": 2000,
+   "nulls": 0,
+   "null_pct": 0.0,
+   "distinct": 2,
+   "max_str_len": 1,
+   "samples": [
+    "0",
+    "1"
+   ],
+   "min": 0.0,
+   "max": 1.0,
+   "mean": 0.041,
+   "numeric_pct": 100.0,
+   "top_values": [
+    {
+     "v": "0",
+     "n": 1918
+    },
+    {
+     "v": "1",
+     "n": 82
+    }
+   ]
+  },
+  {
+   "name": "Number",
+   "dtype": "bool01",
+   "kind_counts": {
+    "bool01": 2000
+   },
+   "rows": 2000,
+   "nulls": 0,
+   "null_pct": 0.0,
+   "distinct": 2,
+   "max_str_len": 1,
+   "samples": [
+    "0",
+    "1"
+   ],
+   "min": 0.0,
+   "max": 1.0,
+   "mean": 0.0105,
+   "numeric_pct": 100.0,
+   "top_values": [
+    {
+     "v": "0",
+     "n": 1979
+    },
+    {
+     "v": "1",
+     "n": 21
+    }
+   ]
+  },
+  {
+   "name": "Party Game",
+   "dtype": "bool01",
+   "kind_counts": {
+    "bool01": 2000
+   },
+   "rows": 2000,
+   "nulls": 0,
+   "null_pct": 0.0,
+   "distinct": 2,
+   "max_str_len": 1,
+   "samples": [
+    "0",
+    "1"
+   ],
+   "min": 0.0,
+   "max": 1.0,
+   "mean": 0.0515,
+   "numeric_pct": 100.0,
+   "top_values": [
+    {
+     "v": "0",
+     "n": 1897
+    },
+    {
+     "v": "1",
+     "n": 103
+    }
+   ]
+  },
+  {
+   "name": "Pike and Shot",
+   "dtype": "bool01",
+   "kind_counts": {
+    "bool01": 2000
+   },
+   "rows": 2000,
+   "nulls": 0,
+   "null_pct": 0.0,
+   "distinct": 2,
+   "max_str_len": 1,
+   "samples": [
+    "0",
+    "1"
+   ],
+   "min": 0.0,
+   "max": 1.0,
+   "mean": 0.0055,
+   "numeric_pct": 100.0,
+   "top_values": [
+    {
+     "v": "0",
+     "n": 1989
+    },
+    {
+     "v": "1",
+     "n": 11
+    }
+   ]
+  },
+  {
+   "name": "Pirates",
+   "dtype": "bool01",
+   "kind_counts": {
+    "bool01": 2000
+   },
+   "rows": 2000,
+   "nulls": 0,
+   "null_pct": 0.0,
+   "distinct": 2,
+   "max_str_len": 1,
+   "samples": [
+    "0",
+    "1"
+   ],
+   "min": 0.0,
+   "max": 1.0,
+   "mean": 0.015,
+   "numeric_pct": 100.0,
+   "top_values": [
+    {
+     "v": "0",
+     "n": 1970
+    },
+    {
+     "v": "1",
+     "n": 30
+    }
+   ]
+  },
+  {
+   "name": "Political",
+   "dtype": "bool01",
+   "kind_counts": {
+    "bool01": 2000
+   },
+   "rows": 2000,
+   "nulls": 0,
+   "null_pct": 0.0,
+   "distinct": 2,
+   "max_str_len": 1,
+   "samples": [
+    "0",
+    "1"
+   ],
+   "min": 0.0,
+   "max": 1.0,
+   "mean": 0.0435,
+   "numeric_pct": 100.0,
+   "top_values": [
+    {
+     "v": "0",
+     "n": 1913
+    },
+    {
+     "v": "1",
+     "n": 87
+    }
+   ]
+  },
+  {
+   "name": "Post-Napoleonic",
+   "dtype": "bool01",
+   "kind_counts": {
+    "bool01": 2000
+   },
+   "rows": 2000,
+   "nulls": 0,
+   "null_pct": 0.0,
+   "distinct": 2,
+   "max_str_len": 1,
+   "samples": [
+    "1",
+    "0"
+   ],
+   "min": 0.0,
+   "max": 1.0,
+   "mean": 0.0175,
+   "numeric_pct": 100.0,
+   "top_values": [
+    {
+     "v": "0",
+     "n": 1965
+    },
+    {
+     "v": "1",
+     "n": 35
+    }
+   ]
+  },
+  {
+   "name": "Prehistoric",
+   "dtype": "bool01",
+   "kind_counts": {
+    "bool01": 2000
+   },
+   "rows": 2000,
+   "nulls": 0,
+   "null_pct": 0.0,
+   "distinct": 2,
+   "max_str_len": 1,
+   "samples": [
+    "0",
+    "1"
+   ],
+   "min": 0.0,
+   "max": 1.0,
+   "mean": 0.012,
+   "numeric_pct": 100.0,
+   "top_values": [
+    {
+     "v": "0",
+     "n": 1976
+    },
+    {
+     "v": "1",
+     "n": 24
+    }
+   ]
+  },
+  {
+   "name": "Print & Play",
+   "dtype": "bool01",
+   "kind_counts": {
+    "bool01": 2000
+   },
+   "rows": 2000,
+   "nulls": 0,
+   "null_pct": 0.0,
+   "distinct": 2,
+   "max_str_len": 1,
+   "samples": [
+    "0",
+    "1"
+   ],
+   "min": 0.0,
+   "max": 1.0,
+   "mean": 0.0195,
+   "numeric_pct": 100.0,
+   "top_values": [
+    {
+     "v": "0",
+     "n": 1961
+    },
+    {
+     "v": "1",
+     "n": 39
+    }
+   ]
+  },
+  {
+   "name": "Puzzle",
+   "dtype": "bool01",
+   "kind_counts": {
+    "bool01": 2000
+   },
+   "rows": 2000,
+   "nulls": 0,
+   "null_pct": 0.0,
+   "distinct": 2,
+   "max_str_len": 1,
+   "samples": [
+    "0",
+    "1"
+   ],
+   "min": 0.0,
+   "max": 1.0,
+   "mean": 0.05,
+   "numeric_pct": 100.0,
+   "top_values": [
+    {
+     "v": "0",
+     "n": 1900
+    },
+    {
+     "v": "1",
+     "n": 100
+    }
+   ]
+  },
+  {
+   "name": "Racing",
+   "dtype": "bool01",
+   "kind_counts": {
+    "bool01": 2000
+   },
+   "rows": 2000,
+   "nulls": 0,
+   "null_pct": 0.0,
+   "distinct": 2,
+   "max_str_len": 1,
+   "samples": [
+    "0",
+    "1"
+   ],
+   "min": 0.0,
+   "max": 1.0,
+   "mean": 0.0155,
+   "numeric_pct": 100.0,
+   "top_values": [
+    {
+     "v": "0",
+     "n": 1969
+    },
+    {
+     "v": "1",
+     "n": 31
+    }
+   ]
+  },
+  {
+   "name": "Real-time",
+   "dtype": "bool01",
+   "kind_counts": {
+    "bool01": 2000
+   },
+   "rows": 2000,
+   "nulls": 0,
+   "null_pct": 0.0,
+   "distinct": 2,
+   "max_str_len": 1,
+   "samples": [
+    "0",
+    "1"
+   ],
+   "min": 0.0,
+   "max": 1.0,
+   "mean": 0.0295,
+   "numeric_pct": 100.0,
+   "top_values": [
+    {
+     "v": "0",
+     "n": 1941
+    },
+    {
+     "v": "1",
+     "n": 59
+    }
+   ]
+  },
+  {
+   "name": "Religious",
+   "dtype": "bool01",
+   "kind_counts": {
+    "bool01": 2000
+   },
+   "rows": 2000,
+   "nulls": 0,
+   "null_pct": 0.0,
+   "distinct": 2,
+   "max_str_len": 1,
+   "samples": [
+    "0",
+    "1"
+   ],
+   "min": 0.0,
+   "max": 1.0,
+   "mean": 0.0075,
+   "numeric_pct": 100.0,
+   "top_values": [
+    {
+     "v": "0",
+     "n": 1985
+    },
+    {
+     "v": "1",
+     "n": 15
+    }
+   ]
+  },
+  {
+   "name": "Renaissance",
+   "dtype": "bool01",
+   "kind_counts": {
+    "bool01": 2000
+   },
+   "rows": 2000,
+   "nulls": 0,
+   "null_pct": 0.0,
+   "distinct": 2,
+   "max_str_len": 1,
+   "samples": [
+    "0",
+    "1"
+   ],
+   "min": 0.0,
+   "max": 1.0,
+   "mean": 0.0305,
+   "numeric_pct": 100.0,
+   "top_values": [
+    {
+     "v": "0",
+     "n": 1939
+    },
+    {
+     "v": "1",
+     "n": 61
+    }
+   ]
+  },
+  {
+   "name": "Science Fiction",
+   "dtype": "bool01",
+   "kind_counts": {
+    "bool01": 2000
+   },
+   "rows": 2000,
+   "nulls": 0,
+   "null_pct": 0.0,
+   "distinct": 2,
+   "max_str_len": 1,
+   "samples": [
+    "0",
+    "1"
+   ],
+   "min": 0.0,
+   "max": 1.0,
+   "mean": 0.1215,
+   "numeric_pct": 100.0,
+   "top_values": [
+    {
+     "v": "0",
+     "n": 1757
+    },
+    {
+     "v": "1",
+     "n": 243
+    }
+   ]
+  },
+  {
+   "name": "Space Exploration",
+   "dtype": "bool01",
+   "kind_counts": {
+    "bool01": 2000
+   },
+   "rows": 2000,
+   "nulls": 0,
+   "null_pct": 0.0,
+   "distinct": 2,
+   "max_str_len": 1,
+   "samples": [
+    "0",
+    "1"
+   ],
+   "min": 0.0,
+   "max": 1.0,
+   "mean": 0.0325,
+   "numeric_pct": 100.0,
+   "top_values": [
+    {
+     "v": "0",
+     "n": 1935
+    },
+    {
+     "v": "1",
+     "n": 65
+    }
+   ]
+  },
+  {
+   "name": "Spies/Secret Agents",
+   "dtype": "bool01",
+   "kind_counts": {
+    "bool01": 2000
+   },
+   "rows": 2000,
+   "nulls": 0,
+   "null_pct": 0.0,
+   "distinct": 2,
+   "max_str_len": 1,
+   "samples": [
+    "0",
+    "1"
+   ],
+   "min": 0.0,
+   "max": 1.0,
+   "mean": 0.02,
+   "numeric_pct": 100.0,
+   "top_values": [
+    {
+     "v": "0",
+     "n": 1960
+    },
+    {
+     "v": "1",
+     "n": 40
+    }
+   ]
+  },
+  {
+   "name": "Sports",
+   "dtype": "bool01",
+   "kind_counts": {
+    "bool01": 2000
+   },
+   "rows": 2000,
+   "nulls": 0,
+   "null_pct": 0.0,
+   "distinct": 2,
+   "max_str_len": 1,
+   "samples": [
+    "0",
+    "1"
+   ],
+   "min": 0.0,
+   "max": 1.0,
+   "mean": 0.0135,
+   "numeric_pct": 100.0,
+   "top_values": [
+    {
+     "v": "0",
+     "n": 1973
+    },
+    {
+     "v": "1",
+     "n": 27
+    }
+   ]
+  },
+  {
+   "name": "Territory Building",
+   "dtype": "bool01",
+   "kind_counts": {
+    "bool01": 2000
+   },
+   "rows": 2000,
+   "nulls": 0,
+   "null_pct": 0.0,
+   "distinct": 2,
+   "max_str_len": 1,
+   "samples": [
+    "0",
+    "1"
+   ],
+   "min": 0.0,
+   "max": 1.0,
+   "mean": 0.065,
+   "numeric_pct": 100.0,
+   "top_values": [
+    {
+     "v": "0",
+     "n": 1870
+    },
+    {
+     "v": "1",
+     "n": 130
+    }
+   ]
+  },
+  {
+   "name": "Trains",
+   "dtype": "bool01",
+   "kind_counts": {
+    "bool01": 2000
+   },
+   "rows": 2000,
+   "nulls": 0,
+   "null_pct": 0.0,
+   "distinct": 2,
+   "max_str_len": 1,
+   "samples": [
+    "1",
+    "0"
+   ],
+   "min": 0.0,
+   "max": 1.0,
+   "mean": 0.0295,
+   "numeric_pct": 100.0,
+   "top_values": [
+    {
+     "v": "0",
+     "n": 1941
+    },
+    {
+     "v": "1",
+     "n": 59
+    }
+   ]
+  },
+  {
+   "name": "Transportation",
+   "dtype": "bool01",
+   "kind_counts": {
+    "bool01": 2000
+   },
+   "rows": 2000,
+   "nulls": 0,
+   "null_pct": 0.0,
+   "distinct": 2,
+   "max_str_len": 1,
+   "samples": [
+    "1",
+    "0"
+   ],
+   "min": 0.0,
+   "max": 1.0,
+   "mean": 0.0315,
+   "numeric_pct": 100.0,
+   "top_values": [
+    {
+     "v": "0",
+     "n": 1937
+    },
+    {
+     "v": "1",
+     "n": 63
+    }
+   ]
+  },
+  {
+   "name": "Travel",
+   "dtype": "bool01",
+   "kind_counts": {
+    "bool01": 2000
+   },
+   "rows": 2000,
+   "nulls": 0,
+   "null_pct": 0.0,
+   "distinct": 2,
+   "max_str_len": 1,
+   "samples": [
+    "0",
+    "1"
+   ],
+   "min": 0.0,
+   "max": 1.0,
+   "mean": 0.0145,
+   "numeric_pct": 100.0,
+   "top_values": [
+    {
+     "v": "0",
+     "n": 1971
+    },
+    {
+     "v": "1",
+     "n": 29
+    }
+   ]
+  },
+  {
+   "name": "Trivia",
+   "dtype": "bool01",
+   "kind_counts": {
+    "bool01": 2000
+   },
+   "rows": 2000,
+   "nulls": 0,
+   "null_pct": 0.0,
+   "distinct": 2,
+   "max_str_len": 1,
+   "samples": [
+    "0",
+    "1"
+   ],
+   "min": 0.0,
+   "max": 1.0,
+   "mean": 0.006,
+   "numeric_pct": 100.0,
+   "top_values": [
+    {
+     "v": "0",
+     "n": 1988
+    },
+    {
+     "v": "1",
+     "n": 12
+    }
+   ]
+  },
+  {
+   "name": "Video Game Theme",
+   "dtype": "bool01",
+   "kind_counts": {
+    "bool01": 2000
+   },
+   "rows": 2000,
+   "nulls": 0,
+   "null_pct": 0.0,
+   "distinct": 2,
+   "max_str_len": 1,
+   "samples": [
+    "0",
+    "1"
+   ],
+   "min": 0.0,
+   "max": 1.0,
+   "mean": 0.0215,
+   "numeric_pct": 100.0,
+   "top_values": [
+    {
+     "v": "0",
+     "n": 1957
+    },
+    {
+     "v": "1",
+     "n": 43
+    }
+   ]
+  },
+  {
+   "name": "Vietnam War",
+   "dtype": "bool01",
+   "kind_counts": {
+    "bool01": 2000
+   },
+   "rows": 2000,
+   "nulls": 0,
+   "null_pct": 0.0,
+   "distinct": 2,
+   "max_str_len": 1,
+   "samples": [
+    "0",
+    "1"
+   ],
+   "min": 0.0,
+   "max": 1.0,
+   "mean": 0.001,
+   "numeric_pct": 100.0,
+   "top_values": [
+    {
+     "v": "0",
+     "n": 1998
+    },
+    {
+     "v": "1",
+     "n": 2
+    }
+   ]
+  },
+  {
+   "name": "Wargame",
+   "dtype": "bool01",
+   "kind_counts": {
+    "bool01": 2000
+   },
+   "rows": 2000,
+   "nulls": 0,
+   "null_pct": 0.0,
+   "distinct": 2,
+   "max_str_len": 1,
+   "samples": [
+    "0",
+    "1"
+   ],
+   "min": 0.0,
+   "max": 1.0,
+   "mean": 0.0955,
+   "numeric_pct": 100.0,
+   "top_values": [
+    {
+     "v": "0",
+     "n": 1809
+    },
+    {
+     "v": "1",
+     "n": 191
+    }
+   ]
+  },
+  {
+   "name": "Word Game",
+   "dtype": "bool01",
+   "kind_counts": {
+    "bool01": 2000
+   },
+   "rows": 2000,
+   "nulls": 0,
+   "null_pct": 0.0,
+   "distinct": 2,
+   "max_str_len": 1,
+   "samples": [
+    "0",
+    "1"
+   ],
+   "min": 0.0,
+   "max": 1.0,
+   "mean": 0.0085,
+   "numeric_pct": 100.0,
+   "top_values": [
+    {
+     "v": "0",
+     "n": 1983
+    },
+    {
+     "v": "1",
+     "n": 17
+    }
+   ]
+  },
+  {
+   "name": "World War I",
+   "dtype": "bool01",
+   "kind_counts": {
+    "bool01": 2000
+   },
+   "rows": 2000,
+   "nulls": 0,
+   "null_pct": 0.0,
+   "distinct": 2,
+   "max_str_len": 1,
+   "samples": [
+    "0",
+    "1"
+   ],
+   "min": 0.0,
+   "max": 1.0,
+   "mean": 0.032,
+   "numeric_pct": 100.0,
+   "top_values": [
+    {
+     "v": "0",
+     "n": 1936
+    },
+    {
+     "v": "1",
+     "n": 64
+    }
+   ]
+  },
+  {
+   "name": "World War II",
+   "dtype": "bool01",
+   "kind_counts": {
+    "bool01": 2000
+   },
+   "rows": 2000,
+   "nulls": 0,
+   "null_pct": 0.0,
+   "distinct": 2,
+   "max_str_len": 1,
+   "samples": [
+    "0",
+    "1"
+   ],
+   "min": 0.0,
+   "max": 1.0,
+   "mean": 0.0295,
+   "numeric_pct": 100.0,
+   "top_values": [
+    {
+     "v": "0",
+     "n": 1941
+    },
+    {
+     "v": "1",
+     "n": 59
+    }
+   ]
+  },
+  {
+   "name": "Zombies",
+   "dtype": "bool01",
+   "kind_counts": {
+    "bool01": 2000
+   },
+   "rows": 2000,
+   "nulls": 0,
+   "null_pct": 0.0,
+   "distinct": 2,
+   "max_str_len": 1,
+   "samples": [
+    "0",
+    "1"
+   ],
+   "min": 0.0,
+   "max": 1.0,
+   "mean": 0.0125,
+   "numeric_pct": 100.0,
+   "top_values": [
+    {
+     "v": "0",
+     "n": 1975
+    },
+    {
+     "v": "1",
+     "n": 25
+    }
+   ]
+  }
+ ],
+ "dataset": "bgg-ranked-mattadamhouser"
+}

@@ -1,0 +1,67 @@
+{
+  "generated_at": "2026-08-26T09:40:57",
+  "files": [
+    "samples/finetune/game_qa.candidate.jsonl",
+    "samples/finetune/mechanic_explanation.candidate.jsonl",
+    "samples/finetune/review_summary.candidate.jsonl",
+    "samples/finetune/recommendation_reasoning.candidate.jsonl",
+    "samples/finetune/extraction.candidate.jsonl"
+  ],
+  "parsed_rows": 4195,
+  "unique_sample_ids": 4195,
+  "rows_by_file": {
+    "samples/finetune/game_qa.candidate.jsonl": 1000,
+    "samples/finetune/mechanic_explanation.candidate.jsonl": 195,
+    "samples/finetune/review_summary.candidate.jsonl": 1000,
+    "samples/finetune/recommendation_reasoning.candidate.jsonl": 1000,
+    "samples/finetune/extraction.candidate.jsonl": 1000
+  },
+  "task_counts": {
+    "game_qa": 1000,
+    "mechanic_explanation": 195,
+    "review_summary": 1000,
+    "recommendation_reasoning": 1000,
+    "extraction": 1000
+  },
+  "structural_flags": {},
+  "source_flags": {},
+  "input_text_flags": {},
+  "output_text_flags": {},
+  "sample_quality_flags": {
+    "template_generated": 4195
+  },
+  "output_length_summary": {
+    "extraction": {
+      "min": 392,
+      "median": 567,
+      "p95": 704,
+      "max": 767
+    },
+    "game_qa": {
+      "min": 164,
+      "median": 313,
+      "p95": 405,
+      "max": 463
+    },
+    "mechanic_explanation": {
+      "min": 359,
+      "median": 464,
+      "p95": 553,
+      "max": 635
+    },
+    "recommendation_reasoning": {
+      "min": 209,
+      "median": 307,
+      "p95": 341,
+      "max": 391
+    },
+    "review_summary": {
+      "min": 169,
+      "median": 241,
+      "p95": 266,
+      "max": 293
+    }
+  },
+  "finding_rows_written": 0,
+  "rag_doc_ids_loaded": 128320
+}

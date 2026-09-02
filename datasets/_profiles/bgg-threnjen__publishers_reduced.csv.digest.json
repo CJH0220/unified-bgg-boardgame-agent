@@ -1,0 +1,46 @@
+{
+ "file": "bgg-threnjen/raw/publishers_reduced.csv",
+ "rows": 21925,
+ "key_column": "BGGId",
+ "key_column_index": 1864,
+ "total_columns": 1866,
+ "label_columns": 1865,
+ "labels_per_row": {
+  "min": 0,
+  "max": 126,
+  "mean": 2.582,
+  "median": 1,
+  "zero_label_rows": 1
+ },
+ "non_binary_values_distinct": 0,
+ "non_binary_values_sample": {},
+ "top_labels": [
+  {
+   "label": "Low-Exp Publisher",
+   "n": 4764,
+   "pct": 21.73
+  },
+  {
+   "label": "Hasbro",
+   "n": 594,
+   "pct": 2.71
+  },
+  {
+   "label": "(Self-Published)",
+   "n": 592,
+   "pct": 2.7
+  },
+  {
+   "label": "Asmodee",
+   "n": 575,
+   "pct": 2.62
+  },
+  {
+   "label": "Ravensburger",
+   "n": 523,
+   "pct": 2.39
+  }
+ ],
+ "singleton_labels": 0,
+ "empty_labels": 0
+}

@@ -1,0 +1,46 @@
+{
+ "file": "bgg-threnjen/raw/artists_reduced.csv",
+ "rows": 21925,
+ "key_column": "BGGId",
+ "key_column_index": 1679,
+ "total_columns": 1681,
+ "label_columns": 1680,
+ "labels_per_row": {
+  "min": 0,
+  "max": 165,
+  "mean": 1.194,
+  "median": 1,
+  "zero_label_rows": 5997
+ },
+ "non_binary_values_distinct": 0,
+ "non_binary_values_sample": {},
+ "top_labels": [
+  {
+   "label": "Low-Exp Artist",
+   "n": 6989,
+   "pct": 31.88
+  },
+  {
+   "label": "Rodger B. MacGowan",
+   "n": 379,
+   "pct": 1.73
+  },
+  {
+   "label": "(Uncredited)",
+   "n": 363,
+   "pct": 1.66
+  },
+  {
+   "label": "Franz Vohwinkel",
+   "n": 318,
+   "pct": 1.45
+  },
+  {
+   "label": "Redmond A. Simonsen",
+   "n": 254,
+   "pct": 1.16
+  }
+ ],
+ "singleton_labels": 0,
+ "empty_labels": 0
+}

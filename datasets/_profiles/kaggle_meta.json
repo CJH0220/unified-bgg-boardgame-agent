@@ -1,0 +1,219 @@
+{
+    "threnjen/board-games-database-from-boardgamegeek":  {
+                                                             "ref":  "threnjen/board-games-database-from-boardgamegeek",
+                                                             "url":  "https://www.kaggle.com/datasets/threnjen/board-games-database-from-boardgamegeek",
+                                                             "lastUpdated":  "2022-01-17T22:11:10.68Z",
+                                                             "files":  [
+                                                                           {
+                                                                               "name":  "artists_reduced.csv",
+                                                                               "totalBytes":  73851622
+                                                                           },
+                                                                           {
+                                                                               "name":  "bgg_data_documentation.txt",
+                                                                               "totalBytes":  3278
+                                                                           },
+                                                                           {
+                                                                               "name":  "designers_reduced.csv",
+                                                                               "totalBytes":  70035299
+                                                                           },
+                                                                           {
+                                                                               "name":  "games.csv",
+                                                                               "totalBytes":  22141390
+                                                                           },
+                                                                           {
+                                                                               "name":  "mechanics.csv",
+                                                                               "totalBytes":  7045861
+                                                                           },
+                                                                           {
+                                                                               "name":  "publishers_reduced.csv",
+                                                                               "totalBytes":  81968251
+                                                                           },
+                                                                           {
+                                                                               "name":  "ratings_distribution.csv",
+                                                                               "totalBytes":  8691368
+                                                                           },
+                                                                           {
+                                                                               "name":  "subcategories.csv",
+                                                                               "totalBytes":  597465
+                                                                           },
+                                                                           {
+                                                                               "name":  "themes.csv",
+                                                                               "totalBytes":  9678376
+                                                                           },
+                                                                           {
+                                                                               "name":  "user_ratings.csv",
+                                                                               "totalBytes":  399396389
+                                                                           }
+                                                                       ],
+                                                             "subtitle":  "22k Games, 411K users, 19mil ratings - for EDA, modeling, recommender systems",
+                                                             "description":  "### Context\n\nFeature-rich multi-table dataset full of interesting information about Board Games which can be used for tasks such as exploratory EDA, predictive modeling, or recommender systems. \n\n### Content\n\nThis data set includes nine potential files for exploration and/or modeling. The files are as follows:\n\n- GAMES - the basic information file with 47 features about each of 22k board games. Primary key is BGGId which is the BoardGameGeek game id.\n- RATINGS_DISTRIBTION - includes full ratings distribution for each BGGId\n- THEMES - table of themes for each BGGId\n- MECHANICS - table of mechanics with binary flags per BGGId\n- SUBCATEGORIES - table of subcategories with binary flags per BGGId\n- ARTISTS_REDUCED - gives artist information for each BGGId. This file is reduced to artists with \u0026gt;3 works, with a binary flag indicating the game included an artist with \u0026lt;= 3 works\n- DESIGNERS_REDUCED - gives designer information for each BGGId. This file is reduced to designers with \u0026gt;3 works, with a binary flag indicating the game included a designer with \u0026lt;= 3 works\n- PUBLISHERS_REDUCED - gives publisher information for each BGGId. This file is reduced to publishers with \u0026gt;3 works, with a binary flag indicating the game included a publisher with \u0026lt;= 3 works\n- USER_RATINGS - has all ratings for all BGGId with username. There are over 411k unique users and ~19 million ratings. Use in recommender system.\n\n### Inspiration\n\nThis dataset has potential for a wide range of tasks for the novice to the expert. \n- Use the GAMES data set in conjunction with one or more of the themes, mechanics, artists etc tables to perform EDA on the past and current state of board gaming. \n- Use modeling to develop insights about games for the future, or unlock existing BGG \"mysteries\" (Can you crack BGG\u0027s bayes weighted average formula?). \n- For the deepest challenge, utilize the included user ratings to develop a recommender system, either via Content Recommendation or Collaborative Filtering.\n\nLike this dataset? [See my other datasets](https://www.kaggle.com/threnjen/datasets)!\n\n### Acknowledgements\n\nSources: \n\nBoardGameGeek:  https://boardgamegeek.com/\nAll data was sourced and shared in accordance with the XML API Terms of Use: https://boardgamegeek.com/wiki/page/XML_API_Terms_of_Use\n",
+                                                             "licenseName":  "CC BY-SA 3.0",
+                                                             "voteCount":  81,
+                                                             "title":  "Board Game Database from BoardGameGeek",
+                                                             "downloadCount":  6663,
+                                                             "usabilityRating":  1.0,
+                                                             "totalBytes":  673409299
+                                                         },
+    "mattadamhouser/ranked-board-game-data-from-boardgamegeek":  {
+                                                                     "ref":  "mattadamhouser/ranked-board-game-data-from-boardgamegeek",
+                                                                     "url":  "https://www.kaggle.com/datasets/mattadamhouser/ranked-board-game-data-from-boardgamegeek",
+                                                                     "lastUpdated":  "2023-08-15T15:33:14.433Z",
+                                                                     "files":  [
+                                                                                   {
+                                                                                       "name":  "basic_data_2023.csv",
+                                                                                       "totalBytes":  304054
+                                                                                   },
+                                                                                   {
+                                                                                       "name":  "mechanisms_2023.csv",
+                                                                                       "totalBytes":  770205
+                                                                                   },
+                                                                                   {
+                                                                                       "name":  "reimplementations_2023.csv",
+                                                                                       "totalBytes":  12534
+                                                                                   },
+                                                                                   {
+                                                                                       "name":  "subdomains_2023.csv",
+                                                                                       "totalBytes":  47103
+                                                                                   },
+                                                                                   {
+                                                                                       "name":  "themes_2023.csv",
+                                                                                       "totalBytes":  356880
+                                                                                   }
+                                                                               ],
+                                                                     "subtitle":  "Top 2000 games from BGG. Includes Mechanisms, Themes, Subdomains, \u0026 Sequel data.",
+                                                                     "description":  "## Context\n\nI scrapped the website for a data science class and compared the ability of mechanical classifying metrics (mechanics in 2017 and mechanisms in 2023) to classify game types (or subdomains).\n\n## Content\nData scraped from the BGG website using their API and Beautiful Soup. Web scraper, dummy variable creation, and comparative analysis of random forest classifiers can be found [here](https://github.com/mhouser42/bgg_scrape).\n\n#### Included datasets:\n- **basic_data_2023.csv**: basic information about games. Includes ratings and rankings, number of players, playtime, year released, difficulty. Also included designers as I never bothered separating them out into a new dataset.\n- **mechanisms_2023.csv**: binary matrix of all boardgame mechanisms. A detailed description of all mechanisms can be found [here](https://boardgamegeek.com/browse/boardgamemechanic).\n- **themes_2023.csv**: Another binary matrix, but of [thematic categories](https://boardgamegeek.com/browse/boardgamecategory).\n- **subdomains_2023.csv**: binary matrix of [game types](https://boardgamegeek.com/wiki/page/subdomain).\n- **reimplementations_2023.csv**: Games in the top 2000 that are [reimplementations](https://boardgamegeek.com/wiki/page/BGG_Guide_to_Game_Submissions#toc20) of older games. Included in this is game and parent game ids, if a game is a reimplementation, expansion, or compilation, and the iteration of implementations (2 means first reimplementation, 3 means second, etc.)\n\n## Acknowledgements\nInspired by [mrpantherson\u0027s top 5000 games (2017)](https://www.kaggle.com/datasets/mrpantherson/board-game-data) and [caesuric\u0027s full website scrape (2020)](https://www.kaggle.com/datasets/caesuric/bgggamesdata) datasets. Thank you also to BGG\u0027s userbase and the website for providing an API.\n\n## Inspiration\n\nTwo things that I did with this dataset on my own is compare the classifying power of mechanisms vs the older mechanics system, and explore if reimplementation\u0027s tend to rank higher than their parent games.\n\nI never imposed a hierarchical structure on the mechanisms, so I was unable to determine the effectiveness of any ontological frameworks.",
+                                                                     "licenseName":  "CC0: Public Domain",
+                                                                     "voteCount":  6,
+                                                                     "title":  "Ranked Board Game Data from BoardGameGeek",
+                                                                     "downloadCount":  171,
+                                                                     "usabilityRating":  0.8235294,
+                                                                     "totalBytes":  1490776
+                                                                 },
+    "andrewmvd/board-games":  {
+                                  "ref":  "andrewmvd/board-games",
+                                  "url":  "https://www.kaggle.com/datasets/andrewmvd/board-games",
+                                  "lastUpdated":  "2021-10-05T05:41:38.453Z",
+                                  "files":  [
+                                                {
+                                                    "name":  "bgg_dataset.csv",
+                                                    "totalBytes":  2444831
+                                                }
+                                            ],
+                                  "subtitle":  "Data on 20k Board Games scraped from BoardGamesGeek",
+                                  "description":  "# About this dataset\n\u0026gt; This dataset contains data collected on board games from the BoardGameGeek (BGG) website in February 2021. BGG is the largest online collection of board game data which consists of data on more than 100,000 total games (ranked and unranked).\n\n\u0026gt; The voluntary online community contributes to the site with reviews, ratings, images, videos, session reports and live discussion forums on the expanding database of board games.\n\n\u0026gt; This data set contains all ranked games (~20,000) as of the date of collection from the BGG database. Unranked games are ignored as they have not been rated by enough BGG users (a game should receive at least 30 votes to be eligible for ranking).\n\n\n\n# How to use this dataset\n\u0026gt; - Predict board game rating based on its mechanics and features.\n- Explore the landscape of board games\n\n\n# Highlighted Notebooks\n\u0026gt; - [Board Game Analysis](https://www.kaggle.com/karnikakapoor/board-games-analysis/) by [Karnika Kapoor](https://www.kaggle.com/karnikakapoor)\n- [More datasets](https://www.kaggle.com/andrewmvd/datasets)\n\n\n\n# Acknowledgements\nIf you use this dataset in your research, please credit the authors\n\u0026gt; ### Citation\n\n\u0026gt; Dilini Samarasinghe, July 5, 2021, \"BoardGameGeek Dataset on Board Games\", IEEE Dataport, doi: https://dx.doi.org/10.21227/9g61-bs59.\n\n\n\n\u0026gt; ### License\nCC BY 4.0\n\n\n\u0026gt; ### Splash banner\nIcon by [Freepik](https://www.flaticon.com/authors/freepik) on [FlatIcon](https://www.flaticon.com/free-icon/board-game_1390283).",
+                                  "licenseName":  "Attribution 4.0 International (CC BY 4.0)",
+                                  "voteCount":  92,
+                                  "title":  "Board Games",
+                                  "downloadCount":  7446,
+                                  "usabilityRating":  1.0,
+                                  "totalBytes":  2444831
+                              },
+    "gabrio/board-games-dataset":  {
+                                       "ref":  "gabrio/board-games-dataset",
+                                       "url":  "https://www.kaggle.com/datasets/gabrio/board-games-dataset",
+                                       "lastUpdated":  "2017-06-25T14:20:24.733Z",
+                                       "files":  [
+                                                     {
+                                                         "name":  "database.sqlite",
+                                                         "totalBytes":  147056640
+                                                     }
+                                                 ],
+                                       "subtitle":  "What makes a game a good game?",
+                                       "description":  "# About\nA dataset containing the attributes and the ratings for around 94,000 among board games and expansions as get from [BoardGameGeek][1].\n\n# Resources\nThe same data and the scripts used to crawl it from BoardGameGeek are available in the form of [R package][2] on [Github][3].\n\n\n  [1]: https://www.boardgamegeek.com\n  [2]: https://github.com/9thcirclegames/bgg-analysis\n  [3]: https://github.com",
+                                       "licenseName":  "Other (specified in description)",
+                                       "voteCount":  244,
+                                       "title":  "Board Games Dataset",
+                                       "downloadCount":  8041,
+                                       "usabilityRating":  0.8235294,
+                                       "totalBytes":  147056640
+                                   },
+    "sujaykapadnis/board-games":  {
+                                      "ref":  "sujaykapadnis/board-games",
+                                      "url":  "https://www.kaggle.com/datasets/sujaykapadnis/board-games",
+                                      "lastUpdated":  "2023-10-22T06:05:41.813Z",
+                                      "files":  [
+                                                    {
+                                                        "name":  "board_games.csv",
+                                                        "totalBytes":  16561534
+                                                    }
+                                                ],
+                                      "subtitle":  "Board Games Dataset from boardgamegeek.com",
+                                      "description":  "This data comes from the [Board Game Geek](http://boardgamegeek.com/) database. The site\u0027s database has more than 90,000 games, with crowd-sourced ratings. There is also an R package with the fulldataset ([`bggAnalysis`](https://github.com/9thcirclegames/bgg-analysis)) but it hasn\u0027t been updated in ~2 years.\n\n### Data Dictionary\n\n|variable       |class     |description |\n|:--------------|:---------|:-----------|\n|game_id        |character | Unique game identifier         |\n|description    |character | A paragraph of text describing the game       |\n|image          |character | URL image of the game            |\n|max_players    |integer   | Maximum recommended players           |\n|max_playtime   |integer   | Maximum recommended playtime (min)           |\n|min_age        |integer   | Minimum recommended age          |\n|min_players    |integer   | Minimum recommended players         |\n|min_playtime   |integer   | Minimum recommended playtime (min)           |\n|name           |character | Name of the game           |\n|playing_time   |integer   | Average playtime           |\n|thumbnail      |character | URL thumbnail of the game           |\n|year_published |integer   | Year game was published           |\n|artist         |character | Artist for game art           |\n|category       |character | Categories for the game (separated by commas)           |\n|compilation    |character | If part of a multi-compilation - name of compilation           |\n|designer       |character | Game designer           |\n|expansion      |character | If there is an expansion pack - name of expansion           |\n|family         |character | Family of game - equivalent to a publisher          |\n|mechanic       |character | Game mechanic - how game is played, separated by comma         |\n|publisher      |character | Comoany/person who published the game, separated by comma        |\n|average_rating |double    | Average rating on Board Games Geek (1-10)        |\n|users_rated    |double    | Number of users that rated the game           |  \n\ncitation(\"tidytuesdayR\")",
+                                      "licenseName":  "Other (specified in description)",
+                                      "voteCount":  36,
+                                      "title":  "Board Games Dataset",
+                                      "downloadCount":  1342,
+                                      "usabilityRating":  1.0,
+                                      "totalBytes":  16561534
+                                  },
+    "jvanelteren/boardgamegeek-reviews":  {
+                                              "ref":  "jvanelteren/boardgamegeek-reviews",
+                                              "url":  "https://www.kaggle.com/datasets/jvanelteren/boardgamegeek-reviews",
+                                              "lastUpdated":  "2025-02-01T14:35:33.237Z",
+                                              "files":  [
+                                                            {
+                                                                "name":  "2020-08-19.csv",
+                                                                "totalBytes":  3686149
+                                                            },
+                                                            {
+                                                                "name":  "2022-01-08.csv",
+                                                                "totalBytes":  5055241
+                                                            },
+                                                            {
+                                                                "name":  "bgg-15m-reviews.csv",
+                                                                "totalBytes":  1390898691
+                                                            },
+                                                            {
+                                                                "name":  "bgg-19m-reviews.csv",
+                                                                "totalBytes":  1624912131
+                                                            },
+                                                            {
+                                                                "name":  "bgg-26m-reviews.csv",
+                                                                "totalBytes":  2179204668
+                                                            },
+                                                            {
+                                                                "name":  "games_detailed_info.csv",
+                                                                "totalBytes":  99466534
+                                                            },
+                                                            {
+                                                                "name":  "games_detailed_info2025.csv",
+                                                                "totalBytes":  110063542
+                                                            }
+                                                        ],
+                                              "subtitle":  "13M reviews by 290k users",
+                                              "description":  "EDIT: UPDATED JANUARY 2022! New version with 4M additional reviews, since last update! With enough upvotes I\u0027ll may refresh the dataset again next year :)\n--------------------------------\n2020:\nNew version with 2M additional reviews (up from 13M to 15M in about 15 months). \nNumber of unique users has grown from 290k to 350k.\n--------------------------------\n\nDo you like games? Do you like data science? In that case this could be a dataset for you. I tried to sharpen my data science skills on the reviews users posted on boardgamegeek, the world\u0027s largest board game site.\n\n\nIn the csv file are all the reviews of users. Comments are included. The download was made by querying the BGG API2 at 2nd of May 2019. All the game IDs I took from [Beefsack\u0027s Github](https://github.com/beefsack/bgg-ranking-historicals), which basically includes all games with \u0026gt;30 reviews.\n\n\nThanks obviously to the wonderful folks at [BoardGameGeek](https://www.boardgamegeek.com). \nDisclaimer: I don\u0027t own this data, it\u0027s property of BoardGameGeek and should be used under their [terms](https://boardgamegeek.com/wiki/page/XML_API_Terms_of_Use#)\n[Photo by JESHOOTS.COM on Unsplash](https://unsplash.com/photos/fzOITuS1DIQ)\n\nWhat can you find out? Any hidden patterns? Give it a go!",
+                                              "licenseName":  "Other (specified in description)",
+                                              "voteCount":  145,
+                                              "title":  "BoardGameGeek Reviews",
+                                              "downloadCount":  7073,
+                                              "usabilityRating":  1.0,
+                                              "totalBytes":  5413286956
+                                          },
+    "mrpantherson/board-game-data":  {
+                                         "ref":  "mrpantherson/board-game-data",
+                                         "url":  "https://www.kaggle.com/datasets/mrpantherson/board-game-data",
+                                         "lastUpdated":  "2018-06-08T13:45:03.353Z",
+                                         "files":  [
+                                                       {
+                                                           "name":  "bgg_db_1806.csv",
+                                                           "totalBytes":  1706957
+                                                       },
+                                                       {
+                                                           "name":  "bgg_db_2017_04.csv",
+                                                           "totalBytes":  1490899
+                                                       },
+                                                       {
+                                                           "name":  "bgg_db_2018_01.csv",
+                                                           "totalBytes":  1503974
+                                                       }
+                                                   ],
+                                         "subtitle":  "Data is a collection of board game information from Board Game Geek",
+                                         "description":  "# Context \n\nBeing a fan of board games, I wanted to see if there was any correlation with a games rating and any particular quality, the first step was to collect of this data.\n\n# Content\n\nThe data was collected in March of 2017 from the website https://boardgamegeek.com/, this site has an API to retrieve game information (though sadly XML not JSON).\n\n\n# Acknowledgements\n\nMainly I want to thank the people who run the board game geek website for maintaining such a great resource for those of us in the hobby.\n\n\n# Inspiration\n\nI wish I had some better questions to ask of the data, perhaps somebody else can think of some good ways to get some insight of this dataset.",
+                                         "licenseName":  "CC0: Public Domain",
+                                         "voteCount":  133,
+                                         "title":  "Board Game Data",
+                                         "downloadCount":  6249,
+                                         "usabilityRating":  0.7647059,
+                                         "totalBytes":  4701830
+                                     }
+}

@@ -1,0 +1,12 @@
+taxonomy_type,raw_name,action,canonical_targets,mapping_strategy,mapping_confidence,needs_review,decision_reason
+mechanic,Acting / Singing / Rock-Paper-Scissors,split,Acting|Singing|Rock-Paper-Scissors,auto_split_legacy_combo,auto_split,false,Legacy mixed party-game label can be represented by three newer explicit mechanisms.
+mechanic,Action / Movement Programming,split,Action Queue|Programmed Movement,auto_split_legacy_combo,auto_split,false,Legacy compound label corresponds to two newer explicit BGG mechanisms.
+mechanic,Card Drafting,keep,Card Drafting,auto_keep_legacy_broad_mechanic,legacy_keep,false,Legacy broad label; cannot infer Open Drafting vs Closed Drafting from source rows.
+mechanic,Dexterity,keep,Dexterity,auto_keep_legacy_broad_mechanic,legacy_keep,false,Legacy broad dexterity label is broader than any single 2025 physical submechanism.
+mechanic,Different Worker Types,merge,"Worker Placement, Different Worker Types",auto_merge_2025_equivalent,auto,false,Legacy shorthand maps to the explicit 2025 worker-placement mechanism.
+mechanic,Drafting,merge,Card Drafting,auto_merge_legacy_synonym,auto,false,Older generic drafting label is consolidated into the legacy broad Card Drafting label.
+mechanic,Multiple-Lot Auction,merge,Auction: Multiple Lot,auto_merge_2025_equivalent,auto,false,Legacy hyphenated auction label maps to the explicit 2025 auction subtype.
+mechanic,Physical,merge,Dexterity,auto_merge_legacy_synonym,auto,false,Legacy physical-skill label is semantically closest to the broad Dexterity mechanism.
+mechanic,TableauBuilding,merge,Tableau Building,auto_normalize_legacy_label,normalized,false,CamelCase spelling normalized to a readable legacy canonical label.
+mechanic,Time Track,merge,Turn Order: Time Track,auto_merge_2025_equivalent,auto,false,Old BGG Time Track mechanism maps to the newer turn-order time-track mechanism.
+family,*,keep,<raw_name>,auto_keep_legacy_family,legacy_keep,false,Retain unmapped legacy family labels because family vocabulary evolves and many labels have no safe one-to-one 2025 equivalent.

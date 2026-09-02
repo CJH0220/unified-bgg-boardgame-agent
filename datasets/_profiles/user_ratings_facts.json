@@ -1,0 +1,37 @@
+{
+ "rows": 18942215,
+ "unique_users": 411375,
+ "unique_games": 21925,
+ "ratings_below_1": 8,
+ "ratings_above_10": 0,
+ "integer_ratings": 15684424,
+ "non_integer_ratings": 3257791,
+ "non_integer_pct": 17.2,
+ "integer_histogram": {
+  "1": 53076,
+  "2": 108325,
+  "3": 256187,
+  "4": 545716,
+  "5": 1241157,
+  "6": 2769370,
+  "7": 4304908,
+  "8": 3689065,
+  "9": 1772299,
+  "10": 944321
+ },
+ "ratings_per_user": {
+  "min": 1,
+  "p50": 12,
+  "p90": 115,
+  "max": 6493,
+  "mean": 46.05
+ },
+ "ratings_per_game": {
+  "min": 7,
+  "p50": 125,
+  "p90": 1482,
+  "max": 107760,
+  "mean": 863.96
+ },
+ "single_rating_users": 79296
+}

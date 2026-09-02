@@ -1,0 +1,61 @@
+{
+ "file": "bgg-ranked-mattadamhouser/raw/mechanisms_2023.csv",
+ "rows": 2000,
+ "key_column": "game_id",
+ "key_column_index": 0,
+ "total_columns": 189,
+ "label_columns": 188,
+ "labels_per_row": {
+  "min": 0,
+  "max": 21,
+  "mean": 5.702,
+  "median": 5.0,
+  "zero_label_rows": 6
+ },
+ "non_binary_values_distinct": 0,
+ "non_binary_values_sample": {},
+ "top_labels": [
+  {
+   "label": "Hand Management",
+   "n": 711,
+   "pct": 35.55
+  },
+  {
+   "label": "Dice Rolling",
+   "n": 608,
+   "pct": 30.4
+  },
+  {
+   "label": "Variable Player Powers",
+   "n": 578,
+   "pct": 28.9
+  },
+  {
+   "label": "Set Collection",
+   "n": 443,
+   "pct": 22.15
+  },
+  {
+   "label": "Open Drafting",
+   "n": 411,
+   "pct": 20.55
+  },
+  {
+   "label": "Solo / Solitaire Game",
+   "n": 361,
+   "pct": 18.05
+  },
+  {
+   "label": "Area Majority / Influence",
+   "n": 353,
+   "pct": 17.65
+  },
+  {
+   "label": "Modular Board",
+   "n": 319,
+   "pct": 15.95
+  }
+ ],
+ "singleton_labels": 5,
+ "empty_labels": 0
+}

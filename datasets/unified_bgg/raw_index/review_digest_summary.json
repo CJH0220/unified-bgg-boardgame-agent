@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-08-25T17:15:12",
+  "schema_version": "rag-v0.1",
+  "transform_version": "phase5-review-digest-v0.2",
+  "source_file": "bgg-reviews-jvanelteren/raw/bgg-26m-reviews.csv",
+  "scan": {
+    "rows_scanned": 26200012,
+    "malformed_rows": 0,
+    "games_with_ratings": 27865,
+    "games_with_comments": 27851,
+    "rating_rows": 26200012,
+    "comment_rows": 4206543,
+    "comment_coverage_pct": 16.0555
+  },
+  "outputs": {
+    "review_digest": {
+      "path": "samples/rag/review_digest.jsonl",
+      "rows": 27851,
+      "bytes": 196789608
+    },
+    "review_digest_preview": {
+      "path": "samples/rag/review_digest.preview.jsonl",
+      "rows": 50,
+      "bytes": 521946
+    }
+  },
+  "parameters": {
+    "preview_size": 50,
+    "max_rows": 0,
+    "chunk_size": 2000000,
+    "max_snippets_per_bucket": 5
+  }
+}

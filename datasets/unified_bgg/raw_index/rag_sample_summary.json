@@ -1,0 +1,42 @@
+{
+  "generated_at": "2026-08-26T09:26:21",
+  "schema_version": "rag-v0.1",
+  "transform_version": "phase5-rag-samples-v0.2",
+  "preview_size": 50,
+  "preview_only": false,
+  "inputs": {
+    "games": 100274,
+    "games_with_selected_overall_stats": 100271,
+    "games_with_reliable_taxonomy": 99839,
+    "mechanics": 195
+  },
+  "outputs": {
+    "game_overview": {
+      "path": "samples/rag/game_overview.jsonl",
+      "rows": 100274,
+      "bytes": 226440688
+    },
+    "game_overview_preview": {
+      "path": "samples/rag/game_overview.preview.jsonl",
+      "rows": 50,
+      "bytes": 203629
+    },
+    "mechanic_profile": {
+      "path": "samples/rag/mechanic_profile.jsonl",
+      "rows": 195,
+      "bytes": 1328585
+    },
+    "mechanic_profile_preview": {
+      "path": "samples/rag/mechanic_profile.preview.jsonl",
+      "rows": 50,
+      "bytes": 352437
+    }
+  },
+  "quality": {
+    "game_docs_missing_overall_stats": 3,
+    "game_docs_missing_reliable_mechanics": 14509,
+    "game_docs_needs_review": 4,
+    "taxonomy_review_rows_excluded": 0,
+    "taxonomy_review_rows_by_type": {}
+  }
+}

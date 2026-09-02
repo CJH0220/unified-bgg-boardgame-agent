@@ -35,7 +35,15 @@
 
 `manifest.json` 的状态字段仍记录为 Phase 10；规则书语料已经实际生成，对应产物见 `docs/rulebook_corpus_report.md`、`samples/rag/rulebook_text.jsonl` 和 `final/rulebook_index.sqlite`。
 
-## 3. 能力组成
+## 3. 大文件下载
+
+GitHub 仓库通过 `.gitignore` 排除了超过平台限制的原始数据、完整 RAG 语料和 SQLite 索引。需要完整数据时，请从 Hugging Face Dataset 下载：
+
+**https://huggingface.co/datasets/ChenJinHua/BGG_datasets_Agent**
+
+详细的远程目录、单文件直链、CLI/Python 下载方式、校验方法和许可证说明见 [`HUGGINGFACE_DATA_GUIDE.md`](HUGGINGFACE_DATA_GUIDE.md)。
+
+## 4. 能力组成
 
 ### 3.1 原始数据管理
 
@@ -70,7 +78,7 @@
 
 `game_qa`、`mechanic_explanation`、`review_summary`、`recommendation_reasoning`、`extraction` 五类样本同时保留 `source_doc_ids`/`source_game_ids`，可先审计 preview，再使用 candidate 文件进行后续训练实验。
 
-## 4. 顶层目录
+## 5. 顶层目录
 
 ```text
 research/
@@ -84,7 +92,7 @@ research/
    └─ unified_bgg/                   统一数据库构建、RAG、微调和检索工程
 ```
 
-## 5. 原始数据集目录说明
+## 6. 原始数据集目录说明
 
 每个源目录都包含 `DATASET.md`（字段、规模、许可和陷阱）以及 `raw/` 原始文件。除特别说明外，原始文件不应直接覆盖修改。
 
@@ -100,7 +108,7 @@ research/
 
 配套研究依据为 `boardgame-datasets-survey.md`；许可不明确的来源（尤其 `gabrio`、`sujaykapadnis`、`jvanelteren`）在发布或商用前必须重新核对来源页面。
 
-## 6. `datasets/_scripts` 工具
+## 7. `datasets/_scripts` 工具
 
 | 文件 | 功能 |
 | --- | --- |
@@ -113,7 +121,7 @@ research/
 | `check_reviews.py` | 流式检查大评论/评分表的文本覆盖、长度和异常 |
 | `*.log` | 下载和大文件检查的历史运行日志 |
 
-## 7. `datasets/unified_bgg` 目录说明
+## 8. `datasets/unified_bgg` 目录说明
 
 ### 7.1 核心控制文件
 
@@ -173,7 +181,7 @@ research/
 
 包括数据集清单、schema、来源优先级、已知问题、各阶段计划/总结、taxonomy 决策、RAG 与检索设计/评测、微调 schema/报告、规则书语料和案例分析，以及 Brass: Birmingham 等游戏报告。优先阅读：`database_overview.md`、`unified_schema.md`、`source_priority.md`、`known_issues.md`、`phase10_retrieval_eval_expansion.md`。
 
-## 8. 数据模型和追溯原则
+## 9. 数据模型和追溯原则
 
 统一 schema 的目标表为 `games`、`game_stats`、`game_taxonomy`、`ratings`、`reviews`、`id_map` 和 `dataset_lineage`。当前默认生成的是前三张核心 CSV、ID/映射表和 RAG 摘要；完整行级 `ratings`/`reviews` 不默认物化，以避免反复处理超大文件。
 
@@ -185,7 +193,7 @@ research/
 4. 每个派生事实都要能回到来源数据集、来源文件和处理版本。
 5. 评论文本属于用户生成内容，当前保持本地研究用途。
 
-## 9. 完整使用流程
+## 10. 完整使用流程
 
 以下命令均建议在 `D:\OpenViking\research\datasets\unified_bgg` 执行。Python 脚本主要使用标准库和本地 SQLite；规则书脚本还需要其源码中声明的 PDF/HTML 解析依赖。
 
@@ -323,7 +331,7 @@ python scripts\export_retrieval_suite_expanded.py --engine hybrid --limit 5 --ca
 
 评测结果位于 `raw_index/retrieval_suite*.jsonl`、`raw_index/*_summary.json` 和 `docs/retrieval_suite*_report.md`。当前扩展套件为 146 条查询，已全部通过。
 
-## 10. 复现、排错和维护
+## 11. 复现、排错和维护
 
 - 先运行 `profile_sources.py`，再按“ID 对齐 -> 核心表 -> taxonomy -> RAG -> 质量 -> 索引”的顺序重建；不要跳过来源盘点。
 - 修改清洗规则或 taxonomy 映射后，应重新生成受影响的 JSONL、质量审计和两个索引，并同步更新 `manifest.json`。
@@ -333,7 +341,7 @@ python scripts\export_retrieval_suite_expanded.py --engine hybrid --limit 5 --ca
 - 如果只更新了 RAG JSONL，必须重新运行 `build_rag_index.py` 和 `build_vector_index.py`，否则查询仍使用旧索引。
 - 网络不可用时可以继续使用已有原始文件和本地索引；只有下载数据、抓取规则书或刷新 Kaggle 元数据需要网络。
 
-## 11. 关键文档导航
+## 12. 关键文档导航
 
 | 需求 | 首选文档 |
 | --- | --- |
@@ -348,7 +356,7 @@ python scripts\export_retrieval_suite_expanded.py --engine hybrid --limit 5 --ca
 | 了解微调样本 | `docs/finetune_sample_schema.md`、`docs/finetune_candidate_report.md` |
 | 查看具体游戏报告 | `docs/top100_reports/`、`docs/top10_reports_v4/`、`docs/party_top10/`、`docs/two_player_top10/` |
 
-## 12. 最小恢复命令
+## 13. 最小恢复命令
 
 已有中间表和样本时，直接从索引/查询继续：
 
